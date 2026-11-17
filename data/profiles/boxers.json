@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "muhammad-ali",
+    "name": "Muhammad Ali",
+    "category": "boxers",
+    "profession": "Heavyweight Professional Boxer & Activist",
+    "industry": "Professional Boxing",
+    "country": "United States",
+    "birthDate": "1942-01-17",
+    "deathDate": "2016-06-03",
+    "birthPlace": "Louisville, Kentucky, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Greatest",
+    "bio": "Muhammad Ali was an American professional boxer and civil rights activist regarded as one of the most significant and celebrated figures of the 20th century. Nicknamed 'The Greatest', he was the world heavyweight champion three separate times and participated in legendary bouts like the 'Fight of the Century' and the 'Rumble in the Jungle'. Ali's steadfast refusal to serve in the Vietnam War made him a global icon of religious and racial freedom.",
+    "famousWorks": [
+      {
+        "year": 1960,
+        "title": "Olympic Light Heavyweight Gold Medal in Rome"
+      },
+      {
+        "year": 1964,
+        "title": "Defeated Sonny Liston to win World Heavyweight Championship"
+      },
+      {
+        "year": 1974,
+        "title": "The Rumble in the Jungle vs George Foreman in Kinshasa"
+      },
+      {
+        "year": 1975,
+        "title": "Thrilla in Manila vs Joe Frazier"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (2005)",
+      "Sports Illustrated Sportsman of the Century (1999)",
+      "International Boxing Hall of Fame Inductee (1990)"
+    ],
+    "faq": [
+      {
+        "q": "What was Muhammad Ali's original birth name?",
+        "a": "He was born Cassius Marcellus Clay Jr., before converting to Islam and adopting the name Muhammad Ali in 1964."
+      },
+      {
+        "q": "What is Ali's famous fighting phrase?",
+        "a": "Ali described his nimble style as: 'Float like a butterfly, sting like a bee. His hands can't hit what his eyes can't see.'"
+      }
+    ],
+    "related": [
+      "mike-tyson",
+      "usain-bolt",
+      "nelson-mandela"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Muhammad_Ali",
+      "https://ali.com"
+    ],
+    "image": "/avatars/muhammad-ali.jpg",
+    "imageCredit": "Wikimedia Commons / Muhammad Ali"
+  },
+  {
+    "slug": "mike-tyson",
+    "name": "Mike Tyson",
+    "category": "boxers",
+    "profession": "Professional Heavyweight Boxer",
+    "industry": "Professional Boxing",
+    "country": "United States",
+    "birthDate": "1966-06-30",
+    "birthPlace": "Brooklyn, New York, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Iron Mike / The Baddest Man on the Planet",
+    "bio": "Michael Gerard Tyson is an American former professional boxer who reigned as the undisputed world heavyweight champion from 1987 to 1990. He holds the record as the youngest boxer in history to win a heavyweight title, claiming the WBC belt at just 20 years, 4 months, and 22 days old. Famous for his ferociously intimidating knockout power and peek-a-boo defense, Tyson won his first 19 professional fights by knockout, 12 in the first round.",
+    "famousWorks": [
+      {
+        "year": 1986,
+        "title": "Defeated Trevor Berbick to become youngest heavyweight champion ever"
+      },
+      {
+        "year": 1987,
+        "title": "Unified WBC, WBA, and IBF heavyweight titles"
+      },
+      {
+        "year": 1988,
+        "title": "91-second first-round knockout of Michael Spinks"
+      },
+      {
+        "year": 2020,
+        "title": "Exhibition comeback fight vs Roy Jones Jr."
+      }
+    ],
+    "awards": [
+      "Youngest World Heavyweight Champion in History",
+      "International Boxing Hall of Fame Inductee (2011)",
+      "Ring Magazine Fighter of the Year (1986, 1988)"
+    ],
+    "faq": [
+      {
+        "q": "How old was Mike Tyson when he won his first world championship?",
+        "a": "He was 20 years and 4 months old when he knocked out Trevor Berbick in November 1986."
+      },
+      {
+        "q": "Who was Tyson's legendary trainer and mentor?",
+        "a": "Tyson was trained and mentored by legendary Hall of Fame boxing coach Cus D'Amato."
+      }
+    ],
+    "related": [
+      "muhammad-ali",
+      "dwayne-johnson",
+      "usain-bolt"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Tyson",
+      "https://miketyson.com"
+    ],
+    "image": "/avatars/mike-tyson.jpg",
+    "imageCredit": "Wikimedia Commons / Mike Tyson"
+  }
+]

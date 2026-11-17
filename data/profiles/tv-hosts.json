@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "oprah-winfrey",
+    "name": "Oprah Winfrey",
+    "category": "tv-hosts",
+    "profession": "Talk Show Host, Television Producer & Media Mogul",
+    "industry": "Broadcast Media & Television",
+    "country": "United States",
+    "birthDate": "1954-01-29",
+    "birthPlace": "Kosciusko, Mississippi, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Queen of All Media",
+    "bio": "Oprah Gail Winfrey is an American talk show host, television producer, actress, author, and philanthropist best known for her nationally syndicated talk program, The Oprah Winfrey Show, which broadcast for 25 seasons from 1986 to 2011. Dubbed the 'Queen of All Media', she became North America's first multi-billionaire Black woman and modernized the confessional television talk genre. Through Oprah's Book Club and the Oprah Winfrey Network (OWN), she remains one of the world's most influential cultural tastemakers.",
+    "famousWorks": [
+      {
+        "year": 1985,
+        "title": "Academy Award-nominated acting role in The Color Purple"
+      },
+      {
+        "year": 1986,
+        "title": "National syndication of The Oprah Winfrey Show"
+      },
+      {
+        "year": 1996,
+        "title": "Launch of Oprah's Book Club shaping modern publishing"
+      },
+      {
+        "year": 2011,
+        "title": "Launch of the Oprah Winfrey Network (OWN)"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (2013)",
+      "Cecil B. DeMille Golden Globe Award (2018)",
+      "18 Daytime Emmy Awards and Academy Jean Hersholt Humanitarian Award (2011)"
+    ],
+    "faq": [
+      {
+        "q": "How long did The Oprah Winfrey Show run on television?",
+        "a": "It aired nationally for 25 seasons from September 8, 1986 to May 25, 2011, producing 4,561 episodes."
+      },
+      {
+        "q": "What is the 'Oprah Effect'?",
+        "a": "The term refers to the enormous commercial surge and cultural influence when Oprah endorses a book, company, product, or candidate."
+      }
+    ],
+    "related": [
+      "david-letterman",
+      "barack-obama",
+      "dave-chappelle"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+      "https://www.oprah.com"
+    ],
+    "image": "/avatars/oprah-winfrey.jpg",
+    "imageCredit": "Wikimedia Commons / Oprah Winfrey"
+  },
+  {
+    "slug": "david-letterman",
+    "name": "David Letterman",
+    "category": "tv-hosts",
+    "profession": "Late-Night Talk Show Host, Comedian & Producer",
+    "industry": "Late-Night Broadcast Television",
+    "country": "United States",
+    "birthDate": "1947-04-12",
+    "birthPlace": "Indianapolis, Indiana, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Dave",
+    "bio": "David Michael Letterman is an American television host, comedian, writer, and producer who hosted late-night television talk shows for 33 consecutive years (1982–2015). Beginning with Late Night with David Letterman on NBC and continuing with Late Show with David Letterman on CBS, his subversive wit, meta-humor, Top Ten lists, and quirky segments fundamentally revolutionized the talk show format. Since 2018, he has hosted the in-depth interview series My Next Guest Needs No Introduction on Netflix.",
+    "famousWorks": [
+      {
+        "year": 1982,
+        "title": "Debut of Late Night with David Letterman on NBC"
+      },
+      {
+        "year": 1993,
+        "title": "Launch of Late Show with David Letterman on CBS"
+      },
+      {
+        "year": 2001,
+        "title": "Historic first late-night broadcast following 9/11"
+      },
+      {
+        "year": 2018,
+        "title": "Premiere of My Next Guest Needs No Introduction on Netflix"
+      }
+    ],
+    "awards": [
+      "Mark Twain Prize for American Humor (2017)",
+      "Kennedy Center Honors (2012)",
+      "5 Primetime Emmy Awards (with over 50 nominations)"
+    ],
+    "faq": [
+      {
+        "q": "How many total late-night episodes did David Letterman host?",
+        "a": "Letterman hosted 6,080 late-night talk show episodes, surpassing Johnny Carson as the longest-serving late-night talk show host in American television history."
+      },
+      {
+        "q": "What were signature recurring segments on Letterman's show?",
+        "a": "Famous segments included the 'Top Ten List', 'Stupid Pet Tricks', and throwing objects off the roof of the Ed Sullivan Theater."
+      }
+    ],
+    "related": [
+      "oprah-winfrey",
+      "robin-williams",
+      "dave-chappelle"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Letterman",
+      "https://www.biography.com/personality/david-letterman"
+    ],
+    "image": "/avatars/david-letterman.jpg",
+    "imageCredit": "Wikimedia Commons / David Letterman"
+  }
+]

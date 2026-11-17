@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "christopher-nolan",
+    "name": "Christopher Nolan",
+    "category": "directors",
+    "profession": "Film Director, Producer & Screenwriter",
+    "industry": "Cinema & Science Fiction",
+    "country": "United Kingdom",
+    "birthDate": "1970-07-30",
+    "birthPlace": "Westminster, London, United Kingdom",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Chris",
+    "bio": "Christopher Edward Nolan is a British-American filmmaker renowned for his Hollywood blockbusters featuring complex nonlinear storytelling, practical special effects, and profound philosophical themes. His acclaimed filmography includes The Dark Knight Trilogy, Inception, Interstellar, Dunkirk, and Oppenheimer, which collectively grossed more than $6 billion worldwide. Nolan is celebrated as a fierce champion of celluloid film stock and large-format IMAX cinematography.",
+    "famousWorks": [
+      {
+        "year": 2000,
+        "title": "Memento"
+      },
+      {
+        "year": 2008,
+        "title": "The Dark Knight"
+      },
+      {
+        "year": 2010,
+        "title": "Inception"
+      },
+      {
+        "year": 2014,
+        "title": "Interstellar"
+      },
+      {
+        "year": 2023,
+        "title": "Oppenheimer"
+      }
+    ],
+    "awards": [
+      "2 Academy Awards (Best Director & Best Picture for Oppenheimer, 2024)",
+      "2 BAFTA Film Awards (2024)",
+      "Commander of the Order of the British Empire (CBE, 2019)"
+    ],
+    "faq": [
+      {
+        "q": "What filmmaking style is Christopher Nolan known for?",
+        "a": "He is renowned for non-linear narrative structures, practical effects over CGI, real-location shoots, and expansive IMAX 70mm film projection."
+      },
+      {
+        "q": "Which film won Christopher Nolan his first Best Director Oscar?",
+        "a": "He won the Academy Award for Best Director in March 2024 for Oppenheimer."
+      }
+    ],
+    "related": [
+      "steven-spielberg",
+      "leonardo-dicaprio",
+      "william-shakespeare"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christopher_Nolan",
+      "https://www.imdb.com/name/nm0634240/"
+    ],
+    "image": "/avatars/christopher-nolan.jpg",
+    "imageCredit": "Wikimedia Commons / Christopher Nolan"
+  },
+  {
+    "slug": "steven-spielberg",
+    "name": "Steven Spielberg",
+    "category": "directors",
+    "profession": "Film Director, Producer & Screenwriter",
+    "industry": "Hollywood Cinema",
+    "country": "United States",
+    "birthDate": "1946-12-18",
+    "birthPlace": "Cincinnati, Ohio, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Master of Spectacle",
+    "bio": "Steven Allan Spielberg is an American film director, producer, and screenwriter considered one of the founding pioneers of the New Hollywood era and the most commercially successful director in cinematic history. He invented the modern summer blockbuster with Jaws, touched generations with E.T. the Extra-Terrestrial and Jurassic Park, and captured profound human tragedy with Schindler's List and Saving Private Ryan. Spielberg also co-founded DreamWorks SKG.",
+    "famousWorks": [
+      {
+        "year": 1975,
+        "title": "Jaws"
+      },
+      {
+        "year": 1982,
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "year": 1993,
+        "title": "Jurassic Park"
+      },
+      {
+        "year": 1993,
+        "title": "Schindler's List"
+      },
+      {
+        "year": 1998,
+        "title": "Saving Private Ryan"
+      }
+    ],
+    "awards": [
+      "3 Academy Awards (2 Best Director wins: Schindler's List & Saving Private Ryan)",
+      "Presidential Medal of Freedom (2015)",
+      "AFI Life Achievement Award (1995)"
+    ],
+    "faq": [
+      {
+        "q": "What movie is credited with inventing the summer blockbuster?",
+        "a": "Steven Spielberg's 1975 thriller 'Jaws' is widely recognized as the original summer blockbuster."
+      },
+      {
+        "q": "What studio did Steven Spielberg co-found?",
+        "a": "He co-founded DreamWorks SKG in 1994 with Jeffrey Katzenberg and David Geffen."
+      }
+    ],
+    "related": [
+      "christopher-nolan",
+      "leonardo-dicaprio",
+      "jk-rowling"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Steven_Spielberg",
+      "https://www.imdb.com/name/nm0000229/"
+    ],
+    "image": "/avatars/steven-spielberg.jpg",
+    "imageCredit": "Wikimedia Commons / Steven Spielberg"
+  }
+]

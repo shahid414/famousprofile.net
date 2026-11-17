@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "usain-bolt",
+    "name": "Usain Bolt",
+    "category": "athletes",
+    "profession": "Sprinter & Olympic Champion",
+    "industry": "Track & Field",
+    "country": "Jamaica",
+    "birthDate": "1986-08-21",
+    "birthPlace": "Sherwood Content, Trelawny, Jamaica",
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "nickname": "Lightning Bolt",
+    "bio": "Usain St. Leo Bolt is a retired Jamaican sprinter widely regarded as the greatest sprinter of all time. He is an eight-time Olympic gold medallist and the world record holder in the 100 metres (9.58 seconds), 200 metres (19.19 seconds), and 4 × 100 metres relay. Bolt achieved unprecedented global dominance by sweeping Olympic sprint doubles across three consecutive Olympic Games (Beijing 2008, London 2012, Rio 2016).",
+    "famousWorks": [
+      {
+        "year": 2008,
+        "title": "World Record 100m (9.69s) at Beijing Olympics"
+      },
+      {
+        "year": 2009,
+        "title": "Unbroken World Record 100m (9.58s) and 200m (19.19s) in Berlin"
+      },
+      {
+        "year": 2012,
+        "title": "Historic Triple-Gold Olympic Defense in London"
+      },
+      {
+        "year": 2016,
+        "title": "Completing the Olympic 'Triple-Triple' Sprint Sweep in Rio"
+      }
+    ],
+    "awards": [
+      "8 Olympic Gold Medals",
+      "11 World Championship Gold Medals",
+      "4 Laureus World Sportsman of the Year Awards (2009, 2010, 2013, 2017)"
+    ],
+    "faq": [
+      {
+        "q": "What is Usain Bolt's 100-meter world record time?",
+        "a": "He ran the 100m in 9.58 seconds at the 2009 World Athletics Championships in Berlin, reaching a top speed of 44.72 km/h (27.78 mph)."
+      },
+      {
+        "q": "What is Usain Bolt's signature victory pose?",
+        "a": "His iconic 'Lightning Bolt' or 'To Di World' pose, where he leans back with one arm bent and the other pointing diagonally toward the sky."
+      }
+    ],
+    "related": [
+      "michael-phelps",
+      "lionel-messi",
+      "muhammad-ali"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Usain_Bolt",
+      "https://worldathletics.org/athletes/jamaica/usain-bolt-14201847"
+    ],
+    "image": "/avatars/usain-bolt.jpg",
+    "imageCredit": "Wikimedia Commons / Usain Bolt"
+  },
+  {
+    "slug": "michael-phelps",
+    "name": "Michael Phelps",
+    "category": "athletes",
+    "profession": "Competitive Swimmer",
+    "industry": "Swimming & Olympic Sports",
+    "country": "United States",
+    "birthDate": "1985-06-30",
+    "birthPlace": "Baltimore, Maryland, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Baltimore Bullet / Flying Fish",
+    "bio": "Michael Fred Phelps II is an American former competitive swimmer and the most successful and most decorated Olympian of all time, with a total of 28 medals. He holds the all-time records for Olympic gold medals (23), Olympic gold medals in individual events (13), and Olympic medals in individual events (16). At the 2008 Beijing Games, Phelps won a historic eight gold medals, breaking Mark Spitz's 1972 record.",
+    "famousWorks": [
+      {
+        "year": 2004,
+        "title": "Won 6 Gold Medals at Athens Summer Olympics"
+      },
+      {
+        "year": 2008,
+        "title": "Record 8 Gold Medals in a Single Olympic Games (Beijing 2008)"
+      },
+      {
+        "year": 2012,
+        "title": "Became the most decorated Olympian in history at London 2012"
+      },
+      {
+        "year": 2016,
+        "title": "Won 5 Gold Medals at Rio 2016 concluding his legendary Olympic career"
+      }
+    ],
+    "awards": [
+      "23 Olympic Gold Medals (28 medals overall)",
+      "26 World Championship (LC) Gold Medals",
+      "World Swimmer of the Year (8 times)"
+    ],
+    "faq": [
+      {
+        "q": "How many total Olympic medals did Michael Phelps win?",
+        "a": "Phelps won 28 Olympic medals: 23 gold, 3 silver, and 2 bronze across five Olympic Games (2000–2016)."
+      },
+      {
+        "q": "What record did Michael Phelps break at the 2008 Beijing Olympics?",
+        "a": "He won eight gold medals in a single Games, breaking Mark Spitz's 1972 record of seven golds."
+      }
+    ],
+    "related": [
+      "usain-bolt",
+      "lionel-messi",
+      "cristiano-ronaldo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Phelps",
+      "https://www.worldaquatics.com/athletes/1010377/michael-phelps"
+    ],
+    "image": "/avatars/michael-phelps.jpg",
+    "imageCredit": "Wikimedia Commons / Michael Phelps"
+  }
+]

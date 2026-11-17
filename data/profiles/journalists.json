@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "christiane-amanpour",
+    "name": "Christiane Amanpour",
+    "category": "journalists",
+    "profession": "Chief International Anchor & War Correspondent",
+    "industry": "Broadcast Journalism & Foreign Affairs",
+    "country": "United Kingdom",
+    "birthDate": "1958-01-12",
+    "birthPlace": "Ealing, London, United Kingdom",
+    "languages": [
+      "English",
+      "Persian",
+      "French"
+    ],
+    "nickname": "Christiane",
+    "bio": "Christiane Amanpour CBE is a British-Iranian journalist and television host who serves as CNN's Chief International Anchor and host of PBS's Amanpour & Company. With fearless reporting from conflict zones including the Gulf War, the Bosnian War, and the Rwandan genocide, she earned international acclaim for holding global warlords and politicians accountable. Her unflinching dedication to factual journalism has garnered virtually every major broadcast journalism honor.",
+    "famousWorks": [
+      {
+        "year": 1991,
+        "title": "Field coverage of the Persian Gulf War for CNN"
+      },
+      {
+        "year": 1992,
+        "title": "Investigative coverage of the Siege of Sarajevo"
+      },
+      {
+        "year": 2009,
+        "title": "Launch of Amanpour on CNN International"
+      },
+      {
+        "year": 2018,
+        "title": "Launch of Amanpour & Company on PBS"
+      }
+    ],
+    "awards": [
+      "11 Emmy Awards for News and Documentary",
+      "4 George Foster Peabody Awards",
+      "Commander of the Order of the British Empire (CBE, 2007)",
+      "Edward R. Murrow Award for Lifetime Achievement (2002)"
+    ],
+    "faq": [
+      {
+        "q": "What war made Christiane Amanpour internationally recognized?",
+        "a": "Her fearless, truthful frontline reporting during the Bosnian War and the Siege of Sarajevo in the early 1990s cemented her global reputation."
+      },
+      {
+        "q": "What is Amanpour's journalistic ethos?",
+        "a": "She famously insists: 'We must be truthful, not neutral. Being neutral between the victim and the aggressor is not being objective; it's complicity.'"
+      }
+    ],
+    "related": [
+      "walter-cronkite",
+      "barack-obama",
+      "oprah-winfrey"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christiane_Amanpour",
+      "https://edition.cnn.com/profiles/christiane-amanpour"
+    ],
+    "image": "/avatars/christiane-amanpour.jpg",
+    "imageCredit": "Wikimedia Commons / Christiane Amanpour"
+  },
+  {
+    "slug": "walter-cronkite",
+    "name": "Walter Cronkite",
+    "category": "journalists",
+    "profession": "Broadcast Journalist & Anchorman",
+    "industry": "Television News",
+    "country": "United States",
+    "birthDate": "1916-11-04",
+    "deathDate": "2009-07-17",
+    "birthPlace": "Saint Joseph, Missouri, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Uncle Walter / The Most Trusted Man in America",
+    "bio": "Walter Leland Cronkite Jr. was an American broadcast journalist who served as anchorman for the CBS Evening News for 19 years from 1962 to 1981. In an opinion poll during his heyday, he was cited as 'the most trusted man in America' for his steady, authoritative, and impartial delivery. Cronkite anchored historic moments in human history including the assassination of John F. Kennedy, the Apollo 11 Moon landing, and the Vietnam War.",
+    "famousWorks": [
+      {
+        "year": 1944,
+        "title": "Battle of the Bulge reporting as WWII combat correspondent"
+      },
+      {
+        "year": 1963,
+        "title": "Live television broadcast announcing the assassination of President JFK"
+      },
+      {
+        "year": 1968,
+        "title": "Editorial broadcast questioning the Vietnam War following the Tet Offensive"
+      },
+      {
+        "year": 1969,
+        "title": "CBS live broadcast coverage of Apollo 11's Moon landing"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (1981)",
+      "2 Peabody Awards",
+      "Television Hall of Fame Inductee (1985)"
+    ],
+    "faq": [
+      {
+        "q": "What was Walter Cronkite's famous sign-off catchphrase?",
+        "a": "He concluded his CBS Evening News broadcasts with: 'And that's the way it is...'"
+      },
+      {
+        "q": "How did Cronkite's 1968 Vietnam commentary affect President Lyndon B. Johnson?",
+        "a": "President Johnson famously remarked: 'If I've lost Cronkite, I've lost Middle America.'"
+      }
+    ],
+    "related": [
+      "christiane-amanpour",
+      "david-letterman",
+      "barack-obama"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Walter_Cronkite",
+      "https://www.cbsnews.com/walter-cronkite/"
+    ],
+    "image": "/avatars/walter-cronkite.jpg",
+    "imageCredit": "Wikimedia Commons / Walter Cronkite"
+  }
+]

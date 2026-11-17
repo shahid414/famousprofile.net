@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "steve-jobs",
+    "name": "Steve Jobs",
+    "category": "business-leaders",
+    "profession": "Entrepreneur & Co-founder of Apple Inc.",
+    "industry": "Consumer Technology & Computing",
+    "country": "United States",
+    "birthDate": "1955-02-24",
+    "deathDate": "2011-10-05",
+    "birthPlace": "San Francisco, California, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Steve",
+    "bio": "Steven Paul Jobs was an American business magnate, industrial designer, investor, and media proprietor best known as the co-founder, chairman, and CEO of Apple Inc. Widely recognized as a pioneer of the personal computer revolution and digital music industry, he spearheaded the creation of the Macintosh, iMac, iPod, iPhone, and iPad. Jobs also acquired and guided Pixar Animation Studios to historic artistic and commercial success.",
+    "famousWorks": [
+      {
+        "year": 1984,
+        "title": "Launch of the original Apple Macintosh computer"
+      },
+      {
+        "year": 1995,
+        "title": "Release of Toy Story with Pixar Animation Studios"
+      },
+      {
+        "year": 2001,
+        "title": "Introduction of the iPod and iTunes digital ecosystem"
+      },
+      {
+        "year": 2007,
+        "title": "Unveiling of the original iPhone"
+      },
+      {
+        "year": 2010,
+        "title": "Launch of the iPad tablet"
+      }
+    ],
+    "awards": [
+      "National Medal of Technology (1985)",
+      "Grammy Trustees Award (2012)",
+      "Presidential Medal of Freedom (Posthumous 2022)"
+    ],
+    "faq": [
+      {
+        "q": "What products did Steve Jobs revolutionize?",
+        "a": "Steve Jobs fundamentally transformed personal computing (Macintosh), animated film (Pixar), music (iPod/iTunes), phones (iPhone), and tablet computing (iPad)."
+      },
+      {
+        "q": "Where did Steve Jobs deliver his famous 'Stay Hungry, Stay Foolish' speech?",
+        "a": "He delivered the historic commencement address at Stanford University on June 12, 2005."
+      }
+    ],
+    "related": [
+      "elon-musk",
+      "sam-altman",
+      "warren-buffett"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Steve_Jobs",
+      "https://www.apple.com/stevejobs/"
+    ],
+    "image": "/avatars/steve-jobs.jpg",
+    "imageCredit": "Wikimedia Commons / Steve Jobs"
+  },
+  {
+    "slug": "warren-buffett",
+    "name": "Warren Buffett",
+    "category": "business-leaders",
+    "profession": "Investor, CEO of Berkshire Hathaway & Philanthropist",
+    "industry": "Value Investing & Conglomerates",
+    "country": "United States",
+    "birthDate": "1930-08-30",
+    "birthPlace": "Omaha, Nebraska, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Oracle of Omaha",
+    "bio": "Warren Buffett is an American investor, business tycoon, and philanthropist who serves as the chairman and CEO of Berkshire Hathaway. Widely considered one of the most successful investors in human history, his disciplined value-investing philosophy principles and folksy wisdom have made his annual shareholder letters global reading for financiers. Buffett has pledged to donate over 99% of his fortune to philanthropic foundations.",
+    "famousWorks": [
+      {
+        "year": 1965,
+        "title": "Took control of Berkshire Hathaway textile mill"
+      },
+      {
+        "year": 1988,
+        "title": "Landmark acquisition of Coca-Cola stock"
+      },
+      {
+        "year": 2006,
+        "title": "Historic pledge to donate majority of wealth to Gates Foundation"
+      },
+      {
+        "year": 2010,
+        "title": "Co-founded The Giving Pledge with Bill & Melinda Gates"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (2011)",
+      "Consistently listed among Forbes World's Top 10 Billionaires",
+      "Inducted into American Academy of Arts and Sciences"
+    ],
+    "faq": [
+      {
+        "q": "What is Warren Buffett's core investing philosophy?",
+        "a": "He practices value investing, popularized by Benjamin Graham, focusing on buying high-quality companies with durable competitive moats at prices below intrinsic value."
+      },
+      {
+        "q": "What is The Giving Pledge?",
+        "a": "A campaign started in 2010 by Buffett and Bill Gates encouraging billionaires to commit at least half of their wealth to philanthropy."
+      }
+    ],
+    "related": [
+      "steve-jobs",
+      "elon-musk",
+      "adam-smith"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warren_Buffett",
+      "https://www.berkshirehathaway.com"
+    ],
+    "image": "/avatars/warren-buffett.jpg",
+    "imageCredit": "Wikimedia Commons / Warren Buffett"
+  }
+]

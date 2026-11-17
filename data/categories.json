@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "actors",
+    "title": "Famous Actors & Actresses",
+    "seoDescription": "Discover profiles, career milestones, awards, and filmographies of iconic film and theater actors worldwide.",
+    "icon": "Film"
+  },
+  {
+    "slug": "singers",
+    "title": "Famous Singers",
+    "seoDescription": "Explore legendary vocalists, chart-topping pop stars, rock icons, and influential musicians across genres.",
+    "icon": "Mic"
+  },
+  {
+    "slug": "cricketers",
+    "title": "Cricket Players",
+    "seoDescription": "Profiles, statistics, achievements, and biographies of international cricket legends and modern superstars.",
+    "icon": "ShieldCheck"
+  },
+  {
+    "slug": "footballers",
+    "title": "Football Players",
+    "seoDescription": "Biographies, trophies, career statistics, and history of the world's most celebrated soccer icons.",
+    "icon": "Trophy"
+  },
+  {
+    "slug": "politicians",
+    "title": "World Leaders & Politicians",
+    "seoDescription": "Profiles of influential prime ministers, presidents, statesmen, and political figures who shaped modern history.",
+    "icon": "Landmark"
+  },
+  {
+    "slug": "doctors",
+    "title": "Famous Doctors",
+    "seoDescription": "Pioneering medical practitioners, groundbreaking surgeons, and healthcare innovators who revolutionized medicine.",
+    "icon": "HeartPulse"
+  },
+  {
+    "slug": "scientists",
+    "title": "Scientists & Researchers",
+    "seoDescription": "Biographies and breakthrough discoveries of the world's greatest physicists, chemists, biologists, and researchers.",
+    "icon": "Atom"
+  },
+  {
+    "slug": "business-leaders",
+    "title": "Entrepreneurs & CEOs",
+    "seoDescription": "Profiles of visionary executives, corporate pioneers, and titans of industry driving the global economy.",
+    "icon": "Briefcase"
+  },
+  {
+    "slug": "startup-founders",
+    "title": "Startup Founders",
+    "seoDescription": "Stories and milestones of audacious tech entrepreneurs and innovators who built unicorn startups and industry disruptors.",
+    "icon": "Rocket"
+  },
+  {
+    "slug": "youtubers",
+    "title": "Famous YouTubers",
+    "seoDescription": "Profiles of top digital video creators, channel milestones, subscriber counts, and video entertainment pioneers.",
+    "icon": "Video"
+  },
+  {
+    "slug": "social-media-influencers",
+    "title": "Instagram & TikTok Stars",
+    "seoDescription": "Leading viral content creators, social media icons, digital tastemakers, and internet personalities.",
+    "icon": "Share2"
+  },
+  {
+    "slug": "models",
+    "title": "Fashion Models",
+    "seoDescription": "Supermodels, high-fashion runway icons, and trendsetting figures in haute couture and international fashion.",
+    "icon": "Sparkles"
+  },
+  {
+    "slug": "writers",
+    "title": "Authors & Poets",
+    "seoDescription": "Celebrated novelists, playwrights, Nobel laureates in literature, and poets whose literary works defined eras.",
+    "icon": "BookOpen"
+  },
+  {
+    "slug": "directors",
+    "title": "Film Directors",
+    "seoDescription": "Visionary filmmakers, cinematic auteurs, and award-winning directors who redefined the art of storytelling.",
+    "icon": "Clapperboard"
+  },
+  {
+    "slug": "athletes",
+    "title": "Sports Personalities",
+    "seoDescription": "Profiles and Olympic triumphs of world-class track & field champions, swimmers, and legendary athletes.",
+    "icon": "Medal"
+  },
+  {
+    "slug": "boxers",
+    "title": "Professional Boxers",
+    "seoDescription": "Ring records, championship belts, and biographies of heavyweight champions and boxing legends.",
+    "icon": "Swords"
+  },
+  {
+    "slug": "wrestlers",
+    "title": "WWE Wrestlers",
+    "seoDescription": "Iconic professional wrestlers, WWE champions, entertaining performers, and sports entertainment hall-of-famers.",
+    "icon": "Flame"
+  },
+  {
+    "slug": "journalists",
+    "title": "Famous Journalists",
+    "seoDescription": "Pulitzer Prize-winning reporters, wartime correspondents, and respected news anchors who reported historic truths.",
+    "icon": "Newspaper"
+  },
+  {
+    "slug": "lawyers",
+    "title": "Famous Lawyers",
+    "seoDescription": "Supreme Court justices, human rights barristers, constitutional scholars, and prominent legal minds.",
+    "icon": "Scale"
+  },
+  {
+    "slug": "gamers",
+    "title": "Professional Gamers",
+    "seoDescription": "Esports champions, world-class gaming tournament winners, and influential livestreamers.",
+    "icon": "Gamepad2"
+  },
+  {
+    "slug": "comedians",
+    "title": "Famous Comedians",
+    "seoDescription": "Stand-up masters, satirical geniuses, and comedic performers who made generations laugh worldwide.",
+    "icon": "Smile"
+  },
+  {
+    "slug": "tv-hosts",
+    "title": "Television Personalities",
+    "seoDescription": "Renowned talk show hosts, late-night icons, and charismatic broadcast personalities who shaped pop culture.",
+    "icon": "Tv"
+  },
+  {
+    "slug": "inventors",
+    "title": "Famous Inventors",
+    "seoDescription": "Genius inventors whose transformative patents and devices ushered in modern electricity, communication, and industry.",
+    "icon": "Lightbulb"
+  },
+  {
+    "slug": "economists",
+    "title": "Famous Economists",
+    "seoDescription": "Economic theorists, Nobel Memorial Prize laureates, and financial thinkers who shaped macroeconomic policy.",
+    "icon": "TrendingUp"
+  },
+  {
+    "slug": "architects",
+    "title": "Famous Architects",
+    "seoDescription": "Pritzker Prize laureates and master architects whose monumental buildings define modern skylines and urban landscapes.",
+    "icon": "Building2"
+  }
+]

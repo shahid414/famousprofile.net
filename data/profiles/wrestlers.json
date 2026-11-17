@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "dwayne-johnson",
+    "name": "Dwayne 'The Rock' Johnson",
+    "category": "wrestlers",
+    "profession": "Professional Wrestler & Actor",
+    "industry": "WWE & Hollywood",
+    "country": "United States",
+    "birthDate": "1972-05-02",
+    "birthPlace": "Hayward, California, USA",
+    "languages": [
+      "English",
+      "Samoan"
+    ],
+    "nickname": "The Rock / The People's Champion",
+    "bio": "Dwayne Douglas Johnson, widely known by his ring name The Rock, is an American actor, businessman, and former professional wrestler. Widely regarded as one of the greatest professional wrestlers of all time, he was a pivotal figure in the development and success of WWE's Attitude Era in the late 1990s. Johnson later transitioned into Hollywood to become one of the highest-grossing and highest-paid box office stars globally.",
+    "famousWorks": [
+      {
+        "year": 1998,
+        "title": "Won first WWF Championship at Survivor Series: Deadly Game"
+      },
+      {
+        "year": 2002,
+        "title": "Iconic WrestleMania X8 match vs 'Hollywood' Hulk Hogan"
+      },
+      {
+        "year": 2011,
+        "title": "Fast Five (joined the Fast & Furious franchise)"
+      },
+      {
+        "year": 2017,
+        "title": "Jumanji: Welcome to the Jungle"
+      },
+      {
+        "year": 2024,
+        "title": "WrestleMania XL main event as 'The Final Boss'"
+      }
+    ],
+    "awards": [
+      "10-time World Champion in Professional Wrestling",
+      "Royal Rumble Winner (2000)",
+      "Hollywood Walk of Fame Star (2017)",
+      "Time 100 Most Influential People (2016, 2019)"
+    ],
+    "faq": [
+      {
+        "q": "What is The Rock's iconic wrestling catchphrase?",
+        "a": "His signature line is: 'If you smell what The Rock is cooking!'"
+      },
+      {
+        "q": "What board of directors did Dwayne Johnson join in 2024?",
+        "a": "In January 2024, Johnson was appointed to the Board of Directors of TKO Group Holdings, the parent company of WWE and UFC."
+      }
+    ],
+    "related": [
+      "john-cena",
+      "mike-tyson",
+      "leonardo-dicaprio"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dwayne_Johnson",
+      "https://www.wwe.com/superstars/the-rock"
+    ],
+    "image": "/avatars/dwayne-johnson.jpg",
+    "imageCredit": "Wikimedia Commons / Dwayne Johnson"
+  },
+  {
+    "slug": "john-cena",
+    "name": "John Cena",
+    "category": "wrestlers",
+    "profession": "Professional Wrestler, Actor & Philanthropist",
+    "industry": "WWE Sports Entertainment",
+    "country": "United States",
+    "birthDate": "1977-04-23",
+    "birthPlace": "West Newbury, Massachusetts, USA",
+    "languages": [
+      "English",
+      "Mandarin Chinese"
+    ],
+    "nickname": "The Franchise / Big Match John",
+    "bio": "John Felix Anthony Cena is an American professional wrestler, actor, and philanthropist regarded as the face of World Wrestling Entertainment (WWE) for over fifteen years. He shares the historic record for the most world championship reigns in professional wrestling history with 16 world titles. Outside the squared circle, Cena holds the Guinness World Record for the most wishes granted through the Make-A-Wish Foundation (over 650 wishes).",
+    "famousWorks": [
+      {
+        "year": 2005,
+        "title": "Defeated JBL at WrestleMania 21 for first WWE Championship"
+      },
+      {
+        "year": 2012,
+        "title": "Once in a Lifetime WrestleMania XXVIII match vs The Rock"
+      },
+      {
+        "year": 2017,
+        "title": "Won 16th World Championship at the Royal Rumble"
+      },
+      {
+        "year": 2021,
+        "title": "Starring role as Peacemaker in DC's The Suicide Squad"
+      }
+    ],
+    "awards": [
+      "16-time World Champion in WWE (Tied record with Ric Flair)",
+      "2-time Royal Rumble Winner (2008, 2013)",
+      "Guinness World Record for Most Wishes Granted for Make-A-Wish (650+)"
+    ],
+    "faq": [
+      {
+        "q": "How many world championship titles has John Cena won?",
+        "a": "John Cena has won 16 world championships (13 WWE Championships and 3 World Heavyweight Championships)."
+      },
+      {
+        "q": "What is John Cena's wrestling motto?",
+        "a": "His enduring mantras are 'Hustle, Loyalty, Respect' and 'You Can't See Me'."
+      }
+    ],
+    "related": [
+      "dwayne-johnson",
+      "mike-tyson",
+      "robin-williams"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Cena",
+      "https://www.wwe.com/superstars/john-cena"
+    ],
+    "image": "/avatars/john-cena.jpg",
+    "imageCredit": "Wikimedia Commons / John Cena"
+  }
+]

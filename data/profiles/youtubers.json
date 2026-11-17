@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "mrbeast",
+    "name": "MrBeast (Jimmy Donaldson)",
+    "category": "youtubers",
+    "profession": "Digital Video Creator & Philanthropist",
+    "industry": "Online Video & Entertainment",
+    "country": "United States",
+    "birthDate": "1998-05-07",
+    "birthPlace": "Wichita, Kansas, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "MrBeast",
+    "bio": "James Stephen Donaldson, better known as MrBeast, is an American online content creator, entrepreneur, and philanthropist recognized as the most subscribed individual creator in YouTube history. Renowned for pioneering high-budget stunt videos, massive financial giveaways, and elaborate survival games, his videos routinely garner hundreds of millions of views. He is also the founder of Beast Philanthropy, Feastables, and the creator behind Team Trees and Team Seas.",
+    "famousWorks": [
+      {
+        "year": 2017,
+        "title": "Counting to 100,000 viral breakthrough video"
+      },
+      {
+        "year": 2019,
+        "title": "Co-launched Team Trees initiative planting 20M trees"
+      },
+      {
+        "year": 2021,
+        "title": "$456,000 Squid Game in Real Life recreate"
+      },
+      {
+        "year": 2024,
+        "title": "Beast Games reality game show on Prime Video"
+      }
+    ],
+    "awards": [
+      "Streamy Awards Creator of the Year (4 consecutive wins: 2020-2023)",
+      "Nickelodeon Kids' Choice Favorite Male Creator (2022, 2023)",
+      "Time 100 Most Influential People (2023)"
+    ],
+    "faq": [
+      {
+        "q": "How many subscribers does MrBeast have?",
+        "a": "MrBeast surpassed 300 million subscribers on YouTube in 2024, making him the most subscribed creator on the platform."
+      },
+      {
+        "q": "What is MrBeast's confectionery brand?",
+        "a": "He launched 'Feastables', an ethical chocolate and snack bar company in January 2022."
+      }
+    ],
+    "related": [
+      "pewdiepie",
+      "khaby-lame",
+      "ninja"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/MrBeast",
+      "https://www.youtube.com/@MrBeast"
+    ],
+    "image": "/avatars/mrbeast.jpg",
+    "imageCredit": "Wikimedia Commons / MrBeast"
+  },
+  {
+    "slug": "pewdiepie",
+    "name": "PewDiePie (Felix Kjellberg)",
+    "category": "youtubers",
+    "profession": "Content Creator & Streamer",
+    "industry": "Gaming & Online Entertainment",
+    "country": "Sweden",
+    "birthDate": "1989-10-24",
+    "birthPlace": "Gothenburg, Sweden",
+    "languages": [
+      "Swedish",
+      "English",
+      "Japanese"
+    ],
+    "nickname": "Pewds",
+    "bio": "Felix Arvid Ulf Kjellberg, known worldwide by his online pseudonym PewDiePie, is a Swedish YouTuber and gaming culture icon. Starting with comedic Let's Play commentaries on horror games like Amnesia, he held the title of the most-subscribed channel on YouTube from 2013 to 2019. His irreverent humor, meme reviews, and philanthropic livestreams shaped the formative era of internet creator culture.",
+    "famousWorks": [
+      {
+        "year": 2010,
+        "title": "Amnesia: The Dark Descent Let's Play gameplay series"
+      },
+      {
+        "year": 2018,
+        "title": "Meme Review and PewDiePie vs T-Series global cultural phenomenon"
+      },
+      {
+        "year": 2019,
+        "title": "Minecraft Epics Revival series"
+      },
+      {
+        "year": 2020,
+        "title": "Philanthropic Livestreams raising millions for charitable causes"
+      }
+    ],
+    "awards": [
+      "Shorty Award for Best in Gaming (2014)",
+      "Teen Choice Award for Choice Web Star: Gaming (2014, 2015)",
+      "Time 100 Most Influential People (2016)"
+    ],
+    "faq": [
+      {
+        "q": "What does the name PewDiePie mean?",
+        "a": "Felix originally registered 'PewDie' (representing laser gunshot 'pew' and 'die'); after forgetting the password, he registered 'PewDiePie'."
+      },
+      {
+        "q": "Where does PewDiePie live currently?",
+        "a": "Felix and his wife Marzia relocated permanently to Tokyo, Japan in 2022."
+      }
+    ],
+    "related": [
+      "mrbeast",
+      "ninja",
+      "faker"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/PewDiePie",
+      "https://www.youtube.com/@PewDiePie"
+    ],
+    "image": "/avatars/pewdiepie.jpg",
+    "imageCredit": "Wikimedia Commons / PewDiePie"
+  }
+]

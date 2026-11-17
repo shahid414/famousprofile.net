@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "khaby-lame",
+    "name": "Khaby Lame",
+    "category": "social-media-influencers",
+    "profession": "Social Media Creator & Comedic Content Star",
+    "industry": "Short-Form Video & Comedy",
+    "country": "Italy",
+    "birthDate": "2000-03-09",
+    "birthPlace": "Dakar, Senegal",
+    "languages": [
+      "Italian",
+      "English",
+      "Wolof"
+    ],
+    "nickname": "Khaby",
+    "bio": "Khabane 'Khaby' Lame is a Senegalese-Italian social media creator who is the most-followed personality on TikTok. Having lost his factory job during the 2020 pandemic lockdowns, he started posting wordless, expressive reaction videos debunking overly convoluted 'life hack' videos. His signature silent shrug and outstretched hands made him a universal comedic icon transcending language barriers.",
+    "famousWorks": [
+      {
+        "year": 2020,
+        "title": "First viral silent life-hack reaction videos"
+      },
+      {
+        "year": 2022,
+        "title": "Became the #1 Most-Followed Account on TikTok globally"
+      },
+      {
+        "year": 2023,
+        "title": "Brand Ambassador and runway model for Hugo Boss"
+      },
+      {
+        "year": 2024,
+        "title": "Featured judge on Italia's Got Talent"
+      }
+    ],
+    "awards": [
+      "Premio La Moda Veste la Pace (2022)",
+      "Forbes 30 Under 30 Europe (2022)",
+      "TikTok Global Creator of the Year"
+    ],
+    "faq": [
+      {
+        "q": "Why doesn't Khaby Lame speak in his videos?",
+        "a": "Khaby chose universal facial expressions and body language so his comedy could be understood and enjoyed by viewers worldwide without language barriers."
+      },
+      {
+        "q": "What nationality does Khaby Lame hold?",
+        "a": "Born in Senegal, he moved to Chivasso, Italy at age one and officially received Italian citizenship in August 2022."
+      }
+    ],
+    "related": [
+      "charli-damelio",
+      "mrbeast",
+      "robin-williams"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Khaby_Lame",
+      "https://www.tiktok.com/@khaby.lame"
+    ],
+    "image": "/avatars/khaby-lame.jpg",
+    "imageCredit": "Wikimedia Commons / Khaby Lame"
+  },
+  {
+    "slug": "charli-damelio",
+    "name": "Charli D'Amelio",
+    "category": "social-media-influencers",
+    "profession": "Dancer & Social Media Influencer",
+    "industry": "Dance & Pop Culture",
+    "country": "United States",
+    "birthDate": "2004-05-01",
+    "birthPlace": "Norwalk, Connecticut, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Charli",
+    "bio": "Charli D'Amelio is an American social media influencer and competitive dancer who rose to unprecedented global fame on TikTok in late 2019. Renowned for her engaging choreography and viral dance trends, she became the first creator to reach 50 million and subsequently 100 million followers on TikTok. She has since expanded into business with apparel lines, starring in 'The D'Amelio Show' and winning 'Dancing with the Stars'.",
+    "famousWorks": [
+      {
+        "year": 2019,
+        "title": "Viral breakthrough with 'Renegade' dance trend"
+      },
+      {
+        "year": 2020,
+        "title": "First person to reach 100 million TikTok followers"
+      },
+      {
+        "year": 2021,
+        "title": "Launch of The D'Amelio Show reality series"
+      },
+      {
+        "year": 2022,
+        "title": "Winner of Dancing with the Stars Season 31"
+      }
+    ],
+    "awards": [
+      "Guinness World Record: First person to 100M TikTok followers (2020)",
+      "Kids' Choice Award for Favorite Female Social Star (2021, 2022)",
+      "Forbes 30 Under 30 (2021)"
+    ],
+    "faq": [
+      {
+        "q": "How old was Charli D'Amelio when she blew up on TikTok?",
+        "a": "She was 15 years old when her dance choreography videos exploded in popularity during late 2019."
+      },
+      {
+        "q": "What business ventures does Charli D'Amelio run?",
+        "a": "Alongside her sister Dixie, she founded the Social Tourist fashion label and co-founded D'Amelio Brands."
+      }
+    ],
+    "related": [
+      "khaby-lame",
+      "taylor-swift",
+      "naomi-campbell"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charli_D%27Amelio",
+      "https://www.tiktok.com/@charlidamelio"
+    ],
+    "image": "/avatars/charli-damelio.jpg",
+    "imageCredit": "Wikimedia Commons / Charli D'Amelio"
+  }
+]

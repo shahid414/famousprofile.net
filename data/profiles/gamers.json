@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "ninja",
+    "name": "Ninja (Tyler Blevins)",
+    "category": "gamers",
+    "profession": "Professional Gamer & Livestreamer",
+    "industry": "Esports & Battle Royale Streaming",
+    "country": "United States",
+    "birthDate": "1991-06-05",
+    "birthPlace": "Detroit, Michigan, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Ninja",
+    "bio": "Richard Tyler Blevins, better known by his online gaming alias Ninja, is an American professional esports player and livestreamer. Starting his competitive career in Halo 3, he exploded to unprecedented mainstream prominence during the rapid rise of Fortnite Battle Royale in 2018. Ninja shattered Twitch viewership records, appeared on the cover of ESPN The Magazine, and brought livestreaming culture into household conversation.",
+    "famousWorks": [
+      {
+        "year": 2009,
+        "title": "Competitive debut playing Halo 3 professionally"
+      },
+      {
+        "year": 2018,
+        "title": "Record-breaking Fortnite Twitch stream with Drake and Travis Scott (628k concurrent viewers)"
+      },
+      {
+        "year": 2018,
+        "title": "First professional esports gamer on the cover of ESPN The Magazine"
+      },
+      {
+        "year": 2020,
+        "title": "Release of official Fortnite in-game Ninja Icon Series skin"
+      }
+    ],
+    "awards": [
+      "Streamy Award for Creator of the Year (2018)",
+      "The Game Awards Content Creator of the Year (2018)",
+      "Time 100 Most Influential People (2019)"
+    ],
+    "faq": [
+      {
+        "q": "What record did Ninja break on Twitch in March 2018?",
+        "a": "He broke the record for the most-watched non-tournament Twitch stream with 628,000 concurrent viewers while playing Fortnite with musician Drake."
+      },
+      {
+        "q": "What esports games did Ninja compete in professionally before Fortnite?",
+        "a": "He competed professionally in Halo 3, Halo: Reach, Halo 4, and H1Z1 before transitioning to Fortnite."
+      }
+    ],
+    "related": [
+      "faker",
+      "mrbeast",
+      "pewdiepie"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ninja_(gamer)",
+      "https://www.twitch.tv/ninja"
+    ],
+    "image": "/avatars/ninja.jpg",
+    "imageCredit": "Wikimedia Commons / Ninja (gamer)"
+  },
+  {
+    "slug": "faker",
+    "name": "Faker (Lee Sang-hyeok)",
+    "category": "gamers",
+    "profession": "Professional League of Legends Player",
+    "industry": "Esports & MOBA Gaming",
+    "country": "South Korea",
+    "birthDate": "1996-05-07",
+    "birthPlace": "Seoul, South Korea",
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "nickname": "The Unkillable Demon King",
+    "bio": "Lee Sang-hyeok, known by his legendary gamer tag Faker, is a South Korean professional League of Legends player for T1. Universally heralded as the undisputed greatest esports player of all time ('the GOAT'), he has achieved a record four League of Legends World Championships (2013, 2015, 2016, and 2023). Faker became the inaugural inductee into Riot Games' League of Legends Hall of Legends in 2024.",
+    "famousWorks": [
+      {
+        "year": 2013,
+        "title": "First World Championship title with SK Telecom T1 & famous Zed mirror-match outplay"
+      },
+      {
+        "year": 2015,
+        "title": "Second World Championship title with a near-flawless 15–1 tournament run"
+      },
+      {
+        "year": 2016,
+        "title": "Third World Championship title and Finals MVP honors"
+      },
+      {
+        "year": 2023,
+        "title": "Historic fourth World Championship victory in Seoul, cementing his GOAT status"
+      },
+      {
+        "year": 2024,
+        "title": "Inaugural inductee into the League of Legends Hall of Legends"
+      }
+    ],
+    "awards": [
+      "4 League of Legends World Championship Titles (2013, 2015, 2016, 2023)",
+      "Inaugural Inductee - League of Legends Hall of Legends (2024)",
+      "Asian Games Gold Medalist for South Korea (Hangzhou 2022)",
+      "The Game Awards Best Esports Athlete (2017, 2023)"
+    ],
+    "faq": [
+      {
+        "q": "Why is Faker called 'The Unkillable Demon King'?",
+        "a": "He earned the nickname from opponents and casters because of his near-supernatural mechanical reflexes, dodges, and champion mastery that make him virtually impossible to kill in lane."
+      },
+      {
+        "q": "Has Faker ever played for another esports team?",
+        "a": "No, Faker has remained loyal to the T1 organization (formerly SK Telecom T1) throughout his entire professional career since 2013."
+      }
+    ],
+    "related": [
+      "ninja",
+      "pewdiepie",
+      "mrbeast"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Faker_(gamer)",
+      "https://lolesports.com/en-US/news/faker-hall-of-legends"
+    ],
+    "image": "/avatars/faker.jpg",
+    "imageCredit": "Wikimedia Commons / Faker (gamer)"
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "ruth-bader-ginsburg",
+    "name": "Ruth Bader Ginsburg",
+    "category": "lawyers",
+    "profession": "Associate Justice of the US Supreme Court",
+    "industry": "Constitutional Law & Civil Rights",
+    "country": "United States",
+    "birthDate": "1933-03-15",
+    "deathDate": "2020-09-18",
+    "birthPlace": "Brooklyn, New York, USA",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "nickname": "Notorious R.B.G.",
+    "bio": "Ruth Bader Ginsburg was an American lawyer and jurist who served as an associate justice of the Supreme Court of the United States from 1993 until her death in 2020. As director of the ACLU Women's Rights Project in the 1970s, she successfully argued six landmark gender discrimination cases before the Supreme Court, establishing that equal protection applies to women. In her later years, her searing dissents transformed her into a revered pop culture feminist icon.",
+    "famousWorks": [
+      {
+        "year": 1971,
+        "title": "Brief in Reed v. Reed establishing 14th Amendment gender equality"
+      },
+      {
+        "year": 1993,
+        "title": "Confirmation to the US Supreme Court (96–3 Senate vote)"
+      },
+      {
+        "year": 1996,
+        "title": "Landmark majority opinion in United States v. Virginia (VMI admission)"
+      },
+      {
+        "year": 2013,
+        "title": "Fierce dissent in Shelby County v. Holder voting rights case"
+      }
+    ],
+    "awards": [
+      "American Bar Association Medal (2010)",
+      "World Peace & Liberty Award (2020)",
+      "First woman to lie in state at the United States Capitol"
+    ],
+    "faq": [
+      {
+        "q": "How many cases did Ruth Bader Ginsburg argue before the Supreme Court as an attorney?",
+        "a": "She argued six gender equality cases before the Supreme Court between 1973 and 1978, winning five of them."
+      },
+      {
+        "q": "What nickname did she earn from legal fans in later years?",
+        "a": "She was dubbed 'The Notorious R.B.G.', playful homage to rapper The Notorious B.I.G., which she warmly embraced."
+      }
+    ],
+    "related": [
+      "amal-clooney",
+      "nelson-mandela",
+      "barack-obama"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg",
+      "https://www.oyez.org/justices/ruth_bader_ginsburg"
+    ],
+    "image": "/avatars/ruth-bader-ginsburg.jpg",
+    "imageCredit": "Wikimedia Commons / Ruth Bader Ginsburg"
+  },
+  {
+    "slug": "amal-clooney",
+    "name": "Amal Clooney",
+    "category": "lawyers",
+    "profession": "International Human Rights Barrister",
+    "industry": "International Law & Human Rights",
+    "country": "United Kingdom",
+    "birthDate": "1978-02-03",
+    "birthPlace": "Beirut, Lebanon",
+    "languages": [
+      "English",
+      "Arabic",
+      "French"
+    ],
+    "nickname": "Amal",
+    "bio": "Amal Clooney (née Alamuddin) is a British-Lebanese barrister at Doughty Street Chambers specializing in international law and human rights. She has represented high-profile political prisoners, journalists, and victims of genocide before the International Criminal Court, the International Court of Justice, and the European Court of Human Rights. Clooney is also an adjunct professor of law at Columbia Law School and co-founder of the Clooney Foundation for Justice.",
+    "famousWorks": [
+      {
+        "year": 2015,
+        "title": "Defense of former Maldives President Mohamed Nasheed"
+      },
+      {
+        "year": 2016,
+        "title": "Legal representation of Yazidi genocide survivor and Nobel laureate Nadia Murad"
+      },
+      {
+        "year": 2016,
+        "title": "Co-founded the Clooney Foundation for Justice"
+      },
+      {
+        "year": 2018,
+        "title": "Defense of Reuters journalists Wa Lone and Kyaw Soe Oo in Myanmar"
+      }
+    ],
+    "awards": [
+      "Simon Wiesenthal Center Humanitarian Award (2020)",
+      "Committee to Protect Journalists Gwen Ifill Award (2020)",
+      "Time Woman of the Year (2022)"
+    ],
+    "faq": [
+      {
+        "q": "Where was Amal Clooney legally trained?",
+        "a": "She earned her law degree at St Hugh's College, Oxford, and completed her Master of Laws (LL.M.) at New York University School of Law."
+      },
+      {
+        "q": "What is the TrialWatch initiative launched by Amal Clooney?",
+        "a": "TrialWatch monitors court trials around the world that pose high risks of human rights violations and defends victimized journalists and minority groups."
+      }
+    ],
+    "related": [
+      "ruth-bader-ginsburg",
+      "nelson-mandela",
+      "christiane-amanpour"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amal_Clooney",
+      "https://www.doughtystreet.co.uk/barristers/amal-clooney"
+    ],
+    "image": "/avatars/amal-clooney.jpg",
+    "imageCredit": "Wikimedia Commons / Amal Clooney"
+  }
+]

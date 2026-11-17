@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "zaha-hadid",
+    "name": "Dame Zaha Hadid",
+    "category": "architects",
+    "profession": "Architect & Designer",
+    "industry": "Deconstructivism & Parametric Architecture",
+    "country": "United Kingdom",
+    "birthDate": "1950-10-31",
+    "deathDate": "2016-03-31",
+    "birthPlace": "Baghdad, Kingdom of Iraq",
+    "languages": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "nickname": "Queen of the Curve",
+    "bio": "Dame Zaha Mohammad Hadid DBE was an Iraqi-British architect celebrated as a revolutionary figure in late 20th and early 21st-century architecture. Known as the 'Queen of the Curve', she freed architectural geometry, creating fluid, dynamic, and sensuous spatial forms powered by advanced digital parametric design. In 2004, Hadid became the first woman to be awarded the prestigious Pritzker Architecture Prize.",
+    "famousWorks": [
+      {
+        "year": 2003,
+        "title": "Rosenthal Center for Contemporary Art in Cincinnati (First US museum designed by a woman)"
+      },
+      {
+        "year": 2010,
+        "title": "MAXXI National Museum of 21st Century Arts in Rome"
+      },
+      {
+        "year": 2011,
+        "title": "Guangzhou Opera House in China"
+      },
+      {
+        "year": 2012,
+        "title": "Heydar Aliyev Center in Baku, Azerbaijan"
+      },
+      {
+        "year": 2012,
+        "title": "London Aquatics Centre for the 2012 Summer Olympics"
+      }
+    ],
+    "awards": [
+      "Pritzker Architecture Prize (First female laureate, 2004)",
+      "RIBA Stirling Prize (2010, 2011)",
+      "Royal Gold Medal from RIBA (First woman awarded in her own right, 2016)",
+      "Dame Commander of the Order of the British Empire (DBE, 2012)"
+    ],
+    "faq": [
+      {
+        "q": "Why was Zaha Hadid known as the 'Queen of the Curve'?",
+        "a": "Because her visionary structures rejected rigid 90-degree angles in favor of soaring parametric curves, flowing surfaces, and expressive organic geometries."
+      },
+      {
+        "q": "What historical distinction did Zaha Hadid achieve in 2004?",
+        "a": "She became the first woman ever to win the Pritzker Architecture Prize, the world's most prestigious honor in architecture."
+      }
+    ],
+    "related": [
+      "frank-lloyd-wright",
+      "steve-jobs",
+      "christopher-nolan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zaha_Hadid",
+      "https://www.zaha-hadid.com",
+      "https://www.pritzkerprize.com/laureates/2004"
+    ],
+    "image": "/avatars/zaha-hadid.jpg",
+    "imageCredit": "Wikimedia Commons / Zaha Hadid"
+  },
+  {
+    "slug": "frank-lloyd-wright",
+    "name": "Frank Lloyd Wright",
+    "category": "architects",
+    "profession": "Architect, Interior Designer & Writer",
+    "industry": "Organic Architecture & Prairie School",
+    "country": "United States",
+    "birthDate": "1867-06-08",
+    "deathDate": "1959-04-09",
+    "birthPlace": "Richland Center, Wisconsin, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "America's Greatest Architect",
+    "bio": "Frank Lloyd Wright was an American architect, designer, and educator whose creative career spanned more than 70 years and produced over 1,000 structures. He pioneered 'organic architecture', a design philosophy maintaining that buildings should develop in seamless harmony with humanity and the natural environment. In 1991, the American Institute of Architects recognized Wright as 'the greatest American architect of all time', with eight of his masterworks designated as UNESCO World Heritage sites.",
+    "famousWorks": [
+      {
+        "year": 1909,
+        "title": "Robie House in Chicago (Prairie School masterpiece)"
+      },
+      {
+        "year": 1935,
+        "title": "Fallingwater in Mill Run, Pennsylvania (Organic architecture icon)"
+      },
+      {
+        "year": 1937,
+        "title": "Taliesin West winter home and desert laboratory in Scottsdale, Arizona"
+      },
+      {
+        "year": 1959,
+        "title": "Solomon R. Guggenheim Museum in New York City"
+      }
+    ],
+    "awards": [
+      "RIBA Royal Gold Medal (1941)",
+      "AIA Gold Medal (1949)",
+      "Eight works designated as UNESCO World Heritage Sites (2019)"
+    ],
+    "faq": [
+      {
+        "q": "What is Fallingwater and why is it so famous?",
+        "a": "Fallingwater is a house built directly over a natural 30-foot waterfall in Pennsylvania, renowned worldwide for its dramatic cantilevered concrete terraces that blend completely with the rocky mountain cascade."
+      },
+      {
+        "q": "What spiral museum did Frank Lloyd Wright design in Manhattan?",
+        "a": "He designed the landmark Solomon R. Guggenheim Museum, featuring a continuous spiraling ramp gallery."
+      }
+    ],
+    "related": [
+      "zaha-hadid",
+      "thomas-edison",
+      "albert-einstein"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frank_Lloyd_Wright",
+      "https://franklloydwright.org",
+      "https://whc.unesco.org/en/list/1496"
+    ],
+    "image": "/avatars/frank-lloyd-wright.jpg",
+    "imageCredit": "Wikimedia Commons / Frank Lloyd Wright"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "nelson-mandela",
+    "name": "Nelson Mandela",
+    "category": "politicians",
+    "profession": "Anti-Apartheid Leader & Statesman",
+    "industry": "Global Politics & Human Rights",
+    "country": "South Africa",
+    "birthDate": "1918-07-18",
+    "deathDate": "2013-12-05",
+    "birthPlace": "Mvezo, Cape Province, South Africa",
+    "languages": [
+      "Xhosa",
+      "English",
+      "Afrikaans"
+    ],
+    "nickname": "Madiba / Tata",
+    "bio": "Nelson Mandela was a South African anti-apartheid revolutionary, statesman, and philanthropist who served as President of South Africa from 1994 to 1999. Incarcerated for 27 years on Robben Island and elsewhere, he emerged with an unwavering commitment to peaceful reconciliation rather than vengeance. His moral courage steered South Africa peacefully through its historic transition from racial apartheid to multiracial democracy.",
+    "famousWorks": [
+      {
+        "year": 1964,
+        "title": "'I Am Prepared to Die' Speech at the Rivonia Trial"
+      },
+      {
+        "year": 1994,
+        "title": "Inauguration as South Africa's First Black Head of State"
+      },
+      {
+        "year": 1994,
+        "title": "Autobiography: Long Walk to Freedom"
+      },
+      {
+        "year": 1995,
+        "title": "Rugby World Cup Reconciliation Moment"
+      }
+    ],
+    "awards": [
+      "Nobel Peace Prize (1993)",
+      "US Presidential Medal of Freedom (2002)",
+      "Order of the Nile - Egypt (1990)",
+      "Bharat Ratna - India (1990)"
+    ],
+    "faq": [
+      {
+        "q": "How many years was Nelson Mandela imprisoned?",
+        "a": "Mandela spent 27 years in prison (1962–1990), primarily on Robben Island, Pollsmoor Prison, and Victor Verster Prison."
+      },
+      {
+        "q": "What was the significance of the 1994 election in South Africa?",
+        "a": "It was South Africa's first fully representative, non-racial, universal democratic general election, ending decades of apartheid rule."
+      }
+    ],
+    "related": [
+      "barack-obama",
+      "ruth-bader-ginsburg",
+      "albert-einstein"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nelson_Mandela",
+      "https://www.nelsonmandela.org"
+    ],
+    "image": "/avatars/nelson-mandela.jpg",
+    "imageCredit": "Wikimedia Commons / Nelson Mandela"
+  },
+  {
+    "slug": "barack-obama",
+    "name": "Barack Obama",
+    "category": "politicians",
+    "profession": "44th President of the United States",
+    "industry": "American Politics",
+    "country": "United States",
+    "birthDate": "1961-08-04",
+    "birthPlace": "Honolulu, Hawaii, USA",
+    "languages": [
+      "English",
+      "Indonesian"
+    ],
+    "nickname": "Barry",
+    "bio": "Barack Obama served as the 44th President of the United States from 2009 to 2017, becoming the first African American president in the nation's history. During his two terms, he enacted landmark healthcare reform through the Affordable Care Act, navigated the aftermath of the Great Recession, and authorized the Paris Climate Agreement. After leaving the White House, he established the Obama Foundation and produced award-winning documentaries.",
+    "famousWorks": [
+      {
+        "year": 2004,
+        "title": "DNC Keynote Address: 'The Audacity of Hope'"
+      },
+      {
+        "year": 2010,
+        "title": "Patient Protection and Affordable Care Act (Obamacare)"
+      },
+      {
+        "year": 2015,
+        "title": "Joint Comprehensive Plan of Action & Paris Climate Accord"
+      },
+      {
+        "year": 2020,
+        "title": "Memoir: A Promised Land"
+      }
+    ],
+    "awards": [
+      "Nobel Peace Prize (2009)",
+      "Profile in Courage Award (2017)",
+      "2 Grammy Awards for Best Spoken Word Album (2006, 2008)"
+    ],
+    "faq": [
+      {
+        "q": "Where did Barack Obama receive his legal education?",
+        "a": "He graduated from Harvard Law School, where he became the first African-American president of the Harvard Law Review."
+      },
+      {
+        "q": "What major healthcare legislation did Barack Obama sign?",
+        "a": "He signed the landmark Patient Protection and Affordable Care Act (commonly known as Obamacare) in March 2010."
+      }
+    ],
+    "related": [
+      "nelson-mandela",
+      "ruth-bader-ginsburg",
+      "oprah-winfrey"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barack_Obama",
+      "https://www.obama.org"
+    ],
+    "image": "/avatars/barack-obama.jpg",
+    "imageCredit": "Wikimedia Commons / Barack Obama"
+  }
+]

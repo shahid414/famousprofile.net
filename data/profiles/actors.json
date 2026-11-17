@@ -1,0 +1,2372 @@
+[
+  {
+    "slug": "leonardo-dicaprio",
+    "name": "Leonardo DiCaprio",
+    "category": "actors",
+    "profession": "Actor & Film Producer",
+    "industry": "Hollywood",
+    "country": "United States",
+    "birthDate": "1974-11-11",
+    "birthPlace": "Los Angeles, California, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Leo",
+    "bio": "Leonardo DiCaprio is an acclaimed American actor and film producer celebrated for his intense, multifaceted performances across diverse cinematic genres. He gained international superstardom with Titanic and established enduring collaborations with visionary directors such as Martin Scorsese and Christopher Nolan. DiCaprio is also an outspoken environmental activist advocating globally for biodiversity preservation and renewable energy solutions.",
+    "famousWorks": [
+      {
+        "year": 1997,
+        "title": "Titanic"
+      },
+      {
+        "year": 2002,
+        "title": "Catch Me If You Can"
+      },
+      {
+        "year": 2006,
+        "title": "The Departed"
+      },
+      {
+        "year": 2010,
+        "title": "Inception"
+      },
+      {
+        "year": 2013,
+        "title": "The Wolf of Wall Street"
+      },
+      {
+        "year": 2015,
+        "title": "The Revenant"
+      },
+      {
+        "year": 2019,
+        "title": "Once Upon a Time in Hollywood"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Actor (2016) - The Revenant",
+      "BAFTA Award for Best Actor in a Leading Role (2016)",
+      "3 Golden Globe Awards (2005, 2014, 2016)",
+      "Screen Actors Guild Award for Outstanding Performance (2016)"
+    ],
+    "faq": [
+      {
+        "q": "What was Leonardo DiCaprio's breakout movie?",
+        "a": "While he earned early critical praise for What's Eating Gilbert Grape (1993), James Cameron's romantic epic Titanic (1997) made him a worldwide phenomenon."
+      },
+      {
+        "q": "For which movie did Leonardo DiCaprio win his first Oscar?",
+        "a": "He won the Academy Award for Best Actor in 2016 for portraying the resilient frontiersman Hugh Glass in Alejandro G. Iñárritu's The Revenant."
+      },
+      {
+        "q": "What humanitarian causes does Leonardo DiCaprio actively champion?",
+        "a": "Through the Leonardo DiCaprio Foundation, he actively finances global conservation initiatives, indigenous rights advocacy, and climate change action."
+      }
+    ],
+    "related": [
+      "christopher-nolan",
+      "steven-spielberg",
+      "brad-pitt"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+      "https://www.imdb.com/name/nm0000138/",
+      "https://www.oscars.org"
+    ],
+    "image": "/avatars/leonardo-dicaprio.jpg",
+    "imageCredit": "Wikimedia Commons / Leonardo DiCaprio"
+  },
+  {
+    "slug": "meryl-streep",
+    "name": "Meryl Streep",
+    "category": "actors",
+    "profession": "Actress",
+    "industry": "Hollywood & Theater",
+    "country": "United States",
+    "birthDate": "1949-06-22",
+    "birthPlace": "Summit, New Jersey, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Iron Lady of Cinema",
+    "bio": "Mary Louise 'Meryl' Streep is an American actress widely celebrated as one of the finest performers in cinematic history. Revered for her extraordinary chameleon-like vocal versatility and psychological depth, she holds the historic record for 21 Academy Award nominations. Streep has earned three Oscars across dramatic masterworks including Kramer vs. Kramer, Sophie's Choice, and The Iron Lady. She has also received the Presidential Medal of Freedom and the AFI Life Achievement Award.",
+    "famousWorks": [
+      {
+        "year": 1979,
+        "title": "Kramer vs. Kramer"
+      },
+      {
+        "year": 1982,
+        "title": "Sophie's Choice"
+      },
+      {
+        "year": 1985,
+        "title": "Out of Africa"
+      },
+      {
+        "year": 1995,
+        "title": "The Bridges of Madison County"
+      },
+      {
+        "year": 2006,
+        "title": "The Devil Wears Prada"
+      },
+      {
+        "year": 2008,
+        "title": "Mamma Mia!"
+      },
+      {
+        "year": 2011,
+        "title": "The Iron Lady"
+      }
+    ],
+    "awards": [
+      "3 Academy Awards (Best Supporting Actress 1980; Best Actress 1983, 2012)",
+      "Record 21 Academy Award Nominations",
+      "8 Golden Globe Awards (Cecil B. DeMille Award 2017)",
+      "Presidential Medal of Freedom (2014)",
+      "AFI Life Achievement Award (2004)"
+    ],
+    "faq": [
+      {
+        "q": "How many Academy Award nominations has Meryl Streep received?",
+        "a": "Meryl Streep holds the all-time record for any actor in cinema history with 21 Academy Award nominations, winning three Oscars."
+      },
+      {
+        "q": "Which film won Meryl Streep her first Best Actress Academy Award?",
+        "a": "She won Best Actress for her emotionally devastating portrayal of a Polish Holocaust survivor in the 1982 drama Sophie's Choice."
+      },
+      {
+        "q": "What iconic comedic fashion role is Meryl Streep known for?",
+        "a": "She starred as the exacting, formidable fashion magazine editor-in-chief Miranda Priestly in the 2006 comedy-drama The Devil Wears Prada."
+      }
+    ],
+    "related": [
+      "tom-hanks",
+      "robert-de-niro",
+      "audrey-hepburn"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Meryl_Streep",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000658/"
+    ],
+    "image": "/avatars/meryl-streep.jpg",
+    "imageCredit": "Wikimedia Commons / Meryl Streep"
+  },
+  {
+    "slug": "tom-hanks",
+    "name": "Tom Hanks",
+    "category": "actors",
+    "profession": "Actor & Filmmaker",
+    "industry": "Hollywood",
+    "country": "United States",
+    "birthDate": "1956-07-09",
+    "birthPlace": "Concord, California, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "America's Dad",
+    "bio": "Thomas Jeffrey Hanks is an American actor and filmmaker recognized globally as an enduring cultural icon of reliability, decency, and emotional range. He achieved rare cinematic history by winning back-to-back Academy Awards for Best Actor for Philadelphia in 1993 and Forrest Gump in 1994. Across five decades, Hanks has anchored beloved classics including Apollo 13, Saving Private Ryan, Cast Away, and the Toy Story franchise. In 2016, he was awarded the Presidential Medal of Freedom.",
+    "famousWorks": [
+      {
+        "year": 1988,
+        "title": "Big"
+      },
+      {
+        "year": 1993,
+        "title": "Philadelphia"
+      },
+      {
+        "year": 1994,
+        "title": "Forrest Gump"
+      },
+      {
+        "year": 1995,
+        "title": "Toy Story"
+      },
+      {
+        "year": 1998,
+        "title": "Saving Private Ryan"
+      },
+      {
+        "year": 2000,
+        "title": "Cast Away"
+      },
+      {
+        "year": 2013,
+        "title": "Captain Phillips"
+      }
+    ],
+    "awards": [
+      "2 Academy Awards for Best Actor (1994 - Philadelphia, 1995 - Forrest Gump)",
+      "4 Golden Globe Awards (Cecil B. DeMille Award 2020)",
+      "Presidential Medal of Freedom (2016)",
+      "AFI Life Achievement Award (2002)",
+      "Kennedy Center Honors (2014)"
+    ],
+    "faq": [
+      {
+        "q": "Which consecutive years did Tom Hanks win Best Actor Oscars?",
+        "a": "He won in 1994 for Philadelphia and in 1995 for Forrest Gump, becoming only the second actor in history to win back-to-back Best Actor Oscars (after Spencer Tracy)."
+      },
+      {
+        "q": "What beloved animated character does Tom Hanks voice?",
+        "a": "He provides the voice for Sheriff Woody across Pixar's landmark Toy Story franchise."
+      },
+      {
+        "q": "Which major directors has Tom Hanks frequently collaborated with?",
+        "a": "He has enjoyed celebrated, long-standing creative partnerships with Steven Spielberg and Robert Zemeckis."
+      }
+    ],
+    "related": [
+      "steven-spielberg",
+      "meryl-streep",
+      "denzel-washington"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tom_Hanks",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000158/"
+    ],
+    "image": "/avatars/tom-hanks.jpg",
+    "imageCredit": "Wikimedia Commons / Tom Hanks"
+  },
+  {
+    "slug": "denzel-washington",
+    "name": "Denzel Washington",
+    "category": "actors",
+    "profession": "Actor, Director & Producer",
+    "industry": "Hollywood & Theater",
+    "country": "United States",
+    "birthDate": "1954-12-28",
+    "birthPlace": "Mount Vernon, New York, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Denzel",
+    "bio": "Denzel Hayes Washington Jr. is an acclaimed American actor, director, and producer renowned for his commanding screen presence and fierce dramatic integrity. He has claimed two Academy Awards, winning Best Supporting Actor for the Civil War drama Glory and Best Actor for the corrupt narcotics officer in Training Day. In 2020, The New York Times declared him the greatest actor of the 21st century. Washington is also a Tony Award-winning theatrical star and recipient of the Presidential Medal of Freedom.",
+    "famousWorks": [
+      {
+        "year": 1989,
+        "title": "Glory"
+      },
+      {
+        "year": 1992,
+        "title": "Malcolm X"
+      },
+      {
+        "year": 1999,
+        "title": "The Hurricane"
+      },
+      {
+        "year": 2000,
+        "title": "Remember the Titans"
+      },
+      {
+        "year": 2001,
+        "title": "Training Day"
+      },
+      {
+        "year": 2012,
+        "title": "Flight"
+      },
+      {
+        "year": 2016,
+        "title": "Fences"
+      }
+    ],
+    "awards": [
+      "2 Academy Awards (Best Supporting Actor 1990; Best Actor 2002)",
+      "3 Golden Globe Awards (Cecil B. DeMille Award 2016)",
+      "Tony Award for Best Actor in a Play (2010)",
+      "Presidential Medal of Freedom (2022)",
+      "AFI Life Achievement Award (2019)"
+    ],
+    "faq": [
+      {
+        "q": "For which movie did Denzel Washington win his Best Actor Academy Award?",
+        "a": "He won the Best Actor Oscar in 2002 for his chilling portrayal of rogue detective Alonzo Harris in Training Day."
+      },
+      {
+        "q": "What Broadway play did Denzel Washington star in and later direct for film?",
+        "a": "He starred in August Wilson's Pulitzer Prize-winning play Fences, winning a Tony Award in 2010 and later directing and starring in the 2016 film adaptation."
+      },
+      {
+        "q": "What historical figure did Denzel Washington portray in Spike Lee's 1992 biographical masterpiece?",
+        "a": "He delivered an iconic, career-defining performance as civil rights leader Malcolm X."
+      }
+    ],
+    "related": [
+      "tom-hanks",
+      "morgan-freeman",
+      "robert-de-niro"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Denzel_Washington",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000243/"
+    ],
+    "image": "/avatars/denzel-washington.jpg",
+    "imageCredit": "Wikimedia Commons / Denzel Washington"
+  },
+  {
+    "slug": "robert-de-niro",
+    "name": "Robert De Niro",
+    "category": "actors",
+    "profession": "Actor & Producer",
+    "industry": "Hollywood",
+    "country": "United States",
+    "birthDate": "1943-08-17",
+    "birthPlace": "Manhattan, New York City, USA",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "nickname": "Bobby D",
+    "bio": "Robert Anthony De Niro Jr. is an American actor and producer celebrated as one of the foremost method actors of modern cinema. His prolific creative collaboration with director Martin Scorsese produced historic landmarks including Taxi Driver, Raging Bull, and Goodfellas. De Niro has won two Academy Awards, claiming Best Supporting Actor for The Godfather Part II and Best Actor for Raging Bull. He is also the visionary co-founder of the Tribeca Film Festival in New York City.",
+    "famousWorks": [
+      {
+        "year": 1974,
+        "title": "The Godfather Part II"
+      },
+      {
+        "year": 1976,
+        "title": "Taxi Driver"
+      },
+      {
+        "year": 1978,
+        "title": "The Deer Hunter"
+      },
+      {
+        "year": 1980,
+        "title": "Raging Bull"
+      },
+      {
+        "year": 1990,
+        "title": "Goodfellas"
+      },
+      {
+        "year": 1995,
+        "title": "Heat"
+      },
+      {
+        "year": 2019,
+        "title": "The Irishman"
+      }
+    ],
+    "awards": [
+      "2 Academy Awards (Best Supporting Actor 1975; Best Actor 1981)",
+      "Golden Globe Cecil B. DeMille Award (2011)",
+      "Presidential Medal of Freedom (2016)",
+      "AFI Life Achievement Award (2003)",
+      "Kennedy Center Honors (2009)"
+    ],
+    "faq": [
+      {
+        "q": "What role earned Robert De Niro his first Academy Award?",
+        "a": "He won the 1975 Best Supporting Actor Oscar for portraying the young Vito Corleone in Francis Ford Coppola's The Godfather Part II."
+      },
+      {
+        "q": "How did De Niro prepare physically for his role in Raging Bull?",
+        "a": "He trained as a professional boxer with Jake LaMotta and later gained 60 pounds to portray the boxer's post-retirement years, setting a standard for method acting transformation."
+      },
+      {
+        "q": "What renowned film festival did Robert De Niro co-found?",
+        "a": "He co-founded the Tribeca Film Festival in 2002 to stimulate the economic and cultural revitalization of Lower Manhattan following the September 11 attacks."
+      }
+    ],
+    "related": [
+      "al-pacino",
+      "leonardo-dicaprio",
+      "denzel-washington"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_De_Niro",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000134/"
+    ],
+    "image": "/avatars/robert-de-niro.jpg",
+    "imageCredit": "Wikimedia Commons / Robert De Niro"
+  },
+  {
+    "slug": "al-pacino",
+    "name": "Al Pacino",
+    "category": "actors",
+    "profession": "Actor & Filmmaker",
+    "industry": "Hollywood & Theater",
+    "country": "United States",
+    "birthDate": "1940-04-25",
+    "birthPlace": "Manhattan, New York City, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Sonny",
+    "bio": "Alfredo James Pacino is an American actor whose explosive, magnetic performances established him as one of the defining titans of American cinema. He achieved global immortalization as Michael Corleone in Francis Ford Coppola's The Godfather trilogy and Tony Montana in Brian De Palma's Scarface. Pacino is an elite Triple Crown of Acting honoree, having earned an Academy Award, two Primetime Emmy Awards, and two Tony Awards. He was honored with the AFI Life Achievement Award and the National Medal of Arts.",
+    "famousWorks": [
+      {
+        "year": 1972,
+        "title": "The Godfather"
+      },
+      {
+        "year": 1973,
+        "title": "Serpico"
+      },
+      {
+        "year": 1975,
+        "title": "Dog Day Afternoon"
+      },
+      {
+        "year": 1983,
+        "title": "Scarface"
+      },
+      {
+        "year": 1992,
+        "title": "Scent of a Woman"
+      },
+      {
+        "year": 1995,
+        "title": "Heat"
+      },
+      {
+        "year": 2019,
+        "title": "The Irishman"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Actor (1993 - Scent of a Woman)",
+      "Triple Crown of Acting (Oscar, Emmy, Tony)",
+      "4 Golden Globe Awards (Cecil B. DeMille Award 2001)",
+      "AFI Life Achievement Award (2007)",
+      "National Medal of Arts (2011)"
+    ],
+    "faq": [
+      {
+        "q": "For which movie did Al Pacino win the Best Actor Academy Award?",
+        "a": "He won the 1993 Academy Award for Best Actor for his portrayal of blind, irascible retired Army Lieutenant Colonel Frank Slade in Scent of a Woman."
+      },
+      {
+        "q": "What is the Triple Crown of Acting won by Al Pacino?",
+        "a": "The Triple Crown of Acting refers to winning the highest individual competitive accolades in film (Oscar), television (Emmy), and theater (Tony)."
+      },
+      {
+        "q": "What memorable film first featured Al Pacino and Robert De Niro sharing the screen together?",
+        "a": "Michael Mann's 1995 crime thriller Heat featured their first historic direct on-screen confrontation during the iconic diner conversation scene."
+      }
+    ],
+    "related": [
+      "robert-de-niro",
+      "denzel-washington",
+      "leonardo-dicaprio"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Al_Pacino",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000199/"
+    ],
+    "image": "/avatars/al-pacino.jpg",
+    "imageCredit": "Wikimedia Commons / Al Pacino"
+  },
+  {
+    "slug": "morgan-freeman",
+    "name": "Morgan Freeman",
+    "category": "actors",
+    "profession": "Actor, Producer & Narrator",
+    "industry": "Hollywood",
+    "country": "United States",
+    "birthDate": "1937-06-01",
+    "birthPlace": "Memphis, Tennessee, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Voice",
+    "bio": "Morgan Freeman is an American actor, producer, and narrator celebrated worldwide for his authoritative baritone voice and serene, dignified screen gravitas. After decades of stage performance, he gained widespread acclaim in classics including Driving Miss Daisy, Glory, and The Shawshank Redemption. Freeman won the Academy Award for Best Supporting Actor for Clint Eastwood's boxing drama Million Dollar Baby in 2005. He has also been honored with the Kennedy Center Honors and the SAG Life Achievement Award.",
+    "famousWorks": [
+      {
+        "year": 1989,
+        "title": "Driving Miss Daisy"
+      },
+      {
+        "year": 1989,
+        "title": "Glory"
+      },
+      {
+        "year": 1992,
+        "title": "Unforgiven"
+      },
+      {
+        "year": 1994,
+        "title": "The Shawshank Redemption"
+      },
+      {
+        "year": 1995,
+        "title": "Seven"
+      },
+      {
+        "year": 2004,
+        "title": "Million Dollar Baby"
+      },
+      {
+        "year": 2008,
+        "title": "The Dark Knight"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Supporting Actor (2005 - Million Dollar Baby)",
+      "Golden Globe Cecil B. DeMille Award (2012)",
+      "Screen Actors Guild Life Achievement Award (2018)",
+      "Kennedy Center Honors (2008)",
+      "AFI Life Achievement Award (2011)"
+    ],
+    "faq": [
+      {
+        "q": "For which movie did Morgan Freeman win his Academy Award?",
+        "a": "He won the Best Supporting Actor Oscar in 2005 for playing Eddie 'Scrap-Iron' Dupris in Clint Eastwood's Million Dollar Baby."
+      },
+      {
+        "q": "What iconic prison drama is Morgan Freeman famous for narrating and starring in?",
+        "a": "He starred as Ellis Boyd 'Red' Redding and provided the reflective narration in the 1994 classic The Shawshank Redemption."
+      },
+      {
+        "q": "Which superhero trilogy did Morgan Freeman co-star in?",
+        "a": "He portrayed tech executive and inventor Lucius Fox across Christopher Nolan's The Dark Knight Trilogy (Batman Begins, The Dark Knight, and The Dark Knight Rises)."
+      }
+    ],
+    "related": [
+      "denzel-washington",
+      "tom-hanks",
+      "christopher-nolan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Morgan_Freeman",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000151/"
+    ],
+    "image": "/avatars/morgan-freeman.jpg",
+    "imageCredit": "Wikimedia Commons / Morgan Freeman"
+  },
+  {
+    "slug": "scarlett-johansson",
+    "name": "Scarlett Johansson",
+    "category": "actors",
+    "profession": "Actress",
+    "industry": "Hollywood & Independent Cinema",
+    "country": "United States",
+    "birthDate": "1984-11-22",
+    "birthPlace": "Manhattan, New York City, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "ScarJo",
+    "bio": "Scarlett Ingrid Johansson is an American actress who stands as the highest-grossing box office female lead in film history. Rising from acclaimed early performances in Lost in Translation and Girl with a Pearl Earring, she captured global blockbuster fame portraying Natasha Romanoff / Black Widow across nine Marvel Cinematic Universe films. In 2020, Johansson achieved the rare distinction of receiving dual Academy Award nominations in the same year for Marriage Story and Jojo Rabbit. She is also a Tony Award and BAFTA Award winner.",
+    "famousWorks": [
+      {
+        "year": 2003,
+        "title": "Lost in Translation"
+      },
+      {
+        "year": 2006,
+        "title": "The Prestige"
+      },
+      {
+        "year": 2012,
+        "title": "The Avengers"
+      },
+      {
+        "year": 2013,
+        "title": "Her"
+      },
+      {
+        "year": 2014,
+        "title": "Under the Skin"
+      },
+      {
+        "year": 2019,
+        "title": "Marriage Story"
+      },
+      {
+        "year": 2019,
+        "title": "Jojo Rabbit"
+      }
+    ],
+    "awards": [
+      "BAFTA Award for Best Actress in a Leading Role (2004 - Lost in Translation)",
+      "Tony Award for Best Featured Actress in a Play (2010)",
+      "Dual Academy Award Nominations in the same year (2020)",
+      "Highest-grossing actress in global box office history"
+    ],
+    "faq": [
+      {
+        "q": "What historic box office milestone does Scarlett Johansson hold?",
+        "a": "She is the highest-grossing actress in global box office history, with her films having grossed over $14 billion worldwide."
+      },
+      {
+        "q": "Which two films earned Scarlett Johansson dual Oscar nominations in 2020?",
+        "a": "She was nominated for Best Actress for Marriage Story and Best Supporting Actress for Jojo Rabbit in the same awards year."
+      },
+      {
+        "q": "What Broadway production earned Scarlett Johansson a Tony Award?",
+        "a": "She won the 2010 Tony Award for Best Featured Actress in a Play for her Broadway debut in Arthur Miller's A View from the Bridge."
+      }
+    ],
+    "related": [
+      "leonardo-dicaprio",
+      "brad-pitt",
+      "christopher-nolan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Scarlett_Johansson",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0424060/"
+    ],
+    "image": "/avatars/scarlett-johansson.jpg",
+    "imageCredit": "Wikimedia Commons / Scarlett Johansson"
+  },
+  {
+    "slug": "brad-pitt",
+    "name": "Brad Pitt",
+    "category": "actors",
+    "profession": "Actor & Producer",
+    "industry": "Hollywood",
+    "country": "United States",
+    "birthDate": "1963-12-18",
+    "birthPlace": "Shawnee, Oklahoma, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Brad",
+    "bio": "William Bradley Pitt is an American actor and film producer recognized as one of the most influential and bankable movie stars of his generation. He first gained national attention in Thelma & Louise before starring in countercultural masterpieces including Fight Club, Se7en, and Inglourious Basterds. Pitt has won two Academy Awards: one for producing Best Picture winner 12 Years a Slave and another for Best Supporting Actor in Once Upon a Time in Hollywood. Through his company Plan B Entertainment, he has championed numerous award-winning independent films.",
+    "famousWorks": [
+      {
+        "year": 1995,
+        "title": "Se7en"
+      },
+      {
+        "year": 1995,
+        "title": "12 Monkeys"
+      },
+      {
+        "year": 1999,
+        "title": "Fight Club"
+      },
+      {
+        "year": 2001,
+        "title": "Ocean's Eleven"
+      },
+      {
+        "year": 2008,
+        "title": "The Curious Case of Benjamin Button"
+      },
+      {
+        "year": 2011,
+        "title": "Moneyball"
+      },
+      {
+        "year": 2019,
+        "title": "Once Upon a Time in Hollywood"
+      }
+    ],
+    "awards": [
+      "2 Academy Awards (Best Picture as Producer 2014; Best Supporting Actor 2020)",
+      "2 BAFTA Film Awards (2014, 2020)",
+      "2 Golden Globe Awards (1996, 2020)",
+      "Primetime Emmy Award as Executive Producer (2014)"
+    ],
+    "faq": [
+      {
+        "q": "For which acting performance did Brad Pitt win an Academy Award?",
+        "a": "He won the Academy Award for Best Supporting Actor in 2020 for playing stuntman Cliff Booth in Quentin Tarantino's Once Upon a Time in Hollywood."
+      },
+      {
+        "q": "What is the name of Brad Pitt's Oscar-winning production company?",
+        "a": "He co-founded Plan B Entertainment, which produced Best Picture Academy Award winners The Departed, 12 Years a Slave, and Moonlight."
+      },
+      {
+        "q": "Which iconic cult character did Brad Pitt portray in 1999?",
+        "a": "He portrayed soap salesman and revolutionary Tyler Durden in David Fincher's film adaptation of Chuck Palahniuk's Fight Club."
+      }
+    ],
+    "related": [
+      "leonardo-dicaprio",
+      "tom-hanks",
+      "robert-de-niro"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brad_Pitt",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000093/"
+    ],
+    "image": "/avatars/brad-pitt.jpg",
+    "imageCredit": "Wikimedia Commons / Brad Pitt"
+  },
+  {
+    "slug": "marilyn-monroe",
+    "name": "Marilyn Monroe",
+    "category": "actors",
+    "profession": "Actress, Model & Singer",
+    "industry": "Classic Hollywood",
+    "country": "United States",
+    "birthDate": "1926-06-01",
+    "deathDate": "1962-08-04",
+    "birthPlace": "Los Angeles, California, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Blonde Bombshell",
+    "bio": "Marilyn Monroe, born Norma Jeane Mortenson, was an American actress, model, and singer who became one of the most enduring sex symbols and pop culture icons of the 20th century. During the 1950s, she was a major box-office draw in comedic and dramatic hits including Gentlemen Prefer Blondes, How to Marry a Millionaire, and The Seven Year Itch. Monroe earned critical acclaim and a Golden Globe Award for her comedic brilliance in Billy Wilder's 1959 classic Some Like It Hot. The American Film Institute ranked her among the greatest female screen legends in cinematic history.",
+    "famousWorks": [
+      {
+        "year": 1953,
+        "title": "Niagara"
+      },
+      {
+        "year": 1953,
+        "title": "Gentlemen Prefer Blondes"
+      },
+      {
+        "year": 1953,
+        "title": "How to Marry a Millionaire"
+      },
+      {
+        "year": 1955,
+        "title": "The Seven Year Itch"
+      },
+      {
+        "year": 1956,
+        "title": "Bus Stop"
+      },
+      {
+        "year": 1959,
+        "title": "Some Like It Hot"
+      },
+      {
+        "year": 1961,
+        "title": "The Misfits"
+      }
+    ],
+    "awards": [
+      "Golden Globe Award for Best Actress - Motion Picture Musical or Comedy (1960)",
+      "Golden Globe Henrietta Award for World Film Favorite (1954, 1962)",
+      "Star on the Hollywood Walk of Fame (1960)",
+      "Ranked #6 Female Screen Legend by the American Film Institute (AFI)"
+    ],
+    "faq": [
+      {
+        "q": "What was Marilyn Monroe's real birth name?",
+        "a": "She was born Norma Jeane Mortenson on June 1, 1926, in Los Angeles, California."
+      },
+      {
+        "q": "Which classic comedy won Marilyn Monroe a Golden Globe Award?",
+        "a": "She won the Golden Globe Award for Best Actress in 1960 for playing Sugar 'Kane' Kowalczyk in Billy Wilder's Some Like It Hot."
+      },
+      {
+        "q": "What was Marilyn Monroe's final completed feature film?",
+        "a": "Her final completed film was John Huston's 1961 Western drama The Misfits, written by her then-husband Arthur Miller and co-starring Clark Gable."
+      }
+    ],
+    "related": [
+      "audrey-hepburn",
+      "charlie-chaplin",
+      "meryl-streep"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marilyn_Monroe",
+      "https://www.goldenglobes.com/person/marilyn-monroe",
+      "https://www.imdb.com/name/nm0000054/"
+    ],
+    "image": "/avatars/marilyn-monroe.jpg",
+    "imageCredit": "Wikimedia Commons / Marilyn Monroe"
+  },
+  {
+    "slug": "shah-rukh-khan",
+    "name": "Shah Rukh Khan",
+    "category": "actors",
+    "profession": "Actor & Film Producer",
+    "industry": "Bollywood",
+    "country": "India",
+    "birthDate": "1965-11-02",
+    "birthPlace": "New Delhi, India",
+    "languages": [
+      "Hindi",
+      "English",
+      "Urdu"
+    ],
+    "nickname": "King Khan / Badshah of Bollywood",
+    "bio": "Shah Rukh Khan, known globally as 'King Khan' or the 'Badshah of Bollywood', is an Indian actor and producer whose 30-year film career has earned him one of the largest personal fan followings in global cinema history. He has starred in more than 90 Hindi feature films, defining modern romantic and heroic cinema through blockbusters like Dilwale Dulhania Le Jayenge, Swades, and Jawan. Khan is the co-owner of the Kolkata Knight Riders cricket franchise and Red Chillies Entertainment. He has been decorated with the Padma Shri by India and the Legion of Honour by France.",
+    "famousWorks": [
+      {
+        "year": 1995,
+        "title": "Dilwale Dulhania Le Jayenge"
+      },
+      {
+        "year": 1998,
+        "title": "Kuch Kuch Hota Hai"
+      },
+      {
+        "year": 2001,
+        "title": "Kabhi Khushi Kabhie Gham..."
+      },
+      {
+        "year": 2004,
+        "title": "Swades"
+      },
+      {
+        "year": 2007,
+        "title": "Chak De! India"
+      },
+      {
+        "year": 2010,
+        "title": "My Name Is Khan"
+      },
+      {
+        "year": 2023,
+        "title": "Jawan"
+      }
+    ],
+    "awards": [
+      "Padma Shri - Government of India (2005)",
+      "Ordre des Arts et des Lettres - France (2007)",
+      "Chevalier de la Légion d'Honneur - France (2014)",
+      "14 Filmfare Awards",
+      "UNESCO Pyramide con Marni Award for Philanthropy (2011)"
+    ],
+    "faq": [
+      {
+        "q": "Why is Shah Rukh Khan hailed as the 'King of Bollywood'?",
+        "a": "He earned the title after leading decades of unprecedented box office blockbusters and developing a massive international audience spanning Asia, Europe, and North America."
+      },
+      {
+        "q": "What is Shah Rukh Khan's production company?",
+        "a": "He co-founded Red Chillies Entertainment in 2002 alongside his wife Gauri Khan, which produces feature films and houses one of India's premier visual effects studios."
+      },
+      {
+        "q": "What record does Dilwale Dulhania Le Jayenge hold in Indian cinema?",
+        "a": "Starring Shah Rukh Khan, DDLJ is the longest-running film in the history of Indian cinema, having screened continuously at Mumbai's Maratha Mandir theater since 1995."
+      }
+    ],
+    "related": [
+      "amitabh-bachchan",
+      "aamir-khan",
+      "deepika-padukone"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shah_Rukh_Khan",
+      "https://www.imdb.com/name/nm0451321/",
+      "https://www.filmfare.com"
+    ],
+    "image": "/avatars/shah-rukh-khan.jpg",
+    "imageCredit": "Wikimedia Commons / Shah Rukh Khan"
+  },
+  {
+    "slug": "amitabh-bachchan",
+    "name": "Amitabh Bachchan",
+    "category": "actors",
+    "profession": "Actor, Television Host & Producer",
+    "industry": "Bollywood",
+    "country": "India",
+    "birthDate": "1942-10-11",
+    "birthPlace": "Allahabad, United Provinces, British India",
+    "languages": [
+      "Hindi",
+      "English",
+      "Awadhi"
+    ],
+    "nickname": "Big B / Shahenshah of Bollywood",
+    "bio": "Amitabh Bachchan is an Indian actor, television personality, and former politician who dominated Hindi cinema as the defining 'Angry Young Man' archetype during the 1970s and 1980s. Widely heralded as the 'Star of the Millennium', his peerless career spans more than five decades and over 200 films including Sholay, Deewaar, Black, and Piku. Bachchan has claimed four National Film Awards for Best Actor and the Dadasaheb Phalke Award, India's highest cinematic honor. Since 2000, he has also hosted the landmark television quiz show Kaun Banega Crorepati.",
+    "famousWorks": [
+      {
+        "year": 1973,
+        "title": "Zanjeer"
+      },
+      {
+        "year": 1975,
+        "title": "Deewaar"
+      },
+      {
+        "year": 1975,
+        "title": "Sholay"
+      },
+      {
+        "year": 1978,
+        "title": "Don"
+      },
+      {
+        "year": 1990,
+        "title": "Agneepath"
+      },
+      {
+        "year": 2005,
+        "title": "Black"
+      },
+      {
+        "year": 2015,
+        "title": "Piku"
+      }
+    ],
+    "awards": [
+      "Dadasaheb Phalke Award (2018)",
+      "4 National Film Awards for Best Actor (1990, 2005, 2009, 2015)",
+      "Padma Vibhushan (2015)",
+      "Knight of the Legion of Honour - France (2007)",
+      "16 Filmfare Awards"
+    ],
+    "faq": [
+      {
+        "q": "What cinematic persona made Amitabh Bachchan a national sensation in the 1970s?",
+        "a": "His role as the 'Angry Young Man', an intense, brooding protagonist fighting institutional corruption and societal injustice in films scripted by Salim-Javed like Zanjeer and Deewaar."
+      },
+      {
+        "q": "How many National Film Awards has Amitabh Bachchan won for Best Actor?",
+        "a": "He has won four National Film Awards for Best Actor for Agneepath (1990), Black (2005), Paa (2009), and Piku (2015)."
+      },
+      {
+        "q": "What television program revitalized Amitabh Bachchan's career in the year 2000?",
+        "a": "He became the host of Kaun Banega Crorepati (the Indian adaptation of Who Wants to Be a Millionaire?), which became a nationwide cultural fixture."
+      }
+    ],
+    "related": [
+      "shah-rukh-khan",
+      "rajinikanth",
+      "aamir-khan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amitabh_Bachchan",
+      "https://www.imdb.com/name/nm0000821/",
+      "https://dff.gov.in"
+    ],
+    "image": "/avatars/amitabh-bachchan.jpg",
+    "imageCredit": "Wikimedia Commons / Amitabh Bachchan"
+  },
+  {
+    "slug": "aamir-khan",
+    "name": "Aamir Khan",
+    "category": "actors",
+    "profession": "Actor, Filmmaker & Talk Show Host",
+    "industry": "Bollywood",
+    "country": "India",
+    "birthDate": "1965-03-14",
+    "birthPlace": "Mumbai, Maharashtra, India",
+    "languages": [
+      "Hindi",
+      "English",
+      "Urdu"
+    ],
+    "nickname": "Mr. Perfectionist",
+    "bio": "Mohammed Aamir Hussain Khan is an Indian actor, director, and producer renowned for his meticulous film selection and dedication to socially conscious storytelling. He produced and starred in Lagaan (2001), which earned an Academy Award nomination for Best Foreign Language Film. Khan later starred in historic global box office juggernauts including 3 Idiots, PK, and Dangal, with Dangal grossing over $300 million worldwide to become the highest-grossing Indian film in history. He also spearheaded the groundbreaking social-issues television talk show Satyamev Jayate.",
+    "famousWorks": [
+      {
+        "year": 1988,
+        "title": "Qayamat Se Qayamat Tak"
+      },
+      {
+        "year": 2001,
+        "title": "Lagaan"
+      },
+      {
+        "year": 2001,
+        "title": "Dil Chahta Hai"
+      },
+      {
+        "year": 2006,
+        "title": "Rang De Basanti"
+      },
+      {
+        "year": 2007,
+        "title": "Taare Zameen Par"
+      },
+      {
+        "year": 2009,
+        "title": "3 Idiots"
+      },
+      {
+        "year": 2016,
+        "title": "Dangal"
+      }
+    ],
+    "awards": [
+      "Academy Award Nomination for Best Foreign Language Film (Producer & Actor, Lagaan 2002)",
+      "Padma Bhushan - Government of India (2010)",
+      "4 National Film Awards",
+      "9 Filmfare Awards"
+    ],
+    "faq": [
+      {
+        "q": "Why is Aamir Khan known as 'Mr. Perfectionist'?",
+        "a": "He earned the nickname for his disciplined practice of working on only one film at a time, thoroughly immersing himself in script development, physical transformation, and post-production details."
+      },
+      {
+        "q": "What milestone did Aamir Khan's sports biographical drama Dangal achieve?",
+        "a": "Dangal became a massive international box office sensation, especially in China, grossing over $300 million to become the highest-grossing Indian movie in history."
+      },
+      {
+        "q": "Which film marked Aamir Khan's directorial debut?",
+        "a": "He made his directorial debut with the critically acclaimed 2007 educational drama Taare Zameen Par (Like Stars on Earth), which won the National Film Award for Best Film on Family Welfare."
+      }
+    ],
+    "related": [
+      "shah-rukh-khan",
+      "amitabh-bachchan",
+      "deepika-padukone"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aamir_Khan",
+      "https://www.imdb.com/name/nm0451193/",
+      "https://www.oscars.org"
+    ],
+    "image": "/avatars/aamir-khan.jpg",
+    "imageCredit": "Wikimedia Commons / Aamir Khan"
+  },
+  {
+    "slug": "deepika-padukone",
+    "name": "Deepika Padukone",
+    "category": "actors",
+    "profession": "Actress & Producer",
+    "industry": "Bollywood & Hollywood",
+    "country": "India",
+    "birthDate": "1986-01-05",
+    "birthPlace": "Copenhagen, Denmark",
+    "languages": [
+      "Hindi",
+      "English",
+      "Kannada",
+      "Konkani"
+    ],
+    "nickname": "Deepu",
+    "bio": "Deepika Padukone is an Indian actress, producer, and entrepreneur who is one of the highest-paid and most influential personalities in South Asian entertainment. After a sparkling debut opposite Shah Rukh Khan in Om Shanti Om, she earned widespread critical and commercial acclaim in classics like Piku, Bajirao Mastani, and Padmaavat. In 2018, Time magazine included her among the 100 most influential people in the world, and in 2022, she unveiled the FIFA World Cup trophy in Qatar. Padukone is also a vocal mental health advocate through her Live Love Laugh Foundation.",
+    "famousWorks": [
+      {
+        "year": 2007,
+        "title": "Om Shanti Om"
+      },
+      {
+        "year": 2012,
+        "title": "Cocktail"
+      },
+      {
+        "year": 2013,
+        "title": "Yeh Jawaani Hai Deewani"
+      },
+      {
+        "year": 2015,
+        "title": "Piku"
+      },
+      {
+        "year": 2015,
+        "title": "Bajirao Mastani"
+      },
+      {
+        "year": 2018,
+        "title": "Padmaavat"
+      },
+      {
+        "year": 2023,
+        "title": "Pathaan"
+      }
+    ],
+    "awards": [
+      "3 Filmfare Awards for Best Actress (2014, 2016, 2019)",
+      "Time 100 Most Influential People in the World (2018)",
+      "Crystal Award by the World Economic Forum (2020)",
+      "Time 100 Impact Award (2022)"
+    ],
+    "faq": [
+      {
+        "q": "What historical sporting event honor did Deepika Padukone participate in in 2022?",
+        "a": "She became the first Indian global ambassador to unveil the official FIFA World Cup trophy at the Lusail Stadium in Qatar before the 2022 final."
+      },
+      {
+        "q": "What foundation did Deepika Padukone establish for mental health awareness?",
+        "a": "She founded The Live Love Laugh Foundation in 2015 to destigmatize mental health discussions, support psychiatric research, and provide rural mental healthcare in India."
+      },
+      {
+        "q": "What was Deepika Padukone's Hollywood feature film debut?",
+        "a": "She made her Hollywood debut playing Serena Unger alongside Vin Diesel in the 2017 action blockbuster xXx: Return of Xander Cage."
+      }
+    ],
+    "related": [
+      "shah-rukh-khan",
+      "priyanka-chopra",
+      "aamir-khan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Deepika_Padukone",
+      "https://www.imdb.com/name/nm2138198/",
+      "https://time.com/collection/most-influential-people-2018/5217592/deepika-padukone/"
+    ],
+    "image": "/avatars/deepika-padukone.jpg",
+    "imageCredit": "Wikimedia Commons / Deepika Padukone"
+  },
+  {
+    "slug": "rajinikanth",
+    "name": "Rajinikanth",
+    "category": "actors",
+    "profession": "Actor & Producer",
+    "industry": "Tamil & Indian Cinema",
+    "country": "India",
+    "birthDate": "1950-12-12",
+    "birthPlace": "Bangalore, Mysore State, India",
+    "languages": [
+      "Tamil",
+      "Kannada",
+      "Telugu",
+      "Hindi",
+      "Marathi"
+    ],
+    "nickname": "Thalaivar / Superstar",
+    "bio": "Shivaji Rao Gaikwad, revered universally across India as Rajinikanth, is an Indian actor who has dominated South Indian cinema for five decades as a cultural and box office phenomenon. Famous for his lightning-fast stylized mannerisms, cigarette flips, and unforgettable punch dialogues, his movie releases are celebrated as festival events across Tamil Nadu and the Indian diaspora. Rajinikanth was bestowed with the Dadasaheb Phalke Award, India's highest cinematic honor, as well as the Padma Vibhushan. He has starred in more than 170 films across diverse Indian languages.",
+    "famousWorks": [
+      {
+        "year": 1975,
+        "title": "Apoorva Raagangal"
+      },
+      {
+        "year": 1991,
+        "title": "Thalapathi"
+      },
+      {
+        "year": 1995,
+        "title": "Baashha"
+      },
+      {
+        "year": 1999,
+        "title": "Padayappa"
+      },
+      {
+        "year": 2005,
+        "title": "Chandramukhi"
+      },
+      {
+        "year": 2007,
+        "title": "Sivaji: The Boss"
+      },
+      {
+        "year": 2010,
+        "title": "Enthiran (Robot)"
+      }
+    ],
+    "awards": [
+      "Dadasaheb Phalke Award (2019)",
+      "Padma Vibhushan - Government of India (2016)",
+      "Padma Bhushan - Government of India (2000)",
+      "4 Tamil Nadu State Film Awards for Best Actor",
+      "Centenary Award for Indian Film Personality of the Year (2014)"
+    ],
+    "faq": [
+      {
+        "q": "What profession did Rajinikanth hold before entering the film industry?",
+        "a": "Before enrolling in the Madras Film Institute to pursue acting, he worked as a bus conductor with the Bangalore Transport Service (BTS)."
+      },
+      {
+        "q": "What iconic 1995 crime drama defined Rajinikanth's superstar legacy?",
+        "a": "Suresh Krissna's Baashha, where he played an auto-rickshaw driver with a concealed past as an underworld don, became a historic milestone in Tamil cinema."
+      },
+      {
+        "q": "What groundbreaking sci-fi blockbuster did Rajinikanth headline in 2010?",
+        "a": "He portrayed both scientist Dr. Vaseegaran and the sentient android Chitti in S. Shankar's Enthiran (Robot), which featured pioneering visual effects."
+      }
+    ],
+    "related": [
+      "amitabh-bachchan",
+      "shah-rukh-khan",
+      "jackie-chan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rajinikanth",
+      "https://www.imdb.com/name/nm0707425/",
+      "https://pib.gov.in"
+    ],
+    "image": "/avatars/rajinikanth.jpg",
+    "imageCredit": "Wikimedia Commons / Rajinikanth"
+  },
+  {
+    "slug": "priyanka-chopra",
+    "name": "Priyanka Chopra",
+    "category": "actors",
+    "profession": "Actress, Producer & Author",
+    "industry": "Bollywood & Hollywood",
+    "country": "India",
+    "birthDate": "1982-07-18",
+    "birthPlace": "Jamshedpur, Bihar, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "nickname": "Piggy Chops / Mimi",
+    "bio": "Priyanka Chopra Jonas is an Indian actress, producer, and former Miss World who has established a pioneering crossover career across Bollywood and American film and television. After winning the Miss World 2000 pageant, she starred in acclaimed Indian dramas including Fashion, Barfi!, and Mary Kom, winning a National Film Award. She made American television history as the first South Asian actor to headline a major US network drama series as Alex Parrish in ABC's Quantico. Chopra is also a global UNICEF Goodwill Ambassador and author of the memoir Unfinished.",
+    "famousWorks": [
+      {
+        "year": 2008,
+        "title": "Fashion"
+      },
+      {
+        "year": 2011,
+        "title": "7 Khoon Maaf"
+      },
+      {
+        "year": 2012,
+        "title": "Barfi!"
+      },
+      {
+        "year": 2014,
+        "title": "Mary Kom"
+      },
+      {
+        "year": 2015,
+        "title": "Quantico (TV Series)"
+      },
+      {
+        "year": 2015,
+        "title": "Bajirao Mastani"
+      },
+      {
+        "year": 2023,
+        "title": "Citadel (TV Series)"
+      }
+    ],
+    "awards": [
+      "National Film Award for Best Actress (2008 - Fashion)",
+      "Padma Shri - Government of India (2016)",
+      "5 Filmfare Awards",
+      "2 People's Choice Awards (2016, 2017)",
+      "Miss World Titleholder (2000)"
+    ],
+    "faq": [
+      {
+        "q": "What barrier did Priyanka Chopra break on American television?",
+        "a": "With her starring role in ABC's thriller series Quantico in 2015, she became the first South Asian actor to headline a prime-time American network drama series."
+      },
+      {
+        "q": "Which biographical sports film earned Priyanka Chopra critical acclaim?",
+        "a": "She underwent rigorous physical training to portray Olympic bronze-medalist boxer Mary Kom in the 2014 eponymous biopic Mary Kom."
+      },
+      {
+        "q": "What humanitarian organization has Priyanka Chopra served with for over a decade?",
+        "a": "She was appointed a national UNICEF Goodwill Ambassador in India in 2010 and elevated to global UNICEF Goodwill Ambassador in 2016."
+      }
+    ],
+    "related": [
+      "deepika-padukone",
+      "shah-rukh-khan",
+      "michelle-yeoh"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Priyanka_Chopra",
+      "https://www.imdb.com/name/nm1231899/",
+      "https://www.unicef.org"
+    ],
+    "image": "/avatars/priyanka-chopra.jpg",
+    "imageCredit": "Wikimedia Commons / Priyanka Chopra"
+  },
+  {
+    "slug": "jackie-chan",
+    "name": "Jackie Chan",
+    "category": "actors",
+    "profession": "Actor, Martial Artist & Stunt Coordinator",
+    "industry": "Hong Kong Cinema & Hollywood",
+    "country": "Hong Kong",
+    "birthDate": "1954-04-07",
+    "birthPlace": "Victoria Peak, British Hong Kong",
+    "languages": [
+      "Cantonese",
+      "Mandarin",
+      "English"
+    ],
+    "nickname": "Big Brother / Paopao",
+    "bio": "Fang Shilong SBS MBE, known professionally as Jackie Chan, is a Hong Kong actor, filmmaker, martial artist, and stuntman world-famous for his slapstick acrobatic fighting style and groundbreaking physical comedy. Having performed his own astonishing stunts for over five decades across more than 150 films, he created iconic martial arts cinema including Drunken Master, Police Story, and the Hollywood blockbuster Rush Hour trilogy. In 2016, Chan was awarded an Academy Honorary Award (Oscar) for his extraordinary lifetime achievements in cinema. He holds the Guinness World Record for the most stunts performed by a living actor.",
+    "famousWorks": [
+      {
+        "year": 1978,
+        "title": "Snake in the Eagle's Shadow"
+      },
+      {
+        "year": 1978,
+        "title": "Drunken Master"
+      },
+      {
+        "year": 1983,
+        "title": "Project A"
+      },
+      {
+        "year": 1985,
+        "title": "Police Story"
+      },
+      {
+        "year": 1994,
+        "title": "The Legend of Drunken Master"
+      },
+      {
+        "year": 1995,
+        "title": "Rumble in the Bronx"
+      },
+      {
+        "year": 1998,
+        "title": "Rush Hour"
+      }
+    ],
+    "awards": [
+      "Academy Honorary Award (Oscar, 2016)",
+      "Guinness World Record: Most Stunts by a Living Actor",
+      "Member of the Order of the British Empire (MBE, 1989)",
+      "Silver Bauhinia Star - Hong Kong (1999)",
+      "Stars on both the Hollywood Walk of Fame and Hong Kong Avenue of Stars"
+    ],
+    "faq": [
+      {
+        "q": "What makes Jackie Chan's action choreography internationally unique?",
+        "a": "Chan pioneered the blend of Buster Keaton-style physical comedy and kung fu, using everyday improvised props and executing all his own perilous stunts without stunt doubles."
+      },
+      {
+        "q": "What Hollywood buddy-cop franchise made Jackie Chan a major box office star in the West?",
+        "a": "The Rush Hour trilogy (1998, 2001, 2007), co-starring comedian Chris Tucker, grossed over $850 million globally."
+      },
+      {
+        "q": "What training background produced Jackie Chan's remarkable athletic agility?",
+        "a": "He trained for a decade at Master Yu Jim-yuen's China Drama Academy in Hong Kong, mastering Peking opera acrobatics, martial arts, and stage performance alongside Sammo Hung and Yuen Biao."
+      }
+    ],
+    "related": [
+      "bruce-lee",
+      "michelle-yeoh",
+      "tony-leung-chiu-wai"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jackie_Chan",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000329/"
+    ],
+    "image": "/avatars/jackie-chan.jpg",
+    "imageCredit": "Wikimedia Commons / Jackie Chan"
+  },
+  {
+    "slug": "bruce-lee",
+    "name": "Bruce Lee",
+    "category": "actors",
+    "profession": "Martial Artist, Actor & Philosopher",
+    "industry": "Martial Arts Cinema",
+    "country": "Hong Kong",
+    "birthDate": "1940-11-27",
+    "deathDate": "1973-07-20",
+    "birthPlace": "San Francisco, California, USA",
+    "languages": [
+      "Cantonese",
+      "English"
+    ],
+    "nickname": "Little Dragon",
+    "bio": "Bruce Lee, born Lee Jun-fan, was a Hong Kong and American martial artist, actor, philosopher, and filmmaker widely credited with revolutionizing the portrayal of Asians in American films and popularizing martial arts cinema globally. He founded Jeet Kune Do, a hybrid martial arts philosophy that broke away from rigid traditional styles and laid foundational principles for modern mixed martial arts. Lee starred in historic martial arts classics including Fist of Fury, Way of the Dragon, and Enter the Dragon, which grossed hundreds of millions worldwide. Time magazine named him one of the 100 most influential people of the 20th century.",
+    "famousWorks": [
+      {
+        "year": 1966,
+        "title": "The Green Hornet (as Kato)"
+      },
+      {
+        "year": 1971,
+        "title": "The Big Boss"
+      },
+      {
+        "year": 1972,
+        "title": "Fist of Fury"
+      },
+      {
+        "year": 1972,
+        "title": "The Way of the Dragon"
+      },
+      {
+        "year": 1973,
+        "title": "Enter the Dragon"
+      }
+    ],
+    "awards": [
+      "Hollywood Walk of Fame Star (1993)",
+      "Time 100 Most Important People of the 20th Century",
+      "Founder of the Jeet Kune Do martial arts system",
+      "Statues erected in Avenue of Stars Hong Kong, Los Angeles, and Mostar"
+    ],
+    "faq": [
+      {
+        "q": "What martial arts combat philosophy did Bruce Lee create?",
+        "a": "He founded Jeet Kune Do ('The Way of the Intercepting Fist') in 1967, which emphasized formlessness, speed, adaptability, and efficiency over rigid traditional Katas."
+      },
+      {
+        "q": "What was Bruce Lee's final completed movie?",
+        "a": "Enter the Dragon (1973), co-produced by Warner Bros., was released six days after his sudden passing and became one of the most profitable and culturally influential action movies of all time."
+      },
+      {
+        "q": "What famous film duel featured Bruce Lee fighting Chuck Norris?",
+        "a": "Their legendary climatic duel took place inside Rome's historic Colosseum in the 1972 film The Way of the Dragon, which Lee also wrote and directed."
+      }
+    ],
+    "related": [
+      "jackie-chan",
+      "michelle-yeoh",
+      "muhammad-ali"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bruce_Lee",
+      "https://brucelee.com",
+      "https://www.imdb.com/name/nm0000045/"
+    ],
+    "image": "/avatars/bruce-lee.jpg",
+    "imageCredit": "Wikimedia Commons / Bruce Lee"
+  },
+  {
+    "slug": "michelle-yeoh",
+    "name": "Michelle Yeoh",
+    "category": "actors",
+    "profession": "Actress & Producer",
+    "industry": "Hong Kong Cinema & Hollywood",
+    "country": "Malaysia",
+    "birthDate": "1962-08-06",
+    "birthPlace": "Ipoh, Perak, Malaysia",
+    "languages": [
+      "English",
+      "Malay",
+      "Cantonese",
+      "Mandarin"
+    ],
+    "nickname": "Michelle",
+    "bio": "Tan Sri Michelle Yeoh Choo Kheng is a Malaysian actress who achieved historic international acclaim as one of the finest action stars and dramatic performers in global cinema. After performing her own dangerous stunts in Hong Kong action cinema classics like Yes, Madam! and Police Story 3, she gained Western prominence in Tomorrow Never Dies and Ang Lee's Crouching Tiger, Hidden Dragon. In 2023, Yeoh made Academy history as the first Asian woman to win the Oscar for Best Actress for her performance in Everything Everywhere All at Once. In 2024, she was awarded the US Presidential Medal of Freedom.",
+    "famousWorks": [
+      {
+        "year": 1985,
+        "title": "Yes, Madam!"
+      },
+      {
+        "year": 1992,
+        "title": "Police Story 3: Supercop"
+      },
+      {
+        "year": 1997,
+        "title": "Tomorrow Never Dies"
+      },
+      {
+        "year": 2000,
+        "title": "Crouching Tiger, Hidden Dragon"
+      },
+      {
+        "year": 2005,
+        "title": "Memoirs of a Geisha"
+      },
+      {
+        "year": 2018,
+        "title": "Crazy Rich Asians"
+      },
+      {
+        "year": 2022,
+        "title": "Everything Everywhere All at Once"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Actress (2023 - Everything Everywhere All at Once)",
+      "First Asian Woman to win the Academy Award for Best Actress",
+      "Golden Globe Award for Best Actress - Motion Picture Musical or Comedy (2023)",
+      "Screen Actors Guild Award for Outstanding Performance (2023)",
+      "Presidential Medal of Freedom (2024)"
+    ],
+    "faq": [
+      {
+        "q": "What historic milestone did Michelle Yeoh achieve at the 95th Academy Awards?",
+        "a": "She became the first Asian actress in the 95-year history of the Oscars to win the Academy Award for Best Actress in a Leading Role."
+      },
+      {
+        "q": "What James Bond film introduced Michelle Yeoh to Hollywood audiences?",
+        "a": "She starred as Chinese intelligence agent Wai Lin alongside Pierce Brosnan in the 1997 James Bond film Tomorrow Never Dies."
+      },
+      {
+        "q": "Did Michelle Yeoh perform her own martial arts stunts in Hong Kong cinema?",
+        "a": "Yes, Yeoh famously performed her own dangerous vehicle jumps and combat sequences throughout the 1980s and 1990s alongside Jackie Chan."
+      }
+    ],
+    "related": [
+      "jackie-chan",
+      "tony-leung-chiu-wai",
+      "song-kang-ho"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michelle_Yeoh",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000706/"
+    ],
+    "image": "/avatars/michelle-yeoh.jpg",
+    "imageCredit": "Wikimedia Commons / Michelle Yeoh"
+  },
+  {
+    "slug": "song-kang-ho",
+    "name": "Song Kang-ho",
+    "category": "actors",
+    "profession": "Actor",
+    "industry": "South Korean Cinema",
+    "country": "South Korea",
+    "birthDate": "1967-01-17",
+    "birthPlace": "Gimhae, South Gyeongsang, South Korea",
+    "languages": [
+      "Korean"
+    ],
+    "nickname": "National Actor of Korea",
+    "bio": "Song Kang-ho is a South Korean actor widely acclaimed as one of the most brilliant and versatile actors in world cinema. A perennial muse of acclaimed directors Bong Joon-ho and Park Chan-wook, he led cinematic masterworks including Memories of Murder, The Host, Snowpiercer, and A Taxi Driver. In 2019, Song anchored Bong Joon-ho's Parasite, which won the Palme d'Or at Cannes and four Academy Awards including Best Picture. In 2022, he won the Cannes Film Festival Best Actor Award for Broker, becoming the first South Korean male actor to win the honor.",
+    "famousWorks": [
+      {
+        "year": 2000,
+        "title": "Joint Security Area"
+      },
+      {
+        "year": 2003,
+        "title": "Memories of Murder"
+      },
+      {
+        "year": 2006,
+        "title": "The Host"
+      },
+      {
+        "year": 2009,
+        "title": "Thirst"
+      },
+      {
+        "year": 2013,
+        "title": "Snowpiercer"
+      },
+      {
+        "year": 2017,
+        "title": "A Taxi Driver"
+      },
+      {
+        "year": 2019,
+        "title": "Parasite"
+      },
+      {
+        "year": 2022,
+        "title": "Broker"
+      }
+    ],
+    "awards": [
+      "Cannes Film Festival Best Actor Award (2022 - Broker)",
+      "Screen Actors Guild Award for Outstanding Performance by a Cast (2020 - Parasite)",
+      "Ranked #6 on The New York Times 25 Greatest Actors of the 21st Century",
+      "4 Grand Bell Awards for Best Actor"
+    ],
+    "faq": [
+      {
+        "q": "What history did Song Kang-ho make at the Cannes Film Festival?",
+        "a": "In 2022, he won the Best Actor Award for Hirokazu Kore-eda's Broker, becoming the first South Korean male actor in festival history to win the accolade."
+      },
+      {
+        "q": "What was Song Kang-ho's role in the Oscar-winning film Parasite?",
+        "a": "He played Kim Ki-taek, the impoverished patriarch of the Kim family who orchestrates their employment with the wealthy Park family."
+      },
+      {
+        "q": "Which celebrated film director has Song Kang-ho collaborated with the most?",
+        "a": "He has maintained a historic four-film partnership with director Bong Joon-ho (Memories of Murder, The Host, Snowpiercer, and Parasite)."
+      }
+    ],
+    "related": [
+      "michelle-yeoh",
+      "tony-leung-chiu-wai",
+      "cillian-murphy"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Song_Kang-ho",
+      "https://www.festival-cannes.com",
+      "https://www.imdb.com/name/nm0814280/"
+    ],
+    "image": "/avatars/song-kang-ho.jpg",
+    "imageCredit": "Wikimedia Commons / Song Kang-ho"
+  },
+  {
+    "slug": "tony-leung-chiu-wai",
+    "name": "Tony Leung Chiu-wai",
+    "category": "actors",
+    "profession": "Actor & Singer",
+    "industry": "Hong Kong & World Cinema",
+    "country": "Hong Kong",
+    "birthDate": "1962-06-27",
+    "birthPlace": "British Hong Kong",
+    "languages": [
+      "Cantonese",
+      "English",
+      "Mandarin"
+    ],
+    "nickname": "The Man Who Acts with His Eyes",
+    "bio": "Tony Leung Chiu-wai is a Hong Kong actor internationally recognized as one of the most expressive and revered actors of his generation. A chief collaborator of auteur Wong Kar-wai, he delivered masterclass performances in Chungking Express, Happy Together, and In the Mood for Love, for which he won the Best Actor Award at the 2000 Cannes Film Festival. He holds the historic record for winning the Hong Kong Film Award for Best Actor five times. In 2023, Leung was awarded the Venice International Film Festival Golden Lion for Lifetime Achievement.",
+    "famousWorks": [
+      {
+        "year": 1989,
+        "title": "A City of Sadness"
+      },
+      {
+        "year": 1992,
+        "title": "Hard Boiled"
+      },
+      {
+        "year": 1994,
+        "title": "Chungking Express"
+      },
+      {
+        "year": 2000,
+        "title": "In the Mood for Love"
+      },
+      {
+        "year": 2002,
+        "title": "Infernal Affairs"
+      },
+      {
+        "year": 2002,
+        "title": "Hero"
+      },
+      {
+        "year": 2007,
+        "title": "Lust, Caution"
+      }
+    ],
+    "awards": [
+      "Cannes Film Festival Best Actor Award (2000 - In the Mood for Love)",
+      "Venice International Film Festival Golden Lion for Lifetime Achievement (2023)",
+      "Record 5 Hong Kong Film Awards for Best Actor",
+      "3 Golden Horse Awards for Best Leading Actor"
+    ],
+    "faq": [
+      {
+        "q": "What festival honor made Tony Leung internationally celebrated in 2000?",
+        "a": "He won the Best Actor Award at the 2000 Cannes Film Festival for his understated, soulful performance as Chow Mo-wan in Wong Kar-wai's In the Mood for Love."
+      },
+      {
+        "q": "What classic Hong Kong police thriller did Tony Leung star in that inspired The Departed?",
+        "a": "He starred as undercover cop Chan Wing-yan in the 2002 masterwork Infernal Affairs, which Martin Scorsese later remade as the Oscar-winning The Departed."
+      },
+      {
+        "q": "What milestone did Tony Leung achieve at the 2023 Venice Film Festival?",
+        "a": "He became the first Chinese actor in history to receive the Golden Lion for Lifetime Achievement at the Venice International Film Festival."
+      }
+    ],
+    "related": [
+      "jackie-chan",
+      "michelle-yeoh",
+      "song-kang-ho"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tony_Leung_Chiu-wai",
+      "https://www.festival-cannes.com",
+      "https://www.imdb.com/name/nm0504897/"
+    ],
+    "image": "/avatars/tony-leung-chiu-wai.jpg",
+    "imageCredit": "Wikimedia Commons / Tony Leung Chiu-wai"
+  },
+  {
+    "slug": "charlie-chaplin",
+    "name": "Charlie Chaplin",
+    "category": "actors",
+    "profession": "Actor, Filmmaker & Composer",
+    "industry": "Silent & Classic Cinema",
+    "country": "United Kingdom",
+    "birthDate": "1889-04-16",
+    "deathDate": "1977-12-25",
+    "birthPlace": "Walworth, London, England, United Kingdom",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Tramp / Little Tramp",
+    "bio": "Sir Charles Spencer Chaplin KBE was an English comic actor, filmmaker, and composer who rose to worldwide fame during the silent film era. Through his timeless screen persona 'The Tramp', clad in baggy trousers, bowler hat, and cane, he became one of the most recognizable cultural figures in human history. Chaplin exercised complete creative control over his masterworks including The Kid, The Gold Rush, City Lights, and The Great Dictator, acting, writing, directing, and composing the orchestral scores. He was honored with three Academy Awards and knighted by Queen Elizabeth II in 1975.",
+    "famousWorks": [
+      {
+        "year": 1915,
+        "title": "The Tramp"
+      },
+      {
+        "year": 1921,
+        "title": "The Kid"
+      },
+      {
+        "year": 1925,
+        "title": "The Gold Rush"
+      },
+      {
+        "year": 1931,
+        "title": "City Lights"
+      },
+      {
+        "year": 1936,
+        "title": "Modern Times"
+      },
+      {
+        "year": 1940,
+        "title": "The Great Dictator"
+      },
+      {
+        "year": 1952,
+        "title": "Limelight"
+      }
+    ],
+    "awards": [
+      "3 Academy Awards (Honorary Oscars 1929 & 1972; Best Original Score 1973)",
+      "Knight Commander of the Order of the British Empire (KBE, 1975)",
+      "Co-founder of United Artists film studio (1919)",
+      "Ranked #10 on AFI's 100 Years...100 Stars (Male Legends)"
+    ],
+    "faq": [
+      {
+        "q": "What was Charlie Chaplin's world-famous on-screen persona?",
+        "a": "He created 'The Tramp' (The Little Tramp), a kindhearted, resourceful vagrant struggling with dignified gentility against the absurdities of society."
+      },
+      {
+        "q": "What record did Charlie Chaplin set at the 1972 Academy Awards?",
+        "a": "Upon receiving an Honorary Academy Award in 1972, Chaplin received a 12-minute standing ovation, the longest in Oscar history."
+      },
+      {
+        "q": "What courageous satirical film did Chaplin release in 1940?",
+        "a": "He wrote, directed, and starred in The Great Dictator, a brave political satire condemning Adolf Hitler and fascism before the United States entered World War II."
+      }
+    ],
+    "related": [
+      "audrey-hepburn",
+      "marilyn-monroe",
+      "meryl-streep"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+      "https://www.charliechaplin.com",
+      "https://www.oscars.org"
+    ],
+    "image": "/avatars/charlie-chaplin.jpg",
+    "imageCredit": "Wikimedia Commons / Charlie Chaplin"
+  },
+  {
+    "slug": "audrey-hepburn",
+    "name": "Audrey Hepburn",
+    "category": "actors",
+    "profession": "Actress & Humanitarian",
+    "industry": "Golden Age Hollywood & Fashion",
+    "country": "United Kingdom",
+    "birthDate": "1929-05-04",
+    "deathDate": "1993-01-20",
+    "birthPlace": "Ixelles, Brussels, Belgium",
+    "languages": [
+      "English",
+      "French",
+      "Dutch",
+      "Italian",
+      "Spanish"
+    ],
+    "nickname": "Audrey",
+    "bio": "Audrey Hepburn, born Audrey Kathleen Ruston, was a British actress and humanitarian recognized as an iconic film star and timeless fashion muse of the Golden Age of Hollywood. Rising to instant international stardom with Roman Holiday (1953), which won her the Academy Award for Best Actress, she went on to star in enduring classics including Sabrina, Breakfast at Tiffany's, and My Fair Lady. Hepburn is an elite EGOT recipient, having won an Emmy, Grammy, Oscar, and Tony Award. In her later years, she dedicated her life as a UNICEF Goodwill Ambassador, earning the Presidential Medal of Freedom.",
+    "famousWorks": [
+      {
+        "year": 1953,
+        "title": "Roman Holiday"
+      },
+      {
+        "year": 1954,
+        "title": "Sabrina"
+      },
+      {
+        "year": 1959,
+        "title": "The Nun's Story"
+      },
+      {
+        "year": 1961,
+        "title": "Breakfast at Tiffany's"
+      },
+      {
+        "year": 1963,
+        "title": "Charade"
+      },
+      {
+        "year": 1964,
+        "title": "My Fair Lady"
+      },
+      {
+        "year": 1967,
+        "title": "Wait Until Dark"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Actress (1954 - Roman Holiday)",
+      "EGOT Winner (Emmy, Grammy, Oscar, Tony)",
+      "Presidential Medal of Freedom (1992)",
+      "Jean Hersholt Humanitarian Award (Posthumous 1993)",
+      "Ranked #3 on AFI's 50 Greatest American Screen Legends"
+    ],
+    "faq": [
+      {
+        "q": "What fashion designer was Audrey Hepburn famously partnered with throughout her career?",
+        "a": "She formed a legendary lifelong creative partnership and friendship with French haute couture designer Hubert de Givenchy, who designed her iconic 'little black dress' in Breakfast at Tiffany's."
+      },
+      {
+        "q": "Which film earned Audrey Hepburn her Best Actress Academy Award?",
+        "a": "She won the Oscar for her leading role as Princess Ann in William Wyler's 1953 romantic comedy Roman Holiday opposite Gregory Peck."
+      },
+      {
+        "q": "What humanitarian mission occupied Audrey Hepburn's later life?",
+        "a": "Appointed a UNICEF Goodwill Ambassador in 1988, she traveled extensively across Africa, South America, and Asia advocating for malnourished children until her passing in 1993."
+      }
+    ],
+    "related": [
+      "charlie-chaplin",
+      "marilyn-monroe",
+      "meryl-streep"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Audrey_Hepburn",
+      "https://www.unicef.org/history/audrey-hepburn",
+      "https://www.oscars.org"
+    ],
+    "image": "/avatars/audrey-hepburn.jpg",
+    "imageCredit": "Wikimedia Commons / Audrey Hepburn"
+  },
+  {
+    "slug": "daniel-day-lewis",
+    "name": "Daniel Day-Lewis",
+    "category": "actors",
+    "profession": "Actor",
+    "industry": "Independent & Prestige Cinema",
+    "country": "United Kingdom",
+    "birthDate": "1957-04-29",
+    "birthPlace": "Kensington, London, England, United Kingdom",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Method Master",
+    "bio": "Sir Daniel Michael Blake Day-Lewis is a British-Irish retired actor widely regarded as one of the most dedicated and brilliant performers in cinematic history. Renowned for his extreme method acting devotion, exhaustive research, and complete immersion into his characters, he is the only male actor in history to win three Academy Awards for Best Actor. He secured his Oscars for portraying artist Christy Brown in My Left Foot, ruthless oil tycoon Daniel Plainview in There Will Be Blood, and President Abraham Lincoln in Lincoln. Day-Lewis was knighted by Prince William at Buckingham Palace in 2014 for his services to drama.",
+    "famousWorks": [
+      {
+        "year": 1985,
+        "title": "My Beautiful Laundrette"
+      },
+      {
+        "year": 1989,
+        "title": "My Left Foot"
+      },
+      {
+        "year": 1992,
+        "title": "The Last of the Mohicans"
+      },
+      {
+        "year": 1993,
+        "title": "In the Name of the Father"
+      },
+      {
+        "year": 2002,
+        "title": "Gangs of New York"
+      },
+      {
+        "year": 2007,
+        "title": "There Will Be Blood"
+      },
+      {
+        "year": 2012,
+        "title": "Lincoln"
+      }
+    ],
+    "awards": [
+      "Record 3 Academy Awards for Best Actor in a Leading Role (1990, 2008, 2013)",
+      "4 BAFTA Awards for Best Actor in a Leading Role",
+      "2 Golden Globe Awards for Best Actor - Drama",
+      "Knight Bachelor for Services to Drama (2014)"
+    ],
+    "faq": [
+      {
+        "q": "What unique Academy Award record does Daniel Day-Lewis hold?",
+        "a": "He is the only male actor in Oscar history to win three Academy Awards for Best Actor in a Leading Role (My Left Foot, There Will Be Blood, and Lincoln)."
+      },
+      {
+        "q": "What legendary quote from There Will Be Blood became a pop culture sensation?",
+        "a": "His chilling climactic delivery as oil tycoon Daniel Plainview: 'I drink your milkshake! I drink it up!'"
+      },
+      {
+        "q": "How did Daniel Day-Lewis prepare to play Abraham Lincoln in 2012?",
+        "a": "He spent a year reading extensively, examined Lincoln's voice pitches, and remained completely in character on and off the set throughout the entirety of filming."
+      }
+    ],
+    "related": [
+      "cillian-murphy",
+      "robert-de-niro",
+      "steven-spielberg"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daniel_Day-Lewis",
+      "https://www.oscars.org",
+      "https://www.bafta.org"
+    ],
+    "image": "/avatars/daniel-day-lewis.jpg",
+    "imageCredit": "Wikimedia Commons / Daniel Day-Lewis"
+  },
+  {
+    "slug": "cillian-murphy",
+    "name": "Cillian Murphy",
+    "category": "actors",
+    "profession": "Actor & Theater Performer",
+    "industry": "Hollywood, British & Irish Cinema",
+    "country": "Ireland",
+    "birthDate": "1976-05-25",
+    "birthPlace": "Douglas, County Cork, Ireland",
+    "languages": [
+      "English",
+      "Irish"
+    ],
+    "nickname": "Cillian",
+    "bio": "Cillian Murphy is an Irish actor celebrated for his piercing, expressive blue eyes, chameleon-like intensity, and deeply understated performances. After breaking out in Danny Boyle's 28 Days Later and the Palme d'Or-winning The Wind That Shakes the Barley, he earned worldwide cult fandom starring as Birmingham gang leader Thomas Shelby in the television drama Peaky Blinders. A long-term collaborator of director Christopher Nolan, Murphy claimed universal critical acclaim and the 2024 Academy Award for Best Actor for his portrayal of J. Robert Oppenheimer in Oppenheimer. He is also a decorated stage actor and music enthusiast.",
+    "famousWorks": [
+      {
+        "year": 2002,
+        "title": "28 Days Later"
+      },
+      {
+        "year": 2005,
+        "title": "Batman Begins"
+      },
+      {
+        "year": 2006,
+        "title": "The Wind That Shakes the Barley"
+      },
+      {
+        "year": 2010,
+        "title": "Inception"
+      },
+      {
+        "year": 2013,
+        "title": "Peaky Blinders (as Thomas Shelby)"
+      },
+      {
+        "year": 2017,
+        "title": "Dunkirk"
+      },
+      {
+        "year": 2023,
+        "title": "Oppenheimer"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Actor (2024 - Oppenheimer)",
+      "BAFTA Award for Best Actor in a Leading Role (2024)",
+      "Golden Globe Award for Best Actor in a Motion Picture - Drama (2024)",
+      "Screen Actors Guild Award for Outstanding Performance (2024)"
+    ],
+    "faq": [
+      {
+        "q": "What history did Cillian Murphy make at the 2024 Academy Awards?",
+        "a": "He became the first Irish-born actor to win the Academy Award for Best Actor in a Leading Role for his performance in Oppenheimer."
+      },
+      {
+        "q": "How many films has Cillian Murphy made with director Christopher Nolan?",
+        "a": "Murphy has collaborated with Christopher Nolan on six films: Batman Begins, The Dark Knight, Inception, The Dark Knight Rises, Dunkirk, and Oppenheimer."
+      },
+      {
+        "q": "What television series turned Cillian Murphy into a global television icon?",
+        "a": "BBC's historical crime drama Peaky Blinders, where he starred as the cunning, traumatized crime boss Thomas Shelby across six acclaimed seasons."
+      }
+    ],
+    "related": [
+      "christopher-nolan",
+      "daniel-day-lewis",
+      "leonardo-dicaprio"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cillian_Murphy",
+      "https://www.oscars.org",
+      "https://www.bafta.org"
+    ],
+    "image": "/avatars/cillian-murphy.jpg",
+    "imageCredit": "Wikimedia Commons / Cillian Murphy"
+  },
+  {
+    "slug": "penelope-cruz",
+    "name": "Penélope Cruz",
+    "category": "actors",
+    "profession": "Actress & Model",
+    "industry": "Spanish & Hollywood Cinema",
+    "country": "Spain",
+    "birthDate": "1974-04-28",
+    "birthPlace": "Alcobendas, Madrid, Spain",
+    "languages": [
+      "Spanish",
+      "English",
+      "Italian",
+      "French"
+    ],
+    "nickname": "Pe",
+    "bio": "Penélope Cruz Sánchez is a Spanish actress who has achieved international acclaim across both European art-house cinema and major Hollywood releases. As the principal muse of Spanish director Pedro Almodóvar, she delivered transcendent performances in All About My Mother, Volver, and Parallel Mothers. In 2009, Cruz made history as the first Spanish actress to win an Academy Award, claiming Best Supporting Actress for Woody Allen's Vicky Cristina Barcelona. She has also won the Cannes Best Actress Award, the Volpi Cup at Venice, and three Goya Awards.",
+    "famousWorks": [
+      {
+        "year": 1992,
+        "title": "Jamón Jamón"
+      },
+      {
+        "year": 1999,
+        "title": "All About My Mother"
+      },
+      {
+        "year": 2001,
+        "title": "Vanilla Sky"
+      },
+      {
+        "year": 2006,
+        "title": "Volver"
+      },
+      {
+        "year": 2008,
+        "title": "Vicky Cristina Barcelona"
+      },
+      {
+        "year": 2009,
+        "title": "Broken Embraces"
+      },
+      {
+        "year": 2021,
+        "title": "Parallel Mothers"
+      }
+    ],
+    "awards": [
+      "Academy Award for Best Supporting Actress (2009 - Vicky Cristina Barcelona)",
+      "First Spanish Actress to win an Academy Award",
+      "BAFTA Award for Best Actress in a Supporting Role (2009)",
+      "Cannes Film Festival Best Actress Award (2006 - Volver)",
+      "Volpi Cup for Best Actress at Venice Film Festival (2021 - Parallel Mothers)"
+    ],
+    "faq": [
+      {
+        "q": "What historic Oscar record did Penélope Cruz establish for Spain?",
+        "a": "She became the first Spanish actress in history to be nominated for and to win an Academy Award (Best Supporting Actress for Vicky Cristina Barcelona in 2009)."
+      },
+      {
+        "q": "Which renowned Spanish filmmaker has Cruz collaborated with most extensively?",
+        "a": "She has maintained an iconic, multi-decade collaboration with director Pedro Almodóvar across seven films, including Volver and Parallel Mothers."
+      },
+      {
+        "q": "What festival honor did Penélope Cruz win at the Venice Film Festival in 2021?",
+        "a": "She won the prestigious Volpi Cup for Best Actress for her performance in Pedro Almodóvar's Parallel Mothers."
+      }
+    ],
+    "related": [
+      "salma-hayek",
+      "pedro-pascal",
+      "mads-mikkelsen"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pen%C3%A9lope_Cruz",
+      "https://www.oscars.org",
+      "https://www.bafta.org"
+    ],
+    "image": "/avatars/penelope-cruz.jpg",
+    "imageCredit": "Wikimedia Commons / Penélope Cruz"
+  },
+  {
+    "slug": "mads-mikkelsen",
+    "name": "Mads Mikkelsen",
+    "category": "actors",
+    "profession": "Actor",
+    "industry": "European & Hollywood Cinema",
+    "country": "Denmark",
+    "birthDate": "1965-11-22",
+    "birthPlace": "Østerbro, Copenhagen, Denmark",
+    "languages": [
+      "Danish",
+      "English",
+      "German",
+      "Swedish",
+      "French"
+    ],
+    "nickname": "Mads",
+    "bio": "Mads Dittmann Mikkelsen R. is a Danish actor celebrated internationally for his commanding magnetism, complex moral ambiguity, and versatile European and Hollywood filmography. After rising to prominence in Nicolas Winding Refn's Pusher trilogy, he achieved worldwide recognition as the villain Le Chiffre in James Bond's Casino Royale and as Dr. Hannibal Lecter in the critically acclaimed television series Hannibal. Mikkelsen won the Cannes Film Festival Best Actor Award for Thomas Vinterberg's The Hunt and anchored the Oscar-winning Danish tragicomedy Another Round. He was knighted in the Order of the Dannebrog by the Danish monarchy.",
+    "famousWorks": [
+      {
+        "year": 1996,
+        "title": "Pusher"
+      },
+      {
+        "year": 2006,
+        "title": "Casino Royale"
+      },
+      {
+        "year": 2006,
+        "title": "After the Wedding"
+      },
+      {
+        "year": 2012,
+        "title": "The Hunt (Jagten)"
+      },
+      {
+        "year": 2013,
+        "title": "Hannibal (TV Series)"
+      },
+      {
+        "year": 2016,
+        "title": "Rogue One: A Star Wars Story"
+      },
+      {
+        "year": 2020,
+        "title": "Another Round (Druk)"
+      }
+    ],
+    "awards": [
+      "Cannes Film Festival Best Actor Award (2012 - The Hunt)",
+      "2 European Film Awards for Best Actor (2020 - Another Round; 2023 - The Promised Land)",
+      "Knight of the Order of the Dannebrog - Denmark (2010)",
+      "Chevalier de l'Ordre des Arts et des Lettres - France (2016)"
+    ],
+    "faq": [
+      {
+        "q": "What role made Mads Mikkelsen an international household name in 2006?",
+        "a": "He achieved global stardom playing the mathematical terrorist financier and poker villain Le Chiffre opposite Daniel Craig in the James Bond blockbuster Casino Royale."
+      },
+      {
+        "q": "For which movie did Mads Mikkelsen win the Cannes Best Actor Award?",
+        "a": "He won Best Actor at the 2012 Cannes Film Festival for Thomas Vinterberg's gripping drama The Hunt, playing a kindergarten teacher wrongfully accused of misconduct."
+      },
+      {
+        "q": "What iconic literary villain did Mikkelsen portray on American television?",
+        "a": "He starred as the cultured forensic psychiatrist and cannibalistic serial killer Dr. Hannibal Lecter in Bryan Fuller's NBC psychological thriller series Hannibal."
+      }
+    ],
+    "related": [
+      "cillian-murphy",
+      "daniel-day-lewis",
+      "penelope-cruz"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mads_Mikkelsen",
+      "https://www.festival-cannes.com",
+      "https://www.imdb.com/name/nm0586568/"
+    ],
+    "image": "/avatars/mads-mikkelsen.jpg",
+    "imageCredit": "Wikimedia Commons / Mads Mikkelsen"
+  },
+  {
+    "slug": "salma-hayek",
+    "name": "Salma Hayek",
+    "category": "actors",
+    "profession": "Actress & Film Producer",
+    "industry": "Hollywood & Latin American Cinema",
+    "country": "Mexico",
+    "birthDate": "1966-09-02",
+    "birthPlace": "Coatzacoalcos, Veracruz, Mexico",
+    "languages": [
+      "Spanish",
+      "English",
+      "Arabic",
+      "Portuguese"
+    ],
+    "nickname": "Salma",
+    "bio": "Salma Hayek Pinault is a Mexican and American actress and film producer who is recognized as one of the most prominent and influential Latina figures in Hollywood history. After dominating Mexican television in the telenovela Teresa, she broke into Hollywood cinema with landmark roles in Desperado and From Dusk Till Dawn. In 2002, Hayek produced and starred in the biopic Frida, making history as the first Mexican actress nominated for the Academy Award for Best Actress. She was inducted as a Knight of the French Legion of Honour and received a star on the Hollywood Walk of Fame.",
+    "famousWorks": [
+      {
+        "year": 1995,
+        "title": "Desperado"
+      },
+      {
+        "year": 1996,
+        "title": "From Dusk Till Dawn"
+      },
+      {
+        "year": 2002,
+        "title": "Frida"
+      },
+      {
+        "year": 2006,
+        "title": "Ugly Betty (Executive Producer)"
+      },
+      {
+        "year": 2011,
+        "title": "Puss in Boots (as Kitty Softpaws)"
+      },
+      {
+        "year": 2017,
+        "title": "Beatriz at Dinner"
+      },
+      {
+        "year": 2021,
+        "title": "House of Gucci"
+      }
+    ],
+    "awards": [
+      "Academy Award Nomination for Best Actress (2003 - Frida)",
+      "Daytime Emmy Award for Outstanding Directing (2004)",
+      "Knight of the National Order of the Legion of Honour - France (2011)",
+      "Star on the Hollywood Walk of Fame (2021)"
+    ],
+    "faq": [
+      {
+        "q": "What historical milestone did Salma Hayek achieve with the film Frida?",
+        "a": "She became the first Mexican actress to be nominated for the Academy Award for Best Actress in a Leading Role for her biographical portrayal of painter Frida Kahlo in 2002."
+      },
+      {
+        "q": "What hit American television comedy series did Salma Hayek executive produce?",
+        "a": "She adapted the Colombian telenovela Yo soy Betty, la fea into the hit ABC comedy-drama Ugly Betty, which won multiple Emmy and Golden Globe Awards."
+      },
+      {
+        "q": "What action breakout film established Salma Hayek in Hollywood?",
+        "a": "She gained international recognition starring as Carolina alongside Antonio Banderas in Robert Rodriguez's 1995 action thriller Desperado."
+      }
+    ],
+    "related": [
+      "penelope-cruz",
+      "pedro-pascal",
+      "omar-sharif"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Salma_Hayek",
+      "https://www.oscars.org",
+      "https://www.imdb.com/name/nm0000161/"
+    ],
+    "image": "/avatars/salma-hayek.jpg",
+    "imageCredit": "Wikimedia Commons / Salma Hayek"
+  },
+  {
+    "slug": "pedro-pascal",
+    "name": "Pedro Pascal",
+    "category": "actors",
+    "profession": "Actor",
+    "industry": "Television & Hollywood Cinema",
+    "country": "Chile",
+    "birthDate": "1975-04-02",
+    "birthPlace": "Santiago, Chile",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "nickname": "Pedro",
+    "bio": "José Pedro Balmaceda Pascal is a Chilean and American actor who has emerged as one of the most beloved and ubiquitous cultural icons of modern television and cinema. Following a sensational, charismatic turn as Prince Oberyn Martell in Game of Thrones, he starred as DEA agent Javier Peña in the Netflix hit Narcos. Pascal went on to headline two monumental global franchise hits, playing Din Djarin in Star Wars: The Mandalorian and Joel Miller in HBO's post-apocalyptic drama The Last of Us, which earned him a Screen Actors Guild Award. Time magazine recognized him in 2023 among the 100 most influential people in the world.",
+    "famousWorks": [
+      {
+        "year": 2014,
+        "title": "Game of Thrones (as Oberyn Martell)"
+      },
+      {
+        "year": 2015,
+        "title": "Narcos (as Javier Peña)"
+      },
+      {
+        "year": 2019,
+        "title": "The Mandalorian (as Din Djarin)"
+      },
+      {
+        "year": 2020,
+        "title": "Wonder Woman 1984"
+      },
+      {
+        "year": 2022,
+        "title": "The Unbearable Weight of Massive Talent"
+      },
+      {
+        "year": 2023,
+        "title": "The Last of Us (as Joel Miller)"
+      },
+      {
+        "year": 2024,
+        "title": "Gladiator II"
+      }
+    ],
+    "awards": [
+      "Screen Actors Guild Award for Outstanding Performance in a Drama Series (2024 - The Last of Us)",
+      "3 Primetime Emmy Award nominations",
+      "Time 100 Most Influential People in the World (2023)",
+      "People's Choice Award for Male TV Star of the Year (2024)"
+    ],
+    "faq": [
+      {
+        "q": "What television role first skyrocketed Pedro Pascal into international fame?",
+        "a": "His magnetic, acrobatic performance as Prince Oberyn Martell ('The Red Viper') in Season 4 of HBO's fantasy epic Game of Thrones in 2014."
+      },
+      {
+        "q": "What Star Wars series does Pedro Pascal lead?",
+        "a": "He stars as the masked bounty hunter Din Djarin across Disney+'s flagship Star Wars series The Mandalorian."
+      },
+      {
+        "q": "For which acclaimed series did Pedro Pascal win a Screen Actors Guild Award in 2024?",
+        "a": "He won the SAG Award for Outstanding Performance by a Male Actor in a Drama Series for portraying the grieving survivor Joel Miller in HBO's The Last of Us."
+      }
+    ],
+    "related": [
+      "salma-hayek",
+      "penelope-cruz",
+      "cillian-murphy"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pedro_Pascal",
+      "https://www.sagawards.org",
+      "https://time.com/collection/100-most-influential-people-2023/6269929/pedro-pascal/"
+    ],
+    "image": "/avatars/pedro-pascal.jpg",
+    "imageCredit": "Wikimedia Commons / Pedro Pascal"
+  },
+  {
+    "slug": "omar-sharif",
+    "name": "Omar Sharif",
+    "category": "actors",
+    "profession": "Actor & Contract Bridge Champion",
+    "industry": "Egyptian Cinema & International Hollywood",
+    "country": "Egypt",
+    "birthDate": "1932-04-10",
+    "deathDate": "2015-07-10",
+    "birthPlace": "Alexandria, Kingdom of Egypt",
+    "languages": [
+      "Arabic",
+      "English",
+      "French",
+      "Spanish",
+      "Italian",
+      "Greek"
+    ],
+    "nickname": "The Golden Face of Arab Cinema",
+    "bio": "Omar Sharif, born Michel Dimitri Chalhoub, was an Egyptian actor who became the first Arab star to achieve celebrated, enduring international fame in Hollywood and world cinema. After establishing himself as the leading romantic icon of Egyptian cinema's Golden Age alongside Faten Hamama, he skyrocketed to global fame in David Lean's epic Lawrence of Arabia, earning an Oscar nomination and two Golden Globes. Sharif subsequently starred in David Lean's Doctor Zhivago and opposite Barbra Streisand in Funny Girl. In 2005, he was awarded the Sergei Eisenstein Medal by UNESCO in recognition of his significant contributions to world film and cultural diversity.",
+    "famousWorks": [
+      {
+        "year": 1954,
+        "title": "Struggle in the Valley (Sira` Fi al-Wadi)"
+      },
+      {
+        "year": 1962,
+        "title": "Lawrence of Arabia (as Sherif Ali)"
+      },
+      {
+        "year": 1965,
+        "title": "Doctor Zhivago (as Dr. Yuri Zhivago)"
+      },
+      {
+        "year": 1968,
+        "title": "Funny Girl (as Nicky Arnstein)"
+      },
+      {
+        "year": 1969,
+        "title": "Che! (as Che Guevara)"
+      },
+      {
+        "year": 1974,
+        "title": "The Juggernaut"
+      },
+      {
+        "year": 2003,
+        "title": "Monsieur Ibrahim"
+      }
+    ],
+    "awards": [
+      "3 Golden Globe Awards (1963 - New Star, Best Supporting Actor; 1966 - Best Actor - Drama)",
+      "Academy Award Nomination for Best Supporting Actor (1963 - Lawrence of Arabia)",
+      "César Award for Best Actor - France (2004 - Monsieur Ibrahim)",
+      "Venice International Film Festival Career Golden Lion (2003)",
+      "UNESCO Sergei Eisenstein Medal (2005)"
+    ],
+    "faq": [
+      {
+        "q": "What iconic entrance in cinematic history is Omar Sharif famous for?",
+        "a": "His legendary introduction in David Lean's 1962 epic Lawrence of Arabia, where his character Sherif Ali emerges slowly out of a shimmering desert mirage riding a camel toward camera."
+      },
+      {
+        "q": "Which film won Omar Sharif the Golden Globe for Best Actor in a Leading Role?",
+        "a": "He won the 1966 Golden Globe for Best Actor - Motion Picture Drama for his title portrayal of the poet-physician Yuri Zhivago in David Lean's Doctor Zhivago."
+      },
+      {
+        "q": "What intellectual pursuit was Omar Sharif world-famous for outside acting?",
+        "a": "Sharif was an internationally ranked champion contract bridge player, writing a syndicated bridge column and authoring several books on the game."
+      }
+    ],
+    "related": [
+      "salma-hayek",
+      "audrey-hepburn",
+      "charlie-chaplin"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Omar_Sharif",
+      "https://www.goldenglobes.com/person/omar-sharif",
+      "https://www.oscars.org"
+    ],
+    "image": "/avatars/omar-sharif.jpg",
+    "imageCredit": "Wikimedia Commons / Omar Sharif"
+  }
+]

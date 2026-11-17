@@ -1,0 +1,1989 @@
+[
+  {
+    "slug": "lionel-messi",
+    "name": "Lionel Messi",
+    "category": "footballers",
+    "profession": "Forward & Playmaker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Argentina",
+    "birthDate": "1987-06-24",
+    "birthPlace": "Rosario, Santa Fe, Argentina",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "nickname": "La Pulga (The Flea) / Leo",
+    "bio": "Lionel Andrés Messi is an Argentine professional footballer and captain widely considered the greatest football player of all time. Having spent the majority of his career with FC Barcelona, he won 35 trophies there, scoring a record 672 goals. In December 2022, he fulfilled his lifelong destiny by captaining Argentina to victory in the FIFA World Cup in Qatar, winning his eighth Ballon d'Or in 2023.",
+    "famousWorks": [
+      {
+        "year": 2009,
+        "title": "Historic Sextuple with FC Barcelona"
+      },
+      {
+        "year": 2012,
+        "title": "World-record 91 goals in a single calendar year"
+      },
+      {
+        "year": 2015,
+        "title": "Second Treble with FC Barcelona (MSN Trio)"
+      },
+      {
+        "year": 2021,
+        "title": "Copa América Championship with Argentina"
+      },
+      {
+        "year": 2022,
+        "title": "FIFA World Cup Champion & Golden Ball Winner in Qatar"
+      }
+    ],
+    "awards": [
+      "Record 8 Ballon d'Or Awards",
+      "Record 6 European Golden Shoes",
+      "FIFA World Cup Golden Ball (Record 2 times: 2014, 2022)",
+      "Laureus World Sportsman of the Year (Record 2 times)"
+    ],
+    "faq": [
+      {
+        "q": "How many Ballon d'Or awards has Lionel Messi won?",
+        "a": "Messi holds the all-time record with eight Ballon d'Or trophies (2009, 2010, 2011, 2012, 2015, 2019, 2021, and 2023)."
+      },
+      {
+        "q": "What was Messi's scoring record in 2012?",
+        "a": "He scored an astonishing 91 goals in 69 games in 2012, breaking Gerd Müller's 40-year-old calendar-year world record."
+      },
+      {
+        "q": "What did he accomplish in the 2022 World Cup?",
+        "a": "He captained Argentina to the World Cup trophy, scoring two goals in the final and winning the tournament's Golden Ball."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "diego-maradona",
+      "neymar"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lionel_Messi",
+      "https://www.messi.com"
+    ],
+    "image": "/avatars/lionel-messi.jpg",
+    "imageCredit": "Wikimedia Commons (CC BY-SA / Public Domain)"
+  },
+  {
+    "slug": "cristiano-ronaldo",
+    "name": "Cristiano Ronaldo",
+    "category": "footballers",
+    "profession": "Forward",
+    "industry": "Professional Football (Soccer)",
+    "country": "Portugal",
+    "birthDate": "1985-02-05",
+    "birthPlace": "Funchal, Madeira, Portugal",
+    "languages": [
+      "Portuguese",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "CR7",
+    "bio": "Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer and captain regarded as one of the greatest goalscorers in the history of the sport. The all-time leading goalscorer in men's international football and the UEFA Champions League, he has won five Ballon d'Or awards and five UEFA Champions League titles. He captained Portugal to historic continental glory at UEFA Euro 2016.",
+    "famousWorks": [
+      {
+        "year": 2008,
+        "title": "First UEFA Champions League & Ballon d'Or with Manchester United"
+      },
+      {
+        "year": 2014,
+        "title": "Record 17 goals in a single Champions League season (La Décima with Real Madrid)"
+      },
+      {
+        "year": 2016,
+        "title": "UEFA European Championship Title with Portugal"
+      },
+      {
+        "year": 2018,
+        "title": "Historic Three-Peat UEFA Champions League with Real Madrid"
+      },
+      {
+        "year": 2021,
+        "title": "Breaking Men's International Goalscoring World Record"
+      }
+    ],
+    "awards": [
+      "5 Ballon d'Or Awards",
+      "4 European Golden Shoes",
+      "5 UEFA Champions League Titles",
+      "All-time top scorer in men's international football (130+ goals)"
+    ],
+    "faq": [
+      {
+        "q": "How many career goals has Cristiano Ronaldo scored?",
+        "a": "He has scored over 900 official career goals for club and country, more than any player in football history."
+      },
+      {
+        "q": "Which clubs has Cristiano Ronaldo played for?",
+        "a": "Sporting CP, Manchester United (two spells), Real Madrid, Juventus, and Al Nassr."
+      },
+      {
+        "q": "What is his UEFA Champions League record?",
+        "a": "He is the all-time top goalscorer in Champions League history with 140 goals."
+      }
+    ],
+    "related": [
+      "lionel-messi",
+      "ronaldo-nazario",
+      "kylian-mbappe"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+      "https://www.cristianoronaldo.com"
+    ],
+    "image": "/avatars/cristiano-ronaldo.jpg",
+    "imageCredit": "Wikimedia Commons (CC BY-SA / Public Domain)"
+  },
+  {
+    "slug": "pele",
+    "name": "Pelé",
+    "category": "footballers",
+    "profession": "Forward",
+    "industry": "Professional Football (Soccer)",
+    "country": "Brazil",
+    "birthDate": "1940-10-23",
+    "deathDate": "2022-12-29",
+    "birthPlace": "Três Corações, Minas Gerais, Brazil",
+    "languages": [
+      "Portuguese",
+      "English"
+    ],
+    "nickname": "O Rei (The King)",
+    "bio": "Edson Arantes do Nascimento, known worldwide as Pelé, was a Brazilian professional footballer hailed as the 'King of Football'. He is the only player in history to win three FIFA World Cups (1958, 1962, and 1970), first stunning the world as a 17-year-old prodigy in Sweden. Across his glittering career for Santos and the New York Cosmos, he scored 1,279 goals in 1,363 games.",
+    "famousWorks": [
+      {
+        "year": 1958,
+        "title": "Hat-trick in World Cup Semifinal & Two Goals in Final at age 17"
+      },
+      {
+        "year": 1962,
+        "title": "Second World Cup Victory & Intercontinental Cup with Santos"
+      },
+      {
+        "year": 1969,
+        "title": "Scoring his 1,000th career goal (O Milésimo) at the Maracanã"
+      },
+      {
+        "year": 1970,
+        "title": "Masterminding Brazil's iconic 1970 World Cup triumph in Mexico"
+      }
+    ],
+    "awards": [
+      "Only player to win 3 FIFA World Cups (1958, 1962, 1970)",
+      "FIFA Player of the Century (co-recipient with Diego Maradona, 2000)",
+      "International Olympic Committee Athlete of the Century (1999)",
+      "Ballon d'Or Prix d'Honneur (2013)"
+    ],
+    "faq": [
+      {
+        "q": "How many World Cups did Pelé win?",
+        "a": "Pelé won three FIFA World Cups (1958, 1962, and 1970), a record that remains unbroken."
+      },
+      {
+        "q": "How old was Pelé in his first World Cup?",
+        "a": "He was just 17 years and 249 days old when he scored twice in the 1958 final, remaining the youngest World Cup final scorer."
+      },
+      {
+        "q": "How many career goals did Pelé score?",
+        "a": "Guinness World Records credits Pelé with 1,279 goals in 1,363 games throughout his career."
+      }
+    ],
+    "related": [
+      "diego-maradona",
+      "lionel-messi",
+      "ronaldo-nazario"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pel%C3%A9",
+      "https://www.britannica.com/biography/Pele-Brazilian-athlete"
+    ],
+    "image": "/avatars/pele.jpg",
+    "imageCredit": "Wikimedia Commons / Pelé"
+  },
+  {
+    "slug": "diego-maradona",
+    "name": "Diego Maradona",
+    "category": "footballers",
+    "profession": "Attacking Midfielder & Manager",
+    "industry": "Professional Football (Soccer)",
+    "country": "Argentina",
+    "birthDate": "1960-10-30",
+    "deathDate": "2020-11-25",
+    "birthPlace": "Lanús, Buenos Aires, Argentina",
+    "languages": [
+      "Spanish",
+      "Italian"
+    ],
+    "nickname": "El Pibe de Oro (The Golden Boy) / D10S",
+    "bio": "Diego Armando Maradona was an Argentine professional footballer and manager renowned for his superhuman dribbling, vision, and rebellious charisma. In the 1986 World Cup in Mexico, he captained Argentina to victory, scoring the controversial 'Hand of God' goal and the sublime 60-meter slalom 'Goal of the Century' against England. He transformed SSC Napoli into double Serie A champions against all odds.",
+    "famousWorks": [
+      {
+        "year": 1986,
+        "title": "Captaining Argentina to 1986 FIFA World Cup Championship"
+      },
+      {
+        "year": 1986,
+        "title": "Scoring the 'Goal of the Century' vs England in Mexico City"
+      },
+      {
+        "year": 1987,
+        "title": "Leading underdog Napoli to their first-ever Serie A Scudetto"
+      },
+      {
+        "year": 1989,
+        "title": "Winning UEFA Cup with Napoli"
+      }
+    ],
+    "awards": [
+      "FIFA Player of the Century (Public Internet Vote Winner, 2000)",
+      "FIFA World Cup Golden Ball (1986)",
+      "Goal of the Century (1986 vs England, voted in 2002)",
+      "South American Footballer of the Year (Record 6 times)"
+    ],
+    "faq": [
+      {
+        "q": "What occurred in the Argentina vs England 1986 World Cup quarterfinal?",
+        "a": "Maradona scored two of the most famous goals in football history: the infamous 'Hand of God' punched header and the solo 60-meter 'Goal of the Century'."
+      },
+      {
+        "q": "What was Maradona's impact at Napoli?",
+        "a": "He joined a struggling club in southern Italy and led them to their first two Serie A league titles (1987, 1990) and the UEFA Cup (1989)."
+      },
+      {
+        "q": "Why is Maradona worshipped in Argentina and Naples?",
+        "a": "He became an immortal cultural folk hero and deity representing the working class against the wealthy elite."
+      }
+    ],
+    "related": [
+      "lionel-messi",
+      "pele",
+      "zinedine-zidane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Diego_Maradona",
+      "https://www.britannica.com/biography/Diego-Maradona"
+    ],
+    "image": "/avatars/diego-maradona.jpg",
+    "imageCredit": "Wikimedia Commons / Diego Maradona"
+  },
+  {
+    "slug": "zinedine-zidane",
+    "name": "Zinedine Zidane",
+    "category": "footballers",
+    "profession": "Attacking Midfielder & Manager",
+    "industry": "Professional Football (Soccer)",
+    "country": "France",
+    "birthDate": "1972-06-23",
+    "birthPlace": "Marseille, France",
+    "languages": [
+      "French",
+      "Spanish",
+      "Italian",
+      "Berber"
+    ],
+    "nickname": "Zizou",
+    "bio": "Zinedine Yazid Zidane is a French former professional footballer and manager renowned for his balletic grace, immaculate first touch, and vision. He scored two headers in the 1998 World Cup final to lead France to their first title, followed by UEFA Euro 2000 triumph and his iconic volley for Real Madrid in the 2002 Champions League final. As Real Madrid manager, he achieved an unprecedented three consecutive Champions League titles.",
+    "famousWorks": [
+      {
+        "year": 1998,
+        "title": "Two goals in 1998 FIFA World Cup Final vs Brazil"
+      },
+      {
+        "year": 2000,
+        "title": "UEFA Euro 2000 Champion & Player of the Tournament"
+      },
+      {
+        "year": 2002,
+        "title": "Iconic left-foot volley in UEFA Champions League Final in Glasgow"
+      },
+      {
+        "year": 2016,
+        "title": "Leading Real Madrid to 3 consecutive UEFA Champions League trophies as Manager"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (1998)",
+      "FIFA World Player of the Year (3 times: 1998, 2000, 2003)",
+      "FIFA World Cup Golden Ball (2006)",
+      "Knight of the Legion of Honour (France, 1998)"
+    ],
+    "faq": [
+      {
+        "q": "What was Zidane's most famous goal for Real Madrid?",
+        "a": "His breathtaking left-footed volley against Bayer Leverkusen in the 2002 UEFA Champions League final at Hampden Park."
+      },
+      {
+        "q": "What managerial record did Zidane set with Real Madrid?",
+        "a": "He is the only manager in history to win three consecutive UEFA Champions League titles (2016, 2017, 2018)."
+      },
+      {
+        "q": "What happened in the 2006 World Cup Final?",
+        "a": "He scored a panenka penalty before being sent off for headbutting Marco Materazzi in extra time in his final professional match."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "ronaldo-nazario",
+      "thierry-henry"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zinedine_Zidane",
+      "https://www.realmadrid.com/en/about-real-madrid/history/football-legends/zinedine-zidane"
+    ],
+    "image": "/avatars/zinedine-zidane.jpg",
+    "imageCredit": "Wikimedia Commons / Zinedine Zidane"
+  },
+  {
+    "slug": "kylian-mbappe",
+    "name": "Kylian Mbappé",
+    "category": "footballers",
+    "profession": "Forward",
+    "industry": "Professional Football (Soccer)",
+    "country": "France",
+    "birthDate": "1998-12-20",
+    "birthPlace": "Paris, France",
+    "languages": [
+      "French",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "Donatello",
+    "bio": "Kylian Mbappé Lottin is a French professional footballer and captain renowned for his electrifying speed, direct dribbling, and clinical finishing. In 2018, at age 19, he became the youngest French player to score at a World Cup and the second teenager (after Pelé) to score in a World Cup final. In the 2022 World Cup final, he scored a sensational hat-trick, winning the tournament's Golden Boot.",
+    "famousWorks": [
+      {
+        "year": 2017,
+        "title": "Ligue 1 Championship with Monaco at age 18"
+      },
+      {
+        "year": 2018,
+        "title": "FIFA World Cup Champion & Best Young Player"
+      },
+      {
+        "year": 2022,
+        "title": "Hat-trick in FIFA World Cup Final & Golden Boot Winner (8 goals)"
+      },
+      {
+        "year": 2024,
+        "title": "All-time top scorer in Paris Saint-Germain history (256 goals)"
+      }
+    ],
+    "awards": [
+      "FIFA World Cup Golden Boot (2022)",
+      "FIFA World Cup Best Young Player (2018)",
+      "Record 5-time Ligue 1 Player of the Year",
+      "Golden Boy Award (2017)"
+    ],
+    "faq": [
+      {
+        "q": "What historic feat did Mbappé achieve in the 2022 World Cup Final?",
+        "a": "He became only the second man in history (after Geoff Hurst in 1966) to score a hat-trick in a FIFA World Cup final."
+      },
+      {
+        "q": "Who is the all-time top scorer for Paris Saint-Germain?",
+        "a": "Kylian Mbappé with 256 goals across 308 appearances before moving to Real Madrid in 2024."
+      },
+      {
+        "q": "What was his top recorded sprint speed on a football pitch?",
+        "a": "He has been clocked sprinting at 38 km/h (23.6 mph), rivaling Olympic sprinters."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "lionel-messi",
+      "erling-haaland"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+      "https://www.realmadrid.com"
+    ],
+    "image": "/avatars/kylian-mbappe.jpg",
+    "imageCredit": "Wikimedia Commons / Kylian Mbappé"
+  },
+  {
+    "slug": "erling-haaland",
+    "name": "Erling Haaland",
+    "category": "footballers",
+    "profession": "Striker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Norway",
+    "birthDate": "2000-07-21",
+    "birthPlace": "Leeds, West Yorkshire, England",
+    "languages": [
+      "Norwegian",
+      "English",
+      "German"
+    ],
+    "nickname": "The Terminator / Daemon",
+    "bio": "Erling Braut Haaland is a Norwegian professional footballer who plays as a striker for Manchester City and the Norway national team. Renowned for his imposing physical strength, rapid acceleration, and ruthless finishing instinct, he shattered the Premier League single-season scoring record in his debut 2022–23 campaign with 36 goals. He was the linchpin in Manchester City's historic continental Treble triumph.",
+    "famousWorks": [
+      {
+        "year": 2019,
+        "title": "Scoring 9 goals in a single FIFA U-20 World Cup match"
+      },
+      {
+        "year": 2020,
+        "title": "Golden Boy Award winner with Borussia Dortmund"
+      },
+      {
+        "year": 2023,
+        "title": "Breaking Premier League single-season record with 36 goals"
+      },
+      {
+        "year": 2023,
+        "title": "Historic Continental Treble with Manchester City"
+      }
+    ],
+    "awards": [
+      "European Golden Shoe (2022–23)",
+      "Premier League Golden Boot (2022–23, 2023–24)",
+      "UEFA Men's Player of the Year (2022–23)",
+      "Gerd Müller Trophy (2023)"
+    ],
+    "faq": [
+      {
+        "q": "What Premier League record did Haaland break in his debut season?",
+        "a": "He scored 36 goals in 35 appearances in 2022–23, breaking the all-time Premier League single-season record."
+      },
+      {
+        "q": "How many goals did Haaland score in one U-20 World Cup game?",
+        "a": "He scored an astonishing nine goals for Norway against Honduras in the 2019 FIFA U-20 World Cup."
+      },
+      {
+        "q": "How fast did Haaland reach 50 Premier League goals?",
+        "a": "He reached 50 goals in just 48 appearances, obliterating the previous record of 65 matches held by Andy Cole."
+      }
+    ],
+    "related": [
+      "kylian-mbappe",
+      "kevin-de-bruyne",
+      "cristiano-ronaldo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Erling_Haaland",
+      "https://www.mancity.com/players/erling-haaland"
+    ],
+    "image": "/avatars/erling-haaland.jpg",
+    "imageCredit": "Wikimedia Commons / Erling Haaland"
+  },
+  {
+    "slug": "neymar",
+    "name": "Neymar",
+    "category": "footballers",
+    "profession": "Forward & Playmaker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Brazil",
+    "birthDate": "1992-02-05",
+    "birthPlace": "Mogi das Cruzes, São Paulo, Brazil",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "nickname": "Ney / O Menino da Vila",
+    "bio": "Neymar da Silva Santos Júnior is a Brazilian professional footballer celebrated for his flair, mesmerizing dribbling, and playmaking creativity. Surpassing Pelé to become the all-time top goalscorer for the Brazil national team with 79 goals, he formed the iconic 'MSN' attacking trio with Messi and Suárez at Barcelona, winning the continental Treble in 2015. He also led Brazil to Olympic Gold on home soil in 2016.",
+    "famousWorks": [
+      {
+        "year": 2011,
+        "title": "Copa Libertadores Champion with Santos & FIFA Puskás Award"
+      },
+      {
+        "year": 2015,
+        "title": "UEFA Champions League & Treble with Barcelona"
+      },
+      {
+        "year": 2016,
+        "title": "Winning Olympic Gold Medal in Rio with Brazil"
+      },
+      {
+        "year": 2017,
+        "title": "The historic 6-1 'La Remontada' vs PSG"
+      },
+      {
+        "year": 2023,
+        "title": "Surpassing Pelé as Brazil's all-time record goalscorer"
+      }
+    ],
+    "awards": [
+      "All-time top goalscorer in Brazil national team history (79 goals)",
+      "FIFA Puskás Award (2011)",
+      "Olympic Gold Medal (Rio 2016)",
+      "Samba Gold Award (Record 6 times)"
+    ],
+    "faq": [
+      {
+        "q": "Who is Brazil's all-time top goalscorer?",
+        "a": "Neymar holds the record with 79 official international goals, breaking Pelé's longstanding record of 77."
+      },
+      {
+        "q": "What was Neymar's role in the 2016 Rio Olympics?",
+        "a": "He scored Brazil's goal in regulation and struck the decisive winning penalty in the shootout to earn Brazil's first Olympic football gold."
+      },
+      {
+        "q": "What was the highest transfer fee in football history?",
+        "a": "Neymar's transfer from Barcelona to Paris Saint-Germain in 2017 for a world-record €222 million."
+      }
+    ],
+    "related": [
+      "lionel-messi",
+      "ronaldinho",
+      "kylian-mbappe"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Neymar",
+      "https://www.neymarjr.com"
+    ],
+    "image": "/avatars/neymar.jpg",
+    "imageCredit": "Wikimedia Commons / Neymar"
+  },
+  {
+    "slug": "ronaldo-nazario",
+    "name": "Ronaldo Nazário",
+    "category": "footballers",
+    "profession": "Striker & Club Owner",
+    "industry": "Professional Football (Soccer)",
+    "country": "Brazil",
+    "birthDate": "1976-09-18",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "languages": [
+      "Portuguese",
+      "Spanish",
+      "Italian"
+    ],
+    "nickname": "R9 / O Fenômeno (The Phenomenon)",
+    "bio": "Ronaldo Luís Nazário de Lima is a Brazilian former professional footballer and club owner widely regarded as the most explosive and complete striker in football history. Possessing unstoppable speed, stepovers, and balance, he won two Ballon d'Or awards and was named FIFA World Player of the Year three times before age 26. He overcame two career-threatening knee injuries to win the 2002 World Cup for Brazil, scoring eight goals.",
+    "famousWorks": [
+      {
+        "year": 1996,
+        "title": "Legendary solo goal for Barcelona vs Compostela"
+      },
+      {
+        "year": 1998,
+        "title": "Golden Ball winner at 1998 FIFA World Cup"
+      },
+      {
+        "year": 2002,
+        "title": "Scoring both goals in 2002 World Cup Final vs Germany & Golden Boot"
+      },
+      {
+        "year": 2003,
+        "title": "Historic hat-trick for Real Madrid vs Manchester United at Old Trafford"
+      }
+    ],
+    "awards": [
+      "2 Ballon d'Or Awards (1997, 2002)",
+      "3 FIFA World Player of the Year Awards (1996, 1997, 2002)",
+      "2 FIFA World Cup Championships (1994, 2002)",
+      "European Golden Shoe (1997)"
+    ],
+    "faq": [
+      {
+        "q": "Why was Ronaldo called 'O Fenômeno'?",
+        "a": "Italian journalists bestowed the nickname on him during his debut season at Inter Milan due to his unstoppable pace, power, and technical genius."
+      },
+      {
+        "q": "How did Ronaldo conquer adversity at the 2002 World Cup?",
+        "a": "After missing nearly three years with ruptured patellar tendons, he returned to score eight goals, including both in the final to claim Brazil's fifth star."
+      },
+      {
+        "q": "Who was the youngest winner of the Ballon d'Or?",
+        "a": "Ronaldo Nazário won his first Ballon d'Or in 1997 at just 21 years old, a record that still stands today."
+      }
+    ],
+    "related": [
+      "pele",
+      "ronaldinho",
+      "zinedine-zidane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)",
+      "https://www.britannica.com/biography/Ronaldo"
+    ],
+    "image": "/avatars/ronaldo-nazario.jpg",
+    "imageCredit": "Wikimedia Commons / Ronaldo (Brazilian footballer)"
+  },
+  {
+    "slug": "ronaldinho",
+    "name": "Ronaldinho",
+    "category": "footballers",
+    "profession": "Attacking Midfielder & Winger",
+    "industry": "Professional Football (Soccer)",
+    "country": "Brazil",
+    "birthDate": "1980-03-21",
+    "birthPlace": "Porto Alegre, Rio Grande do Sul, Brazil",
+    "languages": [
+      "Portuguese",
+      "Spanish"
+    ],
+    "nickname": "Ronaldinho Gaúcho / The Magician",
+    "bio": "Ronaldo de Assis Moreira, commonly known as Ronaldinho Gaúcho, is a Brazilian former professional footballer who captivated the world with his joy, infectious smile, and supernatural ball tricks. Renowned for inventing the 'elastico', no-look passes, and bending free-kicks, he won the 2002 World Cup, the 2005 Ballon d'Or, and the 2006 Champions League with Barcelona. He famously received a standing ovation from Real Madrid fans at the Santiago Bernabéu.",
+    "famousWorks": [
+      {
+        "year": 2002,
+        "title": "35-yard free-kick vs England & 2002 FIFA World Cup Champion"
+      },
+      {
+        "year": 2005,
+        "title": "Standing ovation at Santiago Bernabéu after scoring two solo goals vs Real Madrid"
+      },
+      {
+        "year": 2005,
+        "title": "Toe-poke goal vs Chelsea at Stamford Bridge in Champions League"
+      },
+      {
+        "year": 2006,
+        "title": "UEFA Champions League & La Liga double with FC Barcelona"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (2005)",
+      "FIFA World Player of the Year (2004, 2005)",
+      "FIFA World Cup Champion (2002)",
+      "Copa Libertadores Champion (Atlético Mineiro, 2013)"
+    ],
+    "faq": [
+      {
+        "q": "What historic reaction did Ronaldinho receive at Real Madrid's stadium in 2005?",
+        "a": "After destroying Real Madrid with two magical solo goals in a 3-0 victory, the entire Santiago Bernabéu stood up and applauded him, a rare honor previously only given to Maradona."
+      },
+      {
+        "q": "What was Ronaldinho's signature trick?",
+        "a": "The 'Elastico' (flip-flap), flipping the ball outside and inside in a split-second to bewilder defenders."
+      },
+      {
+        "q": "Did Ronaldinho mentor Lionel Messi?",
+        "a": "Yes, at Barcelona he took teenage Messi under his wing, assisted Messi's first-ever senior Barcelona goal, and passed on the number 10 shirt."
+      }
+    ],
+    "related": [
+      "lionel-messi",
+      "ronaldo-nazario",
+      "neymar"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ronaldinho",
+      "https://www.fcbarcelona.com/en/card/648354/ronaldinho"
+    ],
+    "image": "/avatars/ronaldinho.jpg",
+    "imageCredit": "Wikimedia Commons / Ronaldinho"
+  },
+  {
+    "slug": "johan-cruyff",
+    "name": "Johan Cruyff",
+    "category": "footballers",
+    "profession": "Forward, Playmaker & Visionary Manager",
+    "industry": "Professional Football (Soccer)",
+    "country": "Netherlands",
+    "birthDate": "1947-04-25",
+    "deathDate": "2016-03-24",
+    "birthPlace": "Amsterdam, Netherlands",
+    "languages": [
+      "Dutch",
+      "Spanish",
+      "English"
+    ],
+    "nickname": "El Salvador (The Savior) / The Maestro of Total Football",
+    "bio": "Hendrik Johannes Cruijff was a Dutch professional football player and manager who revolutionized the sport through the philosophy of 'Total Football'. Winning three Ballon d'Or awards, he led Ajax to three consecutive European Cups (1971–1973) and the Netherlands to the 1974 World Cup final. As manager of Barcelona's 'Dream Team', he laid the tactical and youth academy (La Masia) foundation that shaped modern global football.",
+    "famousWorks": [
+      {
+        "year": 1971,
+        "title": "Three consecutive European Cups with Ajax (1971, 1972, 1973)"
+      },
+      {
+        "year": 1974,
+        "title": "Unveiling the 'Cruyff Turn' vs Sweden & Leading Netherlands to World Cup Final"
+      },
+      {
+        "year": 1992,
+        "title": "Managing Barcelona's 'Dream Team' to their first-ever European Cup"
+      },
+      {
+        "year": 1990,
+        "title": "Architecting the tiki-taka tactical DNA of FC Barcelona & La Masia"
+      }
+    ],
+    "awards": [
+      "3 Ballon d'Or Awards (1971, 1973, 1974)",
+      "FIFA World Cup Golden Ball (1974)",
+      "IFFHS European Player of the Century (Second only to Pelé globally)",
+      "Knight of the Order of Orange-Nassau"
+    ],
+    "faq": [
+      {
+        "q": "What was the 'Cruyff Turn'?",
+        "a": "A famous feint invented during the 1974 World Cup against Sweden where he faked a pass, dragged the ball behind his standing leg, and turned 180 degrees away from the defender."
+      },
+      {
+        "q": "What is 'Total Football'?",
+        "a": "A tactical theory pioneered by Rinus Michels and executed on pitch by Cruyff where any outfield player can take over the role of any other player in the team seamlessly."
+      },
+      {
+        "q": "What was Cruyff's greatest legacy at Barcelona?",
+        "a": "He instituted the tactical identity and structured La Masia youth academy that later produced Pep Guardiola, Xavi, Iniesta, and Lionel Messi."
+      }
+    ],
+    "related": [
+      "diego-maradona",
+      "pele",
+      "zinedine-zidane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Johan_Cruyff",
+      "https://www.cruyff.com"
+    ],
+    "image": "/avatars/johan-cruyff.jpg",
+    "imageCredit": "Wikimedia Commons / Johan Cruyff"
+  },
+  {
+    "slug": "luka-modric",
+    "name": "Luka Modrić",
+    "category": "footballers",
+    "profession": "Central Midfielder & Captain",
+    "industry": "Professional Football (Soccer)",
+    "country": "Croatia",
+    "birthDate": "1985-09-09",
+    "birthPlace": "Zadar, SR Croatia, Yugoslavia",
+    "languages": [
+      "Croatian",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "Lukita / The Midfield Maestro",
+    "bio": "Luka Modrić is a Croatian professional footballer who plays as a central midfielder for Real Madrid and captains the Croatia national team. Widely regarded as one of the greatest midfielders of all time, his trivela passes, defensive tenacity, and vision ended the ten-year Messi-Ronaldo duopoly by winning the 2018 Ballon d'Or. He led underdog Croatia to the 2018 World Cup final and has won six UEFA Champions League titles.",
+    "famousWorks": [
+      {
+        "year": 2014,
+        "title": "Corner assist for Sergio Ramos in 93rd minute of Champions League Final"
+      },
+      {
+        "year": 2018,
+        "title": "Captaining Croatia to FIFA World Cup Final & Golden Ball Winner"
+      },
+      {
+        "year": 2018,
+        "title": "Winning the Ballon d'Or & FIFA The Best Award"
+      },
+      {
+        "year": 2024,
+        "title": "Record 6th UEFA Champions League title with Real Madrid"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (2018)",
+      "FIFA World Cup Golden Ball (2018) & Bronze Ball (2022)",
+      "Record 6 UEFA Champions League Titles",
+      "UEFA Men's Player of the Year (2017–18)"
+    ],
+    "faq": [
+      {
+        "q": "Why was Modrić's 2018 Ballon d'Or victory historic?",
+        "a": "He broke the decade-long domination of Cristiano Ronaldo and Lionel Messi (2008–2017) after leading Croatia to the World Cup final and winning the Champions League."
+      },
+      {
+        "q": "What was Modrić's childhood background?",
+        "a": "He grew up as a refugee during the Croatian War of Independence after his grandfather was executed and his house burned down, practicing football in hotel parking lots."
+      },
+      {
+        "q": "What is his signature passing technique?",
+        "a": "The 'Trivela', bending the ball with pinpoint precision using the outside of his right boot."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "zinedine-zidane",
+      "andres-iniesta"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luka_Modri%C4%87",
+      "https://www.realmadrid.com/en/about-real-madrid/history/football-legends/luka-modric"
+    ],
+    "image": "/avatars/luka-modric.jpg",
+    "imageCredit": "Wikimedia Commons / Luka Modrić"
+  },
+  {
+    "slug": "andres-iniesta",
+    "name": "Andrés Iniesta",
+    "category": "footballers",
+    "profession": "Central Midfielder",
+    "industry": "Professional Football (Soccer)",
+    "country": "Spain",
+    "birthDate": "1984-05-11",
+    "birthPlace": "Fuentealbilla, Albacete, Spain",
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "Japanese"
+    ],
+    "nickname": "El Ilusionista (The Illusionist) / Don Andrés",
+    "bio": "Andrés Iniesta Luján is a Spanish former professional footballer revered as one of the greatest midfielders in football history. The heartbeat of both Barcelona and the Spain national team, his sublime balance, low center of gravity, and 'la pausa' orchestrated a period of unprecedented dominance. He scored the famous 116th-minute winning goal in the 2010 World Cup final against the Netherlands to hand Spain its first world title.",
+    "famousWorks": [
+      {
+        "year": 2009,
+        "title": "Stoppage-time 'Iniestazo' goal vs Chelsea at Stamford Bridge"
+      },
+      {
+        "year": 2010,
+        "title": "Scoring the 116th-minute World Cup-winning goal in Johannesburg"
+      },
+      {
+        "year": 2012,
+        "title": "Player of the Tournament at UEFA Euro 2012"
+      },
+      {
+        "year": 2015,
+        "title": "Man of the Match in 2015 UEFA Champions League Final in Berlin"
+      }
+    ],
+    "awards": [
+      "UEFA Best Player in Europe (2012)",
+      "FIFA World Cup Final Man of the Match (2010)",
+      "UEFA Euro 2012 Player of the Tournament",
+      "Golden Foot Award (2014)"
+    ],
+    "faq": [
+      {
+        "q": "What was Iniesta's most famous career goal?",
+        "a": "His half-volley in the 116th minute of extra time against the Netherlands in the 2010 FIFA World Cup final in South Africa."
+      },
+      {
+        "q": "What message was on his shirt under his jersey in the 2010 Final?",
+        "a": "'Dani Jarque siempre con nosotros' (Dani Jarque always with us), dedicated to his close friend who had tragically passed away in 2009."
+      },
+      {
+        "q": "What unique achievement does Iniesta hold in finals?",
+        "a": "He is the only player in history to be named Man of the Match in a World Cup final, a European Championship final, and a Champions League final."
+      }
+    ],
+    "related": [
+      "xavi-hernandez",
+      "lionel-messi",
+      "luka-modric"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
+      "https://www.fcbarcelona.com/en/card/648316/andres-iniesta"
+    ],
+    "image": "/avatars/andres-iniesta.jpg",
+    "imageCredit": "Wikimedia Commons / Andrés Iniesta"
+  },
+  {
+    "slug": "xavi-hernandez",
+    "name": "Xavi Hernandez",
+    "category": "footballers",
+    "profession": "Central Midfielder & Manager",
+    "industry": "Professional Football (Soccer)",
+    "country": "Spain",
+    "birthDate": "1980-01-25",
+    "birthPlace": "Terrassa, Barcelona, Spain",
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "English"
+    ],
+    "nickname": "The Puppet Master / The Computer",
+    "bio": "Xavier Hernández Creus is a Spanish football manager and former midfielder celebrated as the tactical master of possession football and tiki-taka. Operating like a metronome in the center of the pitch with complete 360-degree radar vision, he dictated tempos with 100+ passes per match at 95% accuracy. Alongside Iniesta and Messi, he led Barcelona to two European Trebles and Spain to two European Championships and the 2010 World Cup.",
+    "famousWorks": [
+      {
+        "year": 2008,
+        "title": "Player of the Tournament at UEFA Euro 2008"
+      },
+      {
+        "year": 2009,
+        "title": "Providing four assists in historic 6-2 El Clásico win at Bernabéu"
+      },
+      {
+        "year": 2010,
+        "title": "Mastermind of Spain's 2010 FIFA World Cup Triumph"
+      },
+      {
+        "year": 2015,
+        "title": "Lifting the UEFA Champions League Trophy as Barcelona Captain in farewell match"
+      }
+    ],
+    "awards": [
+      "UEFA Euro 2008 Player of the Tournament",
+      "World Soccer Player of the Year (2010)",
+      "Prince of Asturias Award for Sports (2012)",
+      "4 UEFA Champions League Titles"
+    ],
+    "faq": [
+      {
+        "q": "What was Xavi's role in the tiki-taka style?",
+        "a": "He was the supreme orchestrator of tiki-taka, utilizing short, sharp passes and body feints to control space and retain possession."
+      },
+      {
+        "q": "How many passes did Xavi complete during the 2010 World Cup?",
+        "a": "He completed an astonishing 599 passes with a 91% completion rate, the most in the entire tournament."
+      },
+      {
+        "q": "What did Xavi accomplish as Barcelona manager in 2023?",
+        "a": "He led Barcelona to the 2022–23 La Liga championship title with a historically formidable defensive record."
+      }
+    ],
+    "related": [
+      "andres-iniesta",
+      "lionel-messi",
+      "johan-cruyff"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Xavi_(footballer,_born_1980)",
+      "https://www.fcbarcelona.com/en/card/648317/xavi-hernandez"
+    ],
+    "image": "/avatars/xavi-hernandez.jpg",
+    "imageCredit": "Wikimedia Commons / Xavi (footballer, born 1980)"
+  },
+  {
+    "slug": "robert-lewandowski",
+    "name": "Robert Lewandowski",
+    "category": "footballers",
+    "profession": "Striker & Captain",
+    "industry": "Professional Football (Soccer)",
+    "country": "Poland",
+    "birthDate": "1988-08-21",
+    "birthPlace": "Warsaw, Poland",
+    "languages": [
+      "Polish",
+      "German",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "Lewangoalski / The Machine",
+    "bio": "Robert Lewandowski is a Polish professional footballer and captain acclaimed as one of the most prolific and complete number nines in modern football history. Spending glorious years with Borussia Dortmund and Bayern Munich before joining Barcelona, he scored over 600 career goals. In 2021, he broke Gerd Müller's mythical 49-year-old Bundesliga single-season record by scoring 41 goals in just 29 games.",
+    "famousWorks": [
+      {
+        "year": 2013,
+        "title": "Scoring 4 goals vs Real Madrid in Champions League Semifinal for Dortmund"
+      },
+      {
+        "year": 2015,
+        "title": "Scoring 5 goals in 9 minutes as substitute for Bayern vs Wolfsburg"
+      },
+      {
+        "year": 2020,
+        "title": "Sextuple with Bayern Munich & Champions League Top Scorer (15 goals)"
+      },
+      {
+        "year": 2021,
+        "title": "Breaking Gerd Müller's record with 41 Bundesliga goals in one season"
+      }
+    ],
+    "awards": [
+      "The Best FIFA Men's Player (2020, 2021)",
+      "2 European Golden Shoes (2020–21, 2021–22)",
+      "UEFA Men's Player of the Year (2019–20)",
+      "4 Guinness World Records for 5 goals in 9 minutes"
+    ],
+    "faq": [
+      {
+        "q": "What was Lewandowski's miraculous performance vs Wolfsburg in 2015?",
+        "a": "Coming on as a halftime substitute, he scored five goals in just eight minutes and 59 seconds (51', 52', 55', 57', 60')."
+      },
+      {
+        "q": "What Bundesliga scoring record did he break in 2021?",
+        "a": "He scored 41 league goals in the 2020–21 season, surpassing Gerd Müller's record of 40 goals that had stood since 1972."
+      },
+      {
+        "q": "Who is Poland's all-time top goalscorer?",
+        "a": "Robert Lewandowski with over 80 international goals in more than 150 caps."
+      }
+    ],
+    "related": [
+      "erling-haaland",
+      "karim-benzema",
+      "cristiano-ronaldo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+      "https://www.fcbarcelona.com/en/football/first-team/staff/players/robert-lewandowski"
+    ],
+    "image": "/avatars/robert-lewandowski.jpg",
+    "imageCredit": "Wikimedia Commons / Robert Lewandowski"
+  },
+  {
+    "slug": "karim-benzema",
+    "name": "Karim Benzema",
+    "category": "footballers",
+    "profession": "Striker",
+    "industry": "Professional Football (Soccer)",
+    "country": "France",
+    "birthDate": "1987-12-19",
+    "birthPlace": "Lyon, France",
+    "languages": [
+      "French",
+      "Spanish",
+      "Arabic"
+    ],
+    "nickname": "KB9 / King Karim",
+    "bio": "Karim Mostafa Benzema is a French professional footballer celebrated for his creative link-up play, tactical intelligence, and clutch finishing. The second all-time highest goalscorer and top assist provider in Real Madrid history, he won 25 trophies including five UEFA Champions Leagues. His miraculous 2021–22 campaign, delivering back-to-back Champions League knockout hat-tricks, earned him the 2022 Ballon d'Or by a landslide.",
+    "famousWorks": [
+      {
+        "year": 2014,
+        "title": "First Champions League trophy with BBC trio (Bale, Benzema, Cristiano)"
+      },
+      {
+        "year": 2017,
+        "title": "Unbelievable tightrope touchline dribble vs Atlético Madrid in Champions League Semifinal"
+      },
+      {
+        "year": 2022,
+        "title": "Back-to-back knockout hat-tricks vs PSG and Chelsea"
+      },
+      {
+        "year": 2022,
+        "title": "Winning 5th UEFA Champions League and Ballon d'Or"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (2022)",
+      "UEFA Men's Player of the Year (2021–22)",
+      "5 UEFA Champions League Titles",
+      "Pichichi Trophy (La Liga Top Scorer, 2021–22)"
+    ],
+    "faq": [
+      {
+        "q": "Why was Benzema's 2022 Ballon d'Or victory memorable?",
+        "a": "At age 34, he became the oldest first-time Ballon d'Or winner since Stanley Matthews in 1956 following a 44-goal season."
+      },
+      {
+        "q": "What was the famous 'BBC' trio at Real Madrid?",
+        "a": "Gareth Bale, Karim Benzema, and Cristiano Ronaldo, one of the most prolific attacking tridents in football history."
+      },
+      {
+        "q": "How many goals did Benzema score for Real Madrid?",
+        "a": "He scored 354 goals in 648 games, second only to Cristiano Ronaldo in the club's 120-year history."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "zinedine-zidane",
+      "kylian-mbappe"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karim_Benzema",
+      "https://www.realmadrid.com/en/about-real-madrid/history/football-legends/karim-benzema"
+    ],
+    "image": "/avatars/karim-benzema.jpg",
+    "imageCredit": "Wikimedia Commons / Karim Benzema"
+  },
+  {
+    "slug": "mohamed-salah",
+    "name": "Mohamed Salah",
+    "category": "footballers",
+    "profession": "Forward & Captain",
+    "industry": "Professional Football (Soccer)",
+    "country": "Egypt",
+    "birthDate": "1992-06-15",
+    "birthPlace": "Nagrig, Basyoun, Gharbia, Egypt",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "nickname": "The Egyptian King / Mo Salah",
+    "bio": "Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a right winger for Liverpool and captains Egypt. Renowned for his blistering speed, close control, and deadly curling left-foot shots, he became the all-time leading Premier League goalscorer for Liverpool. He guided Liverpool to Champions League triumph in 2019 and their first Premier League title in thirty years in 2020.",
+    "famousWorks": [
+      {
+        "year": 2017,
+        "title": "95th-minute penalty vs Congo to qualify Egypt for their first World Cup in 28 years"
+      },
+      {
+        "year": 2018,
+        "title": "Record 32 goals in a 38-game Premier League season"
+      },
+      {
+        "year": 2019,
+        "title": "Scoring opening penalty in UEFA Champions League Final victory vs Tottenham"
+      },
+      {
+        "year": 2020,
+        "title": "Premier League Championship with Liverpool (ending 30-year drought)"
+      }
+    ],
+    "awards": [
+      "3 Premier League Golden Boots (2017–18, 2018–19, 2021–22)",
+      "2 PFA Players' Player of the Year Awards",
+      "FIFA Puskás Award (2018)",
+      "2-time African Footballer of the Year (2017, 2018)"
+    ],
+    "faq": [
+      {
+        "q": "What Premier League record did Salah break in 2017–18?",
+        "a": "He scored 32 goals in a 38-game season, the highest tally in Premier League history before Haaland's 36."
+      },
+      {
+        "q": "What cultural impact did Salah have in Merseyside?",
+        "a": "Stanford University researchers noted a dramatic 16% reduction in hate crimes and Islamophobia in the Liverpool area following Salah's arrival."
+      },
+      {
+        "q": "Who is Egypt's all-time top scorer in World Cups?",
+        "a": "Mohamed Salah with two goals scored in the 2018 World Cup in Russia."
+      }
+    ],
+    "related": [
+      "kevin-de-bruyne",
+      "erling-haaland",
+      "cristiano-ronaldo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mohamed_Salah",
+      "https://www.liverpoolfc.com/team/mens/player/mohamed-salah"
+    ],
+    "image": "/avatars/mohamed-salah.jpg",
+    "imageCredit": "Wikimedia Commons / Mohamed Salah"
+  },
+  {
+    "slug": "kevin-de-bruyne",
+    "name": "Kevin De Bruyne",
+    "category": "footballers",
+    "profession": "Midfielder & Playmaker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Belgium",
+    "birthDate": "1991-06-28",
+    "birthPlace": "Drongen, Ghent, Belgium",
+    "languages": [
+      "Dutch",
+      "English",
+      "French",
+      "German"
+    ],
+    "nickname": "KDB",
+    "bio": "Kevin De Bruyne is a Belgian professional footballer and captain universally acknowledged as the supreme midfield playmaker of his generation. Armed with unmatched passing vision, thunderous long-range shooting, and pinpoint whip on crosses, he holds the Premier League record for fastest to 100 assists. As vice-captain, he steered Manchester City to six Premier League titles and their historic continental Treble in 2023.",
+    "famousWorks": [
+      {
+        "year": 2018,
+        "title": "Stunner vs Brazil in 2018 World Cup Quarterfinal (Third Place with Belgium)"
+      },
+      {
+        "year": 2020,
+        "title": "Record-equaling 20 Premier League assists in a single season"
+      },
+      {
+        "year": 2022,
+        "title": "Four-goal masterclass vs Wolverhampton Wanderers"
+      },
+      {
+        "year": 2023,
+        "title": "Historic Continental Treble with Manchester City"
+      }
+    ],
+    "awards": [
+      "2 PFA Players' Player of the Year Awards (2019–20, 2020–21)",
+      "3 Premier League Playmaker of the Season Awards",
+      "UEFA Champions League Midfielder of the Season (Record 3 times)",
+      "IFFHS World's Best Playmaker (Record 3 times)"
+    ],
+    "faq": [
+      {
+        "q": "How fast did De Bruyne reach 100 Premier League assists?",
+        "a": "He reached 100 assists in just 237 appearances, shattering Cesc Fàbregas's record by 56 games."
+      },
+      {
+        "q": "What is De Bruyne's signature cross?",
+        "a": "The 'corridor of uncertainty' cross, hit early from the right half-space with vicious curve and dip between the center-backs and the goalkeeper."
+      },
+      {
+        "q": "How many Premier League titles has he won?",
+        "a": "Six Premier League titles with Manchester City under manager Pep Guardiola."
+      }
+    ],
+    "related": [
+      "erling-haaland",
+      "luka-modric",
+      "andres-iniesta"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kevin_De_Bruyne",
+      "https://www.mancity.com/players/kevin-de-bruyne"
+    ],
+    "image": "/avatars/kevin-de-bruyne.jpg",
+    "imageCredit": "Wikimedia Commons / Kevin De Bruyne"
+  },
+  {
+    "slug": "david-beckham",
+    "name": "David Beckham",
+    "category": "footballers",
+    "profession": "Right Midfielder & Co-Owner",
+    "industry": "Professional Football (Soccer) & Inter Miami CF",
+    "country": "England",
+    "birthDate": "1975-05-02",
+    "birthPlace": "Leytonstone, London, England, UK",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "nickname": "Golden Balls / Becks",
+    "bio": "David Robert Joseph Beckham is an English former professional footballer and co-owner of Inter Miami CF who transcended football to become a global fashion icon. Renowned for his curved free-kicks, passing range, and crossing accuracy, he won the Treble with Manchester United in 1999 and became the first English player to win league titles in four countries (England, Spain, USA, and France). In 2023, he brought Lionel Messi to MLS.",
+    "famousWorks": [
+      {
+        "year": 1996,
+        "title": "Iconic halfway-line goal vs Wimbledon on opening day"
+      },
+      {
+        "year": 1999,
+        "title": "Historic Treble with Manchester United (taking corners in Champions League final)"
+      },
+      {
+        "year": 2001,
+        "title": "93rd-minute bending free-kick vs Greece at Old Trafford to qualify England for World Cup"
+      },
+      {
+        "year": 2023,
+        "title": "Signing Lionel Messi to Inter Miami CF as Co-Owner"
+      }
+    ],
+    "awards": [
+      "Officer of the Order of the British Empire (OBE, 2003)",
+      "Premier League Hall of Fame Inductee (2021)",
+      "UEFA Club Footballer of the Year (1999)",
+      "BBC Sports Personality of the Year (2001)"
+    ],
+    "faq": [
+      {
+        "q": "What was Beckham's most iconic moment in an England shirt?",
+        "a": "His 93rd-minute curling free-kick against Greece in 2001 that secured England's direct qualification for the 2002 World Cup."
+      },
+      {
+        "q": "In which four countries did Beckham win league titles?",
+        "a": "England (Manchester United), Spain (Real Madrid), United States (LA Galaxy), and France (Paris Saint-Germain)."
+      },
+      {
+        "q": "What major MLS club does he co-own?",
+        "a": "Inter Miami CF, which he founded and introduced to Major League Soccer in 2020."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "wayne-rooney",
+      "zinedine-zidane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Beckham",
+      "https://www.manutd.com/en/players-and-staff/detail/david-beckham"
+    ],
+    "image": "/avatars/david-beckham.jpg",
+    "imageCredit": "Wikimedia Commons / David Beckham"
+  },
+  {
+    "slug": "wayne-rooney",
+    "name": "Wayne Rooney",
+    "category": "footballers",
+    "profession": "Forward & Manager",
+    "industry": "Professional Football (Soccer)",
+    "country": "England",
+    "birthDate": "1985-10-24",
+    "birthPlace": "Croxteth, Liverpool, England, UK",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Wazza / The White Pelé",
+    "bio": "Wayne Mark Rooney is an English football manager and former player widely considered one of the most tenacious, versatile, and gifted footballers of his era. Bursting onto the scene as a 16-year-old prodigy at Everton, he went on to become the all-time record goalscorer for Manchester United with 253 goals. He won five Premier Leagues, the Champions League, and was England's all-time top scorer for nearly a decade.",
+    "famousWorks": [
+      {
+        "year": 2002,
+        "title": "Sensational 30-yard winner for Everton vs Arsenal at age 16"
+      },
+      {
+        "year": 2004,
+        "title": "Hat-trick on Manchester United debut vs Fenerbahçe in Champions League"
+      },
+      {
+        "year": 2011,
+        "title": "Iconic bicycle kick winner vs Manchester City at Old Trafford"
+      },
+      {
+        "year": 2017,
+        "title": "Free-kick vs Stoke City to break Sir Bobby Charlton's Manchester United scoring record"
+      }
+    ],
+    "awards": [
+      "Premier League Hall of Fame Inductee (2022)",
+      "All-time record goalscorer for Manchester United (253 goals)",
+      "PFA Players' Player of the Year (2009–10)",
+      "Golden Boy Award (2004)"
+    ],
+    "faq": [
+      {
+        "q": "What was voted the greatest goal in Premier League history?",
+        "a": "Rooney's stunning overhead bicycle kick against Manchester City at Old Trafford in February 2011 was voted the best goal in 20 years of the Premier League."
+      },
+      {
+        "q": "Who is Manchester United's all-time record goalscorer?",
+        "a": "Wayne Rooney with 253 goals in 559 games, surpassing Sir Bobby Charlton's long-standing record."
+      },
+      {
+        "q": "At what age did Rooney score his famous first Premier League goal?",
+        "a": "At 16 years and 360 days old for Everton against reigning champions Arsenal, ending their 30-match unbeaten run."
+      }
+    ],
+    "related": [
+      "david-beckham",
+      "cristiano-ronaldo",
+      "thierry-henry"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wayne_Rooney",
+      "https://www.manutd.com/en/players-and-staff/detail/wayne-rooney"
+    ],
+    "image": "/avatars/wayne-rooney.jpg",
+    "imageCredit": "Wikimedia Commons / Wayne Rooney"
+  },
+  {
+    "slug": "thierry-henry",
+    "name": "Thierry Henry",
+    "category": "footballers",
+    "profession": "Striker, Pundit & Coach",
+    "industry": "Professional Football (Soccer)",
+    "country": "France",
+    "birthDate": "1977-08-17",
+    "birthPlace": "Les Ulis, Essonne, France",
+    "languages": [
+      "French",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "King Henry / Titi",
+    "bio": "Thierry Daniel Henry is a French football coach, television pundit, and former player widely considered the greatest player in the history of the Premier League. The talisman of Arsenal's legendary 2003–04 'Invincibles' side that went an entire 38-game league campaign undefeated, his blistering acceleration, opening-up body side-foot finishes, and playmaking redefined modern striking. He won the 1998 World Cup and Euro 2000 with France.",
+    "famousWorks": [
+      {
+        "year": 1998,
+        "title": "1998 FIFA World Cup Champion with France as top team scorer"
+      },
+      {
+        "year": 2000,
+        "title": "Unbelievable flick-and-volley goal vs Manchester United at Highbury"
+      },
+      {
+        "year": 2004,
+        "title": "The 'Invincibles' undefeated 38-game Premier League season with Arsenal"
+      },
+      {
+        "year": 2009,
+        "title": "Historic Sextuple with FC Barcelona"
+      }
+    ],
+    "awards": [
+      "Premier League Hall of Fame (Inaugural Inductee, 2021)",
+      "Record 4 Premier League Golden Boots (2001–02, 2003–04, 2004–05, 2005–06)",
+      "2 European Golden Shoes (2003–04, 2004–05)",
+      "All-time record goalscorer for Arsenal (228 goals)"
+    ],
+    "faq": [
+      {
+        "q": "What was the 'Invincibles' season?",
+        "a": "In 2003–04, Arsenal went through the entire 38-match Premier League season without losing a single game (26 wins, 12 draws), with Henry scoring 30 goals."
+      },
+      {
+        "q": "What was Henry's signature finishing technique?",
+        "a": "Opening up his body from the left flank and curling a low, side-footed shot into the far bottom right corner."
+      },
+      {
+        "q": "Who is Arsenal's all-time record goalscorer?",
+        "a": "Thierry Henry with 228 goals across all competitions, commemorated with a bronze statue outside the Emirates Stadium."
+      }
+    ],
+    "related": [
+      "zinedine-zidane",
+      "kylian-mbappe",
+      "wayne-rooney"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thierry_Henry",
+      "https://www.arsenal.com/historic/players/thierry-henry"
+    ],
+    "image": "/avatars/thierry-henry.jpg",
+    "imageCredit": "Wikimedia Commons / Thierry Henry"
+  },
+  {
+    "slug": "paolo-maldini",
+    "name": "Paolo Maldini",
+    "category": "footballers",
+    "profession": "Defender & Former Technical Director",
+    "industry": "Professional Football (Soccer)",
+    "country": "Italy",
+    "birthDate": "1968-06-26",
+    "birthPlace": "Milan, Italy",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "nickname": "Il Capitano (The Captain)",
+    "bio": "Paolo Cesare Maldini is an Italian former professional footballer who played exclusively for AC Milan for 25 seasons and captained Italy. Widely regarded as the greatest defender in football history, he could play with flawless elegance at both left-back and center-back, rarely needing to commit a foul due to impeccable anticipation. He won 26 trophies with Milan, including five European Cups/Champions Leagues across three separate decades.",
+    "famousWorks": [
+      {
+        "year": 1989,
+        "title": "Part of Arrigo Sacchi's legendary Milan defense (conceding just 14 goals)"
+      },
+      {
+        "year": 1994,
+        "title": "Historic 4-0 demolition of Johan Cruyff's Barcelona in European Cup Final"
+      },
+      {
+        "year": 2003,
+        "title": "Captaining AC Milan to Champions League victory vs Juventus at Old Trafford"
+      },
+      {
+        "year": 2007,
+        "title": "Lifting his 5th European Cup at age 38 in Athens vs Liverpool"
+      }
+    ],
+    "awards": [
+      "5 European Cup / UEFA Champions League Titles",
+      "Italian Football Hall of Fame Inductee (2012)",
+      "Ballon d'Or Dream Team (All-time greatest left-back, 2020)",
+      "AC Milan permanently retired his number 3 shirt"
+    ],
+    "faq": [
+      {
+        "q": "How many European Cup / Champions League titles did Maldini win?",
+        "a": "He won five European Cups with AC Milan (1989, 1990, 1994, 2003, 2007), appearing in eight finals."
+      },
+      {
+        "q": "Did Paolo Maldini ever leave AC Milan?",
+        "a": "No, he was a true 'one-club man', playing 902 matches across 25 seasons for his boyhood club AC Milan from 1985 to 2009."
+      },
+      {
+        "q": "What famous quote did Maldini say about tackling?",
+        "a": "'If I have to make a tackle then I have already made a mistake' — emphasizing anticipation and tactical positioning."
+      }
+    ],
+    "related": [
+      "gianluigi-buffon",
+      "zinedine-zidane",
+      "sergio-ramos"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paolo_Maldini",
+      "https://www.acmilan.com/en/club/hall-of-fame/players/maldini"
+    ],
+    "image": "/avatars/paolo-maldini.jpg",
+    "imageCredit": "Wikimedia Commons / Paolo Maldini"
+  },
+  {
+    "slug": "gianluigi-buffon",
+    "name": "Gianluigi Buffon",
+    "category": "footballers",
+    "profession": "Goalkeeper",
+    "industry": "Professional Football (Soccer)",
+    "country": "Italy",
+    "birthDate": "1978-01-28",
+    "birthPlace": "Carrara, Tuscany, Italy",
+    "languages": [
+      "Italian",
+      "English",
+      "French"
+    ],
+    "nickname": "Gigi / Superman",
+    "bio": "Gianluigi Buffon is an Italian former professional footballer universally acknowledged as the greatest goalkeeper of his generation and one of the finest in football history. Renowned for his commanding leadership, positioning, and reflexive agility over an astonishing 28-year career, he conceded only two goals (an own goal and a penalty) during Italy's triumphant 2006 World Cup campaign. He made over 1,100 career appearances.",
+    "famousWorks": [
+      {
+        "year": 1999,
+        "title": "UEFA Cup & Coppa Italia with Parma"
+      },
+      {
+        "year": 2006,
+        "title": "Miraculous point-blank header save from Zidane in 2006 World Cup Final"
+      },
+      {
+        "year": 2006,
+        "title": "2006 FIFA World Cup Champion & Lev Yashin Award Winner"
+      },
+      {
+        "year": 2016,
+        "title": "Serie A record 974 consecutive minutes without conceding a goal"
+      }
+    ],
+    "awards": [
+      "FIFA World Cup Lev Yashin Award (Best Goalkeeper, 2006)",
+      "Ballon d'Or Runner-Up (2006)",
+      "IFFHS World's Best Goalkeeper of the 21st Century",
+      "Record 10 Serie A League Titles with Juventus"
+    ],
+    "faq": [
+      {
+        "q": "How many goals did Buffon concede in open play at the 2006 World Cup?",
+        "a": "Zero goals. Italy conceded only two goals in the entire tournament: an own goal by Cristian Zaccardo and Zidane's penalty in the final."
+      },
+      {
+        "q": "What is Buffon's Serie A clean sheet streak record?",
+        "a": "974 consecutive minutes without conceding a single goal for Juventus in 2016, surpassing Sebastiano Rossi's 22-year-old record."
+      },
+      {
+        "q": "How many World Cups did Buffon attend?",
+        "a": "He was selected for five FIFA World Cups (1998, 2002, 2006, 2010, 2014) for Italy."
+      }
+    ],
+    "related": [
+      "paolo-maldini",
+      "manuel-neuer",
+      "zinedine-zidane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gianluigi_Buffon",
+      "https://www.juventus.com"
+    ],
+    "image": "/avatars/gianluigi-buffon.jpg",
+    "imageCredit": "Wikimedia Commons / Gianluigi Buffon"
+  },
+  {
+    "slug": "manuel-neuer",
+    "name": "Manuel Neuer",
+    "category": "footballers",
+    "profession": "Goalkeeper & Captain",
+    "industry": "Professional Football (Soccer)",
+    "country": "Germany",
+    "birthDate": "1986-03-27",
+    "birthPlace": "Gelsenkirchen, North Rhine-Westphalia, Germany",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "nickname": "The Sweeper-Keeper / Manu",
+    "bio": "Manuel Peter Neuer is a German professional footballer who captains Bayern Munich and is regarded as the revolutionary goalkeeper who modernized the position through the 'sweeper-keeper' style. Rushing out of his penalty area to clear danger with his head and feet, his pinpoint passing functioned as an eleventh outfield player. He captained Germany to the 2014 World Cup and won two European Trebles with Bayern.",
+    "famousWorks": [
+      {
+        "year": 2013,
+        "title": "First Continental Treble with Bayern Munich"
+      },
+      {
+        "year": 2014,
+        "title": "Masterclass sweeper-keeper performance vs Algeria in World Cup Last-16"
+      },
+      {
+        "year": 2014,
+        "title": "2014 FIFA World Cup Champion & Golden Glove Winner in Rio"
+      },
+      {
+        "year": 2020,
+        "title": "Second Continental Treble & Heroics in Champions League Final vs PSG"
+      }
+    ],
+    "awards": [
+      "FIFA World Cup Golden Glove (2014)",
+      "IFFHS World's Best Goalkeeper (Record 5 times)",
+      "Ballon d'Or Third Place (2014)",
+      "2 Continental Trebles with Bayern Munich (2013, 2020)"
+    ],
+    "faq": [
+      {
+        "q": "What is a 'sweeper-keeper'?",
+        "a": "A goalkeeper who plays high outside the 18-yard box, anticipating long balls, clearing attacks before they develop, and actively initiating offensive passing."
+      },
+      {
+        "q": "What was Neuer's iconic match at the 2014 World Cup?",
+        "a": "Against Algeria in the round of 16, he rushed outside his penalty area 21 times, acting as a sweeper and rescuing Germany multiple times."
+      },
+      {
+        "q": "How close did Neuer come to winning the 2014 Ballon d'Or?",
+        "a": "He finished third in the 2014 voting, just behind Cristiano Ronaldo and Lionel Messi, following his World Cup triumph."
+      }
+    ],
+    "related": [
+      "gianluigi-buffon",
+      "robert-lewandowski",
+      "franz-beckenbauer"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manuel_Neuer",
+      "https://fcbayern.com/en/teams/first-team/manuel-neuer"
+    ],
+    "image": "/avatars/manuel-neuer.jpg",
+    "imageCredit": "Wikimedia Commons / Manuel Neuer"
+  },
+  {
+    "slug": "franz-beckenbauer",
+    "name": "Franz Beckenbauer",
+    "category": "footballers",
+    "profession": "Sweeper (Libero), Manager & Executive",
+    "industry": "Professional Football (Soccer)",
+    "country": "Germany",
+    "birthDate": "1945-09-11",
+    "deathDate": "2024-01-07",
+    "birthPlace": "Munich, Bavaria, Germany",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "nickname": "Der Kaiser (The Emperor)",
+    "bio": "Franz Anton Beckenbauer was a German professional footballer, manager, and administrator regarded as one of the greatest figures in the history of football. Known for his supreme composure, elegance, and visionary passing, he invented and perfected the modern role of the attacking sweeper (libero). He is one of only three men in history (along with Mário Zagallo and Didier Deschamps) to win the World Cup as both player and manager.",
+    "famousWorks": [
+      {
+        "year": 1970,
+        "title": "Playing the 'Game of the Century' vs Italy with dislocated shoulder in a sling"
+      },
+      {
+        "year": 1974,
+        "title": "Captaining West Germany to 1974 FIFA World Cup victory on home soil"
+      },
+      {
+        "year": 1974,
+        "title": "Three consecutive European Cups with Bayern Munich (1974, 1975, 1976)"
+      },
+      {
+        "year": 1990,
+        "title": "Managing West Germany to 1990 FIFA World Cup victory in Rome"
+      }
+    ],
+    "awards": [
+      "2 Ballon d'Or Awards (1972, 1976 - rare for a defender)",
+      "World Cup Champion as Player (1974) and Manager (1990)",
+      "Ballon d'Or Dream Team (All-time center-back, 2020)",
+      "FIFA Presidential Award & Order of Merit"
+    ],
+    "faq": [
+      {
+        "q": "Why was Beckenbauer nicknamed 'Der Kaiser'?",
+        "a": "His regal elegance on the pitch, leadership authority, and aristocratic bearing earned him the German title 'The Emperor'."
+      },
+      {
+        "q": "What role did he pioneer?",
+        "a": "The attacking sweeper or 'libero'—a defender who swept behind the backline but stepped forward into midfield to orchestrate attacks."
+      },
+      {
+        "q": "What was his heroic feat in the 1970 World Cup semifinal?",
+        "a": "In the 'Game of the Century' against Italy in Mexico, he refused to leave the pitch after dislocating his shoulder, playing the remaining match with his arm strapped to his torso."
+      }
+    ],
+    "related": [
+      "johan-cruyff",
+      "pele",
+      "diego-maradona"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+      "https://www.britannica.com/biography/Franz-Beckenbauer"
+    ],
+    "image": "/avatars/franz-beckenbauer.jpg",
+    "imageCredit": "Wikimedia Commons / Franz Beckenbauer"
+  },
+  {
+    "slug": "gerd-muller",
+    "name": "Gerd Müller",
+    "category": "footballers",
+    "profession": "Striker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Germany",
+    "birthDate": "1945-11-03",
+    "deathDate": "2021-08-15",
+    "birthPlace": "Nördlingen, Bavaria, Germany",
+    "languages": [
+      "German"
+    ],
+    "nickname": "Der Bomber (The Bomber of the Nation)",
+    "bio": "Gerhard Müller was a German professional footballer widely regarded as the most ruthless penalty-box goalscorer in the history of the sport. With uncanny short-burst acceleration, balance, and the instinct to score from impossible body angles, he scored 68 goals in 62 games for West Germany and 563 goals for Bayern Munich. He scored the winning goal in the 1974 World Cup final in Munich.",
+    "famousWorks": [
+      {
+        "year": 1970,
+        "title": "Golden Boot at 1970 World Cup in Mexico (10 goals in 6 games)"
+      },
+      {
+        "year": 1972,
+        "title": "UEFA European Championship Champion (scoring twice in final)"
+      },
+      {
+        "year": 1972,
+        "title": "Mythical 85 goals in a calendar year (stood for 40 years)"
+      },
+      {
+        "year": 1974,
+        "title": "Scoring the winning goal in 1974 FIFA World Cup Final vs Netherlands"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (1970)",
+      "2 European Golden Shoes (1970, 1972)",
+      "FIFA World Cup Golden Boot (1970)",
+      "All-time top scorer in Bundesliga history (365 goals)"
+    ],
+    "faq": [
+      {
+        "q": "What was Gerd Müller's incredible international scoring ratio?",
+        "a": "He scored 68 goals in just 62 international matches for West Germany, averaging over 1.09 goals per game."
+      },
+      {
+        "q": "What was his iconic goal in the 1974 World Cup Final?",
+        "a": "In the 43rd minute in Munich, he collected a cross from Bonhof, turned swiftly in a crowded box, and drilled a low shot to seal the 2-1 victory."
+      },
+      {
+        "q": "What trophy honors his legacy today?",
+        "a": "The Gerd Müller Trophy, awarded annually by France Football at the Ballon d'Or ceremony to the highest-scoring striker of the season."
+      }
+    ],
+    "related": [
+      "franz-beckenbauer",
+      "robert-lewandowski",
+      "erling-haaland"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gerd_M%C3%BCller",
+      "https://fcbayern.com/en/club/history/hall-of-fame/gerd-mueller"
+    ],
+    "image": "/avatars/gerd-muller.jpg",
+    "imageCredit": "Wikimedia Commons / Gerd Müller"
+  },
+  {
+    "slug": "kaka",
+    "name": "Kaká",
+    "category": "footballers",
+    "profession": "Attacking Midfielder",
+    "industry": "Professional Football (Soccer)",
+    "country": "Brazil",
+    "birthDate": "1982-04-22",
+    "birthPlace": "Gama, Federal District, Brazil",
+    "languages": [
+      "Portuguese",
+      "Italian",
+      "English",
+      "Spanish"
+    ],
+    "nickname": "Ricky / Il Bambino d'Oro",
+    "bio": "Ricardo Izecson dos Santos Leite, known as Kaká, is a Brazilian former professional footballer who was the best player in the world in 2007. Famous for his long, effortless galloping strides through midfield, blistering acceleration, and clean finishing, he orchestrated AC Milan's 2007 UEFA Champions League triumph as top scorer. He won the 2002 World Cup with Brazil and was the last player to win the Ballon d'Or before the Messi-Ronaldo era.",
+    "famousWorks": [
+      {
+        "year": 2002,
+        "title": "2002 FIFA World Cup Champion with Brazil at age 20"
+      },
+      {
+        "year": 2007,
+        "title": "Masterclass double at Old Trafford vs Manchester United in Champions League Semifinal"
+      },
+      {
+        "year": 2007,
+        "title": "UEFA Champions League Champion & Top Scorer (10 goals) with AC Milan"
+      },
+      {
+        "year": 2007,
+        "title": "Sweeping the Ballon d'Or and FIFA World Player of the Year"
+      }
+    ],
+    "awards": [
+      "Ballon d'Or (2007)",
+      "FIFA World Player of the Year (2007)",
+      "UEFA Club Footballer of the Year (2007)",
+      "Time 100 Most Influential People"
+    ],
+    "faq": [
+      {
+        "q": "Why was Kaká's 2007 Ballon d'Or significant?",
+        "a": "He was the last player to win the Ballon d'Or before Cristiano Ronaldo and Lionel Messi dominated the award for a full decade."
+      },
+      {
+        "q": "What was his famous solo goal at Old Trafford in 2007?",
+        "a": "He headed the ball between Manchester United defenders Gabriel Heinze and Patrice Evra, causing them to collide, before calmly slotting past Edwin van der Sar."
+      },
+      {
+        "q": "What injury nearly ended Kaká's career as a teenager?",
+        "a": "At age 18, he fractured his spine in a swimming pool accident and miraculously made a full recovery, dedicating his life and celebrations ('I Belong to Jesus') to his faith."
+      }
+    ],
+    "related": [
+      "ronaldinho",
+      "cristiano-ronaldo",
+      "paolo-maldini"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kak%C3%A1",
+      "https://www.acmilan.com/en/club/hall-of-fame/players/kaka"
+    ],
+    "image": "/avatars/kaka.jpg",
+    "imageCredit": "Wikimedia Commons / Kaká"
+  },
+  {
+    "slug": "luis-suarez",
+    "name": "Luis Suárez",
+    "category": "footballers",
+    "profession": "Striker",
+    "industry": "Professional Football (Soccer)",
+    "country": "Uruguay",
+    "birthDate": "1987-01-24",
+    "birthPlace": "Salto, Uruguay",
+    "languages": [
+      "Spanish",
+      "English",
+      "Dutch"
+    ],
+    "nickname": "El Pistolero (The Gunman)",
+    "bio": "Luis Alberto Suárez Díaz is an Uruguayan professional footballer celebrated as one of the most ferocious and prolific strikers in football history. The all-time record goalscorer for Uruguay, he won two European Golden Shoes in an era dominated by Messi and Ronaldo. Alongside Messi and Neymar, he scored 59 goals in 2015–16 for Barcelona, securing the European Golden Shoe and lifting the continental Treble.",
+    "famousWorks": [
+      {
+        "year": 2011,
+        "title": "Copa América Champion & Player of the Tournament with Uruguay"
+      },
+      {
+        "year": 2014,
+        "title": "Premier League Player of the Season & European Golden Shoe (31 goals for Liverpool)"
+      },
+      {
+        "year": 2015,
+        "title": "Scoring the winning goal in UEFA Champions League Final in Berlin"
+      },
+      {
+        "year": 2016,
+        "title": "Winning European Golden Shoe with 40 La Liga goals for Barcelona"
+      }
+    ],
+    "awards": [
+      "2 European Golden Shoes (2013–14, 2015–16)",
+      "Premier League Player of the Season (2013–14)",
+      "All-time record goalscorer for Uruguay (69 goals)",
+      "Pichichi Trophy (La Liga, 2015–16)"
+    ],
+    "faq": [
+      {
+        "q": "Who were the members of Barcelona's famous 'MSN' attacking trident?",
+        "a": "Lionel Messi, Luis Suárez, and Neymar, who scored a world-record 131 goals between them in the 2015–16 season."
+      },
+      {
+        "q": "What was his scoring feat with Liverpool in 2013–14?",
+        "a": "He scored 31 Premier League goals in just 33 games without taking a single penalty, matching the 38-game season record."
+      },
+      {
+        "q": "What is his nickname 'El Pistolero' derived from?",
+        "a": "His trademark goal celebration where he mimics blowing smoke from pistols with his fingers after kissing his wrist and fingers."
+      }
+    ],
+    "related": [
+      "lionel-messi",
+      "neymar",
+      "robert-lewandowski"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1987)",
+      "https://www.fcbarcelona.com"
+    ],
+    "image": "/avatars/luis-suarez.jpg",
+    "imageCredit": "Wikimedia Commons / Luis Suárez (Uruguayan footballer)"
+  },
+  {
+    "slug": "sergio-ramos",
+    "name": "Sergio Ramos",
+    "category": "footballers",
+    "profession": "Center-Back",
+    "industry": "Professional Football (Soccer)",
+    "country": "Spain",
+    "birthDate": "1986-03-30",
+    "birthPlace": "Camas, Seville, Andalusia, Spain",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "nickname": "El Capitán / SR4",
+    "bio": "Sergio Ramos García is a Spanish professional footballer widely regarded as one of the greatest and most clutch defenders in football history. Renowned for his fierce tackling, aerial dominance, and extraordinary goalscoring record for a defender (over 130 career goals), he captained Real Madrid to three consecutive Champions League triumphs. His 93rd-minute equalizer in the 2014 Champions League final remains the most iconic goal in Real Madrid's modern history.",
+    "famousWorks": [
+      {
+        "year": 2010,
+        "title": "2010 FIFA World Cup Champion with Spain (playing every minute at right-back)"
+      },
+      {
+        "year": 2014,
+        "title": "92:48 stoppage-time header vs Atlético Madrid to rescue 'La Décima'"
+      },
+      {
+        "year": 2016,
+        "title": "Captaining Real Madrid to historic three consecutive Champions League titles (2016, 2017, 2018)"
+      },
+      {
+        "year": 2018,
+        "title": "Record caps for Spain national team (180 appearances)"
+      }
+    ],
+    "awards": [
+      "4 UEFA Champions League Titles (Three as Captain)",
+      "2010 FIFA World Cup Champion & 2-time European Champion (2008, 2012)",
+      "FIFPro World11 (Record 11 times for a defender)",
+      "All-time record appearance maker for Spain (180 caps)"
+    ],
+    "faq": [
+      {
+        "q": "What was the significance of 'Minuto 93' (92:48)?",
+        "a": "Trailing 1-0 in the 93rd minute of the 2014 Champions League final, Ramos scored a soaring header off Modric's corner, forcing extra time and delivering Real Madrid's coveted 10th title (La Décima)."
+      },
+      {
+        "q": "How many goals has Sergio Ramos scored in his career?",
+        "a": "He has scored over 130 career goals for club and country, an astronomical tally for a central defender."
+      },
+      {
+        "q": "How many red cards has Ramos received?",
+        "a": "He holds the European record for most red cards (29 in his career), reflecting his uncompromising, win-at-all-costs intensity."
+      }
+    ],
+    "related": [
+      "cristiano-ronaldo",
+      "luka-modric",
+      "paolo-maldini"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sergio_Ramos",
+      "https://www.realmadrid.com/en/about-real-madrid/history/football-legends/sergio-ramos"
+    ],
+    "image": "/avatars/sergio-ramos.jpg",
+    "imageCredit": "Wikimedia Commons / Sergio Ramos"
+  },
+  {
+    "slug": "harry-kane",
+    "name": "Harry Kane",
+    "category": "footballers",
+    "profession": "Striker & England Captain",
+    "industry": "Professional Football (Soccer)",
+    "country": "England",
+    "birthDate": "1993-07-28",
+    "birthPlace": "Walthamstow, London, England, UK",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "nickname": "Hurricane / Sir Harry",
+    "bio": "Harry Edward Kane is an English professional footballer who captains the England national team and plays as a striker for Bayern Munich. Renowned for his surgical ball-striking, hold-up play, and quarterback-like passing range from deep, he is the all-time leading goalscorer for both England and Tottenham Hotspur. He won the Golden Boot at the 2018 World Cup and the European Golden Shoe in 2024.",
+    "famousWorks": [
+      {
+        "year": 2017,
+        "title": "Europe's top scorer in calendar year (56 goals, beating Messi and Ronaldo)"
+      },
+      {
+        "year": 2018,
+        "title": "FIFA World Cup Golden Boot in Russia (6 goals as England Captain)"
+      },
+      {
+        "year": 2021,
+        "title": "Leading Premier League in BOTH goals (23) and assists (14) in same season"
+      },
+      {
+        "year": 2024,
+        "title": "European Golden Shoe winner (36 goals in debut Bayern Munich season)"
+      }
+    ],
+    "awards": [
+      "Member of the Order of the British Empire (MBE, 2019)",
+      "European Golden Shoe (2023–24)",
+      "FIFA World Cup Golden Boot (2018)",
+      "3 Premier League Golden Boots & Premier League Playmaker Award",
+      "All-time top scorer for England national team (68+ goals)"
+    ],
+    "faq": [
+      {
+        "q": "Who is England's all-time record goalscorer?",
+        "a": "Harry Kane with over 68 international goals, having surpassed Wayne Rooney's previous record of 53 in 2023."
+      },
+      {
+        "q": "What rare double did Kane achieve in the 2020–21 Premier League season?",
+        "a": "He won both the Golden Boot (top scorer, 23 goals) and the Playmaker Award (top assists, 14 assists) in the same season, a feat accomplished only twice in history."
+      },
+      {
+        "q": "How many goals did he score in his first Bundesliga season with Bayern?",
+        "a": "He scored 36 goals in 32 matches, winning the European Golden Shoe as the top domestic scorer across all European leagues."
+      }
+    ],
+    "related": [
+      "wayne-rooney",
+      "erling-haaland",
+      "robert-lewandowski"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Kane",
+      "https://fcbayern.com/en/teams/first-team/harry-kane"
+    ],
+    "image": "/avatars/harry-kane.jpg",
+    "imageCredit": "Wikimedia Commons / Harry Kane"
+  }
+]

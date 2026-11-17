@@ -1,0 +1,120 @@
+[
+  {
+    "slug": "naomi-campbell",
+    "name": "Naomi Campbell",
+    "category": "models",
+    "profession": "Supermodel, Actress & Businesswoman",
+    "industry": "High Fashion & Haute Couture",
+    "country": "United Kingdom",
+    "birthDate": "1970-05-22",
+    "birthPlace": "Streatham, London, United Kingdom",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Black Panther",
+    "bio": "Naomi Elaine Campbell is a British supermodel whose groundbreaking career revolutionized the global fashion industry. Beginning her modeling career at age 15, she established herself among the six models of her generation declared 'supermodels' by the international fashion community. Campbell broke significant racial barriers, becoming the first Black woman to appear on the covers of French Vogue and Time magazine.",
+    "famousWorks": [
+      {
+        "year": 1988,
+        "title": "First Black model on the cover of French Vogue"
+      },
+      {
+        "year": 1989,
+        "title": "First Black model on the cover of American Vogue's September issue"
+      },
+      {
+        "year": 2005,
+        "title": "Founded Fashion for Relief charitable initiative"
+      },
+      {
+        "year": 2019,
+        "title": "CFDA Fashion Icon Award"
+      }
+    ],
+    "awards": [
+      "CFDA Fashion Icon Award (2019)",
+      "British Fashion Awards Special Recognition Award (2019)",
+      "Honorary Doctorate from University for the Creative Arts (2022)"
+    ],
+    "faq": [
+      {
+        "q": "What historical barrier did Naomi Campbell break in fashion?",
+        "a": "In August 1988, she made history as the first Black model to appear on the cover of French Vogue, and later the first on Time magazine's cover."
+      },
+      {
+        "q": "What is Fashion for Relief?",
+        "a": "A charitable organization founded by Campbell in 2005 that raises millions through high-fashion runway benefits for humanitarian causes."
+      }
+    ],
+    "related": [
+      "gigi-hadid",
+      "charli-damelio",
+      "oprah-winfrey"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Naomi_Campbell",
+      "https://www.vogue.com/tag/celebrity/naomi-campbell"
+    ],
+    "image": "/avatars/naomi-campbell.jpg",
+    "imageCredit": "Wikimedia Commons / Naomi Campbell"
+  },
+  {
+    "slug": "gigi-hadid",
+    "name": "Gigi Hadid",
+    "category": "models",
+    "profession": "Fashion Model & Creative Director",
+    "industry": "Modern Runway & Ready-to-Wear",
+    "country": "United States",
+    "birthDate": "1995-04-23",
+    "birthPlace": "Los Angeles, California, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Gigi",
+    "bio": "Jelena Noura 'Gigi' Hadid is an American supermodel and creative director who has defined modern fashion's crossover between high couture and digital stardom. Since making her New York Fashion Week debut in 2014, she has appeared on more than 35 international Vogue covers and walked for elite designers including Chanel, Versace, and Marc Jacobs. In 2022, she launched her own cashmere knitwear brand, Guest in Residence.",
+    "famousWorks": [
+      {
+        "year": 2014,
+        "title": "New York Fashion Week runway debut with Desigual"
+      },
+      {
+        "year": 2015,
+        "title": "Victoria's Secret Fashion Show debut"
+      },
+      {
+        "year": 2016,
+        "title": "International Model of the Year at the British Fashion Awards"
+      },
+      {
+        "year": 2022,
+        "title": "Founded sustainable cashmere label Guest in Residence"
+      }
+    ],
+    "awards": [
+      "British Fashion Awards International Model of the Year (2016)",
+      "Glamour Award for The As-If! Innovator (2017)",
+      "First For Women Style Icon (2018)"
+    ],
+    "faq": [
+      {
+        "q": "How many international Vogue covers has Gigi Hadid appeared on?",
+        "a": "Hadid has graced more than 35 international editions of Vogue across the globe."
+      },
+      {
+        "q": "What clothing brand did Gigi Hadid launch?",
+        "a": "In 2022, she launched 'Guest in Residence', a direct-to-consumer luxury knitwear line specializing in 100% cashmere."
+      }
+    ],
+    "related": [
+      "naomi-campbell",
+      "charli-damelio",
+      "taylor-swift"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gigi_Hadid",
+      "https://www.models.com/models/gigi-hadid"
+    ],
+    "image": "/avatars/gigi-hadid.jpg",
+    "imageCredit": "Wikimedia Commons / Gigi Hadid"
+  }
+]

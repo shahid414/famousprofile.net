@@ -1,0 +1,2057 @@
+[
+  {
+    "slug": "alexander-fleming",
+    "name": "Sir Alexander Fleming",
+    "category": "doctors",
+    "profession": "Physician, Microbiologist & Pharmacologist",
+    "industry": "Antibiotics & Bacteriology",
+    "country": "United Kingdom",
+    "birthDate": "1881-08-06",
+    "deathDate": "1955-03-11",
+    "birthPlace": "Lochfield, Darvel, Scotland",
+    "languages": [
+      "English",
+      "Scots"
+    ],
+    "nickname": "Father of Modern Antibiotics",
+    "bio": "Sir Alexander Fleming was a Scottish physician, microbiologist, and pharmacologist whose accidental discovery of benzylpenicillin from the mould Penicillium rubens in 1928 revolutionized global medicine. His breakthrough catalyzed the antibiotic era, turning previously lethal bacterial infections into treatable illnesses and saving hundreds of millions of human lives. Fleming also discovered the antibacterial enzyme lysozyme and presciently warned medical authorities against the perils of antibiotic resistance.",
+    "famousWorks": [
+      {
+        "year": 1921,
+        "title": "Discovery and characterization of the antibacterial enzyme Lysozyme"
+      },
+      {
+        "year": 1928,
+        "title": "Discovery of Penicillin at St. Mary's Hospital, London"
+      },
+      {
+        "year": 1929,
+        "title": "Published landmark paper on the antibacterial action of Penicillin"
+      },
+      {
+        "year": 1944,
+        "title": "Overseeing the mass industrial production of Penicillin for WWII allied forces"
+      },
+      {
+        "year": 1945,
+        "title": "Nobel Lecture alerting the medical community to microbial drug resistance"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1945)",
+      "Knight Bachelor by King George VI (1944)",
+      "Fellow of the Royal Society (FRS, 1943)",
+      "Time 100 Most Important People of the 20th Century"
+    ],
+    "faq": [
+      {
+        "q": "How did Alexander Fleming discover penicillin in 1928?",
+        "a": "Returning from vacation to his laboratory at St. Mary's Hospital, he noticed that a green fungal mould contamination on an unwashed staphylococcus culture dish had dissolved the surrounding bacteria."
+      },
+      {
+        "q": "Who shared the 1945 Nobel Prize in Medicine with Fleming?",
+        "a": "He shared the prize with Australian pathologist Howard Florey and German-British biochemist Ernst Chain, who purified and developed penicillin for widespread clinical use."
+      },
+      {
+        "q": "What early warning did Alexander Fleming issue about antibiotics?",
+        "a": "In his 1945 Nobel lecture, he warned that under-dosing or improper use of penicillin would teach microbes to become resistant, foreshadowing modern superbugs."
+      }
+    ],
+    "related": [
+      "anthony-fauci",
+      "edward-jenner",
+      "robert-koch"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+      "https://www.biography.com/scientists/alexander-fleming"
+    ],
+    "image": "/avatars/alexander-fleming.jpg",
+    "imageCredit": "Wikimedia Commons / Alexander Fleming"
+  },
+  {
+    "slug": "anthony-fauci",
+    "name": "Dr. Anthony Fauci",
+    "category": "doctors",
+    "profession": "Physician & Immunologist",
+    "industry": "Infectious Diseases & Public Health",
+    "country": "United States",
+    "birthDate": "1940-12-24",
+    "birthPlace": "Brooklyn, New York, USA",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "nickname": "Tony",
+    "bio": "Dr. Anthony Stephen Fauci is an American physician-scientist and immunologist who served as the Director of the National Institute of Allergy and Infectious Diseases (NIAID) for 38 years from 1984 to 2022. He acted as a principal medical advisor to seven consecutive US presidents across public health emergencies including HIV/AIDS, SARS, Swine Flu, Ebola, and COVID-19. Dr. Fauci was also the primary architect of the President's Emergency Plan for AIDS Relief (PEPFAR), which has saved over 25 million lives worldwide.",
+    "famousWorks": [
+      {
+        "year": 1984,
+        "title": "Pioneering clinical therapeutic protocols for human immunodeficiency virus (HIV)"
+      },
+      {
+        "year": 2003,
+        "title": "Chief architect of the President's Emergency Plan for AIDS Relief (PEPFAR)"
+      },
+      {
+        "year": 2014,
+        "title": "Leadership of the US clinical response to the West African Ebola epidemic"
+      },
+      {
+        "year": 2020,
+        "title": "Chief Medical Advisor to the President during the COVID-19 pandemic"
+      },
+      {
+        "year": 2024,
+        "title": "Published bestselling memoir 'On Call: A Doctor's Journey in Public Service'"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (2008)",
+      "National Medal of Science (2005)",
+      "Robert Koch Gold Medal (2013)",
+      "Albany Medical Center Prize in Medicine (2002)"
+    ],
+    "faq": [
+      {
+        "q": "How long did Dr. Anthony Fauci serve as director of NIAID?",
+        "a": "He directed the National Institute of Allergy and Infectious Diseases from 1984 until his retirement from federal service in December 2022."
+      },
+      {
+        "q": "What is PEPFAR and what was Dr. Fauci's role in it?",
+        "a": "PEPFAR is a global initiative launched in 2003 to combat HIV/AIDS; Dr. Fauci was its primary architect, and the program has saved over 25 million lives primarily in developing nations."
+      },
+      {
+        "q": "Where did Dr. Fauci earn his medical degree?",
+        "a": "He graduated first in his class from Weill Cornell Medicine of Cornell University with his Doctor of Medicine (M.D.) in 1966."
+      }
+    ],
+    "related": [
+      "alexander-fleming",
+      "jonas-salk",
+      "paul-farmer"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anthony_Fauci",
+      "https://www.niaid.nih.gov/about/anthony-s-fauci-md-bio",
+      "https://www.nih.gov"
+    ],
+    "image": "/avatars/anthony-fauci.jpg",
+    "imageCredit": "Wikimedia Commons / Anthony Fauci"
+  },
+  {
+    "slug": "hippocrates",
+    "name": "Hippocrates",
+    "category": "doctors",
+    "profession": "Ancient Physician & Philosopher",
+    "industry": "Classical Medicine & Medical Ethics",
+    "country": "Greece",
+    "birthDate": "0460-01-01",
+    "deathDate": "0370-01-01",
+    "birthPlace": "Kos, Ancient Greece",
+    "languages": [
+      "Ancient Greek"
+    ],
+    "nickname": "Father of Modern Medicine",
+    "bio": "Hippocrates of Kos was an ancient Greek physician regarded as the 'Father of Modern Medicine' for establishing medicine as an independent, scientific discipline distinct from theurgy and philosophy. He demonstrated that diseases were produced by natural physical causes such as diet, climate, and living habits rather than divine retribution. Hippocrates and his disciples compiled the legendary Hippocratic Corpus, which established rigorous clinical observation, symptom documentation, and ethical medical conduct. His legacy endures through the Hippocratic Oath, which modern medical graduates continue to uphold worldwide.",
+    "famousWorks": [
+      {
+        "year": "400 BCE",
+        "title": "Author of the foundational Hippocratic Oath of medical ethics"
+      },
+      {
+        "year": "400 BCE",
+        "title": "On the Sacred Disease (first text proving epilepsy is a natural brain disorder, not demonic possession)"
+      },
+      {
+        "year": "400 BCE",
+        "title": "Aphorisms (including the famous phrase 'Art is long, life is short')"
+      },
+      {
+        "year": "400 BCE",
+        "title": "On Airs, Waters, and Places (pioneering environmental epidemiology)"
+      },
+      {
+        "year": "400 BCE",
+        "title": "The Hippocratic Corpus (compilation of over 60 foundational medical treatises)"
+      }
+    ],
+    "awards": [
+      "Universally recognized across civilizations as the 'Father of Medicine'",
+      "Originator of the timeless Hippocratic Oath recited by physicians worldwide",
+      "First physician to clinically classify diseases into acute, chronic, endemic, and epidemic"
+    ],
+    "faq": [
+      {
+        "q": "What is the core ethical principle of the Hippocratic tradition?",
+        "a": "The principle of non-maleficence, commonly expressed in Latin as 'Primum non nocere' ('First, do no harm'), prioritizing the patient's well-being and doctor-patient confidentiality."
+      },
+      {
+        "q": "How did Hippocrates revolutionize the understanding of disease?",
+        "a": "He discarded superstitious notions that illness was caused by wrath of gods or demons, demonstrating that health depends on environmental balance, nutrition, hygiene, and physiology."
+      },
+      {
+        "q": "What clinical diagnostic techniques did Hippocrates pioneer?",
+        "a": "He pioneered systematic physical examinations, taking patient medical histories, feeling the pulse, inspecting bodily fluids, and observing facial changes ('Hippocratic face')."
+      }
+    ],
+    "related": [
+      "ibn-sina",
+      "sushruta",
+      "edward-jenner"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hippocrates",
+      "https://www.britannica.com/biography/Hippocrates",
+      "https://www.nlm.nih.gov/hmd/greek/greek_hippocrates.html"
+    ],
+    "image": "/avatars/hippocrates.jpg",
+    "imageCredit": "Wikimedia Commons / Hippocrates"
+  },
+  {
+    "slug": "edward-jenner",
+    "name": "Edward Jenner",
+    "category": "doctors",
+    "profession": "Physician & Scientist",
+    "industry": "Immunology & Vaccinology",
+    "country": "United Kingdom",
+    "birthDate": "1749-05-17",
+    "deathDate": "1823-01-26",
+    "birthPlace": "Berkeley, Gloucestershire, England",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Father of Immunology",
+    "bio": "Edward Jenner was an English country physician and scientist whose pioneering work with the smallpox vaccine founded the entire science of immunology. Observing that dairy milkmaids were mysteriously immune to deadly smallpox after contracting mild cowpox, he famously inoculated young James Phipps in 1796 and proved that cowpox conferred durable immunity against smallpox. Jenner coined the word 'vaccine' (from the Latin 'vacca', meaning cow) and distributed his findings freely to the world without seeking commercial profit. His revolutionary discovery laid the foundation that culminated in the complete global eradication of smallpox in 1980.",
+    "famousWorks": [
+      {
+        "year": 1796,
+        "title": "First successful inoculation using cowpox matter against smallpox on James Phipps"
+      },
+      {
+        "year": 1798,
+        "title": "Published landmark treatise 'An Inquiry into the Causes and Effects of the Variolae Vaccinae'"
+      },
+      {
+        "year": 1802,
+        "title": "Establishment of the Royal Jennerian Society to promote global vaccination"
+      },
+      {
+        "year": 1813,
+        "title": "Appointed Physician Extraordinary to King George IV"
+      }
+    ],
+    "awards": [
+      "Fellow of the Royal Society (FRS, 1789)",
+      "Honorary Doctorate of Medicine by Oxford University (1813)",
+      "Credited with saving more human lives than any other individual in history",
+      "Foreign Honorary Member of the American Academy of Arts and Sciences"
+    ],
+    "faq": [
+      {
+        "q": "Why is Edward Jenner called the 'Father of Immunology'?",
+        "a": "Because he conducted the first scientifically recorded and verified clinical vaccination trials, creating the very concept and practice of immunization."
+      },
+      {
+        "q": "Where does the word 'vaccine' originate?",
+        "a": "Jenner derived the word from 'vacca', the Latin word for cow, because his original vaccine was made from the cowpox virus (Variolae vaccinae)."
+      },
+      {
+        "q": "Did Edward Jenner patent his smallpox vaccine?",
+        "a": "No, Jenner deliberately chose never to patent his discovery, making vaccine supplies freely available to doctors and nations worldwide."
+      }
+    ],
+    "related": [
+      "robert-koch",
+      "jonas-salk",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Edward_Jenner",
+      "https://www.jenner.ac.uk",
+      "https://www.britannica.com/biography/Edward-Jenner"
+    ],
+    "image": "/avatars/edward-jenner.jpg",
+    "imageCredit": "Wikimedia Commons / Edward Jenner"
+  },
+  {
+    "slug": "robert-koch",
+    "name": "Robert Koch",
+    "category": "doctors",
+    "profession": "Physician & Microbiologist",
+    "industry": "Bacteriology & Infectious Diseases",
+    "country": "Germany",
+    "birthDate": "1843-12-11",
+    "deathDate": "1910-05-27",
+    "birthPlace": "Clausthal, Kingdom of Hanover",
+    "languages": [
+      "German",
+      "English",
+      "French"
+    ],
+    "nickname": "Father of Modern Bacteriology",
+    "bio": "Heinrich Hermann Robert Koch was a German physician and microbiologist considered one of the primary founders of modern medical bacteriology alongside Louis Pasteur. He revolutionized clinical medicine by discovering the specific bacterial pathogens responsible for anthrax, cholera, and tuberculosis, providing definitive experimental proof for the germ theory of disease. Koch developed 'Koch's Postulates', the universal four-criteria standard used to link specific microorganisms to specific diseases. In 1905, he was awarded the Nobel Prize in Physiology or Medicine for his groundbreaking discoveries concerning tuberculosis.",
+    "famousWorks": [
+      {
+        "year": 1876,
+        "title": "Discovered the life cycle and spore-forming nature of Bacillus anthracis (anthrax)"
+      },
+      {
+        "year": 1881,
+        "title": "Invented solid culture media using agar and petri dishes for pure bacterial isolation"
+      },
+      {
+        "year": 1882,
+        "title": "Discovered Mycobacterium tuberculosis, the causative agent of tuberculosis"
+      },
+      {
+        "year": 1883,
+        "title": "Isolated Vibrio cholerae in Egypt and India, confirming the waterborne nature of cholera"
+      },
+      {
+        "year": 1890,
+        "title": "Formulated Koch's Postulates establishing microbial etiology"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1905)",
+      "Pour le Mérite for Sciences and Arts (1884)",
+      "Foreign Member of the Royal Society (ForMemRS, 1897)",
+      "The Robert Koch Institute in Berlin named in his enduring honor"
+    ],
+    "faq": [
+      {
+        "q": "What are Koch's Postulates in medical science?",
+        "a": "They are four rigorous scientific criteria designed to establish whether a specific microorganism is the actual causative agent of an infectious disease."
+      },
+      {
+        "q": "Why was Koch's discovery of the tuberculosis bacterium so monumental?",
+        "a": "In the 19th century, tuberculosis was responsible for one out of every seven human deaths; proving it was a bacterial infection debunked the belief that it was inherited."
+      },
+      {
+        "q": "What laboratory laboratory technique did Koch invent?",
+        "a": "He pioneered the use of solid agar nutrient media and glass dishes (refined by his assistant Julius Petri into the Petri dish) to grow isolated pure bacterial colonies."
+      }
+    ],
+    "related": [
+      "alexander-fleming",
+      "edward-jenner",
+      "joseph-lister"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Koch",
+      "https://www.nobelprize.org/prizes/medicine/1905/koch/biographical/",
+      "https://www.rki.de"
+    ],
+    "image": "/avatars/robert-koch.jpg",
+    "imageCredit": "Wikimedia Commons / Robert Koch"
+  },
+  {
+    "slug": "frederick-banting",
+    "name": "Sir Frederick Banting",
+    "category": "doctors",
+    "profession": "Physician, Medical Researcher & Surgeon",
+    "industry": "Endocrinology & Diabetes",
+    "country": "Canada",
+    "birthDate": "1891-11-14",
+    "deathDate": "1941-02-21",
+    "birthPlace": "Alliston, Ontario, Canada",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Co-discoverer of Insulin",
+    "bio": "Sir Frederick Grant Banting KBE MC was a Canadian physician, medical researcher, and military surgeon who co-discovered insulin in 1921 alongside Charles Best and John Macleod at the University of Toronto. Prior to his discovery, juvenile diabetes was an agonizing, universally fatal condition with patients surviving only months on starvation diets. In 1923, at age 32, Banting became the youngest person in history to be awarded the Nobel Prize in Physiology or Medicine, a record that remains unbroken today. In a legendary act of medical altruism, he sold the insulin patent to the University of Toronto for just one dollar so no one would be denied treatment.",
+    "famousWorks": [
+      {
+        "year": 1921,
+        "title": "Extracted internal pancreatic secretions (insulin) in laboratory trials with Charles Best"
+      },
+      {
+        "year": 1922,
+        "title": "First clinical administration of insulin to save 14-year-old diabetic patient Leonard Thompson"
+      },
+      {
+        "year": 1923,
+        "title": "Sold insulin patent rights to the University of Toronto for $1 to guarantee affordable public access"
+      },
+      {
+        "year": 1930,
+        "title": "Founded the Banting Institute for Medical Research in Toronto"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1923 - youngest laureate in medicine at age 32)",
+      "Knight Commander of the Order of the British Empire (KBE, 1934)",
+      "Military Cross for Valor (MC, 1919 for Battle of Cambrai)",
+      "Ranked #4 on CBC's The Greatest Canadian of all time"
+    ],
+    "faq": [
+      {
+        "q": "Why is World Diabetes Day celebrated on November 14?",
+        "a": "World Diabetes Day was designated on November 14 by the UN and WHO to commemorate the birthday of Sir Frederick Banting."
+      },
+      {
+        "q": "Why did Banting sell the insulin patent for only one dollar?",
+        "a": "Banting famously stated: 'Insulin does not belong to me, it belongs to the world,' ensuring pharmaceutical monopolies could not deny patients life-saving therapy."
+      },
+      {
+        "q": "What unique Nobel Prize record does Frederick Banting still hold?",
+        "a": "He remains the youngest person ever to win the Nobel Prize in Physiology or Medicine, receiving the award at just 32 years of age."
+      }
+    ],
+    "related": [
+      "karl-landsteiner",
+      "alexander-fleming",
+      "anthony-fauci"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frederick_Banting",
+      "https://www.nobelprize.org/prizes/medicine/1923/banting/biographical/",
+      "https://discoveries.bantinghousenhsc.ca"
+    ],
+    "image": "/avatars/frederick-banting.jpg",
+    "imageCredit": "Wikimedia Commons / Frederick Banting"
+  },
+  {
+    "slug": "karl-landsteiner",
+    "name": "Karl Landsteiner",
+    "category": "doctors",
+    "profession": "Physician, Pathologist & Immunologist",
+    "industry": "Transfusion Medicine & Serology",
+    "country": "Austria",
+    "birthDate": "1868-06-14",
+    "deathDate": "1943-06-26",
+    "birthPlace": "Baden bei Wien, Austria-Hungary",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "nickname": "Father of Transfusion Medicine",
+    "bio": "Karl Landsteiner was an Austrian-American physician, immunologist, and pathologist who fundamentally transformed surgical and emergency medicine by discovering human blood groups in 1900. By identifying the major A, B, and O blood groups and determining agglutination patterns, he made blood transfusions safe and routine, preventing previously deadly hemolytic transfusion reactions. Landsteiner also isolated the polio virus in 1909 and co-discovered the crucial Rh factor in human blood with Alexander Wiener in 1937. For his discovery of human blood groups, he was awarded the Nobel Prize in Physiology or Medicine in 1930.",
+    "famousWorks": [
+      {
+        "year": 1900,
+        "title": "Discovered the ABO human blood group system and antibody agglutination"
+      },
+      {
+        "year": 1909,
+        "title": "Identified and isolated the poliovirus with Erwin Popper"
+      },
+      {
+        "year": 1927,
+        "title": "Discovered M, N, and P blood antigens used in forensic genetics"
+      },
+      {
+        "year": 1937,
+        "title": "Co-discovered the Rh blood factor with Alexander S. Wiener"
+      },
+      {
+        "year": 1936,
+        "title": "Authored the definitive immunology text 'The Specificity of Serological Reactions'"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1930)",
+      "Lasker-DeBakey Clinical Medical Research Award (Posthumous 1946)",
+      "Member of the National Academy of Sciences (1932)",
+      "World Blood Donor Day is celebrated globally on his birthday (June 14)"
+    ],
+    "faq": [
+      {
+        "q": "Why is World Blood Donor Day observed on June 14?",
+        "a": "June 14 was chosen by the World Health Organization to honor Karl Landsteiner's birthday and celebrate his discovery of blood groups."
+      },
+      {
+        "q": "How did blood transfusions work before Karl Landsteiner's discovery?",
+        "a": "Before 1900, blood transfusions were high-risk experiments frequently resulting in catastrophic, lethal blood clumping (agglutination) because incompatibility was unknown."
+      },
+      {
+        "q": "What other virus did Karl Landsteiner discover?",
+        "a": "In 1909, alongside Erwin Popper, Landsteiner discovered and isolated the poliovirus, proving that poliomyelitis is an infectious viral disease."
+      }
+    ],
+    "related": [
+      "frederick-banting",
+      "charles-drew",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karl_Landsteiner",
+      "https://www.nobelprize.org/prizes/medicine/1930/landsteiner/biographical/",
+      "https://www.who.int/campaigns/world-blood-donor-day"
+    ],
+    "image": "/avatars/karl-landsteiner.jpg",
+    "imageCredit": "Wikimedia Commons / Karl Landsteiner"
+  },
+  {
+    "slug": "ignaz-semmelweis",
+    "name": "Ignaz Semmelweis",
+    "category": "doctors",
+    "profession": "Obstetrician & Physician",
+    "industry": "Antiseptic Prophylaxis & Maternal Health",
+    "country": "Hungary",
+    "birthDate": "1818-07-01",
+    "deathDate": "1865-08-13",
+    "birthPlace": "Tabán, Buda, Kingdom of Hungary",
+    "languages": [
+      "Hungarian",
+      "German"
+    ],
+    "nickname": "The Savior of Mothers",
+    "bio": "Ignaz Philipp Semmelweis was a Hungarian physician and obstetrician celebrated as an early pioneer of antiseptic procedures and hospital epidemiology. Working at the Vienna General Hospital in the 1840s, he noticed that maternity wards where doctors washed hands before deliveries had dramatically lower rates of lethal puerperal (childbed) fever than those where doctors came directly from autopsies. Semmelweis proposed that doctors disinfect their hands with chlorinated lime solutions between patients, immediately dropping maternity ward mortality from over 18% to under 1%. Despite harsh ridicule from the contemporary medical establishment during his lifetime, his discoveries were fully vindicated by the germ theory of disease.",
+    "famousWorks": [
+      {
+        "year": 1847,
+        "title": "Instituted mandatory hand disinfection with chlorinated lime solution at Vienna General Hospital"
+      },
+      {
+        "year": 1848,
+        "title": "Reduced puerperal fever mortality in First Obstetrical Clinic from 18.3% to 1.2%"
+      },
+      {
+        "year": 1861,
+        "title": "Published landmark treatise 'The Etiology, Concept, and Prophylaxis of Childbed Fever'"
+      }
+    ],
+    "awards": [
+      "Universally honored as the 'Savior of Mothers' in obstetrical history",
+      "Semmelweis University in Budapest, Hungary named in his enduring honor",
+      "The 'Semmelweis reflex' concept coined in behavioral psychology"
+    ],
+    "faq": [
+      {
+        "q": "Why was Ignaz Semmelweis called the 'Savior of Mothers'?",
+        "a": "Because his hand-washing protocols directly saved thousands of mothers from postpartum puerperal fever (childbed fever), which was previously a leading cause of maternal mortality."
+      },
+      {
+        "q": "What is the psychological term 'Semmelweis reflex'?",
+        "a": "It describes the automatic human reflex to reject new evidence or knowledge simply because it contradicts entrenched established norms or authority beliefs."
+      },
+      {
+        "q": "What disinfectant solution did Semmelweis institute?",
+        "a": "He required medical students and doctors to scrub their hands with a solution of chlorinated lime (calcium hypochlorite) after performing autopsies and before examining pregnant women."
+      }
+    ],
+    "related": [
+      "joseph-lister",
+      "edward-jenner",
+      "robert-koch"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "https://semmelweis.hu/english/",
+      "https://www.britannica.com/biography/Ignaz-Semmelweis"
+    ],
+    "image": "/avatars/ignaz-semmelweis.jpg",
+    "imageCredit": "Wikimedia Commons / Ignaz Semmelweis"
+  },
+  {
+    "slug": "joseph-lister",
+    "name": "Joseph Lister",
+    "category": "doctors",
+    "profession": "Surgeon & Medical Scientist",
+    "industry": "Antiseptic Surgery & Sterilization",
+    "country": "United Kingdom",
+    "birthDate": "1827-04-05",
+    "deathDate": "1912-02-10",
+    "birthPlace": "Upton, Essex, England",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Father of Modern Antiseptic Surgery",
+    "bio": "Joseph Lister, 1st Baron Lister, was a British surgeon and medical scientist who revolutionized surgical medicine by introducing antiseptic surgical techniques. Drawing upon Louis Pasteur's microbiological research, Lister deduced that post-operative wound gangrene and sepsis were caused by airborne and contact microbes rather than chemical 'bad air'. He introduced carbolic acid (phenol) to sterilize surgical instruments, wash surgical incisions, and dress surgical wounds, reducing post-operative mortality from 50% to under 15%. Lister's systematic aseptic principles transformed surgery from an emergency gamble into a reliable therapeutic medical discipline.",
+    "famousWorks": [
+      {
+        "year": 1865,
+        "title": "First successful treatment of compound fracture using carbolic acid antiseptic dressings"
+      },
+      {
+        "year": 1867,
+        "title": "Published landmark Lancet paper 'On the Antiseptic Principle in the Practice of Surgery'"
+      },
+      {
+        "year": 1869,
+        "title": "Invented sterilizable carbolized catgut surgical sutures that naturally dissolve in tissue"
+      },
+      {
+        "year": 1877,
+        "title": "Performed groundbreaking antiseptic open repair of fractured patella at King's College Hospital"
+      }
+    ],
+    "awards": [
+      "Created Baron Lister of Lyme Regis (first surgeon elevated to House of Lords, 1897)",
+      "President of the Royal Society (1895–1900)",
+      "Order of Merit (OM, original member 1902)",
+      "Copley Medal of the Royal Society (1902)"
+    ],
+    "faq": [
+      {
+        "q": "What antiseptic chemical agent did Joseph Lister introduce to surgery?",
+        "a": "He used carbolic acid (phenol) to sterilize surgical instruments, disinfect incisions, and create antiseptic surgical dressings."
+      },
+      {
+        "q": "Is the brand Listerine named after Joseph Lister?",
+        "a": "Yes, American chemist Joseph Lawrence invented Listerine mouthwash in 1879 and named it in honor of Joseph Lister's pioneering work in antisepsis."
+      },
+      {
+        "q": "What surgical suture did Lister invent that is still used today?",
+        "a": "Lister developed carbolized absorbable catgut sutures, which could hold tissue internally and safely dissolve without causing purulent infection."
+      }
+    ],
+    "related": [
+      "ignaz-semmelweis",
+      "robert-koch",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joseph_Lister",
+      "https://www.britannica.com/biography/Joseph-Lister-Baron-Lister-of-Lyme-Regis",
+      "https://royalsociety.org"
+    ],
+    "image": "/avatars/joseph-lister.jpg",
+    "imageCredit": "Wikimedia Commons / Joseph Lister"
+  },
+  {
+    "slug": "santiago-ramon-y-cajal",
+    "name": "Santiago Ramón y Cajal",
+    "category": "doctors",
+    "profession": "Physician, Pathologist & Histologist",
+    "industry": "Neuroscience & Neuroanatomy",
+    "country": "Spain",
+    "birthDate": "1852-05-01",
+    "deathDate": "1934-10-17",
+    "birthPlace": "Petilla de Aragón, Navarre, Spain",
+    "languages": [
+      "Spanish",
+      "French"
+    ],
+    "nickname": "Father of Modern Neuroscience",
+    "bio": "Santiago Ramón y Cajal was a Spanish pathologist, histologist, and physician universally regarded as the 'Father of Modern Neuroscience'. Utilizing and improving Camillo Golgi's silver-staining method, he proved the 'Neuron Doctrine', demonstrating that the nervous system is composed of billions of individual, contiguous cells (neurons) rather than a continuous interconnected network. Cajal produced thousands of meticulous, breathtakingly artistic microscopic illustrations of brain architecture that remain foundational in neurology and neuroscience textbooks. In 1906, he became the first Spanish scientist to be awarded the Nobel Prize in Physiology or Medicine.",
+    "famousWorks": [
+      {
+        "year": 1888,
+        "title": "Discovered that neurons in the cerebellum end as free terminals without cytoplasmic continuity"
+      },
+      {
+        "year": 1891,
+        "title": "Formulated the Law of Dynamic Polarization governing electrical signal direction in neurons"
+      },
+      {
+        "year": 1899,
+        "title": "Published monumental masterwork 'Textbook on the Nervous System of Man and Vertebrates'"
+      },
+      {
+        "year": 1906,
+        "title": "Nobel Lecture establishing the Neuron Doctrine as the foundation of modern neuroscience"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1906)",
+      "Helmholtz Medal of the Prussian Academy of Sciences (1905)",
+      "Order of Alfonso XII - Grand Cross (1902)",
+      "Member of the Royal Spanish Academy of Sciences"
+    ],
+    "faq": [
+      {
+        "q": "What is the Neuron Doctrine proven by Santiago Ramón y Cajal?",
+        "a": "It is the foundational principle that the brain and nervous system are made of individual, discrete cellular units called neurons that communicate via specialized gaps (synapses)."
+      },
+      {
+        "q": "What dual talent made Ramón y Cajal's scientific research so legendary?",
+        "a": "He was both a brilliant physician-scientist and an extraordinary visual artist; his intricate freehand drawings of neurons and brain synapses are still exhibited in art museums and used in textbooks today."
+      },
+      {
+        "q": "Who did Ramón y Cajal share his 1906 Nobel Prize with?",
+        "a": "He shared it with Italian physician Camillo Golgi, who invented the silver-nitrate staining technique that Cajal used to visualize individual brain cells under the microscope."
+      }
+    ],
+    "related": [
+      "william-osler",
+      "sigmund-freud",
+      "karl-landsteiner"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal",
+      "https://www.nobelprize.org/prizes/medicine/1906/cajal/biographical/",
+      "https://cajal.csic.es"
+    ],
+    "image": "/avatars/santiago-ramon-y-cajal.jpg",
+    "imageCredit": "Wikimedia Commons / Santiago Ramón y Cajal"
+  },
+  {
+    "slug": "ibn-sina",
+    "name": "Ibn Sina (Avicenna)",
+    "category": "doctors",
+    "profession": "Physician, Philosopher & Polymath",
+    "industry": "Classical Islamic & Early Modern Medicine",
+    "country": "Iran",
+    "birthDate": "0980-08-23",
+    "deathDate": "1037-06-22",
+    "birthPlace": "Afshana, Samanid Empire (Modern Uzbekistan)",
+    "languages": [
+      "Persian",
+      "Arabic"
+    ],
+    "nickname": "Father of Early Modern Medicine / The Prince of Physicians",
+    "bio": "Abu Ali al-Husayn ibn Abd Allah ibn Sina, known in the Western world as Avicenna, was a Persian physician, philosopher, and polymath celebrated as the most influential medical thinker of the Islamic Golden Age. He authored 'The Canon of Medicine' (Al-Qanun fi al-Tibb), a 14-volume medical encyclopedia synthesizing Greco-Roman, Persian, and Indian medical knowledge. His treatise introduced rigorous clinical pharmacology, quarantine for infectious diseases, and neuro-psychiatric diagnosis, serving as the standard textbook in European and Islamic universities for over six centuries. Avicenna also made foundational contributions to epistemology, logic, and astronomy.",
+    "famousWorks": [
+      {
+        "year": "1025",
+        "title": "The Canon of Medicine (Al-Qanun fi al-Tibb) - standard medical authority for 600 years"
+      },
+      {
+        "year": "1020",
+        "title": "The Book of Healing (Kitab al-Shifa) - monumental scientific and philosophical compendium"
+      },
+      {
+        "year": "1025",
+        "title": "Introduced systematic quarantine protocols to control contagious contagion"
+      },
+      {
+        "year": "1025",
+        "title": "Pioneered early clinical drug testing rules and evidence-based pharmacopeia"
+      }
+    ],
+    "awards": [
+      "Universally styled as 'The Prince of Physicians' in medical history",
+      "Avicenna Directory for Medicine named in his honor by the World Health Organization",
+      "Lunar crater 'Avicenna' and mineral 'Avicennite' named in his tribute"
+    ],
+    "faq": [
+      {
+        "q": "What was the significance of Ibn Sina's 'The Canon of Medicine'?",
+        "a": "It was an encyclopedic synthesis of all known medical knowledge, organizing diagnosis, anatomy, pharmacology, and therapeutics so thoroughly that it remained the primary medical textbook in Europe and the Islamic world from the 12th to the 17th century."
+      },
+      {
+        "q": "Did Avicenna invent the concept of quarantine for infections?",
+        "a": "Yes, Ibn Sina deduced that infectious diseases could spread through microscopic airborne and water particles, pioneering the practice of 40-day isolation ('al-arba'iniya', the root of quarantine) to arrest epidemics."
+      },
+      {
+        "q": "What clinical guidelines did Ibn Sina establish for testing new medications?",
+        "a": "In Volume 2 of The Canon, he established the world's first seven systematic rules for experimental pharmacology, insisting that drugs must be tested in pure form on uniform diseases across repeated trials."
+      }
+    ],
+    "related": [
+      "hippocrates",
+      "al-zahrawi",
+      "sushruta"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Avicenna",
+      "https://www.britannica.com/biography/Avicenna",
+      "https://www.nlm.nih.gov/hmd/arabic/bioI.html"
+    ],
+    "image": "/avatars/ibn-sina.jpg",
+    "imageCredit": "Wikimedia Commons / Avicenna"
+  },
+  {
+    "slug": "al-zahrawi",
+    "name": "Al-Zahrawi (Albucasis)",
+    "category": "doctors",
+    "profession": "Surgeon, Physician & Chemist",
+    "industry": "Operative Surgery & Medical Devices",
+    "country": "Spain",
+    "birthDate": "0936-01-01",
+    "deathDate": "1013-01-01",
+    "birthPlace": "Madinat al-Zahra, Caliphate of Córdoba",
+    "languages": [
+      "Arabic"
+    ],
+    "nickname": "Father of Modern Operative Surgery",
+    "bio": "Abu al-Qasim Khalaf ibn al-Abbas al-Zahrawi, known in the West as Albucasis, was an Arab-Andalusian physician, surgeon, and chemist regarded as the 'Father of Modern Operative Surgery'. Practicing at the royal court in Córdoba during the golden era of Moorish Spain, he authored 'Kitab al-Tasrif', an illustrated 30-volume medical encyclopedia. Al-Zahrawi invented over 200 surgical instruments—including scalpels, forceps, surgical scissors, bone saws, and specula—and pioneered the use of catgut for internal stitches. His surgical manuals were translated into Latin by Gerard of Cremona and taught surgical technique across Europe for 500 years.",
+    "famousWorks": [
+      {
+        "year": "1000",
+        "title": "Kitab al-Tasrif (30-volume medical encyclopedia with illustrated surgical treatise)"
+      },
+      {
+        "year": "1000",
+        "title": "Invention of over 200 surgical instruments including surgical forceps and bone saws"
+      },
+      {
+        "year": "1000",
+        "title": "Pioneered absorbable catgut internal sutures for subcutaneous surgical wounds"
+      },
+      {
+        "year": "1000",
+        "title": "First recorded clinical description of hemophilia as a hereditary bleeding disorder"
+      }
+    ],
+    "awards": [
+      "Universally recognized as the 'Father of Operative Surgery'",
+      "First surgeon to illustrate surgical instruments systematically in printed medical literature",
+      "Calle Albucasis street in Córdoba, Spain preserved in his honor"
+    ],
+    "faq": [
+      {
+        "q": "What surgical suture material was first introduced by Al-Zahrawi?",
+        "a": "He was the first to use catgut (derived from animal intestines) for internal surgical stitching, noting that it dissolved naturally inside the human body without requiring painful secondary removal."
+      },
+      {
+        "q": "How did Al-Zahrawi advance the identification of genetic diseases?",
+        "a": "In Kitab al-Tasrif, he provided the earliest documented medical description of hemophilia, recording how males in an Andalusian family bled to death from minor wounds."
+      },
+      {
+        "q": "What gynecological and dental instruments did Al-Zahrawi invent?",
+        "a": "He designed early vaginal speculums for gynecological surgery, lithotomy scalpels for bladder stone extraction, and dental forceps for painless tooth extraction."
+      }
+    ],
+    "related": [
+      "ibn-sina",
+      "sushruta",
+      "joseph-lister"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Al-Zahrawi",
+      "https://www.britannica.com/biography/al-Zahrawi",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3586061/"
+    ],
+    "image": "/avatars/placeholder.svg",
+    "imageCredit": "Public Domain / Wikimedia Commons"
+  },
+  {
+    "slug": "sushruta",
+    "name": "Sushruta",
+    "category": "doctors",
+    "profession": "Ancient Surgeon & Physician",
+    "industry": "Ancient Indian Surgery & Rhinoplasty",
+    "country": "India",
+    "birthDate": "0600-01-01",
+    "deathDate": "0500-01-01",
+    "birthPlace": "Kashi (Varanasi), Ancient India",
+    "languages": [
+      "Sanskrit"
+    ],
+    "nickname": "Father of Surgery & Father of Plastic Surgery",
+    "bio": "Sushruta was an ancient Indian physician and surgeon celebrated worldwide as the 'Father of Surgery' and the 'Father of Plastic Surgery'. Practicing in Varanasi around the 6th century BCE, he compiled the 'Sushruta Samhita', one of the foundational foundational pillars of Ayurvedic and operative surgical literature. Sushruta pioneered reconstructive rhinoplasty using pedicled forehead skin flaps (the 'Indian flap' method still practiced today) to repair amputated noses, as well as extracapsular cataract surgery and kidney stone removal. His text documented over 300 surgical operations, 120 specialized surgical instruments, and strict anatomical dissection practices.",
+    "famousWorks": [
+      {
+        "year": "600 BCE",
+        "title": "Sushruta Samhita (foundational compendium detailing 300 operations and 120 surgical tools)"
+      },
+      {
+        "year": "600 BCE",
+        "title": "Pioneered reconstructive pedicle-flap rhinoplasty (the Indian Method of nose reconstruction)"
+      },
+      {
+        "year": "600 BCE",
+        "title": "Pioneered cataract surgery (couching method) to restore vision"
+      },
+      {
+        "year": "600 BCE",
+        "title": "First systematic anatomical dissection protocols of human cadavers using water submersion"
+      }
+    ],
+    "awards": [
+      "Universally recognized as the 'Father of Surgery' and 'Father of Plastic Surgery'",
+      "Statue erected at the Royal Australasian College of Surgeons in Melbourne, Australia",
+      "Association of Plastic Surgeons of India crest honors his seal and rhinoplasty legacy"
+    ],
+    "faq": [
+      {
+        "q": "Why is Sushruta considered the Father of Plastic Surgery?",
+        "a": "Because he developed the forehead pedicled flap technique to reconstruct severed noses—a surgical innovation that remains the fundamental basis of modern reconstructive plastic surgery."
+      },
+      {
+        "q": "What eye surgery did Sushruta pioneer in ancient times?",
+        "a": "He performed extracapsular cataract surgery using a curved needle (Jabamukhi Salaka) to dislodge the cloudy lens and restore sight to blinded patients."
+      },
+      {
+        "q": "How did Sushruta instruct medical students to practice surgical technique?",
+        "a": "He trained students by making incisions on watermelons and gourds, suturing on leather and cloth, probing on hollow bamboo, and performing blood-letting on lotus stems."
+      }
+    ],
+    "related": [
+      "hippocrates",
+      "al-zahrawi",
+      "devi-shetty"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sushruta",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5514792/",
+      "https://www.britannica.com/biography/Sushruta"
+    ],
+    "image": "/avatars/sushruta.jpg",
+    "imageCredit": "Wikimedia Commons / Sushruta"
+  },
+  {
+    "slug": "tu-youyou",
+    "name": "Dr. Tu Youyou",
+    "category": "doctors",
+    "profession": "Pharmaceutical Chemist & Malariologist",
+    "industry": "Tropical Medicine & Antimalarial Therapeutics",
+    "country": "China",
+    "birthDate": "1930-12-30",
+    "birthPlace": "Ningbo, Zhejiang, Republic of China",
+    "languages": [
+      "Mandarin Chinese",
+      "English"
+    ],
+    "nickname": "Discoverer of Artemisinin",
+    "bio": "Dr. Tu Youyou is a Chinese pharmaceutical chemist and medical researcher who discovered artemisinin and dihydroartemisinin, saving millions of lives worldwide from deadly malaria. Appointed leader of the top-secret Project 523 during the Vietnam War to find a malaria cure, she combed ancient traditional Chinese medical texts from the 4th century and isolated the active compound from sweet wormwood (Artemisia annua) using low-temperature extraction. Dr. Tu courageously volunteered as the first human test subject to verify the drug's safety before clinical deployment. In 2015, she became the first Chinese female Nobel laureate, receiving the Nobel Prize in Physiology or Medicine.",
+    "famousWorks": [
+      {
+        "year": 1969,
+        "title": "Appointed head of secret military Project 523 investigating malaria cures"
+      },
+      {
+        "year": 1972,
+        "title": "Successfully isolated pure crystals of the active antimalarial compound Artemisinin"
+      },
+      {
+        "year": 1972,
+        "title": "Volunteered as the first human test subject to prove safety of Artemisinin"
+      },
+      {
+        "year": 1973,
+        "title": "Synthesized Dihydroartemisinin, demonstrating tenfold higher therapeutic efficacy"
+      },
+      {
+        "year": 2004,
+        "title": "Artemisinin-based combination therapy (ACT) adopted by WHO as global standard first-line treatment for malaria"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (2015)",
+      "Lasker-DeBakey Clinical Medical Research Award (2011)",
+      "Order of the Republic - China's highest state honor (2019)",
+      "State Preeminent Science and Technology Award of China (2016)"
+    ],
+    "faq": [
+      {
+        "q": "How did Tu Youyou discover artemisinin in ancient texts?",
+        "a": "She studied a 1,600-year-old manual by 4th-century physician Ge Hong, which instructed soaking sweet wormwood in cold water; realizing heat destroyed the active compound, she used low-temperature ether extraction to successfully isolate artemisinin."
+      },
+      {
+        "q": "What brave step did Dr. Tu take to accelerate clinical trials?",
+        "a": "Because animal trials had shown conflicting liver markers, Dr. Tu and two colleagues volunteered to ingest the drug themselves to prove it was safe for human patients."
+      },
+      {
+        "q": "What global impact has artemisinin had on malaria mortality?",
+        "a": "The World Health Organization (WHO) credits Artemisinin-based combination therapies with reducing global malaria deaths by over 50% across Africa and Asia, saving millions of children."
+      }
+    ],
+    "related": [
+      "alexander-fleming",
+      "anthony-fauci",
+      "paul-farmer"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tu_Youyou",
+      "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+      "https://www.who.int"
+    ],
+    "image": "/avatars/tu-youyou.jpg",
+    "imageCredit": "Wikimedia Commons / Tu Youyou"
+  },
+  {
+    "slug": "devi-shetty",
+    "name": "Dr. Devi Shetty",
+    "category": "doctors",
+    "profession": "Cardiac Surgeon & Healthcare Entrepreneur",
+    "industry": "Cardiothoracic Surgery & Affordable Healthcare",
+    "country": "India",
+    "birthDate": "1953-05-08",
+    "birthPlace": "Kinnigoli, South Canara, Mysore State, India",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "nickname": "The Henry Ford of Heart Surgery",
+    "bio": "Dr. Devi Prasad Shetty is an Indian cardiac surgeon and entrepreneur renowned globally for revolutionizing pediatric and adult open-heart surgery through low-cost, high-volume healthcare delivery. After training at Guy's Hospital in London and serving as Mother Teresa's personal cardiac surgeon in Kolkata, he founded Narayana Health, a network of multi-specialty hospitals performing more cardiac procedures than almost any institution worldwide at a fraction of Western costs. Shetty pioneered micro-health insurance for low-income rural farmers and performed thousands of free operations on neonates with congenital heart defects. He has been decorated with India's prestigious Padma Bhushan and Padma Shri awards.",
+    "famousWorks": [
+      {
+        "year": 1989,
+        "title": "Performed the first neonatal open-heart surgery in India on 9-day-old baby Ronnie"
+      },
+      {
+        "year": 1992,
+        "title": "Served as Mother Teresa's personal cardiac physician in Kolkata"
+      },
+      {
+        "year": 2000,
+        "title": "Founded Narayana Hrudayalaya (Narayana Health) in Bengaluru"
+      },
+      {
+        "year": 2002,
+        "title": "Co-created Yeshasvini, the world's cheapest micro-health insurance scheme covering millions of farmers"
+      },
+      {
+        "year": 2014,
+        "title": "Established Health City Cayman Islands to provide affordable tertiary cardiac care in the Caribbean"
+      }
+    ],
+    "awards": [
+      "Padma Bhushan - Government of India (2012)",
+      "Padma Shri - Government of India (2004)",
+      "The Economist Innovation Award (2011)",
+      "Schwab Foundation Social Entrepreneur of the Year (2005)"
+    ],
+    "faq": [
+      {
+        "q": "Why is Dr. Devi Shetty nicknamed 'The Henry Ford of Heart Surgery'?",
+        "a": "Because he applied mass assembly-line industrial efficiencies to surgical healthcare, drastically cutting heart surgery costs to around $1,500 while maintaining clinical outcomes matching top US hospitals."
+      },
+      {
+        "q": "What was Dr. Shetty's relationship with Mother Teresa?",
+        "a": "Dr. Shetty operated on and cared for Mother Teresa following her cardiac arrests in Kolkata in the 1990s, an experience that deeply inspired his philanthropic commitment to treating the impoverished."
+      },
+      {
+        "q": "What is the Yeshasvini healthcare insurance model created by Dr. Shetty?",
+        "a": "It was a pioneering micro-health insurance scheme where millions of rural farmers contributed less than 15 cents a month, providing them access to free surgical procedures across 400 private hospitals."
+      }
+    ],
+    "related": [
+      "rene-favaloro",
+      "christiaan-barnard",
+      "sushruta"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Devi_Shetty",
+      "https://www.narayanahealth.org/our-doctors/dr-devi-prasad-shetty",
+      "https://www.wsj.com/articles/SB125875892887958111"
+    ],
+    "image": "/avatars/devi-shetty.jpg",
+    "imageCredit": "Wikimedia Commons / Devi Shetty"
+  },
+  {
+    "slug": "jonas-salk",
+    "name": "Dr. Jonas Salk",
+    "category": "doctors",
+    "profession": "Virologist, Physician & Medical Researcher",
+    "industry": "Vaccinology & Virology",
+    "country": "United States",
+    "birthDate": "1914-10-28",
+    "deathDate": "1995-06-23",
+    "birthPlace": "Manhattan, New York City, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Conqueror of Polio",
+    "bio": "Dr. Jonas Edward Salk was an American virologist and physician who developed the world's first successful inactivated polio vaccine in 1953. At a time when polio was the most dreaded public health crisis in America, paralyzing hundreds of thousands of children annually, Salk deployed an inactivated ('killed') virus technique that safely conferred immunity. When famously asked on national television who owned the patent to the vaccine, Salk replied: 'Well, the people, I would say. There is no patent. Could you patent the sun?' In 1963, he founded the Salk Institute for Biological Studies in La Jolla, California.",
+    "famousWorks": [
+      {
+        "year": 1953,
+        "title": "Developed the inactivated polio vaccine (IPV) using formalin-treated poliovirus"
+      },
+      {
+        "year": 1954,
+        "title": "Conducted the Francis Field Trial, the largest clinical vaccine trial in history with 1.8 million children"
+      },
+      {
+        "year": 1955,
+        "title": "Official declaration of the Salk polio vaccine as 'safe, effective, and potent' on April 12, 1955"
+      },
+      {
+        "year": 1963,
+        "title": "Founded the world-renowned Salk Institute for Biological Studies in La Jolla, California"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (1977)",
+      "Congressional Gold Medal (1955)",
+      "Lasker-Bloomberg Public Service Award (1956)",
+      "French Legion of Honour (1955)"
+    ],
+    "faq": [
+      {
+        "q": "Why didn't Jonas Salk patent the polio vaccine?",
+        "a": "Salk chose not to patent the vaccine to ensure it would be immediately affordable and accessible to all children globally, famously comparing patenting it to 'patenting the sun'."
+      },
+      {
+        "q": "What approach made Salk's polio vaccine safe?",
+        "a": "Unlike live attenuated vaccines, Salk used formaldehyde to kill the virus so it could not cause paralysis while still training the human immune system to produce antibodies."
+      },
+      {
+        "q": "What research institute did Dr. Salk establish?",
+        "a": "He established the Salk Institute for Biological Studies in 1963 in La Jolla, California, collaborating with architect Louis Kahn to create a premier biomedical research campus."
+      }
+    ],
+    "related": [
+      "albert-sabin",
+      "edward-jenner",
+      "anthony-fauci"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jonas_Salk",
+      "https://www.salk.edu/about/history-of-salk/jonas-salk/",
+      "https://www.britannica.com/biography/Jonas-Salk"
+    ],
+    "image": "/avatars/jonas-salk.jpg",
+    "imageCredit": "Wikimedia Commons / Jonas Salk"
+  },
+  {
+    "slug": "albert-sabin",
+    "name": "Dr. Albert Sabin",
+    "category": "doctors",
+    "profession": "Physician & Virologist",
+    "industry": "Oral Vaccinology & Polio Eradication",
+    "country": "United States",
+    "birthDate": "1906-08-26",
+    "deathDate": "1993-03-03",
+    "birthPlace": "Białystok, Russian Empire (Modern Poland)",
+    "languages": [
+      "English",
+      "Russian",
+      "Polish"
+    ],
+    "nickname": "Developer of the Oral Polio Vaccine",
+    "bio": "Dr. Albert Bruce Sabin was a Polish-American medical researcher and virologist best known for developing the oral polio vaccine (OPV), which became the primary vehicle for near-total global eradication of polio. Believing that a weakened live virus ingested via sugar cubes would produce superior, lifelong intestinal immunity and prevent transmission, he conducted massive international trials in the Soviet Union during the Cold War. Like Jonas Salk, Sabin refused to patent his vaccine, donating his viral strains to the World Health Organization to guarantee universal childhood access. He also served as President of the Weizmann Institute of Science.",
+    "famousWorks": [
+      {
+        "year": 1955,
+        "title": "Developed the live-attenuated oral polio vaccine (OPV) administered as liquid drops or on sugar cubes"
+      },
+      {
+        "year": 1959,
+        "title": "Collaborated across the Iron Curtain with Soviet virologists to vaccinate 100 million people"
+      },
+      {
+        "year": 1961,
+        "title": "Secured US licensure for the Type 1 and Type 2 oral polio vaccines"
+      },
+      {
+        "year": 1970,
+        "title": "Served as President of the Weizmann Institute of Science"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (1986)",
+      "National Medal of Science (1970)",
+      "Order of the Friendship of Peoples - USSR (1986)",
+      "Feltrinelli International Prize for Medicine (1964)"
+    ],
+    "faq": [
+      {
+        "q": "What made the Sabin oral polio vaccine superior for global mass immunization?",
+        "a": "Because it was taken orally (on a sugar cube or as drops) rather than injected, required no sterile needles, broke intestinal transmission chains, and could be administered by non-medical volunteers."
+      },
+      {
+        "q": "How did Sabin bypass Cold War hostility to test his vaccine?",
+        "a": "With US clinical trials blocked by the Salk vaccine, Sabin partnered directly with Soviet virologist Mikhail Chumakov in 1959 to vaccinate over 100 million people across the USSR and Eastern Europe with spectacular success."
+      },
+      {
+        "q": "Did Albert Sabin receive royalties for the oral polio vaccine?",
+        "a": "No, Sabin refused to profit financially from the vaccine, waiving all patent rights and donating the master seed strains to the World Health Organization."
+      }
+    ],
+    "related": [
+      "jonas-salk",
+      "edward-jenner",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Albert_Sabin",
+      "https://www.cincinnatichildrens.org/research/divisions/i/infectious-diseases/sabin-legacy",
+      "https://www.britannica.com/biography/Albert-Bruce-Sabin"
+    ],
+    "image": "/avatars/albert-sabin.jpg",
+    "imageCredit": "Wikimedia Commons / Albert Sabin"
+  },
+  {
+    "slug": "christiaan-barnard",
+    "name": "Dr. Christiaan Barnard",
+    "category": "doctors",
+    "profession": "Cardiothoracic Surgeon",
+    "industry": "Heart Transplantation & Cardiac Surgery",
+    "country": "South Africa",
+    "birthDate": "1922-11-08",
+    "deathDate": "2001-09-02",
+    "birthPlace": "Beaufort West, Cape Province, South Africa",
+    "languages": [
+      "Afrikaans",
+      "English"
+    ],
+    "nickname": "Pioneer of the Heart Transplant",
+    "bio": "Dr. Christiaan Neethling Barnard was a South African cardiothoracic surgeon who made medical history by performing the world's first successful human-to-human heart transplant on December 3, 1967. Operating at Groote Schuur Hospital in Cape Town with a 30-member surgical team, he transplanted the heart of accident victim Denise Darvall into 54-year-old Louis Washkansky. The historic nine-hour breakthrough electrified global media and shattered biological boundaries in transplant surgery. Barnard later performed the first heterotopic 'piggyback' heart transplant in 1974 and remained an outspoken critic of South Africa's apartheid laws.",
+    "famousWorks": [
+      {
+        "year": 1967,
+        "title": "Performed the world's first successful human-to-human heart transplant on Louis Washkansky"
+      },
+      {
+        "year": 1968,
+        "title": "Performed heart transplant on Dirk van Zyl, who lived for a then-record 23 years with the donor heart"
+      },
+      {
+        "year": 1974,
+        "title": "Pioneered the heterotopic ('piggyback') heart transplant technique"
+      },
+      {
+        "year": 1977,
+        "title": "Pioneered first xenotransplant operations using donor baboon and chimpanzee hearts for emergency bridging"
+      }
+    ],
+    "awards": [
+      "Order of the Southern Cross - South Africa",
+      "Commander of the Order of the Phoenix - Greece",
+      "Appointed Professor of Surgical Science at the University of Cape Town (1972)",
+      "Inducted into the South African Hall of Fame"
+    ],
+    "faq": [
+      {
+        "q": "When and where was the world's first human heart transplant performed?",
+        "a": "On December 3, 1967, at Groote Schuur Hospital in Cape Town, South Africa, led by Dr. Christiaan Barnard."
+      },
+      {
+        "q": "What was the 'piggyback' heterotopic heart transplant developed by Barnard?",
+        "a": "A technique where the patient's diseased heart is kept in place and the donor heart is connected alongside it, functioning as an auxiliary pump to assist circulation."
+      },
+      {
+        "q": "What political stance did Christiaan Barnard take during the apartheid era?",
+        "a": "Barnard was an outspoken opponent of apartheid, refusing to enforce racial segregation in his surgical operating theater and hospital wards at Groote Schuur Hospital."
+      }
+    ],
+    "related": [
+      "rene-favaloro",
+      "devi-shetty",
+      "alexis-carrel"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+      "https://www.britannica.com/biography/Christiaan-Barnard",
+      "https://www.heart-of-cape-town.co.za"
+    ],
+    "image": "/avatars/christiaan-barnard.jpg",
+    "imageCredit": "Wikimedia Commons / Christiaan Barnard"
+  },
+  {
+    "slug": "rene-favaloro",
+    "name": "Dr. René Favaloro",
+    "category": "doctors",
+    "profession": "Cardiac Surgeon & Educator",
+    "industry": "Coronary Artery Bypass Surgery",
+    "country": "Argentina",
+    "birthDate": "1923-07-12",
+    "deathDate": "2000-07-29",
+    "birthPlace": "La Plata, Buenos Aires Province, Argentina",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "nickname": "Father of Coronary Bypass Surgery",
+    "bio": "Dr. René Gerónimo Favaloro was an Argentine cardiac surgeon celebrated as a legendary figure in modern cardiovascular medicine for pioneering coronary artery bypass graft (CABG) surgery. While practicing at the Cleveland Clinic in May 1967, he used the patient's own saphenous vein to reconstruct and bypass a severely obstructed right coronary artery, establishing a standardized surgical protocol that has saved tens of millions of heart patients globally. Favaloro subsequently returned to Argentina to establish the non-profit Favaloro Foundation in Buenos Aires to provide cutting-edge cardiology to all patients regardless of economic background. He was widely revered throughout Latin America for his ethical integrity and humanitarian devotion.",
+    "famousWorks": [
+      {
+        "year": 1967,
+        "title": "Performed the first successful coronary artery bypass graft (CABG) surgery using the saphenous vein"
+      },
+      {
+        "year": 1968,
+        "title": "Standardized the surgical technique of direct myocardial revascularization at the Cleveland Clinic"
+      },
+      {
+        "year": 1970,
+        "title": "Published landmark clinical monograph 'Surgical Treatment of Coronary Arteriosclerosis'"
+      },
+      {
+        "year": 1975,
+        "title": "Established the Favaloro Foundation Hospital and Research Institute in Buenos Aires"
+      }
+    ],
+    "awards": [
+      "John Scott Medal - City of Philadelphia (1979)",
+      "Prince Mahidol Award in Medicine - Thailand (1998)",
+      "Konex de Platino for Medical Sciences - Argentina (1993)",
+      "Ranked among the Top 5 Greatest Argentine figures in history"
+    ],
+    "faq": [
+      {
+        "q": "What revolutionary surgical operation did Dr. René Favaloro pioneer?",
+        "a": "He developed the clinical application of Coronary Artery Bypass Graft (CABG) surgery, using a leg saphenous vein graft to bypass blocked heart arteries and restore blood flow to cardiac muscle."
+      },
+      {
+        "q": "Where did Favaloro perform his first bypass surgery?",
+        "a": "At the Cleveland Clinic in Ohio in May 1967, operating on a 51-year-old woman with an occluded coronary artery."
+      },
+      {
+        "q": "What was the mission of the Favaloro Foundation in Argentina?",
+        "a": "He created the Favaloro Foundation in Buenos Aires to combine high-complexity cardiac surgery, biomedical research, and medical education while treating low-income patients for free."
+      }
+    ],
+    "related": [
+      "christiaan-barnard",
+      "devi-shetty",
+      "alexis-carrel"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ren%C3%A9_Favaloro",
+      "https://my.clevelandclinic.org/about/history/people/favaloro",
+      "https://www.fundacionfavaloro.org"
+    ],
+    "image": "/avatars/rene-favaloro.jpg",
+    "imageCredit": "Wikimedia Commons / René Favaloro"
+  },
+  {
+    "slug": "charles-drew",
+    "name": "Dr. Charles Drew",
+    "category": "doctors",
+    "profession": "Surgeon, Pathologist & Researcher",
+    "industry": "Blood Banking & Transfusion Medicine",
+    "country": "United States",
+    "birthDate": "1904-06-03",
+    "deathDate": "1950-04-01",
+    "birthPlace": "Washington, D.C., USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Father of Blood Banking",
+    "bio": "Dr. Charles Richard Drew was an African-American physician, surgeon, and medical researcher who pioneered methods for the long-term preservation of blood plasma, creating the modern system of blood banks. Through his doctoral research at Columbia University, he discovered that dried and separated liquid blood plasma was far less perishable than whole blood and could be transfused to patients of any blood type without cross-matching. During World War II, Drew organized the heroic 'Blood for Britain' project and directed the first American Red Cross Blood Bank. When the US military insisted on racially segregating blood donations despite no scientific basis, Drew courageously resigned in protest.",
+    "famousWorks": [
+      {
+        "year": 1940,
+        "title": "Published doctoral thesis 'Banked Blood: A Study in Blood Preservation' at Columbia University"
+      },
+      {
+        "year": 1940,
+        "title": "Director of 'Blood for Britain' collecting and shipping 14,500 units of plasma to save Allied lives"
+      },
+      {
+        "year": 1941,
+        "title": "First director of the American Red Cross Blood Bank collecting blood for US military"
+      },
+      {
+        "year": 1943,
+        "title": "First African-American surgeon appointed as an examiner on the American Board of Surgery"
+      }
+    ],
+    "awards": [
+      "Spingarn Medal by the NAACP (1944)",
+      "E.S. Jones Award for Research in Medical Science (1942)",
+      "Charles R. Drew University of Medicine and Science in Los Angeles founded in his honor",
+      "US Postal Service Commemorative Stamp (1981)"
+    ],
+    "faq": [
+      {
+        "q": "Why was Charles Drew's work on blood plasma so critical during WWII?",
+        "a": "Whole blood deteriorated in days; Drew proved separated plasma could be dehydrated, stored for months, reconstituted with sterile water, and administered immediately on battlefields regardless of blood type."
+      },
+      {
+        "q": "Why did Dr. Charles Drew resign from the American Red Cross?",
+        "a": "He resigned in 1941 in principled protest against the US armed forces' policy of segregating or excluding blood donations from African Americans, condemning it as medically baseless and unscientific."
+      },
+      {
+        "q": "What medical university bears Dr. Charles Drew's name?",
+        "a": "The Charles R. Drew University of Medicine and Science in Willowbrook/Watts, Los Angeles, California was founded in 1966 to train diverse medical specialists for underserved communities."
+      }
+    ],
+    "related": [
+      "karl-landsteiner",
+      "frederick-banting",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charles_R._Drew",
+      "https://www.cdrewu.edu",
+      "https://profiles.nlm.nih.gov/spotlight/bg"
+    ],
+    "image": "/avatars/charles-drew.jpg",
+    "imageCredit": "Wikimedia Commons / Charles R. Drew"
+  },
+  {
+    "slug": "alexis-carrel",
+    "name": "Dr. Alexis Carrel",
+    "category": "doctors",
+    "profession": "Surgeon & Biologist",
+    "industry": "Vascular Surgery & Organ Transplantation",
+    "country": "France",
+    "birthDate": "1873-06-28",
+    "deathDate": "1944-11-05",
+    "birthPlace": "Sainte-Foy-lès-Lyon, France",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "nickname": "Pioneer of Vascular Anastomosis",
+    "bio": "Dr. Alexis Carrel was a French surgeon and biologist who was awarded the Nobel Prize in Physiology or Medicine in 1912 for pioneering vascular suture techniques and the transplantation of blood vessels and organs. Moved by the tragic death of French President Sadi Carnot from a severed femoral artery that 19th-century surgeons could not stitch, Carrel learned fine lace-embroidery stitching and invented the triangulation technique to suture blood vessels without thrombosis. Working at the Rockefeller Institute in New York, his vascular anastomosis procedures laid the foundational surgical cornerstone for modern bypass surgery, organ transplants, and cardiovascular repair. He also co-invented early perfusion pumps with aviator Charles Lindbergh.",
+    "famousWorks": [
+      {
+        "year": 1902,
+        "title": "Invented the triangulation technique for end-to-end vascular anastomosis (blood vessel stitching)"
+      },
+      {
+        "year": 1906,
+        "title": "Performed the first experimental heterotopic heart and kidney transplantations at Rockefeller Institute"
+      },
+      {
+        "year": 1912,
+        "title": "Awarded Nobel Prize in Physiology or Medicine for vascular suture and organ transplantation methods"
+      },
+      {
+        "year": 1935,
+        "title": "Co-invented the Carrel-Lindbergh perfusion pump allowing organs to be kept alive outside the body"
+      }
+    ],
+    "awards": [
+      "Nobel Prize in Physiology or Medicine (1912)",
+      "Commander of the Legion of Honour - France",
+      "Member of the Pontifical Academy of Sciences",
+      "Leopold Order - Belgium"
+    ],
+    "faq": [
+      {
+        "q": "What inspired Alexis Carrel to invent vascular suturing?",
+        "a": "The assassination of French President Sadi Carnot in 1894, who bled to death because contemporary surgeons lacked the delicate surgical technique to sew together severed blood vessels."
+      },
+      {
+        "q": "What is the triangulation technique invented by Carrel?",
+        "a": "It is a surgical method using three equidistant guide sutures to transform a cylindrical blood vessel into a triangle, preventing the opposite wall from being accidentally caught in the needle while suturing."
+      },
+      {
+        "q": "What medical device did Carrel invent with aviator Charles Lindbergh?",
+        "a": "They invented the first sterile perfusion pump in 1935, which circulated oxygenated fluid through excised organs, paving the way for heart-lung bypass machines."
+      }
+    ],
+    "related": [
+      "christiaan-barnard",
+      "rene-favaloro",
+      "joseph-lister"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexis_Carrel",
+      "https://www.nobelprize.org/prizes/medicine/1912/carrel/biographical/",
+      "https://www.rockefeller.edu"
+    ],
+    "image": "/avatars/alexis-carrel.jpg",
+    "imageCredit": "Wikimedia Commons / Alexis Carrel"
+  },
+  {
+    "slug": "elizabeth-blackwell",
+    "name": "Dr. Elizabeth Blackwell",
+    "category": "doctors",
+    "profession": "Physician & Social Reformer",
+    "industry": "Women in Medicine & Public Hygiene",
+    "country": "United States",
+    "birthDate": "1821-02-03",
+    "deathDate": "1910-05-31",
+    "birthPlace": "Bristol, England, United Kingdom",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "nickname": "First Woman Medical Doctor in America",
+    "bio": "Dr. Elizabeth Blackwell was a British-born physician who broke historic gender barriers by becoming the first woman to earn a medical degree in the United States in 1849. After facing rejection from more than a dozen medical schools solely because of her gender, she graduated first in her class from Geneva Medical College in upstate New York. Blackwell went on to establish the New York Infirmary for Indigent Women and Children and co-founded the London School of Medicine for Women in England. She spent her career advocating for preventive medicine, sanitation, and the professional entry of women into healthcare.",
+    "famousWorks": [
+      {
+        "year": 1849,
+        "title": "Graduated first in her class as Doctor of Medicine (M.D.) from Geneva Medical College"
+      },
+      {
+        "year": 1857,
+        "title": "Co-founded the New York Infirmary for Indigent Women and Children"
+      },
+      {
+        "year": 1868,
+        "title": "Established the Woman's Medical College of the New York Infirmary"
+      },
+      {
+        "year": 1874,
+        "title": "Co-founded the London School of Medicine for Women in the United Kingdom"
+      },
+      {
+        "year": 1895,
+        "title": "Published autobiographical pioneer work 'Pioneer Work in Opening the Medical Profession to Women'"
+      }
+    ],
+    "awards": [
+      "First woman on the General Medical Council register of Great Britain (1859)",
+      "National Women's Hall of Fame Inductee (1973)",
+      "Elizabeth Blackwell Medal established by the American Medical Women's Association in 1949"
+    ],
+    "faq": [
+      {
+        "q": "How was Elizabeth Blackwell admitted to Geneva Medical College?",
+        "a": "The faculty put her application to a student vote assuming the male students would reject it; the students treated it as a joke and voted unanimously 'yes', making her admission legally binding."
+      },
+      {
+        "q": "What medical institution did Elizabeth Blackwell establish in New York City?",
+        "a": "She co-founded the New York Infirmary for Indigent Women and Children in 1857 alongside her sister Dr. Emily Blackwell and Dr. Marie Zakrzewska, providing care to poor families and clinical training for female physicians."
+      },
+      {
+        "q": "What is the Elizabeth Blackwell Medal?",
+        "a": "It is the highest honor granted by the American Medical Women's Association (AMWA), awarded annually to female physicians who have made landmark contributions to the cause of women in medicine."
+      }
+    ],
+    "related": [
+      "virginia-apgar",
+      "tu-youyou",
+      "william-osler"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elizabeth_Blackwell",
+      "https://www.amwa-doc.org/about-amwa/history/elizabeth-blackwell/",
+      "https://www.britannica.com/biography/Elizabeth-Blackwell"
+    ],
+    "image": "/avatars/elizabeth-blackwell.jpg",
+    "imageCredit": "Wikimedia Commons / Elizabeth Blackwell"
+  },
+  {
+    "slug": "virginia-apgar",
+    "name": "Dr. Virginia Apgar",
+    "category": "doctors",
+    "profession": "Obstetrical Anesthesiologist & Pediatrician",
+    "industry": "Neonatology & Obstetric Anesthesia",
+    "country": "United States",
+    "birthDate": "1909-06-07",
+    "deathDate": "1974-08-07",
+    "birthPlace": "Westfield, New Jersey, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Inventor of the Apgar Score",
+    "bio": "Dr. Virginia Apgar was an American obstetrical anesthesiologist, pediatrician, and clinical researcher who revolutionized neonatal medicine by creating the Apgar Score in 1952. Prior to her invention, delivery-room doctors focused almost entirely on the mother, often writing off struggling newborns as unviable without systematic resuscitation. Dr. Apgar devised an elegant five-point clinical evaluation (Appearance, Pulse, Grimace, Activity, Respiration) performed at one and five minutes after birth, standardizing immediate infant healthcare worldwide and saving millions of newborn lives. She also served as a full professor at Columbia University and directed birth-defects prevention at the March of Dimes.",
+    "famousWorks": [
+      {
+        "year": 1949,
+        "title": "Appointed full Professor of Anesthesiology at Columbia University (first woman full professor)"
+      },
+      {
+        "year": 1952,
+        "title": "Devised the Apgar Score evaluating newborn health at 1 and 5 minutes after birth"
+      },
+      {
+        "year": 1953,
+        "title": "Published landmark clinical paper 'A Proposal for a New Method of Evaluation of the Newborn Infant'"
+      },
+      {
+        "year": 1959,
+        "title": "Appointed Vice President for Medical Affairs at the March of Dimes directing congenital defect prevention"
+      },
+      {
+        "year": 1972,
+        "title": "Co-authored the influential guide 'Is My Baby All Right?' on congenital disorders"
+      }
+    ],
+    "awards": [
+      "Ralph M. Waters Award by the American Society of Anesthesiologists (1973)",
+      "National Women's Hall of Fame Inductee (1995)",
+      "US Postal Service Great Americans Series Commemorative Stamp (1994)",
+      "Gold Medal for Distinguished Service in Medicine by Columbia University"
+    ],
+    "faq": [
+      {
+        "q": "What five clinical parameters constitute the Apgar Score?",
+        "a": "Apgar is a backronym for: Appearance (skin color), Pulse (heart rate), Grimace (reflex irritability), Activity (muscle tone), and Respiration (breathing effort), scored 0, 1, or 2."
+      },
+      {
+        "q": "When is the Apgar Score administered to a newborn baby?",
+        "a": "It is universally administered twice: exactly 1 minute and 5 minutes after birth (and repeated at 10 minutes if scores are low) to determine whether emergency medical intervention is needed."
+      },
+      {
+        "q": "What hobby was Dr. Virginia Apgar famous for outside medicine?",
+        "a": "She was an accomplished classical violinist and master luthier who personally carved her own violins, violas, and cellos by hand."
+      }
+    ],
+    "related": [
+      "elizabeth-blackwell",
+      "ignaz-semmelweis",
+      "william-osler"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Virginia_Apgar",
+      "https://profiles.nlm.nih.gov/spotlight/cp",
+      "https://www.britannica.com/biography/Virginia-Apgar"
+    ],
+    "image": "/avatars/virginia-apgar.jpg",
+    "imageCredit": "Wikimedia Commons / Virginia Apgar"
+  },
+  {
+    "slug": "william-osler",
+    "name": "Dr. William Osler",
+    "category": "doctors",
+    "profession": "Physician, Educator & Historian",
+    "industry": "Clinical Medicine & Medical Education",
+    "country": "Canada",
+    "birthDate": "1849-07-12",
+    "deathDate": "1919-12-29",
+    "birthPlace": "Bond Head, Canada West (Modern Ontario)",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Father of Modern Clinical Medicine",
+    "bio": "Sir William Osler, 1st Baronet, was a Canadian physician, medical educator, and bibliophile widely heralded as the 'Father of Modern Clinical Medicine'. As one of the 'Big Four' founding physicians of the Johns Hopkins Hospital in Baltimore, he abolished dry lecture-based training and created the modern clinical clerkship system where students learned directly at the patient's bedside. In 1892, Osler published 'The Principles and Practice of Medicine', the most authoritative and elegant textbook of internal medicine of its era, which inspired the philanthropic creation of the Rockefeller Institute for Medical Research. He later served as the Regius Professor of Medicine at Oxford University.",
+    "famousWorks": [
+      {
+        "year": 1889,
+        "title": "Co-founded the Johns Hopkins Hospital and Johns Hopkins School of Medicine as Physician-in-Chief"
+      },
+      {
+        "year": 1889,
+        "title": "Created the modern system of medical residencies and bedside clinical clerkships"
+      },
+      {
+        "year": 1892,
+        "title": "Published landmark textbook 'The Principles and Practice of Medicine'"
+      },
+      {
+        "year": 1905,
+        "title": "Appointed Regius Professor of Medicine at the University of Oxford"
+      },
+      {
+        "year": 1907,
+        "title": "Founded the Association of Physicians of Great Britain and Ireland and the Quarterly Journal of Medicine"
+      }
+    ],
+    "awards": [
+      "Created a Baronet of the United Kingdom (1911)",
+      "Fellow of the Royal Society (FRS, 1898)",
+      "Fellow of the Royal College of Physicians (FRCP, 1883)",
+      "Canadian Medical Hall of Fame Inaugural Inductee (1994)"
+    ],
+    "faq": [
+      {
+        "q": "What revolutionary teaching method did William Osler introduce to medicine?",
+        "a": "He removed medical students from lecture halls and brought them directly to hospital wards, establishing the modern bedside clinical rounds and medical residency training model."
+      },
+      {
+        "q": "What famous medical aphorism is William Osler remembered for regarding patients?",
+        "a": "Osler famously taught: 'Listen to your patient, he is telling you the diagnosis,' and 'The good physician treats the disease; the great physician treats the patient who has the disease.'"
+      },
+      {
+        "q": "What medical signs and phenomena are named after Dr. William Osler?",
+        "a": "Numerous medical terms bear his name, including 'Osler's nodes' (in bacterial endocarditis), 'Osler-Weber-Rendu disease' (hereditary hemorrhagic telangiectasia), and the 'Osler maneuver'."
+      }
+    ],
+    "related": [
+      "santiago-ramon-y-cajal",
+      "sigmund-freud",
+      "alexander-fleming"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Osler",
+      "https://www.hopkinsmedicine.org/about/history/history-of-jhm/founders/william-osler",
+      "https://www.britannica.com/biography/Sir-William-Osler-Baronet"
+    ],
+    "image": "/avatars/william-osler.jpg",
+    "imageCredit": "Wikimedia Commons / William Osler"
+  },
+  {
+    "slug": "sigmund-freud",
+    "name": "Dr. Sigmund Freud",
+    "category": "doctors",
+    "profession": "Neurologist & Psychoanalyst",
+    "industry": "Psychoanalysis & Clinical Psychology",
+    "country": "Austria",
+    "birthDate": "1856-05-06",
+    "deathDate": "1939-09-23",
+    "birthPlace": "Freiberg in Mähren, Austrian Empire (Modern Czech Republic)",
+    "languages": [
+      "German",
+      "English",
+      "French",
+      "Hebrew"
+    ],
+    "nickname": "Father of Psychoanalysis",
+    "bio": "Dr. Sigmund Freud, born Sigismund Schlomo Freud, was an Austrian neurologist who founded psychoanalysis, a clinical method for evaluating and treating psychopathology through dialogue between a patient and psychoanalyst. Formulating radical theories regarding the unconscious mind, the psychic apparatus (Id, Ego, and Superego), and the therapeutic value of free association and dream analysis, Freud fundamentally transformed psychiatric medicine, clinical psychology, and 20th-century Western thought. His clinical concepts—including psychological defense mechanisms, repression, and transference—remain enduring fixtures in contemporary psychiatric and cultural discourse.",
+    "famousWorks": [
+      {
+        "year": 1895,
+        "title": "Studies on Hysteria (with Josef Breuer, introducing talking therapy)"
+      },
+      {
+        "year": 1899,
+        "title": "The Interpretation of Dreams (Die Traumdeutung, establishing dream analysis)"
+      },
+      {
+        "year": 1905,
+        "title": "Three Essays on the Theory of Sexuality"
+      },
+      {
+        "year": 1923,
+        "title": "The Ego and the Id (formulating the structural model of the psyche: id, ego, and superego)"
+      },
+      {
+        "year": 1930,
+        "title": "Civilization and Its Discontents"
+      }
+    ],
+    "awards": [
+      "Goethe Prize of the City of Frankfurt (1930)",
+      "Foreign Member of the Royal Society (ForMemRS, 1936)",
+      "Universally recognized as the founder of psychoanalysis and modern psychotherapy"
+    ],
+    "faq": [
+      {
+        "q": "What is the tripartite model of the human psyche proposed by Freud?",
+        "a": "He divided human mental processes into three components: the Id (instinctual, unconscious impulses), the Ego (the realistic mediator of conscious thought), and the Superego (the internalized moral conscience)."
+      },
+      {
+        "q": "What clinical technique did Freud develop to explore the unconscious?",
+        "a": "He developed 'free association', where patients lie on a psychoanalytic couch and express thoughts without self-censorship, allowing unconscious conflicts and repressed memories to surface."
+      },
+      {
+        "q": "What was Freud's primary medical specialization before psychoanalysis?",
+        "a": "Freud was a classically trained research neurologist, publishing extensive clinical research on cerebral palsy, aphasia, and microscopic neurobiology at the University of Vienna."
+      }
+    ],
+    "related": [
+      "santiago-ramon-y-cajal",
+      "william-osler",
+      "albert-einstein"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sigmund_Freud",
+      "https://www.freud.org.uk",
+      "https://www.britannica.com/biography/Sigmund-Freud"
+    ],
+    "image": "/avatars/sigmund-freud.jpg",
+    "imageCredit": "Wikimedia Commons / Sigmund Freud"
+  },
+  {
+    "slug": "denis-mukwege",
+    "name": "Dr. Denis Mukwege",
+    "category": "doctors",
+    "profession": "Gynecologist & Human Rights Activist",
+    "industry": "Gynecological Surgery & Humanitarian Medicine",
+    "country": "Democratic Republic of the Congo",
+    "birthDate": "1955-03-01",
+    "birthPlace": "Costermansville (Modern Bukavu), Belgian Congo",
+    "languages": [
+      "French",
+      "Swahili",
+      "English"
+    ],
+    "nickname": "The Doctor Who Mends Women",
+    "bio": "Dr. Denis Mukwege is a Congolese gynecologist and human rights activist who has devoted his life to treating women and girls brutalized by wartime sexual violence in the conflict-torn eastern Democratic Republic of the Congo. In 1999, he founded Panzi Hospital in Bukavu, where he and his surgical team have treated more than 50,000 survivors of gang rape and gynecological trauma, pioneering holistic physical, psychological, and legal recovery services. Surviving numerous assassination attempts, Dr. Mukwege has fearlessly addressed the United Nations Security Council, demanding accountability for war crimes and resource-fueled conflicts. In 2018, he was awarded the Nobel Peace Prize alongside Nadia Murad.",
+    "famousWorks": [
+      {
+        "year": 1999,
+        "title": "Founded Panzi Hospital in Bukavu, DRC, providing reconstructive gynecological surgery"
+      },
+      {
+        "year": 2008,
+        "title": "Established the Panzi Foundation offering holistic psychosocial and legal aid to survivors"
+      },
+      {
+        "year": 2012,
+        "title": "Addressed the United Nations General Assembly denouncing mass rape in the Congo conflict"
+      },
+      {
+        "year": 2018,
+        "title": "Awarded the Nobel Peace Prize for efforts to end sexual violence as a weapon of war"
+      },
+      {
+        "year": 2021,
+        "title": "Published memoir 'The Power of Women: A Doctor's Journey of Hope and Healing'"
+      }
+    ],
+    "awards": [
+      "Nobel Peace Prize (2018)",
+      "Sakharov Prize for Freedom of Thought (2014)",
+      "United Nations Human Rights Prize (2008)",
+      "Right Livelihood Award (2013)",
+      "Knight of the Legion of Honour - France (2009)"
+    ],
+    "faq": [
+      {
+        "q": "What reconstructive medical specialty has Dr. Mukwege advanced?",
+        "a": "He is world-renowned for developing specialized reconstructive gynecological surgery to repair catastrophic internal trauma and fistulae in victims of wartime sexual violence."
+      },
+      {
+        "q": "What is the 'Panzi Model' of care created by Dr. Mukwege?",
+        "a": "It is a holistic four-pillar healing model combining: physical medical surgery, psychological trauma therapy, economic vocational rehabilitation, and legal representation in court."
+      },
+      {
+        "q": "Why was Dr. Mukwege targeted in assassination attempts?",
+        "a": "Because he consistently denounces armed warlords, corrupt government officials, and multinational mining corporations who exploit rape and sexual terror to control Congolese mineral wealth."
+      }
+    ],
+    "related": [
+      "paul-farmer",
+      "anthony-fauci",
+      "amal-clooney"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Denis_Mukwege",
+      "https://www.nobelprize.org/prizes/peace/2018/mukwege/biographical/",
+      "https://panzifoundation.org"
+    ],
+    "image": "/avatars/denis-mukwege.jpg",
+    "imageCredit": "Wikimedia Commons / Denis Mukwege"
+  },
+  {
+    "slug": "paul-farmer",
+    "name": "Dr. Paul Farmer",
+    "category": "doctors",
+    "profession": "Physician & Medical Anthropologist",
+    "industry": "Global Health Equity & Infectious Disease",
+    "country": "United States",
+    "birthDate": "1959-10-26",
+    "deathDate": "2022-02-21",
+    "birthPlace": "North Adams, Massachusetts, USA",
+    "languages": [
+      "English",
+      "Haitian Creole",
+      "French"
+    ],
+    "nickname": "The Man Who Would Cure the World",
+    "bio": "Dr. Paul Edward Farmer was an American physician, medical anthropologist, and global health pioneer who spent his life fighting health disparities in the most impoverished communities on Earth. In 1987, while still a medical student at Harvard, he co-founded Partners In Health (PIH) to deliver high-quality, comprehensive healthcare to rural Haiti, later expanding to Rwanda, Peru, Lesotho, and Siberia. Farmer revolutionized tuberculosis care by proving that complex multidrug-resistant tuberculosis could be successfully and affordably cured in impoverished shantytowns using community health workers. He was the Kolokotrones University Professor at Harvard University and Chief of Global Health Equity at Brigham and Women's Hospital.",
+    "famousWorks": [
+      {
+        "year": 1987,
+        "title": "Co-founded Partners In Health (PIH) in Cange, Haiti"
+      },
+      {
+        "year": 1996,
+        "title": "Proved that Multidrug-Resistant Tuberculosis (MDR-TB) could be effectively cured in impoverished settings"
+      },
+      {
+        "year": 2003,
+        "title": "Subject of Tracy Kidder's celebrated biography 'Mountains Beyond Mountains'"
+      },
+      {
+        "year": 2013,
+        "title": "Appointed Special Adviser to the UN Secretary-General on Community Based Medicine"
+      },
+      {
+        "year": 2015,
+        "title": "Co-founded the University of Global Health Equity (UGHE) in Butaro, Rwanda"
+      }
+    ],
+    "awards": [
+      "MacArthur Fellowship 'Genius Grant' (1993)",
+      "Berggruen Prize for Philosophy and Culture (2020)",
+      "Public Welfare Medal of the National Academy of Sciences (2018)",
+      "Forbes 400 Lifetime Achievement Award for Social Entrepreneurship"
+    ],
+    "faq": [
+      {
+        "q": "What was Dr. Paul Farmer's fundamental medical philosophy?",
+        "a": "He championed the 'preferential option for the poor in medicine', arguing that geography or poverty should never dictate access to first-world healthcare, and that healthcare is a fundamental human right."
+      },
+      {
+        "q": "What healthcare organization did Paul Farmer co-found?",
+        "a": "He co-founded Partners In Health (PIH) in 1987, which builds modern hospitals, trains community health workers ('accompagnateurs'), and provides free treatment to millions worldwide."
+      },
+      {
+        "q": "What bestselling book documented Dr. Paul Farmer's life work?",
+        "a": "Pulitzer Prize-winning author Tracy Kidder wrote 'Mountains Beyond Mountains: The Quest of Dr. Paul Farmer, a Man Who Would Cure the World' in 2003."
+      }
+    ],
+    "related": [
+      "anthony-fauci",
+      "denis-mukwege",
+      "tu-youyou"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Farmer",
+      "https://www.pih.org/paul-farmer",
+      "https://www.harvard.edu"
+    ],
+    "image": "/avatars/paul-farmer.jpg",
+    "imageCredit": "Wikimedia Commons / Paul Farmer"
+  },
+  {
+    "slug": "ben-carson",
+    "name": "Dr. Ben Carson",
+    "category": "doctors",
+    "profession": "Pediatric Neurosurgeon & Author",
+    "industry": "Pediatric Neurosurgery",
+    "country": "United States",
+    "birthDate": "1951-09-18",
+    "birthPlace": "Detroit, Michigan, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Dr. Ben",
+    "bio": "Dr. Benjamin Solomon Carson Sr. is an American pediatric neurosurgeon and author who served as the Director of Pediatric Neurosurgery at Johns Hopkins Hospital from 1984 to 2013. At age 33, he became the youngest chief of pediatric neurosurgery in the nation. Carson gained international fame in 1987 when he led a 70-member surgical team through a 22-hour operation to successfully separate the Binder twins, conjoined craniopagus twins joined at the back of the head, with both surviving. He pioneered sophisticated surgical techniques for pediatric brain tumors, intractable seizures (hemispherectomy), and craniofacial reconstruction, and was awarded the Presidential Medal of Freedom in 2008.",
+    "famousWorks": [
+      {
+        "year": 1984,
+        "title": "Appointed Director of Pediatric Neurosurgery at Johns Hopkins at age 33 (youngest in US history)"
+      },
+      {
+        "year": 1987,
+        "title": "First successful surgical separation of occipital craniopagus conjoined twins (Patrick and Benjamin Binder)"
+      },
+      {
+        "year": 1990,
+        "title": "Published bestselling autobiography 'Gifted Hands'"
+      },
+      {
+        "year": 1997,
+        "title": "Led the first successful separation of vertically conjoined craniopagus twins in South Africa"
+      },
+      {
+        "year": 1999,
+        "title": "Pioneered advanced hemispherectomy surgical techniques to cure pediatric epilepsy"
+      }
+    ],
+    "awards": [
+      "Presidential Medal of Freedom (2008)",
+      "Spingarn Medal by the NAACP (2006)",
+      "Horatio Alger Award for Distinguished Americans (1994)",
+      "Over 60 honorary doctorate degrees"
+    ],
+    "faq": [
+      {
+        "q": "What surgery made Ben Carson world-famous in 1987?",
+        "a": "He led a 22-hour operation that achieved the first successful separation of seven-month-old German twins joined at the back of the head (craniopagus twins), where both infants survived."
+      },
+      {
+        "q": "What is a hemispherectomy procedure refined by Dr. Carson?",
+        "a": "A radical surgical operation where half of the brain is removed or disconnected to stop severe, catastrophic seizures in pediatric patients with intractable epilepsy."
+      },
+      {
+        "q": "What bestselling book details Dr. Ben Carson's medical career?",
+        "a": "His 1990 autobiography 'Gifted Hands', which was later adapted into a 2009 award-winning biographical television film starring Cuba Gooding Jr."
+      }
+    ],
+    "related": [
+      "sanjay-gupta",
+      "anthony-fauci",
+      "william-osler"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ben_Carson",
+      "https://www.hopkinsmedicine.org/neurology_neurosurgery/centers_clinics/pediatric_neurosurgery/",
+      "https://www.britannica.com/biography/Ben-Carson"
+    ],
+    "image": "/avatars/ben-carson.jpg",
+    "imageCredit": "Wikimedia Commons / Ben Carson"
+  },
+  {
+    "slug": "carlos-chagas",
+    "name": "Dr. Carlos Chagas",
+    "category": "doctors",
+    "profession": "Sanitary Physician & Parasitologist",
+    "industry": "Tropical Medicine & Epidemiology",
+    "country": "Brazil",
+    "birthDate": "1879-07-09",
+    "deathDate": "1934-11-08",
+    "birthPlace": "Oliveira, Minas Gerais, Brazil",
+    "languages": [
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "nickname": "Discoverer of Chagas Disease",
+    "bio": "Dr. Carlos Ribeiro Justiniano Chagas was a Brazilian physician, bacteriologist, and sanitary epidemiologist uniquely famous in medical history for single-handedly discovering an entire infectious disease: Chagas disease (American trypanosomiasis). In 1909, working in rural Minas Gerais at the Oswaldo Cruz Institute, Chagas discovered and described the protozoan parasite (Trypanosoma cruzi), its insect vector (the kissing bug), its animal reservoir, its transmission mechanism, and its entire clinical pathology in humans. His feat remains unmatched in the annals of tropical medicine and epidemiology. He served as the Director of the Oswaldo Cruz Institute and spearheaded national sanitary campaigns across Brazil.",
+    "famousWorks": [
+      {
+        "year": 1909,
+        "title": "Discovered the protozoan parasite Trypanosoma cruzi, named in honor of mentor Oswaldo Cruz"
+      },
+      {
+        "year": 1909,
+        "title": "Identified the kissing bug (triatomine bug) as the transmission vector of American trypanosomiasis"
+      },
+      {
+        "year": 1909,
+        "title": "First clinical diagnosis and pathological description of Chagas disease in a 2-year-old child"
+      },
+      {
+        "year": 1917,
+        "title": "Appointed Director of the Oswaldo Cruz Institute in Rio de Janeiro"
+      },
+      {
+        "year": 1920,
+        "title": "Appointed Director of the National Department of Public Health in Brazil"
+      }
+    ],
+    "awards": [
+      "Schaudinn Prize for Protozoology - Hamburg Institute of Tropical Medicine (1912)",
+      "Honorary Doctorate from the University of Paris (Sorbonne) and University of Brussels",
+      "Twice nominated for the Nobel Prize in Physiology or Medicine (1913, 1921)",
+      "Member of the Brazilian Academy of Medicine"
+    ],
+    "faq": [
+      {
+        "q": "What makes Carlos Chagas's scientific discovery unique in medical history?",
+        "a": "He is the only researcher in history to independently discover every aspect of a new infectious disease: the causative pathogen, the vector insect, the hosts, the clinical symptoms, and the epidemiology."
+      },
+      {
+        "q": "How is Chagas disease transmitted to humans?",
+        "a": "It is transmitted by blood-sucking triatomine bugs ('kissing bugs') that bite a sleeping person's face and defecate near the bite, allowing the Trypanosoma cruzi parasite to enter the bloodstream."
+      },
+      {
+        "q": "What research institute in Brazil honors Carlos Chagas and Oswaldo Cruz?",
+        "a": "The Fiocruz Foundation (Oswaldo Cruz Institute) in Rio de Janeiro, one of the foremost public health and biomedical research institutions in the Americas."
+      }
+    ],
+    "related": [
+      "robert-koch",
+      "alexander-fleming",
+      "rene-favaloro"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carlos_Chagas",
+      "https://portal.fiocruz.br/en/carlos-chagas",
+      "https://www.cdc.gov/parasites/chagas/gen_info/detailed.html"
+    ],
+    "image": "/avatars/carlos-chagas.jpg",
+    "imageCredit": "Wikimedia Commons / Carlos Chagas"
+  },
+  {
+    "slug": "sanjay-gupta",
+    "name": "Dr. Sanjay Gupta",
+    "category": "doctors",
+    "profession": "Neurosurgeon, Author & Medical Journalist",
+    "industry": "Neurosurgery & Medical Journalism",
+    "country": "United States",
+    "birthDate": "1969-10-23",
+    "birthPlace": "Novi, Michigan, USA",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "nickname": "Dr. Sanjay",
+    "bio": "Dr. Sanjay Gupta is an American practicing neurosurgeon, author, and medical journalist who serves as the Chief Medical Correspondent for CNN and an associate professor of neurosurgery at Emory University School of Medicine. In addition to regularly performing complex cranial and spinal brain surgeries at Grady Memorial Hospital in Atlanta, Gupta has covered nearly every major global healthcare crisis for over two decades, including the 2003 Iraq War, the 2010 Haiti earthquake, the West African Ebola outbreak, and the COVID-19 pandemic. He has performed live emergency brain surgeries in battlefield conditions and disaster zones, winning multiple Emmy Awards for medical reporting. In 2019, he was elected to the National Academy of Medicine.",
+    "famousWorks": [
+      {
+        "year": 2001,
+        "title": "Joined CNN as Chief Medical Correspondent, launching prime-time documentary series"
+      },
+      {
+        "year": 2003,
+        "title": "Embedded with the US Navy's 'Devil Docs' in Iraq, performing life-saving emergency craniotomies in desert tents"
+      },
+      {
+        "year": 2010,
+        "title": "Performed emergency brain surgery on a 12-year-old girl aboard USS Comfort after the Haiti earthquake"
+      },
+      {
+        "year": 2013,
+        "title": "Groundbreaking documentary series 'Weed' shifting medical cannabis policy in America"
+      },
+      {
+        "year": 2021,
+        "title": "Published bestselling neurology guide 'Keep Sharp: Build a Better Brain at Any Age'"
+      }
+    ],
+    "awards": [
+      "Member of the National Academy of Medicine (elected 2019)",
+      "Multiple Primetime & News Emmy Awards for Investigative Medical Journalism",
+      "Peabody Award for Hurricane Katrina coverage",
+      "Alfred I. duPont-Columbia University Award"
+    ],
+    "faq": [
+      {
+        "q": "Does Dr. Sanjay Gupta actively perform surgery?",
+        "a": "Yes, unlike many television commentators, Dr. Gupta is an active practicing neurosurgeon who operates weekly and trains neurosurgical residents at Emory University and Grady Memorial Hospital."
+      },
+      {
+        "q": "Was Sanjay Gupta offered the role of US Surgeon General?",
+        "a": "Yes, in 2009 President Barack Obama offered him the position of Surgeon General of the United States, but Gupta withdrew his name to prioritize his surgical practice and family."
+      },
+      {
+        "q": "What emergency operations did Dr. Gupta perform in disaster zones?",
+        "a": "He famously performed emergency life-saving battlefield brain surgery on injured Marines and civilians in Iraq in 2003 and on pediatric survivors of the 2010 Haiti earthquake and 2015 Nepal earthquake."
+      }
+    ],
+    "related": [
+      "ben-carson",
+      "anthony-fauci",
+      "paul-farmer"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sanjay_Gupta",
+      "https://edition.cnn.com/profiles/sanjay-gupta-profile",
+      "https://www.neurosurgery.emory.edu/faculty/gupta-sanjay.html"
+    ],
+    "image": "/avatars/sanjay-gupta.jpg",
+    "imageCredit": "Wikimedia Commons / Sanjay Gupta"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "william-shakespeare",
+    "name": "William Shakespeare",
+    "category": "writers",
+    "profession": "Playwright, Poet & Actor",
+    "industry": "Classical Literature & Theater",
+    "country": "United Kingdom",
+    "birthDate": "1564-04-26",
+    "deathDate": "1616-04-23",
+    "birthPlace": "Stratford-upon-Avon, Warwickshire, England",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Bard of Avon",
+    "bio": "William Shakespeare was an English playwright, poet, and actor widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. His extant works consist of some 39 plays, 154 sonnets, and three long narrative poems, which have been translated into every major living language and performed continuously worldwide. His mastery of poetic rhythm, psychological depth, and tragic human conflict continues to shape global culture.",
+    "famousWorks": [
+      {
+        "year": 1597,
+        "title": "Romeo and Juliet"
+      },
+      {
+        "year": 1601,
+        "title": "Hamlet"
+      },
+      {
+        "year": 1606,
+        "title": "Macbeth"
+      },
+      {
+        "year": 1609,
+        "title": "The Sonnets (including Sonnet 18)"
+      },
+      {
+        "year": 1623,
+        "title": "The First Folio publication"
+      }
+    ],
+    "awards": [
+      "Universally recognized as the cornerstone of Western literature",
+      "Over 1,700 words contributed to the English vocabulary"
+    ],
+    "faq": [
+      {
+        "q": "What theater in London is most famous for Shakespeare's plays?",
+        "a": "The Globe Theatre on the south bank of the River Thames, constructed in 1599 by Shakespeare's playing company, the Lord Chamberlain's Men."
+      },
+      {
+        "q": "How many sonnets did Shakespeare publish?",
+        "a": "He published a collection of 154 sonnets in 1609 dealing with themes of love, beauty, morality, and time."
+      }
+    ],
+    "related": [
+      "jk-rowling",
+      "christopher-nolan",
+      "freddie-mercury"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Shakespeare",
+      "https://www.shakespeare.org.uk"
+    ],
+    "image": "/avatars/william-shakespeare.jpg",
+    "imageCredit": "Wikimedia Commons / William Shakespeare"
+  },
+  {
+    "slug": "jk-rowling",
+    "name": "J.K. Rowling",
+    "category": "writers",
+    "profession": "Author & Philanthropist",
+    "industry": "Fantasy & Children's Fiction",
+    "country": "United Kingdom",
+    "birthDate": "1965-07-31",
+    "birthPlace": "Yate, Gloucestershire, England",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "nickname": "Jo",
+    "bio": "Joanne Rowling, better known by her pen name J.K. Rowling, is a British author and philanthropist best known for writing the seven-book Harry Potter fantasy series. The books have sold over 600 million copies worldwide, been translated into more than 80 languages, and spawned a multibillion-dollar global media franchise including films and theme parks. Rowling is also the founder of the Lumos international children's charity.",
+    "famousWorks": [
+      {
+        "year": 1997,
+        "title": "Harry Potter and the Philosopher's Stone"
+      },
+      {
+        "year": 1999,
+        "title": "Harry Potter and the Prisoner of Azkaban"
+      },
+      {
+        "year": 2007,
+        "title": "Harry Potter and the Deathly Hallows"
+      },
+      {
+        "year": 2013,
+        "title": "The Cuckoo's Calling (as Robert Galbraith)"
+      }
+    ],
+    "awards": [
+      "Officer of the Order of the British Empire (OBE, 2000)",
+      "Legion of Honour - France (2009)",
+      "Hans Christian Andersen Literature Award (2010)"
+    ],
+    "faq": [
+      {
+        "q": "Where did J.K. Rowling first conceive the idea for Harry Potter?",
+        "a": "She conceived the idea in 1990 while on a delayed train journey from Manchester to London King's Cross."
+      },
+      {
+        "q": "What pseudonym does J.K. Rowling use for her crime fiction books?",
+        "a": "She writes the Cormoran Strike detective series under the pseudonym Robert Galbraith."
+      }
+    ],
+    "related": [
+      "william-shakespeare",
+      "steven-spielberg",
+      "christopher-nolan"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/J._K._Rowling",
+      "https://www.jkrowling.com"
+    ],
+    "image": "/avatars/jk-rowling.jpg",
+    "imageCredit": "Wikimedia Commons / J. K. Rowling"
+  }
+]

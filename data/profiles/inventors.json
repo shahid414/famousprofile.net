@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "thomas-edison",
+    "name": "Thomas Edison",
+    "category": "inventors",
+    "profession": "Inventor & Businessman",
+    "industry": "Electrical Engineering & Industrial Research",
+    "country": "United States",
+    "birthDate": "1847-02-11",
+    "deathDate": "1931-10-18",
+    "birthPlace": "Milan, Ohio, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "The Wizard of Menlo Park",
+    "bio": "Thomas Alva Edison was an American inventor and businessman who has been described as America's greatest inventor. He developed many groundbreaking devices in fields such as electric power generation, mass communication, sound recording, and motion pictures, including the phonograph, the long-lasting practical incandescent electric light bulb, and the motion picture camera. Edison also pioneered the concept of industrial research laboratories at Menlo Park, New Jersey.",
+    "famousWorks": [
+      {
+        "year": 1877,
+        "title": "Invention of the Phonograph sound recording machine"
+      },
+      {
+        "year": 1879,
+        "title": "Commercially practical carbon filament incandescent light bulb"
+      },
+      {
+        "year": 1882,
+        "title": "Pearl Street Station (world's first central commercial electric power plant)"
+      },
+      {
+        "year": 1891,
+        "title": "Kinetoscope motion picture viewing device"
+      }
+    ],
+    "awards": [
+      "Congressional Gold Medal (1928)",
+      "Technical Grammy Award (Posthumous 2010)",
+      "Holder of 1,093 US Patents"
+    ],
+    "faq": [
+      {
+        "q": "Did Thomas Edison invent the very first light bulb?",
+        "a": "He did not invent the first electric light, but created the first commercially viable, long-lasting incandescent lamp (lasting 1,200 hours) and the complete electrical grid to power it."
+      },
+      {
+        "q": "What famous quote is Edison remembered for about invention?",
+        "a": "Edison famously stated: 'Genius is one percent inspiration and ninety-nine percent perspiration.'"
+      }
+    ],
+    "related": [
+      "nikola-tesla",
+      "albert-einstein",
+      "steve-jobs"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Edison",
+      "https://www.nps.gov/edis/index.htm"
+    ],
+    "image": "/avatars/thomas-edison.jpg",
+    "imageCredit": "Wikimedia Commons / Thomas Edison"
+  },
+  {
+    "slug": "nikola-tesla",
+    "name": "Nikola Tesla",
+    "category": "inventors",
+    "profession": "Electrical & Mechanical Engineer, Futurist",
+    "industry": "Electromagnetism & Wireless Technology",
+    "country": "United States",
+    "birthDate": "1856-07-10",
+    "deathDate": "1943-01-07",
+    "birthPlace": "Smiljan, Austrian Empire (Modern-day Croatia)",
+    "languages": [
+      "Serbo-Croatian",
+      "English",
+      "German",
+      "French",
+      "Czech",
+      "Italian",
+      "Latin"
+    ],
+    "nickname": "The Master of Lightning",
+    "bio": "Nikola Tesla was a Serbian-American engineer and futurist best known for his revolutionary contributions to the design of the modern alternating current (AC) electricity supply system. After emigrating to the United States and working briefly with Thomas Edison, he partnered with George Westinghouse to commercialize AC polyphase power transmission, triumphed in the 'War of the Currents', and conducted visionary experiments in wireless electrical transmission and radio technology.",
+    "famousWorks": [
+      {
+        "year": 1887,
+        "title": "AC Induction Motor and polyphase electrical patents"
+      },
+      {
+        "year": 1891,
+        "title": "Invention of the Tesla Coil resonance transformer"
+      },
+      {
+        "year": 1895,
+        "title": "Niagara Falls hydroelectric power plant design"
+      },
+      {
+        "year": 1898,
+        "title": "Teleautomaton (world's first radio-controlled boat)"
+      }
+    ],
+    "awards": [
+      "Edison Medal of the AIEE (1916)",
+      "John Scott Medal (1934)",
+      "The SI unit of magnetic flux density 'Tesla' (T) is named in his honor"
+    ],
+    "faq": [
+      {
+        "q": "What was the War of the Currents?",
+        "a": "The intense commercial competition in the late 1880s between Tesla and Westinghouse's Alternating Current (AC) system and Thomas Edison's Direct Current (DC) system, which AC definitively won."
+      },
+      {
+        "q": "What was Tesla's Wardenclyffe Tower intended for?",
+        "a": "Constructed on Long Island in 1901, it was an ambitious experimental facility intended to transmit transatlantic wireless messages, telephony, and wireless electrical energy without cables."
+      }
+    ],
+    "related": [
+      "thomas-edison",
+      "albert-einstein",
+      "elon-musk"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      "https://www.teslasociety.com"
+    ],
+    "image": "/avatars/nikola-tesla.jpg",
+    "imageCredit": "Wikimedia Commons / Nikola Tesla"
+  }
+]

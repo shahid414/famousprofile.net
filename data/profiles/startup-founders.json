@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "elon-musk",
+    "name": "Elon Musk",
+    "category": "startup-founders",
+    "profession": "Founder, CEO & Chief Engineer",
+    "industry": "Aerospace, Electric Vehicles & AI",
+    "country": "United States",
+    "birthDate": "1971-06-28",
+    "birthPlace": "Pretoria, Transvaal, South Africa",
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
+    "nickname": "Technoking",
+    "bio": "Elon Musk is a visionary entrepreneur, engineer, and investor known for co-founding PayPal, SpaceX, Neuralink, and xAI, as well as leading Tesla, Inc. to become the world's most valuable electric automaker. His pioneering efforts at SpaceX made commercial reusable orbital rocketry a reality and reduced the cost of space exploration tenfold. Musk is frequently ranked as the world's wealthiest individual and an advocate of interplanetary human colonization.",
+    "famousWorks": [
+      {
+        "year": 2002,
+        "title": "Founded SpaceX with Falcon 1 & Starship rockets"
+      },
+      {
+        "year": 2008,
+        "title": "Delivered Tesla Roadster & steered Tesla to mass production (Model S/3/Y)"
+      },
+      {
+        "year": 2015,
+        "title": "Co-founded OpenAI as a research initiative"
+      },
+      {
+        "year": 2022,
+        "title": "Acquired and rebranded X (formerly Twitter)"
+      }
+    ],
+    "awards": [
+      "Royal Society Fellowship (FRS 2018)",
+      "Time Person of the Year (2021)",
+      "Heinlein Prize for Advances in Space Commercialization (2011)"
+    ],
+    "faq": [
+      {
+        "q": "What major startups did Elon Musk create or co-found?",
+        "a": "Musk co-founded Zip2, X.com (which merged into PayPal), SpaceX, OpenAI, Neuralink, The Boring Company, and xAI, and has led Tesla since 2004."
+      },
+      {
+        "q": "What is the mission of SpaceX?",
+        "a": "To revolutionize space technology with reusable orbital launch vehicles and ultimately enable humans to become a multi-planetary species by colonizing Mars."
+      }
+    ],
+    "related": [
+      "sam-altman",
+      "steve-jobs",
+      "warren-buffett"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elon_Musk",
+      "https://www.spacex.com",
+      "https://www.tesla.com"
+    ],
+    "image": "/avatars/elon-musk.jpg",
+    "imageCredit": "Wikimedia Commons / Elon Musk"
+  },
+  {
+    "slug": "sam-altman",
+    "name": "Sam Altman",
+    "category": "startup-founders",
+    "profession": "CEO of OpenAI & Tech Investor",
+    "industry": "Artificial Intelligence & Venture Capital",
+    "country": "United States",
+    "birthDate": "1985-04-22",
+    "birthPlace": "Chicago, Illinois, USA",
+    "languages": [
+      "English"
+    ],
+    "nickname": "Sama",
+    "bio": "Samuel Harris Altman is an American entrepreneur, investor, and the chief executive officer of OpenAI, the creator of ChatGPT and GPT-4. Prior to OpenAI, he served as the president of Y Combinator, the premier startup accelerator that nurtured Airbnb, Stripe, and Dropbox. Altman is at the epicenter of modern artificial general intelligence (AGI) research, nuclear fusion investments, and computing infrastructure.",
+    "famousWorks": [
+      {
+        "year": 2005,
+        "title": "Founded location-based social network Loopt"
+      },
+      {
+        "year": 2014,
+        "title": "Appointed President of Y Combinator"
+      },
+      {
+        "year": 2019,
+        "title": "Became CEO of OpenAI transitioning to capped-profit model"
+      },
+      {
+        "year": 2022,
+        "title": "Public launch of ChatGPT sparking the global generative AI wave"
+      }
+    ],
+    "awards": [
+      "Time 100 Most Influential People in the World (2023)",
+      "Bloomberg 50 Most Influential (2023)",
+      "Honorary Degree from National University of Singapore"
+    ],
+    "faq": [
+      {
+        "q": "What role did Sam Altman play in the development of ChatGPT?",
+        "a": "As CEO of OpenAI, Altman spearheaded the strategic vision and funding partnerships that brought large language models like GPT-3, GPT-4, and ChatGPT to global scale."
+      },
+      {
+        "q": "What was Altman's role at Y Combinator?",
+        "a": "He was a member of Y Combinator's inaugural 2005 batch and subsequently served as its president from 2014 to 2019."
+      }
+    ],
+    "related": [
+      "elon-musk",
+      "steve-jobs",
+      "mrbeast"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sam_Altman",
+      "https://openai.com"
+    ],
+    "image": "/avatars/sam-altman.jpg",
+    "imageCredit": "Wikimedia Commons / Sam Altman"
+  }
+]
