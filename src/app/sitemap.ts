@@ -1,8 +1,21 @@
 import { MetadataRoute } from "next";
 import { getAllCategories, getAllProfiles, getAllCountries } from "@/lib/data";
 
+function getBaseUrl(): string {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+  }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return "https://famousprofile-net.vercel.app";
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://profilebook.org";
+  const baseUrl = getBaseUrl();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -58,12 +71,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.4,
-    },
-    {
-      url: `${baseUrl}/why-ice-maker-stopped-working`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
     },
   ];
 
