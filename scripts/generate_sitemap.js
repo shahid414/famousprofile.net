@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const baseUrl = "https://famousprofile-net.vercel.app";
-const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+const today = new Date().toISOString(); // Full ISO datetime
 
 function countryToSlug(country) {
   return country
