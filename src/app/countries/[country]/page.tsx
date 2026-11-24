@@ -24,11 +24,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const current = countries.find((c) => c.slug === params.country);
   if (!current) return {};
 
+  const isHongKong = params.country === "hong-kong";
+  const titleText = isHongKong
+    ? "Celebrities Born In Hong Kong, China"
+    : `Famous People from ${current.country} - ProfileBook`;
+
+  const descriptionText = isHongKong
+    ? "Discover famous celebrities, actors, martial artists, and iconic figures born in Hong Kong, China. Explore detailed biographies, career achievements, and quick facts."
+    : `Biographies, career accomplishments, and profiles of famous individuals from ${current.country}.`;
+
+  const canonicalUrl = `https://famousprofile-net.vercel.app/countries/${params.country}`;
+
   return {
-    title: `Famous People from ${current.country} - ProfileBook`,
-    description: `Biographies, career accomplishments, and profiles of famous individuals from ${current.country}.`,
+    title: {
+      absolute: titleText,
+    },
+    description: descriptionText,
+    openGraph: {
+      title: titleText,
+      description: descriptionText,
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: titleText,
+      description: descriptionText,
+    },
     alternates: {
-      canonical: `https://profilebook.org/countries/${params.country}`,
+      canonical: canonicalUrl,
     },
   };
 }
@@ -60,11 +82,15 @@ export default function CountryDetailPage({ params }: Props) {
           </div>
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
-            Famous People from {current.country}
+            {params.country === "hong-kong"
+              ? "Celebrities Born In Hong Kong, China"
+              : `Famous People from ${current.country}`}
           </h1>
 
           <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl">
-            Explore curated profiles of prominent figures, leaders, athletes, and artists originating from or representing {current.country}.
+            {params.country === "hong-kong"
+              ? "Explore curated profiles of iconic celebrities, actors, martial artists, and cultural icons born in Hong Kong, China."
+              : `Explore curated profiles of prominent figures, leaders, athletes, and artists originating from or representing ${current.country}.`}
           </p>
 
           <div className="pt-2 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
