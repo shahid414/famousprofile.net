@@ -54,13 +54,61 @@ interface WikiProfileData {
   profession?: string;
 }
 
-// Normalize slug into candidate Wikipedia search titles
+function titleCaseWord(w: string): string {
+  return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+}
+
+function stripDiacritics(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+// Normalize slug into candidate Wikipedia search titles.
+// Words inside parentheses follow Wikipedia's disambiguator convention:
+// only the first word is capitalized ("Ronaldo (Brazilian footballer)"),
+// so the direct summary lookup succeeds instead of relying on search fallback.
 function slugToTitle(slug: string): string {
   const clean = decodeURIComponent(slug).replace(/[-_]+/g, " ").trim();
-  return clean
+  const openIdx = clean.indexOf("(");
+  if (openIdx === -1) {
+    return clean
+      .split(" ")
+      .map(titleCaseWord)
+      .join(" ");
+  }
+  const before = clean.slice(0, openIdx).trim();
+  const inside = clean.slice(openIdx + 1).replace(/\)/g, "").trim();
+  const insideWords = inside.split(/\s+/).filter(Boolean);
+  const insideTitled =
+    insideWords.length > 0
+      ? [
+          titleCaseWord(insideWords[0]),
+          ...insideWords.slice(1).map((w) => w.toLowerCase()),
+        ].join(" ")
+      : "";
+  const beforeTitled = before
     .split(" ")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .map(titleCaseWord)
     .join(" ");
+  return `${beforeTitled} (${insideTitled})`;
+}
+
+// Same as slugToTitle, but with the parenthetical fully lowercased
+// ("Fey (singer)", "Madonna (singer)"): some disambiguators are lowercase.
+function slugToTitleLowerParen(slug: string): string {
+  const clean = decodeURIComponent(slug).replace(/[-_]+/g, " ").trim();
+  const openIdx = clean.indexOf("(");
+  if (openIdx === -1) return slugToTitle(slug);
+  const before = clean.slice(0, openIdx).trim();
+  const inside = clean
+    .slice(openIdx + 1)
+    .replace(/\)/g, "")
+    .trim()
+    .toLowerCase();
+  const beforeTitled = before
+    .split(" ")
+    .map(titleCaseWord)
+    .join(" ");
+  return `${beforeTitled} (${inside})`;
 }
 
 // Server-side Wikipedia fetcher with 24-hour cache (ISR) and search fallback
@@ -68,23 +116,39 @@ async function fetchWikiProfile(slug: string): Promise<WikiProfileData | null> {
   const candidate = slugToTitle(slug);
   const userAgent = "ProfileBookApp/1.0 (https://profilebook.org; contact@profilebook.org)";
 
-  try {
-    // 1. Fetch REST summary with resilient search fallback
-    let summary: any = null;
-    const summaryRes = await fetch(
-      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(candidate)}`,
-      {
-        headers: { "User-Agent": userAgent, Accept: "application/json" },
-        next: { revalidate: 86400 }, // 24-hour ISR cache
-      }
-    );
+  // Fetch one REST summary; returns null on non-OK status.
+  async function fetchSummary(title: string): Promise<any | null> {
+    try {
+      const res = await fetch(
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+        {
+          headers: { "User-Agent": userAgent, Accept: "application/json" },
+          next: { revalidate: 86400 }, // 24-hour ISR cache
+        }
+      );
+      if (!res.ok) return null;
+      return await res.json();
+    } catch {
+      return null;
+    }
+  }
 
-    if (summaryRes.ok) {
-      summary = await summaryRes.json();
-    } else {
-      // Fallback: search Wikipedia REST API for the most relevant article key
+  try {
+    // 1. Fetch REST summary with resilient search fallback.
+    // Try both parenthetical casings: "Ronaldo (Brazilian footballer)"
+    // and "Fey (singer)".
+    let summary: any = await fetchSummary(candidate);
+    if (!summary && candidate !== slugToTitleLowerParen(slug)) {
+      summary = await fetchSummary(slugToTitleLowerParen(slug));
+    }
+
+    if (!summary) {
+      // Fallback: search Wikipedia REST API and accept ONLY a result that
+      // actually matches this slug (exact key, or diacritic-insensitive
+      // title match). Never render the top hit blindly — it may be a
+      // different person with a similar name.
       const searchRes = await fetch(
-        `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${encodeURIComponent(candidate)}&limit=1`,
+        `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${encodeURIComponent(candidate)}&limit=5`,
         {
           headers: { "User-Agent": userAgent, Accept: "application/json" },
           next: { revalidate: 86400 },
@@ -92,26 +156,32 @@ async function fetchWikiProfile(slug: string): Promise<WikiProfileData | null> {
       );
       if (searchRes.ok) {
         const searchJson = await searchRes.json();
-        const firstPage = searchJson.pages?.[0];
-        if (firstPage?.key) {
-          const fallbackSummaryRes = await fetch(
-            `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(firstPage.key)}`,
-            {
-              headers: { "User-Agent": userAgent, Accept: "application/json" },
-              next: { revalidate: 86400 },
-            }
+        const pages: any[] = searchJson.pages || [];
+        const normSlug = slug.toLowerCase();
+        const normCandidate = stripDiacritics(candidate.toLowerCase());
+        const match = pages.find((p) => {
+          const keySlug = (p.key || "").toLowerCase().replace(/_/g, "-");
+          if (keySlug === normSlug) return true;
+          const titleNorm = stripDiacritics(
+            (p.title || "").toLowerCase().replace(/_/g, " ")
           );
-          if (fallbackSummaryRes.ok) {
-            summary = await fallbackSummaryRes.json();
-          }
+          return titleNorm === normCandidate;
+        });
+        if (match?.key) {
+          summary = await fetchSummary(match.key);
         }
       }
     }
 
     if (!summary) return null;
 
-    // Filter thin articles, disambiguation, or non-personality entries
-    if (summary.type === "disambiguation" || !summary.extract || summary.extract.length < 80) {
+    // Filter disambiguation or empty articles. The length guard lives on
+    // the FULL lead extract below, not on the summary: a stub article can
+    // have a 33-character summary ("Pablo Santos (9 January 1987 – 15
+    // September 2006) was a Mexican actor.") yet still be a real person
+    // with a renderable page. Rejecting on summary length produced 404s
+    // for links our own search had just emitted.
+    if (summary.type === "disambiguation" || !summary.extract) {
       return null;
     }
 
@@ -157,6 +227,13 @@ async function fetchWikiProfile(slug: string): Promise<WikiProfileData | null> {
       }
     } catch (e) {
       // Fallback gracefully to summary.extract
+    }
+
+    // Thin-article guard on the full lead text (not the summary): reject
+    // only near-empty articles. A one-sentence stub still renders a real
+    // page (hero, quick facts, FAQs, related profiles).
+    if (!fullExtract || fullExtract.length < 40) {
+      return null;
     }
 
     // Split into clean paragraphs

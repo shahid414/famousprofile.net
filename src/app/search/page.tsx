@@ -3,7 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllProfiles } from "@/lib/data";
-import { isFamousPersonality } from "@/lib/wikiFilter";
+import { smartSearch } from "@/lib/smartSearch";
+import { ERA_LABELS } from "@/lib/searchIntent";
 import ProfileCard from "@/components/ProfileCard";
 import SearchBar from "@/components/SearchBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -33,99 +34,35 @@ interface Props {
   };
 }
 
-// Fetch live Wikipedia results on the server
-async function fetchWikiSearch(query: string) {
-  if (!query || query.trim().length < 1) return [];
-
-  const endpoint = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${encodeURIComponent(
-    query.trim()
-  )}&limit=40`;
-
-  try {
-    const res = await fetch(endpoint, {
-      headers: {
-        "User-Agent":
-          "ProfileBookApp/1.0 (https://profilebook.org; contact@profilebook.org)",
-        Accept: "application/json",
-      },
-      next: { revalidate: 60 },
-    });
-
-    if (!res.ok) return [];
-    const data = await res.json();
-    const pages = data.pages || [];
-
-    // Filter strictly for famous human personalities
-    return pages
-      .filter((page: any) =>
-        isFamousPersonality({
-          title: page.title,
-          description: page.description,
-          excerpt: page.excerpt,
-        })
-      )
-      .slice(0, 10)
-      .map((page: any) => {
-      let thumbnailUrl: string | null = null;
-      if (page.thumbnail && page.thumbnail.url) {
-        thumbnailUrl = page.thumbnail.url.startsWith("//")
-          ? `https:${page.thumbnail.url}`
-          : page.thumbnail.url;
-      }
-
-      return {
-        id: page.id,
-        key: page.key,
-        title: page.title,
-        description: page.description || "Public figure on Wikipedia",
-        excerpt: page.excerpt
-          ? page.excerpt
-              .replace(/<[^>]*>?/gm, "")
-              .replace(/&quot;/g, '"')
-              .replace(/&#039;/g, "'")
-          : "",
-        thumbnail: thumbnailUrl,
-        url: `/people/${encodeURIComponent(page.key.toLowerCase().replace(/_/g, "-"))}`,
-      };
-    });
-  } catch (e) {
-    console.error("Wikipedia search fetch error on server:", e);
-    return [];
-  }
-}
-
 async function DualSearchResults({ query }: { query: string }) {
   const allProfiles = getAllProfiles();
-  const trimmed = query.trim().toLowerCase();
+  const trimmed = query.trim();
 
-  // 1. Search our website's own profile database
-  const localResults = trimmed
-    ? allProfiles.filter((p) => {
-        return (
-          p.name.toLowerCase().includes(trimmed) ||
-          p.profession.toLowerCase().includes(trimmed) ||
-          (p.industry && p.industry.toLowerCase().includes(trimmed)) ||
-          (p.country && p.country.toLowerCase().includes(trimmed)) ||
-          (p.nickname && p.nickname.toLowerCase().includes(trimmed)) ||
-          p.category.toLowerCase().includes(trimmed) ||
-          p.bio.toLowerCase().includes(trimmed)
-        );
+  // Smart search (shared with /api/search): intent parsing, ranked +
+  // diverse local selection, Wikipedia discovery with intent-derived
+  // queries. The results page may use up to 3 Wikipedia queries in
+  // parallel for profession diversity on broad country searches.
+  const result = trimmed
+    ? await smartSearch(trimmed, {
+        localCap: 24,
+        wikiCap: 10,
+        maxWikiQueries: 3,
+        includeGroups: true,
       })
-    : [];
+    : null;
 
-  const localNamesSet = new Set(
-    localResults.map((p) => p.name.toLowerCase().trim())
-  );
+  const localResults = result?.local || [];
+  const localTotal = result?.localTotal || 0;
+  const wikiResults = result?.wikipedia || [];
+  const totalCount = result?.totalCount || 0;
+  const intent = result?.intent;
+  const groups = result?.groups || [];
+  const showGroups = groups.length > 1;
 
-  // 2. Search Wikipedia API concurrently
-  const rawWiki = trimmed ? await fetchWikiSearch(query) : [];
-
-  // Deduplicate Wikipedia results that are already on our website
-  const wikiResults = rawWiki.filter(
-    (w: any) => !localNamesSet.has(w.title.toLowerCase().trim())
-  );
-
-  const totalCount = localResults.length + wikiResults.length;
+  // ProfileCard needs full Profile objects; resolve the API-shaped
+  // local items back to the dataset records by slug.
+  const profileBySlug = new Map(allProfiles.map((p) => [p.slug, p]));
+  const toFullProfile = (item: { slug: string }) => profileBySlug.get(item.slug)!;
 
   if (!trimmed) {
     return (
@@ -151,8 +88,30 @@ async function DualSearchResults({ query }: { query: string }) {
             Results for &ldquo;<span className="text-indigo-600 dark:text-indigo-400">{query}</span>&rdquo;
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
-            Found {totalCount} total figures ({localResults.length} in website directory • {wikiResults.length} via live Wikipedia feed)
+            Showing {totalCount} figures ({localResults.length} in website directory • {wikiResults.length} via live Wikipedia feed)
           </p>
+          {intent && intent.kind !== "person" && (
+            <p className="flex items-center gap-1.5 flex-wrap mt-2">
+              <span className="text-[11px] font-semibold text-slate-400 dark:text-slate-500">
+                Interpreted as:
+              </span>
+              {intent.country && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                  {intent.country}
+                </span>
+              )}
+              {intent.profession && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 capitalize">
+                  {intent.profession}
+                </span>
+              )}
+              {intent.era && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 capitalize">
+                  {ERA_LABELS[intent.era]}
+                </span>
+              )}
+            </p>
+          )}
         </div>
 
         <div className="flex items-center gap-2 text-xs">
@@ -194,16 +153,43 @@ async function DualSearchResults({ query }: { query: string }) {
                 <span>Published on Our Website (Priority 1)</span>
               </div>
               <h3 className="text-xl font-extrabold text-slate-900 dark:text-white">
-                Website Directory Profiles ({localResults.length})
+                Website Directory Profiles ({localTotal})
               </h3>
             </div>
+            {localTotal > localResults.length && (
+              <span className="text-xs text-slate-400 dark:text-slate-500">
+                Showing {localResults.length} of {localTotal} — most relevant &amp; diverse first
+              </span>
+            )}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {localResults.map((profile) => (
-              <ProfileCard key={profile.slug} profile={profile} />
-            ))}
-          </div>
+          {showGroups ? (
+            <div className="space-y-8">
+              {groups.map((group) => (
+                <div key={group.key} className="space-y-4">
+                  <div className="flex items-baseline gap-2 flex-wrap">
+                    <h4 className="text-base font-extrabold text-slate-900 dark:text-white">
+                      {group.title} ({group.items.length})
+                    </h4>
+                    <span className="text-xs text-slate-400 dark:text-slate-500">
+                      {group.note}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {group.items.map((profile) => (
+                      <ProfileCard key={profile.slug} profile={toFullProfile(profile)} />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {localResults.map((profile) => (
+                <ProfileCard key={profile.slug} profile={toFullProfile(profile)} />
+              ))}
+            </div>
+          )}
         </section>
       )}
 
@@ -243,14 +229,14 @@ async function DualSearchResults({ query }: { query: string }) {
                     {item.thumbnail ? (
                       <Image
                         src={item.thumbnail}
-                        alt={item.title}
+                        alt={item.name}
                         fill
                         sizes="96px"
                         className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                       />
                     ) : (
                       <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-bold text-xl">
-                        <span>{item.title.substring(0, 2).toUpperCase()}</span>
+                        <span>{item.name.substring(0, 2).toUpperCase()}</span>
                       </div>
                     )}
                   </div>
@@ -263,7 +249,7 @@ async function DualSearchResults({ query }: { query: string }) {
                     </div>
 
                     <h4 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1">
-                      {item.title}
+                      {item.name}
                     </h4>
 
                     <p className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 line-clamp-1">
