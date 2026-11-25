@@ -209,6 +209,204 @@ const DEMONYMS: Record<string, string> = {
   "sri lanka": "Sri Lanka",
   nepali: "Nepal",
   nepal: "Nepal",
+  // --- Added 2026-11-25 (accuracy audit): demonyms that were missing, so a
+  // result's real nationality could not be detected and an incidental
+  // mention of another country (e.g. "in Pakistan" in a match report)
+  // wrongly became the "first" nationality. E.g. Wes Hall is Barbadian,
+  // not Pakistani; Rizq Abu Shaeera is Palestinian, not American.
+  barbadian: "Barbados",
+  barbados: "Barbados",
+  palestinian: "Palestine",
+  palestine: "Palestine",
+  trinidadian: "Trinidad and Tobago",
+  "trinidad and tobago": "Trinidad and Tobago",
+  trinidad: "Trinidad and Tobago",
+  guyanese: "Guyana",
+  guyana: "Guyana",
+  grenadian: "Grenada",
+  grenada: "Grenada",
+  bahamian: "Bahamas",
+  bahamas: "Bahamas",
+  belizean: "Belize",
+  belize: "Belize",
+  honduran: "Honduras",
+  honduras: "Honduras",
+  nicaraguan: "Nicaragua",
+  nicaragua: "Nicaragua",
+  "costa rican": "Costa Rica",
+  "costa rica": "Costa Rica",
+  panamanian: "Panama",
+  panama: "Panama",
+  haitian: "Haiti",
+  haiti: "Haiti",
+  dominican: "Dominican Republic",
+  "dominican republic": "Dominican Republic",
+  fijian: "Fiji",
+  fiji: "Fiji",
+  samoan: "Samoa",
+  samoa: "Samoa",
+  tongan: "Tonga",
+  tonga: "Tonga",
+  maltese: "Malta",
+  malta: "Malta",
+  cypriot: "Cyprus",
+  cyprus: "Cyprus",
+  mauritian: "Mauritius",
+  mauritius: "Mauritius",
+  zimbabwean: "Zimbabwe",
+  zimbabwe: "Zimbabwe",
+  zambian: "Zambia",
+  zambia: "Zambia",
+  mozambican: "Mozambique",
+  mozambique: "Mozambique",
+  angolan: "Angola",
+  angola: "Angola",
+  ghanaian: "Ghana",
+  ghana: "Ghana",
+  senegalese: "Senegal",
+  senegal: "Senegal",
+  cameroonian: "Cameroon",
+  cameroon: "Cameroon",
+  ivorian: "Ivory Coast",
+  "ivory coast": "Ivory Coast",
+  congolese: "Congo",
+  congo: "Congo",
+  somali: "Somalia",
+  somalia: "Somalia",
+  sudanese: "Sudan",
+  sudan: "Sudan",
+  libyan: "Libya",
+  libya: "Libya",
+  tunisian: "Tunisia",
+  tunisia: "Tunisia",
+  algerian: "Algeria",
+  algeria: "Algeria",
+  moroccan: "Morocco",
+  morocco: "Morocco",
+  jordanian: "Jordan",
+  jordan: "Jordan",
+  lebanese: "Lebanon",
+  lebanon: "Lebanon",
+  syrian: "Syria",
+  syria: "Syria",
+  yemeni: "Yemen",
+  yemen: "Yemen",
+  omani: "Oman",
+  oman: "Oman",
+  qatari: "Qatar",
+  qatar: "Qatar",
+  kuwaiti: "Kuwait",
+  kuwait: "Kuwait",
+  bahraini: "Bahrain",
+  bahrain: "Bahrain",
+  emirati: "United Arab Emirates",
+  "united arab emirates": "United Arab Emirates",
+  uae: "United Arab Emirates",
+  georgian: "Georgia",
+  georgia: "Georgia",
+  armenian: "Armenia",
+  armenia: "Armenia",
+  kazakh: "Kazakhstan",
+  kazakhstan: "Kazakhstan",
+  uzbek: "Uzbekistan",
+  uzbekistan: "Uzbekistan",
+  kyrgyz: "Kyrgyzstan",
+  kyrgyzstan: "Kyrgyzstan",
+  tajik: "Tajikistan",
+  tajikistan: "Tajikistan",
+  turkmen: "Turkmenistan",
+  turkmenistan: "Turkmenistan",
+  mongolian: "Mongolia",
+  mongolia: "Mongolia",
+  bhutanese: "Bhutan",
+  bhutan: "Bhutan",
+  burmese: "Myanmar",
+  myanmar: "Myanmar",
+  cambodian: "Cambodia",
+  cambodia: "Cambodia",
+  laotian: "Laos",
+  laos: "Laos",
+  bruneian: "Brunei",
+  brunei: "Brunei",
+  maldivian: "Maldives",
+  maldives: "Maldives",
+  singaporean: "Singapore",
+  singapore: "Singapore",
+  taiwanese: "Taiwan",
+  taiwan: "Taiwan",
+  estonian: "Estonia",
+  estonia: "Estonia",
+  latvian: "Latvia",
+  latvia: "Latvia",
+  lithuanian: "Lithuania",
+  lithuania: "Lithuania",
+  slovenian: "Slovenia",
+  slovenia: "Slovenia",
+  slovak: "Slovakia",
+  slovakia: "Slovakia",
+  macedonian: "North Macedonia",
+  "north macedonia": "North Macedonia",
+  montenegrin: "Montenegro",
+  montenegro: "Montenegro",
+  bosnian: "Bosnia and Herzegovina",
+  "bosnia and herzegovina": "Bosnia and Herzegovina",
+  bosnia: "Bosnia and Herzegovina",
+  moldovan: "Moldova",
+  moldova: "Moldova",
+  luxembourgish: "Luxembourg",
+  luxembourg: "Luxembourg",
+  ethiopian: "Ethiopia",
+  ethiopia: "Ethiopia",
+  eritrean: "Eritrea",
+  eritrea: "Eritrea",
+  ugandan: "Uganda",
+  uganda: "Uganda",
+  tanzanian: "Tanzania",
+  tanzania: "Tanzania",
+  rwandan: "Rwanda",
+  rwanda: "Rwanda",
+  malawian: "Malawi",
+  malawi: "Malawi",
+  botswanan: "Botswana",
+  botswana: "Botswana",
+  namibian: "Namibia",
+  namibia: "Namibia",
+  madagascan: "Madagascar",
+  madagascar: "Madagascar",
+  mauritanian: "Mauritania",
+  mauritania: "Mauritania",
+  malian: "Mali",
+  mali: "Mali",
+  nigerien: "Niger",
+  niger: "Niger",
+  togolese: "Togo",
+  togo: "Togo",
+  gabonese: "Gabon",
+  gabon: "Gabon",
+  beninese: "Benin",
+  benin: "Benin",
+  liberian: "Liberia",
+  liberia: "Liberia",
+  "sierra leonean": "Sierra Leone",
+  "sierra leone": "Sierra Leone",
+  guinean: "Guinea",
+  guinea: "Guinea",
+  burkinabe: "Burkina Faso",
+  "burkina faso": "Burkina Faso",
+  paraguayan: "Paraguay",
+  paraguay: "Paraguay",
+  uruguayan: "Uruguay",
+  uruguay: "Uruguay",
+  bolivian: "Bolivia",
+  bolivia: "Bolivia",
+  ecuadorian: "Ecuador",
+  ecuador: "Ecuador",
+  salvadoran: "El Salvador",
+  "el salvador": "El Salvador",
+  guatemalan: "Guatemala",
+  guatemala: "Guatemala",
+  "puerto rican": "Puerto Rico",
+  "puerto rico": "Puerto Rico",
 };
 
 /** Canonical country name -> demonym (adjective for Wikipedia queries). */
@@ -544,6 +742,31 @@ export interface DemonymMention {
   index: number;
 }
 
+/** UK constituent countries count as the United Kingdom for matching, so
+ *  an "English actor" is a British person (2026-11-25 accuracy audit:
+ *  without this, an English person whose title lacks a "(British ...)"
+ *  disambiguator was wrongly rejected for UK queries). */
+const UK_CONSTITUENTS: Record<string, string> = {
+  England: "United Kingdom",
+  Scotland: "United Kingdom",
+  Wales: "United Kingdom",
+};
+
+/** Normalize a country for comparison: UK constituents -> United Kingdom. */
+export function normalizeCountryForMatch(country: string): string {
+  return UK_CONSTITUENTS[country] || country;
+}
+
+/** "Born in <country>" phrases that also count for a country query:
+ *  the country itself plus its UK constituents (born in England = UK). */
+export function bornInPhrases(country: string): string[] {
+  const phrases = [`born in ${country.toLowerCase()}`];
+  for (const [constituent, parent] of Object.entries(UK_CONSTITUENTS)) {
+    if (parent === country) phrases.push(`born in ${constituent.toLowerCase()}`);
+  }
+  return phrases;
+}
+
 export function findDemonymMentions(text: string): DemonymMention[] {
   const lowered = (text || "").toLowerCase();
   const mentions: DemonymMention[] = [];
@@ -555,6 +778,17 @@ export function findDemonymMentions(text: string): DemonymMention[] {
     const re = new RegExp(`\\b${escaped}\\b`, "g");
     let m: RegExpExecArray | null;
     while ((m = re.exec(lowered)) !== null) {
+      // "New Mexico" (the US state) and "New Mexican" (its demonym) are
+      // NOT Mexico the country (2026-11-25 accuracy audit: American
+      // politicians from New Mexico were slipping into Mexico results
+      // because "Mexico" inside "New Mexico" matched). Skip a
+      // mexico/mexican match whose preceding word is "new".
+      if (
+        (alias === "mexico" || alias === "mexican") &&
+        /(?:^|\s)new\s*$/.test(lowered.slice(0, m.index))
+      ) {
+        continue;
+      }
       mentions.push({ alias, country: DEMONYMS[alias], index: m.index });
     }
   }

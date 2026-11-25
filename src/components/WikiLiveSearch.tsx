@@ -56,8 +56,11 @@ interface CachedSearch {
   local: LocalResult[];
   localTotal: number;
   wikipedia: WikiResult[];
+  /** Total discovered Wikipedia results (before the box's 20-item slice). */
+  wikiTotal: number;
   intent: SearchIntentState | null;
   groups: ResultGroup[];
+  /** Discovered total across local + Wikipedia (before slicing). */
   totalCount: number;
 }
 
@@ -147,6 +150,7 @@ export default function WikiLiveSearch() {
   const [localResults, setLocalResults] = useState<LocalResult[]>([]);
   const [localTotal, setLocalTotal] = useState(0);
   const [wikiResults, setWikiResults] = useState<WikiResult[]>([]);
+  const [wikiTotal, setWikiTotal] = useState(0);
   const [intent, setIntent] = useState<SearchIntentState | null>(null);
   const [groups, setGroups] = useState<ResultGroup[]>([]);
   const [totalCount, setTotalCount] = useState(0);
@@ -164,6 +168,7 @@ export default function WikiLiveSearch() {
     setLocalResults(payload.local);
     setLocalTotal(payload.localTotal);
     setWikiResults(payload.wikipedia);
+    setWikiTotal(payload.wikiTotal);
     setIntent(payload.intent);
     setGroups(payload.groups);
     setTotalCount(payload.totalCount);
@@ -173,6 +178,7 @@ export default function WikiLiveSearch() {
     setLocalResults([]);
     setLocalTotal(0);
     setWikiResults([]);
+    setWikiTotal(0);
     setIntent(null);
     setGroups([]);
     setTotalCount(0);
@@ -229,11 +235,13 @@ export default function WikiLiveSearch() {
     setHasSearched(true);
 
     try {
-      // Smart search — the same engine as the header search and the
-      // results page: intent-aware ranking, diverse local picks, and
-      // Wikipedia discovery. ?groups=1 adds era grouping for locals.
+      // Smart search in DEEP mode — the same engine as the header search
+      // and the results page, with multi-profession Wikipedia discovery:
+      // intent-aware ranking, diverse local picks, and up to 20 Wikipedia
+      // results in this box (the full pool lives on the results page).
+      // ?groups=1 adds era grouping for locals.
       const res = await fetch(
-        `/api/search?q=${encodeURIComponent(searchTerm)}&groups=1`,
+        `/api/search?q=${encodeURIComponent(searchTerm)}&groups=1&deep=1&localCap=12&limit=20`,
         {
           signal: controller.signal,
         }
@@ -248,6 +256,7 @@ export default function WikiLiveSearch() {
         local: data.local || [],
         localTotal: data.localTotal ?? (data.local || []).length,
         wikipedia: data.wikipedia || [],
+        wikiTotal: data.wikiTotal ?? (data.wikipedia || []).length,
         intent: data.intent || null,
         groups: data.groups || [],
         totalCount:
@@ -289,6 +298,7 @@ export default function WikiLiveSearch() {
   };
 
   const showGroups = groups.length > 1;
+  const shownCount = localResults.length + wikiResults.length;
 
   return (
     <div className="w-full space-y-8">
@@ -389,13 +399,26 @@ export default function WikiLiveSearch() {
       {/* Smart Search Results */}
       {!isLoading && hasSearched && totalCount > 0 && (
         <div className="space-y-6">
-          <div className="flex items-center justify-between text-xs sm:text-sm text-slate-500 dark:text-slate-400">
+          <div className="flex items-center justify-between gap-3 text-xs sm:text-sm text-slate-500 dark:text-slate-400">
             <span>
-              Showing <strong className="text-slate-900 dark:text-white">{totalCount}</strong> matching figures for &ldquo;{debouncedQuery}&rdquo;
+              Showing <strong className="text-slate-900 dark:text-white">{shownCount}</strong>
+              {totalCount > shownCount && (
+                <> of <strong className="text-slate-900 dark:text-white">{totalCount}</strong></>
+              )}{" "}
+              matching figures for &ldquo;{debouncedQuery}&rdquo;
             </span>
-            <span className="text-[11px] font-medium text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
-              <Sparkles className="w-3.5 h-3.5" /> Instant Profile View
-            </span>
+            {totalCount > shownCount ? (
+              <Link
+                href={`/search?q=${encodeURIComponent(debouncedQuery)}`}
+                className="shrink-0 text-[11px] sm:text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:underline flex items-center gap-1"
+              >
+                View all {totalCount} results <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            ) : (
+              <span className="text-[11px] font-medium text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5" /> Instant Profile View
+              </span>
+            )}
           </div>
 
           {/* Interpreted-as chips (smart search intent) */}
@@ -490,7 +513,9 @@ export default function WikiLiveSearch() {
                   {localResults.length > 0
                     ? "More Results from Wikipedia"
                     : "Global Wikipedia Entries"}{" "}
-                  ({wikiResults.length})
+                  ({wikiTotal})
+                  {wikiTotal > wikiResults.length &&
+                    ` — showing ${wikiResults.length}`}
                 </span>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

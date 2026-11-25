@@ -1,14 +1,22 @@
 /**
  * Shared smart-search core — the single source of truth for ProfileBook search.
  *
- * Used by BOTH:
- * - src/app/api/search/route.ts (search dropdown, fast: 1 Wikipedia query,
- *   plus a conditional 2nd query only for new-generation country searches)
- * - src/app/search/page.tsx (full results page: up to 3 Wikipedia queries)
+ * Used by:
+ * - src/app/api/search/route.ts (search dropdown, fast/light: 1 Wikipedia
+ *   query, plus a conditional 2nd query only for new-generation country
+ *   searches; deep mode for the homepage live search and pagination)
+ * - src/app/search/page.tsx (full results page: deep discovery)
+ * - src/app/api/wiki/search/route.ts (legacy shape, smart core)
  *
  * Pipeline: parse intent -> score local profiles -> diversity-select ->
  * fetch Wikipedia with intent-derived queries -> filter + dedup -> rank ->
  * (optionally) group local results by era for the results page.
+ *
+ * Deep mode (opts.deep): one "<Demonym> <profession>" Wikipedia query per
+ * profession in parallel (see wikiDiscovery.ts), 100 results fetched per
+ * query, and a much larger wiki cap — so a country search discovers dozens
+ * of personalities instead of stopping at 8-10. Relevance filtering is
+ * identical in both modes; only the discovery breadth and the caps change.
  *
  * Backwards compatibility: the local/wikipedia item shapes are identical to
  * the previous API responses, so SearchBar works unchanged.
@@ -16,9 +24,13 @@
 
 import { getAllProfiles, getAllCategories, getAllCountries } from "@/lib/data";
 import { isFamousPersonality } from "@/lib/wikiFilter";
+import { buildDiscoveryQueries } from "./wikiDiscovery";
 import {
   parseSearchIntent,
   findDemonymMentions,
+  demonymFor,
+  normalizeCountryForMatch,
+  bornInPhrases,
   type SearchIntent,
 } from "./searchIntent";
 import {
@@ -76,23 +88,58 @@ export interface SmartSearchResult {
   /** Total local matches before the diversity cap. */
   localTotal: number;
   wikipedia: WikiSearchItem[];
+  /** Total Wikipedia matches after filtering, before the wiki cap — the
+   *  size of the discoverable pool (deep mode). Equals wikiCount in
+   *  light mode. */
+  wikiTotal: number;
   localCount: number;
   wikiCount: number;
   totalCount: number;
   /** Era groups of the selected local results (results page only). */
   groups: SearchGroup[];
+  /** Deep-mode pipeline counters (measured, not estimated) — present only
+   *  when deep discovery ran. Shows where candidate results were lost. */
+  stats?: DiscoveryStats;
+}
+
+/** Measured counters for one deep-discovery run. */
+export interface DiscoveryStats {
+  /** Wikipedia queries actually run. */
+  queriesRun: number;
+  /** Raw pages returned by Wikipedia across all queries. */
+  fetched: number;
+  /** After the isFamousPersonality person check. */
+  afterPerson: number;
+  /** After the primary-country check (country intents only). */
+  afterCountry: number;
+  /** After the profession check (profession intents only). */
+  afterProfession: number;
+  /** After the era check (era intents only). */
+  afterEra: number;
+  /** After dedup against the local directory + across queries. */
+  afterDedup: number;
+  /** Wall time of the Wikipedia discovery leg, in milliseconds. */
+  discoveryMs: number;
 }
 
 export interface SmartSearchOptions {
   /** Max local results to return (dropdown: 8, results page: 24). */
   localCap?: number;
-  /** Max Wikipedia results to return (dropdown: 8, results page: 10). */
+  /** Max Wikipedia results to return (dropdown: 8, results page: 10 light,
+   *  300 deep). */
   wikiCap?: number;
   /** Max Wikipedia queries to run (dropdown: 1 for speed — raised to 2
-   *  only for new-generation country searches; page: 3). */
+   *  only for new-generation country searches; page light: 3). Ignored in
+   *  deep mode, where the discovery builder decides the query set. */
   maxWikiQueries?: number;
   /** Build era groups for the results page. */
   includeGroups?: boolean;
+  /** Deep discovery: multi-profession Wikipedia queries in parallel,
+   *  100 results fetched per query, larger wiki cap. */
+  deep?: boolean;
+  /** Wikipedia results fetched per query (default 40; deep defaults to 100 —
+   *  the REST endpoint's verified maximum). */
+  fetchLimit?: number;
 }
 
 export function stripHtml(html: string): string {
@@ -134,10 +181,10 @@ interface RawWikiPage {
   thumbnail?: { url?: string };
 }
 
-async function fetchWikiPages(query: string): Promise<RawWikiPage[]> {
+async function fetchWikiPages(query: string, limit = 40): Promise<RawWikiPage[]> {
   const endpoint = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${encodeURIComponent(
     query
-  )}&limit=40`;
+  )}&limit=${limit}`;
   try {
     const res = await fetch(endpoint, {
       headers: { "User-Agent": WIKI_USER_AGENT, Accept: "application/json" },
@@ -150,6 +197,39 @@ async function fetchWikiPages(query: string): Promise<RawWikiPage[]> {
     console.warn("Wikipedia live search fetch error in smart search:", err);
     return [];
   }
+}
+
+/**
+ * Deep-discovery pool cache (server-side, in-memory).
+ *
+ * A deep run fires 12-16 parallel Wikipedia queries and takes 1-3s. The
+ * results page and the /api/search pagination endpoint both slice the SAME
+ * pool, so the pool is cached by normalized query + options for 10 minutes:
+ * Load More clicks then cost ~10ms instead of re-running discovery, and
+ * pagination stays stable (no duplicates or reshuffling between pages).
+ * Light (dropdown) calls are never cached here — they are cheap and fast.
+ */
+const DEEP_CACHE_TTL_MS = 10 * 60 * 1000;
+const DEEP_CACHE_MAX_ENTRIES = 50;
+const deepCache = new Map<string, { at: number; result: SmartSearchResult }>();
+
+function deepCacheGet(key: string): SmartSearchResult | null {
+  const entry = deepCache.get(key);
+  if (!entry) return null;
+  if (Date.now() - entry.at > DEEP_CACHE_TTL_MS) {
+    deepCache.delete(key);
+    return null;
+  }
+  return entry.result;
+}
+
+function deepCacheSet(key: string, result: SmartSearchResult): void {
+  if (deepCache.size >= DEEP_CACHE_MAX_ENTRIES) {
+    // Drop the oldest entry (Map preserves insertion order).
+    const oldest = deepCache.keys().next().value;
+    if (oldest !== undefined) deepCache.delete(oldest);
+  }
+  deepCache.set(key, { at: Date.now(), result });
 }
 
 function toLocalItem(p: Profile): LocalSearchItem {
@@ -195,10 +275,15 @@ export async function smartSearch(
 ): Promise<SmartSearchResult> {
   const {
     localCap = 8,
-    wikiCap = 8,
     maxWikiQueries = 1,
     includeGroups = false,
+    deep = false,
+    fetchLimit = deep ? 100 : 40,
   } = opts;
+  // Deep mode raises the Wikipedia cap (callers may still override it).
+  // 300 keeps the paginable pool in the hundreds without unbounded memory:
+  // the true filtered count is still visible in stats.afterDedup.
+  const wikiCap = opts.wikiCap ?? (deep ? 300 : 8);
 
   const query = (rawQuery || "").trim();
   const countries = getAllCountries().map((c) => c.country);
@@ -211,6 +296,7 @@ export async function smartSearch(
     local: [],
     localTotal: 0,
     wikipedia: [],
+    wikiTotal: 0,
     localCount: 0,
     wikiCount: 0,
     totalCount: 0,
@@ -218,37 +304,69 @@ export async function smartSearch(
   };
   if (!query) return empty;
 
+  // Deep mode: serve the cached pool when the same query + options ran
+  // recently, so pagination and repeat searches do not re-hit Wikipedia.
+  const cacheKey = deep
+    ? JSON.stringify([query.toLowerCase(), localCap, wikiCap, includeGroups])
+    : null;
+  if (cacheKey) {
+    const cached = deepCacheGet(cacheKey);
+    if (cached) return cached;
+  }
+
   // ---- Local search: score every profile, then diversity-select ----
   const allProfiles = getAllProfiles();
+  const seenSlugs = new Set<string>();
   const scored = allProfiles
     .map((p) => ({ profile: p, score: scoreLocalProfile(p, intent) }))
     .filter((s) => s.score >= 0)
-    .sort((a, b) => b.score - a.score || a.profile.name.localeCompare(b.profile.name));
+    .sort((a, b) => b.score - a.score || a.profile.name.localeCompare(b.profile.name))
+    .filter((s) => {
+      // The dataset has duplicate records (e.g. Nikola Tesla in both
+      // inventors.json and scientists.json under the same slug) — never
+      // return the same profile twice (2026-11-25 accuracy audit).
+      if (seenSlugs.has(s.profile.slug)) return false;
+      seenSlugs.add(s.profile.slug);
+      return true;
+    });
   const localTotal = scored.length;
   const selected = selectDiverse(scored, localCap, intent);
   const local = selected.map((s) => toLocalItem(s.profile));
 
   // ---- Wikipedia discovery with intent-derived queries ----
   let wikipedia: WikiSearchItem[] = [];
-  // New-generation country searches get ONE extra Wikipedia query in the
-  // dropdown: a single "<Demonym> actor" query has no post-2000 actors in
-  // Wikipedia's top 40 for many countries, while "<Demonym> singer"
-  // finds them (singers skew younger). The full results page already runs
-  // all three queries, so this only raises the dropdown's effective cap
-  // from 1 to 2 for this one intent (era "new" + pure country, no
-  // profession, no person name) — every other intent keeps its existing
-  // query count, and the era hard filter is untouched.
-  const needsNewGenSecondQuery =
-    intent.era === "new" && intent.kind === "country";
-  const effectiveMaxWikiQueries = needsNewGenSecondQuery
-    ? Math.max(maxWikiQueries, 2)
-    : maxWikiQueries;
-  const wikiQueries = intent.wikiQueries.slice(
-    0,
-    Math.max(0, effectiveMaxWikiQueries)
-  );
+  let wikiTotal = 0;
+  let stats: DiscoveryStats | undefined;
+  // Deep mode runs the multi-profession discovery set (wikiDiscovery.ts);
+  // light mode keeps the original 1-3 queries so the dropdown stays fast.
+  const wikiQueries = deep
+    ? buildDiscoveryQueries(intent, "deep")
+    : (() => {
+        // New-generation country searches get ONE extra Wikipedia query in
+        // the dropdown: a single "<Demonym> actor" query has no post-2000
+        // actors in Wikipedia's top 40 for many countries, while
+        // "<Demonym> singer" finds them (singers skew younger). The full
+        // results page already runs all three queries, so this only raises
+        // the dropdown's effective cap from 1 to 2 for this one intent
+        // (era "new" + pure country, no profession, no person name) —
+        // every other intent keeps its existing query count, and the era
+        // hard filter is untouched.
+        const needsNewGenSecondQuery =
+          intent.era === "new" && intent.kind === "country";
+        const effectiveMaxWikiQueries = needsNewGenSecondQuery
+          ? Math.max(maxWikiQueries, 2)
+          : maxWikiQueries;
+        return intent.wikiQueries.slice(
+          0,
+          Math.max(0, effectiveMaxWikiQueries)
+        );
+      })();
   if (wikiQueries.length > 0) {
-    const pagesPerQuery = await Promise.all(wikiQueries.map((q) => fetchWikiPages(q)));
+    const discoveryStart = Date.now();
+    const pagesPerQuery = await Promise.all(
+      wikiQueries.map((q) => fetchWikiPages(q, fetchLimit))
+    );
+    const discoveryMs = Date.now() - discoveryStart;
 
     const localNames = new Set(local.map((l) => normalizeName(l.name)));
     // Dedup against the ENTIRE local directory, not just the query
@@ -265,9 +383,18 @@ export async function smartSearch(
       score: number;
       birthYear: number | null;
       deathYear: number | null;
+      queryIndex: number;
     }
     const candidates: ScoredWiki[] = [];
+    // Measured pipeline counters — where candidate results are lost.
+    // A stage that does not apply to this intent counts as passed.
+    let fetched = 0;
+    let afterPerson = 0;
+    let afterCountry = 0;
+    let afterProfession = 0;
+    let afterEra = 0;
     pagesPerQuery.forEach((pages, qi) => {
+      fetched += pages.length;
       pages.forEach((page, pi) => {
         const normName = normalizeName(page.title);
         const slug = wikiKeyToSlug(page.key);
@@ -283,27 +410,64 @@ export async function smartSearch(
         ) {
           return;
         }
+        afterPerson++;
         // Country intents: the result's PRIMARY association must be that
         // country. Wikipedia's search matches article TEXT, so a query
         // like "Mexican actor" can return a British actor whose article
         // merely mentions Mexico, or "American and Mexican actor" (whose
         // primary association is American). The FIRST demonym mentioned
-        // across title + description + excerpt decides: "Mexican-American
-        // actor" is primarily Mexican and passes; "American and Mexican
-        // actor" is primarily American and is rejected. A "born in
-        // <country>" statement counts only when it precedes any other
-        // country's demonym.
+        // across the title's parenthetical + description + excerpt
+        // decides: "Mexican-American actor" is primarily Mexican and
+        // passes; "American and Mexican actor" is primarily American and
+        // is rejected. A "born in <country>" statement counts only when
+        // it precedes any other country's demonym.
+        // (2026-11-25 accuracy audit) Only the title's PARENTHETICAL
+        // disambiguator contributes — a stage name such as "Apache
+        // Indian" must not count as Indian. England/Scotland/Wales
+        // count as the United Kingdom, and "New Mexico" never counts
+        // as Mexico (see findDemonymMentions).
         if (intent.country && (intent.kind === "country" || intent.kind === "country+profession")) {
-          const combined = `${page.title} ${page.description || ""} ${page.excerpt ? stripHtml(page.excerpt) : ""}`;
+          const titleParen = (page.title.match(/\(([^)]*)\)\s*$/) || [])[1] || "";
+          const excerptText = page.excerpt ? stripHtml(page.excerpt) : "";
+          const combined = `${titleParen} ${page.description || ""} ${excerptText}`;
           const mentions = findDemonymMentions(combined);
-          const bornInIdx = combined.toLowerCase().indexOf(`born in ${intent.country.toLowerCase()}`);
+          const targetNorm = normalizeCountryForMatch(intent.country);
+          const bornInPositions = bornInPhrases(intent.country)
+            .map((p) => combined.toLowerCase().indexOf(p))
+            .filter((i) => i !== -1);
+          const bornInIdx = bornInPositions.length > 0 ? Math.min(...bornInPositions) : -1;
           const primaryIsOurs =
             mentions.length > 0
-              ? mentions[0].country === intent.country ||
+              ? normalizeCountryForMatch(mentions[0].country) === targetNorm ||
                 (bornInIdx !== -1 && bornInIdx < mentions[0].index)
               : bornInIdx !== -1;
           if (!primaryIsOurs) return;
+          // Description-contradiction guard: a title disambiguator alone
+          // is not enough when the description itself leads with a
+          // different nationality and never mentions the target — e.g.
+          // "Robert Lee (British actor)" is a Chinese actor, and
+          // "Apache Indian" is a British singer. Compound identities
+          // ("British Pakistani", "Indian-born American") still pass
+          // because the description itself contains the target demonym;
+          // national-team players pass because the excerpt names the
+          // target's national team.
+          const descMentions = findDemonymMentions(page.description || "");
+          if (
+            descMentions.length > 0 &&
+            normalizeCountryForMatch(descMentions[0].country) !== targetNorm
+          ) {
+            const descHasTarget = descMentions.some(
+              (mm) => normalizeCountryForMatch(mm.country) === targetNorm
+            );
+            const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            const nationalTeamRe = new RegExp(
+              `\\b(?:${esc(intent.country)}|${esc(demonymFor(intent.country))})\\s+national\\b`,
+              "i"
+            );
+            if (!descHasTarget && !nationalTeamRe.test(excerptText)) return;
+          }
         }
+        afterCountry++;
         // Profession intents: the description must state the profession
         // (or a recognized synonym) — a title match against a list
         // article is not enough. A "Mexican musician" is NOT a singer,
@@ -320,6 +484,7 @@ export async function smartSearch(
           const hay = `${page.title} ${page.description || ""}`.toLowerCase();
           if (!synonyms.some((s) => hay.includes(s.toLowerCase()))) return;
         }
+        afterProfession++;
         // Era intents: the era must be VERIFIABLE from the item's own
         // text. An item with no parseable birth/death year is excluded
         // (its era cannot be verified — never guessed), and an item
@@ -332,6 +497,7 @@ export async function smartSearch(
           if (years.birthYear === null && years.deathYear === null) return;
           if (!wikiEraCompatible(years.birthYear, years.deathYear !== null, intent.era)) return;
         }
+        afterEra++;
         seenWikiNames.add(normName);
         // Base score: Wikipedia relevance order (first query wins ties).
         let score = 100 - qi * 5 - pi * 2;
@@ -343,66 +509,109 @@ export async function smartSearch(
           const w = intent.professionWord.toLowerCase();
           if (hay.includes(w) || hay.includes(`${w}s`)) score += 10;
         }
-        candidates.push({ page, score, birthYear, deathYear });
+        candidates.push({ page, score, birthYear, deathYear, queryIndex: qi });
       });
     });
 
-    candidates.sort((a, b) => b.score - a.score);
-
-    // Broad queries: interleave birth decades for era diversity, then append
-    // items without a parseable birth year in relevance order.
     let picked: ScoredWiki[];
-    if (intent.kind === "person") {
-      picked = candidates.slice(0, wikiCap);
-    } else if (intent.era) {
-      // Era intents: every candidate is already era-verified and
-      // era-compatible — undated and wrong-era items were excluded
-      // during filtering above. No backfilling, ever.
-      picked = candidates.slice(0, wikiCap);
-    } else {
-      const byDecade = new Map<number, ScoredWiki[]>();
-      const unknown: ScoredWiki[] = [];
-      for (const c of candidates) {
-        if (c.birthYear === null) unknown.push(c);
-        else {
-          const d = Math.floor(c.birthYear / 10) * 10;
-          const list = byDecade.get(d) || [];
-          list.push(c);
-          byDecade.set(d, list);
-        }
+    if (deep) {
+      // Deep picking: round-robin across queries so every profession
+      // contributes (a pure score sort would let the first 2-3 queries
+      // fill the whole cap — that is how "Famous People from USA" ended
+      // up all actors), then re-sort the picked set by relevance.
+      const byQuery = new Map<number, ScoredWiki[]>();
+      for (const c of [...candidates].sort((a, b) => b.score - a.score)) {
+        const list = byQuery.get(c.queryIndex) || [];
+        list.push(c);
+        byQuery.set(c.queryIndex, list);
       }
-      const decades = Array.from(byDecade.keys()).sort((a, b) =>
-        intent.era === "historical" ? a - b : b - a
-      );
+      const queryIndexes = Array.from(byQuery.keys()).sort((a, b) => a - b);
       picked = [];
-      let round = 0;
-      while (picked.length < wikiCap) {
-        let progressed = false;
-        for (const d of decades) {
+      let progressed = true;
+      while (picked.length < wikiCap && progressed) {
+        progressed = false;
+        for (const qi of queryIndexes) {
           if (picked.length >= wikiCap) break;
-          const bucket = byDecade.get(d)!;
+          const bucket = byQuery.get(qi)!;
           if (!bucket.length) continue;
           picked.push(bucket.shift()!);
           progressed = true;
         }
-        if (!progressed) break;
-        if (++round > 30) break;
       }
-      // Fill remaining slots with undated items in relevance order.
-      while (picked.length < wikiCap && unknown.length) {
-        picked.push(unknown.shift()!);
-      }
-      // If decades ran out early, top up with whatever is left.
-      if (picked.length < wikiCap) {
-        const pickedSet = new Set(picked);
+      picked.sort((a, b) => b.score - a.score);
+    } else {
+      candidates.sort((a, b) => b.score - a.score);
+
+      // Broad queries: interleave birth decades for era diversity, then append
+      // items without a parseable birth year in relevance order.
+      if (intent.kind === "person") {
+        picked = candidates.slice(0, wikiCap);
+      } else if (intent.era) {
+        // Era intents: every candidate is already era-verified and
+        // era-compatible — undated and wrong-era items were excluded
+        // during filtering above. No backfilling, ever.
+        picked = candidates.slice(0, wikiCap);
+      } else {
+        const byDecade = new Map<number, ScoredWiki[]>();
+        const unknown: ScoredWiki[] = [];
         for (const c of candidates) {
-          if (picked.length >= wikiCap) break;
-          if (!pickedSet.has(c)) picked.push(c);
+          if (c.birthYear === null) unknown.push(c);
+          else {
+            const d = Math.floor(c.birthYear / 10) * 10;
+            const list = byDecade.get(d) || [];
+            list.push(c);
+            byDecade.set(d, list);
+          }
+        }
+        const decades = Array.from(byDecade.keys()).sort((a, b) =>
+          intent.era === "historical" ? a - b : b - a
+        );
+        picked = [];
+        let round = 0;
+        while (picked.length < wikiCap) {
+          let progressed = false;
+          for (const d of decades) {
+            if (picked.length >= wikiCap) break;
+            const bucket = byDecade.get(d)!;
+            if (!bucket.length) continue;
+            picked.push(bucket.shift()!);
+            progressed = true;
+          }
+          if (!progressed) break;
+          if (++round > 30) break;
+        }
+        // Fill remaining slots with undated items in relevance order.
+        while (picked.length < wikiCap && unknown.length) {
+          picked.push(unknown.shift()!);
+        }
+        // If decades ran out early, top up with whatever is left.
+        if (picked.length < wikiCap) {
+          const pickedSet = new Set(picked);
+          for (const c of candidates) {
+            if (picked.length >= wikiCap) break;
+            if (!pickedSet.has(c)) picked.push(c);
+          }
         }
       }
     }
 
     wikipedia = picked.map((c) => toWikiItem(c.page));
+    // wikiTotal must equal the pool actually available for pagination
+    // (capped at wikiCap) — the true filtered count lives in
+    // stats.afterDedup.
+    wikiTotal = wikipedia.length;
+    if (deep) {
+      stats = {
+        queriesRun: wikiQueries.length,
+        fetched,
+        afterPerson,
+        afterCountry,
+        afterProfession,
+        afterEra,
+        afterDedup: candidates.length,
+        discoveryMs,
+      };
+    }
   }
 
   // ---- Era groups for the results page (local results only) ----
@@ -430,17 +639,21 @@ export async function smartSearch(
       }));
   }
 
-  return {
+  const result: SmartSearchResult = {
     query,
     intent,
     local,
     localTotal,
     wikipedia,
+    wikiTotal,
     localCount: local.length,
     wikiCount: wikipedia.length,
     totalCount: local.length + wikipedia.length,
     groups,
+    ...(stats ? { stats } : {}),
   };
+  if (cacheKey) deepCacheSet(cacheKey, result);
+  return result;
 }
 
 /** Re-exported for callers that need the wiki era of an already-mapped item. */

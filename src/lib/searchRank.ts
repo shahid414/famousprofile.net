@@ -320,13 +320,32 @@ export function parseWikiYears(item: {
   // 2. Lifespan range "(1915–1983)" / "(9 January 1987 – 15 September 2006)"
   //    / "(May 14, 1904 – July 26, 1973)". Only when it appears early in
   //    the text (the lead "Name (dates) was a ...").
+  //    (2026-11-25 accuracy audit) A year range is NOT always a lifespan:
+  //    for office-holders the description often holds a TERM, e.g.
+  //    "Member of the National Assembly of Pakistan from Chitral
+  //    (2024–2029)" — reading that as "born 2024" put five politicians
+  //    with unknown birth years into New Generation results. Two guards:
+  //    (a) a range ending in a FUTURE year can never be a lifespan
+  //    (a dead person's death year is in the past; a living person's
+  //    range is open-ended), so discard the whole range, not just the
+  //    end year; (b) a range inside a description that names an office
+  //    (member of / assembly / parliament / ...) is a term, not a life —
+  //    fall through to the "born" checks instead.
   const lifespan = text.match(
     new RegExp(`\\(\\s*${DATE_PREFIX}(\\d{4})\\s*[–—-]\\s*${DATE_PREFIX}(\\d{4})?\\s*\\)`)
   );
   if (lifespan && lifespan.index !== undefined && lifespan.index < 120) {
     const birth = parseInt(lifespan[1], 10);
     const death = lifespan[2] ? parseInt(lifespan[2], 10) : null;
-    if (birth >= 1500 && birth <= 2026) {
+    const descLen = (item.description || "").length;
+    const inDescription = lifespan.index < descLen;
+    const isTermRange =
+      inDescription &&
+      /member of|assembly|parliament|senator|minister|mayor|governor|council|representative/i.test(
+        item.description || ""
+      );
+    const futureEnd = death !== null && death > 2026;
+    if (birth >= 1500 && birth <= 2026 && !isTermRange && !futureEnd) {
       return { birthYear: birth, deathYear: death && death >= 1500 && death <= 2026 ? death : null };
     }
   }

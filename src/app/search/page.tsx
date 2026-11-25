@@ -1,6 +1,4 @@
 import { Suspense } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { getAllProfiles } from "@/lib/data";
 import { smartSearch } from "@/lib/smartSearch";
@@ -8,12 +6,13 @@ import { ERA_LABELS } from "@/lib/searchIntent";
 import ProfileCard from "@/components/ProfileCard";
 import SearchBar from "@/components/SearchBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import WikiResultCard from "@/components/WikiResultCard";
+import SearchLoadMore from "@/components/SearchLoadMore";
 import {
   Search,
   Globe,
   ShieldCheck,
   Sparkles,
-  ArrowRight,
   ExternalLink,
   BookOpen,
 } from "lucide-react";
@@ -39,22 +38,29 @@ async function DualSearchResults({ query }: { query: string }) {
   const trimmed = query.trim();
 
   // Smart search (shared with /api/search): intent parsing, ranked +
-  // diverse local selection, Wikipedia discovery with intent-derived
-  // queries. The results page may use up to 3 Wikipedia queries in
-  // parallel for profession diversity on broad country searches.
+  // diverse local selection, and DEEP Wikipedia discovery — one query per
+  // profession in parallel (see wikiDiscovery.ts), up to 300 Wikipedia
+  // results in the pool. Only the first batch renders now; SearchLoadMore
+  // fetches the rest page by page from /api/search?deep=1.
   const result = trimmed
     ? await smartSearch(trimmed, {
         localCap: 24,
-        wikiCap: 10,
-        maxWikiQueries: 3,
+        wikiCap: 300,
+        deep: true,
         includeGroups: true,
       })
     : null;
 
   const localResults = result?.local || [];
   const localTotal = result?.localTotal || 0;
-  const wikiResults = result?.wikipedia || [];
-  const totalCount = result?.totalCount || 0;
+  // The full deep pool (up to 300 Wikipedia results); only the first
+  // batch renders now — the rest arrives via Load More.
+  const wikiPool = result?.wikipedia || [];
+  const wikiTotal = result?.wikiTotal || 0;
+  const WIKI_INITIAL = 30;
+  const wikiResults = wikiPool.slice(0, WIKI_INITIAL);
+  const discoveredTotal = localTotal + wikiTotal;
+  const shownTotal = localResults.length + wikiResults.length;
   const intent = result?.intent;
   const groups = result?.groups || [];
   const showGroups = groups.length > 1;
@@ -88,7 +94,7 @@ async function DualSearchResults({ query }: { query: string }) {
             Results for &ldquo;<span className="text-indigo-600 dark:text-indigo-400">{query}</span>&rdquo;
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
-            Showing {totalCount} figures ({localResults.length} in website directory • {wikiResults.length} via live Wikipedia feed)
+            Discovered {discoveredTotal} figures ({localTotal} in website directory • {wikiTotal} via live Wikipedia feed) — showing {shownTotal}
           </p>
           {intent && intent.kind !== "person" && (
             <p className="flex items-center gap-1.5 flex-wrap mt-2">
@@ -131,7 +137,7 @@ async function DualSearchResults({ query }: { query: string }) {
       </div>
 
       {/* Zero Results State */}
-      {totalCount === 0 && (
+      {discoveredTotal === 0 && (
         <div className="text-center py-16 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 space-y-3">
           <Search className="w-12 h-12 text-slate-400 mx-auto" />
           <h3 className="text-xl font-bold text-slate-900 dark:text-white">
@@ -209,77 +215,29 @@ async function DualSearchResults({ query }: { query: string }) {
               <h3 className="text-xl font-extrabold text-slate-900 dark:text-white">
                 {localResults.length > 0
                   ? "Additional Global Figures"
-                  : `Personality Profiles for "${query}"`} ({wikiResults.length})
+                  : `Personality Profiles for "${query}"`} ({wikiTotal})
               </h3>
             </div>
 
             <span className="text-xs text-slate-400 dark:text-slate-500">
               ProfileBook Global Archive • Live On-Demand
+              {wikiTotal > wikiResults.length &&
+                ` — showing ${wikiResults.length} of ${wikiTotal}`}
             </span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {wikiResults.map((item: any) => (
-              <div
-                key={item.id}
-                className="group flex flex-col justify-between bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-400 dark:hover:border-indigo-500/50 transition-all duration-300"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="relative w-20 h-24 sm:w-24 sm:h-28 rounded-2xl bg-slate-100 dark:bg-slate-800 shrink-0 overflow-hidden border border-slate-200 dark:border-slate-700">
-                    {item.thumbnail ? (
-                      <Image
-                        src={item.thumbnail}
-                        alt={item.name}
-                        fill
-                        sizes="96px"
-                        className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-bold text-xl">
-                        <span>{item.name.substring(0, 2).toUpperCase()}</span>
-                      </div>
-                    )}
-                  </div>
-
-                  <div className="flex-1 min-w-0 space-y-1">
-                    <div className="flex items-center gap-1.5 flex-wrap">
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-400 uppercase">
-                        Wikipedia
-                      </span>
-                    </div>
-
-                    <h4 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1">
-                      {item.name}
-                    </h4>
-
-                    <p className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 line-clamp-1">
-                      {item.description}
-                    </p>
-
-                    {item.excerpt && (
-                      <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-2 leading-relaxed pt-1">
-                        {item.excerpt}
-                      </p>
-                    )}
-                  </div>
-                </div>
-
-                <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs">
-                  <span className="text-[11px] text-slate-400 font-medium">
-                    Attribution: CC BY-SA 4.0
-                  </span>
-
-                  <Link
-                    href={item.url}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition-all shadow-sm active:scale-95"
-                  >
-                    <span>View Profile</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-              </div>
+            {wikiResults.map((item) => (
+              <WikiResultCard key={item.id} item={item} />
             ))}
           </div>
+
+          <SearchLoadMore
+            query={query}
+            initialOffset={wikiResults.length}
+            wikiTotal={wikiTotal}
+            initialIds={wikiResults.map((w) => w.id)}
+          />
         </section>
       )}
     </div>
