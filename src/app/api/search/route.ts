@@ -21,10 +21,13 @@ export async function GET(request: NextRequest) {
   // Dropdown stays fast: one Wikipedia query, except new-generation
   // country searches, where the shared core runs a second targeted query
   // ("<Demonym> singer") in parallel — see smartSearch.ts.
+  // The homepage live search opts in with ?groups=1 for era grouping.
+  const includeGroups = searchParams.get("groups") === "1";
   const result = await smartSearch(trimmed, {
     localCap: 8,
     wikiCap: 8,
     maxWikiQueries: 1,
+    includeGroups,
   });
 
   return NextResponse.json(
@@ -35,6 +38,10 @@ export async function GET(request: NextRequest) {
       totalCount: result.totalCount,
       local: result.local,
       wikipedia: result.wikipedia,
+      // Era groups + local total, only when the caller opts in (?groups=1).
+      ...(includeGroups
+        ? { groups: result.groups, localTotal: result.localTotal }
+        : {}),
       // Extra context for future UI use; SearchBar ignores unknown fields.
       intent: {
         kind: result.intent.kind,

@@ -13,6 +13,7 @@ import {
   ArrowRight,
   User,
 } from "lucide-react";
+import { ERA_LABELS } from "@/lib/searchIntent";
 
 interface LocalProfileResult {
   type: "local";
@@ -39,6 +40,13 @@ interface WikiProfileResult {
   url: string;
 }
 
+interface SearchIntentState {
+  kind: string;
+  country: string | null;
+  profession: string | null;
+  era: "new" | "modern" | "historical" | null;
+}
+
 interface Props {
   initialQuery?: string;
   placeholder?: string;
@@ -55,11 +63,12 @@ export default function SearchBar({
   const [query, setQuery] = useState(initialQuery);
   const [localResults, setLocalResults] = useState<LocalProfileResult[]>([]);
   const [wikiResults, setWikiResults] = useState<WikiProfileResult[]>([]);
+  const [intent, setIntent] = useState<SearchIntentState | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
-  const cacheRef = useRef<Map<string, { local: LocalProfileResult[]; wikipedia: WikiProfileResult[] }>>(new Map());
+  const cacheRef = useRef<Map<string, { local: LocalProfileResult[]; wikipedia: WikiProfileResult[]; intent: SearchIntentState | null }>>(new Map());
   const router = useRouter();
 
   // Close dropdown when clicking outside
@@ -88,6 +97,7 @@ export default function SearchBar({
       }
       setLocalResults([]);
       setWikiResults([]);
+      setIntent(null);
       setIsLoading(false);
       setIsOpen(false);
       return;
@@ -98,6 +108,7 @@ export default function SearchBar({
       const cached = cacheRef.current.get(cacheKey)!;
       setLocalResults(cached.local);
       setWikiResults(cached.wikipedia);
+      setIntent(cached.intent);
       setIsLoading(false);
       setIsOpen(true);
       return;
@@ -119,9 +130,11 @@ export default function SearchBar({
           const data = await res.json();
           const local = data.local || [];
           const wikipedia = data.wikipedia || [];
-          cacheRef.current.set(cacheKey, { local, wikipedia });
+          const resolvedIntent: SearchIntentState | null = data.intent || null;
+          cacheRef.current.set(cacheKey, { local, wikipedia, intent: resolvedIntent });
           setLocalResults(local);
           setWikiResults(wikipedia);
+          setIntent(resolvedIntent);
           setIsOpen(true);
         }
       } catch (err: any) {
@@ -156,6 +169,7 @@ export default function SearchBar({
     setQuery("");
     setLocalResults([]);
     setWikiResults([]);
+    setIntent(null);
     setIsOpen(false);
   };
 
@@ -226,6 +240,30 @@ export default function SearchBar({
               {totalResults} results found
             </span>
           </div>
+
+          {/* Interpreted-as chips (smart search intent) */}
+          {intent && intent.kind !== "person" && (
+            <div className="px-4 pt-2.5 flex items-center gap-1.5 flex-wrap">
+              <span className="text-[11px] font-semibold text-slate-400 dark:text-slate-500">
+                Interpreted as:
+              </span>
+              {intent.country && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                  {intent.country}
+                </span>
+              )}
+              {intent.profession && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 capitalize">
+                  {intent.profession}
+                </span>
+              )}
+              {intent.era && (
+                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 capitalize">
+                  {ERA_LABELS[intent.era]}
+                </span>
+              )}
+            </div>
+          )}
 
           {totalResults === 0 && !isLoading && (
             <div className="p-8 text-center space-y-2">

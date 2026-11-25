@@ -1,28 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
-import { isFamousPersonality } from "@/lib/wikiFilter";
+import { smartSearch } from "@/lib/smartSearch";
 
 export const dynamic = "force-dynamic";
 
-interface WikiThumbnail {
-  url?: string;
-  width?: number;
-  height?: number;
-}
-
-interface WikiSearchPage {
-  id: number;
-  key: string;
-  title: string;
-  excerpt?: string;
-  description?: string;
-  thumbnail?: WikiThumbnail;
-}
-
-// Helper to strip HTML tags safely for secure display
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>?/gm, "").replace(/&quot;/g, '"').replace(/&#039;/g, "'").replace(/&amp;/g, "&");
-}
-
+// Live Wikipedia search — now powered by the same smart-search core as
+// /api/search (intent parsing, era filtering, profession/country
+// matching, Wikipedia discovery with full-directory dedup). Previously
+// this route ran a raw Wikipedia query with no intent handling, which is
+// why broad queries ("New Famous People from Mexico") returned
+// historical figures instead of new-generation people.
+//
+// Response keeps the legacy shape ({query, count, results}) so existing
+// callers keep working, and adds the canonical local matches + intent.
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const q = searchParams.get("q") || "";
@@ -36,62 +25,39 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const endpoint = `https://en.wikipedia.org/w/rest.php/v1/search/page?q=${encodeURIComponent(
-    trimmed
-  )}&limit=40`;
-
   try {
-    const res = await fetch(endpoint, {
-      headers: {
-        "User-Agent": "ProfileBookApp/1.0 (https://profilebook.org; contact@profilebook.org)",
-        Accept: "application/json",
-      },
-      next: { revalidate: 60 },
+    const result = await smartSearch(trimmed, {
+      localCap: 8,
+      wikiCap: 10,
+      maxWikiQueries: 3,
     });
 
-    if (!res.ok) {
-      return NextResponse.json(
-        { error: `Wikipedia API returned status ${res.status}`, results: [] },
-        { status: res.status }
-      );
-    }
-
-    const data = await res.json();
-    const pages: WikiSearchPage[] = data.pages || [];
-
-    // Filter strictly for famous human personalities
-    const results = pages
-      .filter((page) =>
-        isFamousPersonality({
-          title: page.title,
-          description: page.description,
-          excerpt: page.excerpt,
-        })
-      )
-      .slice(0, 10)
-      .map((page) => {
-      let thumbnailUrl: string | null = null;
-      if (page.thumbnail && page.thumbnail.url) {
-        thumbnailUrl = page.thumbnail.url.startsWith("//")
-          ? `https:${page.thumbnail.url}`
-          : page.thumbnail.url;
-      }
-
-      return {
-        id: page.id,
-        key: page.key,
-        title: page.title,
-        description: page.description || "Public figure / Wikipedia entry",
-        excerpt: page.excerpt ? stripHtml(page.excerpt) : "",
-        thumbnail: thumbnailUrl,
-      };
-    });
+    // Legacy wiki-only shape: Wikipedia discovery items as `results`.
+    const results = result.wikipedia.map((w) => ({
+      id: w.id,
+      key: w.key,
+      title: w.name,
+      description: w.description,
+      excerpt: w.excerpt,
+      thumbnail: w.thumbnail,
+    }));
 
     return NextResponse.json(
       {
-        query: trimmed,
+        query: result.query,
         count: results.length,
         results,
+        // Canonical directory matches (a person with a local profile never
+        // appears again in `results` — the local profile is the one to use).
+        local: result.local,
+        localCount: result.localCount,
+        totalCount: result.totalCount,
+        intent: {
+          kind: result.intent.kind,
+          country: result.intent.country,
+          profession: result.intent.profession,
+          era: result.intent.era,
+        },
       },
       {
         headers: {
@@ -107,4 +73,3 @@ export async function GET(request: NextRequest) {
     );
   }
 }
-
