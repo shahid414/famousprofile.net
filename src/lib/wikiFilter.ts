@@ -3,9 +3,14 @@
  * Excludes non-person entities like letters, symbols, places, films, albums, companies, and objects.
  */
 
-// Negative patterns in title that indicate non-personality articles
+// Negative patterns in title that indicate non-personality articles.
+// The "X of <Person>" group covers event articles ABOUT a person
+// (killing / imprisonment / trial / arrest / death / disappearance),
+// which otherwise pass the person check because their description
+// mentions the person (2026-11-26 audit: "Imprisonment of Imran Khan",
+// "Taylor Swift masters dispute" appeared as personality results).
 const NEGATIVE_TITLE =
-  /\b(filmography|discography|videography|bibliography|list of|outline of|timeline|chronology|season \d|episode \d|awards|award|letter|dynasty|empire|stadium|cup|championship|tournament|league|airport|station|university|college|hospital|family|brain of|equations|killing of|murder of|death of|assassination of|disappearance of)\b|\((?:film|movie|album|song|single|novel|book|play|soundtrack|magazine|newspaper|comic|dog|cat|horse|animal|band|group|company|brand|district|city|village|town|river|mountain|lake|island|province|country|station|airport|stadium|tv series|television series|video game|web series)\)$/i;
+  /\b(filmography|discography|videography|bibliography|list of|outline of|timeline|chronology|season \d|episode \d|awards|award|letter|dynasty|empire|stadium|cup|championship|tournament|league|airport|station|university|college|hospital|family|brain of|equations|killing of|murder of|death of|assassination of|disappearance of|imprisonment of|trial of|arrest of|dispute|controversy|scandal)\b|\((?:film|movie|album|song|single|novel|book|play|soundtrack|magazine|newspaper|comic|dog|cat|horse|animal|band|group|company|brand|district|city|village|town|river|mountain|lake|island|province|country|station|airport|stadium|tv series|television series|video game|web series)\)$/i;
 
 // Negative patterns in description indicating non-human entities
 const NEGATIVE_DESC =

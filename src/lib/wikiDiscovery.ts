@@ -57,13 +57,19 @@ const HISTORICAL_ORDER = [
 ];
 
 /** Deep order for new-generation searches: the professions where young
- *  famous people actually appear, first. */
+ *  famous people actually appear, first. Includes the young-skewing
+ *  professions (tennis player, rapper, model, youtuber) whose Wikipedia
+ *  top-100s hold many post-2000 births (verified live 2026-11-26). */
 const NEW_ORDER = [
   "actor",
   "singer",
   "cricketer",
   "footballer",
+  "tennis player",
   "athlete",
+  "rapper",
+  "model",
+  "youtuber",
   "politician",
   "scientist",
   "writer",
@@ -74,6 +80,27 @@ const NEW_ORDER = [
   "businessman",
   "scholar",
 ];
+
+/**
+ * Professions that also get birth-year queries in new-generation deep
+ * searches. A plain "<Demonym> actor" query returns Wikipedia's most
+ * relevant actors — almost all born before 2000 (1-3 young per 100,
+ * measured 2026-11-26) — while "<Demonym> actor born 2000" surfaces
+ * 30+ verified post-2000 births per 100. The era hard filter in
+ * smartSearch still decides; these queries only widen discovery.
+ */
+const NEW_BORN_YEAR_PROFESSIONS = [
+  "actor",
+  "singer",
+  "footballer",
+  "cricketer",
+  "tennis player",
+  "athlete",
+  "rapper",
+  "model",
+  "youtuber",
+];
+const NEW_BORN_YEARS = [2000, 2002];
 
 export function buildDiscoveryQueries(
   intent: SearchIntent,
@@ -118,11 +145,23 @@ export function buildDiscoveryQueries(
           : DEEP_COUNTRY_PROFESSIONS;
     const seen = new Set<string>();
     const queries: string[] = [];
-    for (const profession of order) {
-      const q = `${demonym} ${profession}`;
+    const push = (q: string) => {
       if (!seen.has(q)) {
         seen.add(q);
         queries.push(q);
+      }
+    };
+    for (const profession of order) {
+      push(`${demonym} ${profession}`);
+    }
+    // New-generation: add birth-year variants for the young-skewing
+    // professions — they surface dozens of verified post-2000 births
+    // that the plain queries never reach (see NEW_BORN_YEAR_PROFESSIONS).
+    if (intent.era === "new") {
+      for (const profession of NEW_BORN_YEAR_PROFESSIONS) {
+        for (const year of NEW_BORN_YEARS) {
+          push(`${demonym} ${profession} born ${year}`);
+        }
       }
     }
     return queries;

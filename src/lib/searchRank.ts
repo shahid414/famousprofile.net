@@ -154,6 +154,126 @@ export interface ScoredProfile {
 const norm = (s: string | undefined | null): string => (s || "").toLowerCase();
 
 /**
+ * Normalize a name for matching: lowercase, strip diacritics, punctuation
+ * to spaces, collapse whitespace. "Shah Rukh Khan" -> "shah rukh khan",
+ * "Charli D'Amelio" -> "charli d amelio", "Ronaldo Nazário" -> "ronaldo
+ * nazario".
+ */
+export function normalizeForMatch(s: string | undefined | null): string {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function nameTokens(s: string | undefined | null): string[] {
+  return normalizeForMatch(s).split(" ").filter(Boolean);
+}
+
+/**
+ * Damerau-Levenshtein edit distance (adjacent transposition counts as 1),
+ * so "ronlado" vs "ronaldo" = 1 and "msk" vs "musk" = 1. Used only for
+ * short name tokens, where a bounded distance is a safe typo signal.
+ */
+export function editDistance(a: string, b: string): number {
+  if (a === b) return 0;
+  const al = a.length;
+  const bl = b.length;
+  if (!al) return bl;
+  if (!bl) return al;
+  const dp: number[][] = Array.from({ length: al + 1 }, (_, i) => [
+    i,
+    ...Array(bl).fill(0),
+  ]);
+  for (let j = 1; j <= bl; j++) dp[0][j] = j;
+  for (let i = 1; i <= al; i++) {
+    for (let j = 1; j <= bl; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
+      );
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
+        dp[i][j] = Math.min(dp[i][j], dp[i - 2][j - 2] + 1);
+      }
+    }
+  }
+  return dp[al][bl];
+}
+
+/** Typo budget for one token: 1 edit for short tokens, 2 for longer ones. */
+function tokenBudget(token: string): number {
+  return token.length >= 6 ? 2 : 1;
+}
+
+type TokenMatch = "exact" | "prefix" | "fuzzy" | "none";
+
+function matchToken(queryToken: string, nameTokensList: string[]): TokenMatch {
+  if (nameTokensList.includes(queryToken)) return "exact";
+  if (queryToken.length >= 3 && nameTokensList.some((t) => t.startsWith(queryToken))) {
+    return "prefix";
+  }
+  const budget = tokenBudget(queryToken);
+  if (nameTokensList.some((t) => editDistance(queryToken, t) <= budget)) {
+    return "fuzzy";
+  }
+  return "none";
+}
+
+/**
+ * Score how well a query name matches a candidate name. Returns 0 when
+ * there is no trustworthy match (the confidence guard: every query token
+ * must match exactly, by prefix, or within the typo budget — or at least
+ * half of them with one exact match — so random queries never match).
+ *
+ * Ladder (exact always outranks fuzzy):
+ *   100 exact normalized equality
+ *    95 space-insensitive equality ("shahrukh khan" ~ "shah rukh khan")
+ *    85 candidate starts with the query
+ *    80 every query token present in the candidate (any order)
+ *    70 every query token is a prefix of a candidate token
+ *    65 candidate contains the query as a substring
+ *    60 every query token matches within the typo budget
+ *  30-55 partial token match (>= half of the tokens, >= 1 exact)
+ */
+export function scoreNameMatch(query: string, candidate: string): number {
+  const q = normalizeForMatch(query);
+  const n = normalizeForMatch(candidate);
+  if (!q || !n) return 0;
+  if (n === q) return 100;
+  if (n.replace(/\s/g, "") === q.replace(/\s/g, "")) return 95;
+  if (n.startsWith(q)) return 85;
+
+  const qTokens = q.split(" ").filter(Boolean);
+  const nTokens = n.split(" ").filter(Boolean);
+  const matches = qTokens.map((t) => matchToken(t, nTokens));
+  const exactCount = matches.filter((m) => m === "exact").length;
+  const matchedCount = matches.filter((m) => m !== "none").length;
+
+  if (exactCount === qTokens.length) return 80;
+  if (matches.every((m) => m === "exact" || m === "prefix")) return 70;
+  if (n.includes(q)) return 65;
+  if (matchedCount === qTokens.length) return 60;
+  // Partial token match: only for 3+ token queries (e.g. "Barack Hussein
+  // Obama" -> "Barack Obama"). A 2-token query matching just the surname
+  // ("Serena Williams" -> "Robin Williams") is NOT the requested person
+  // and must not produce a local hit that buries the correct Wikipedia
+  // result (2026-11-26 audit).
+  if (
+    qTokens.length >= 3 &&
+    matchedCount >= Math.ceil(qTokens.length / 2) &&
+    exactCount >= 1
+  ) {
+    return 30 + Math.round(25 * (matchedCount / qTokens.length));
+  }
+  return 0;
+}
+
+/**
  * Score one local profile against the parsed intent.
  * Returns -1 when the profile does not satisfy the intent's hard filters
  * (country / profession must match for country/profession intents).
@@ -163,26 +283,27 @@ export function scoreLocalProfile(profile: Profile, intent: SearchIntent): numbe
   const died = deathYearOf(profile) !== null;
 
   if (intent.kind === "person") {
-    const q = (intent.personQuery || "").toLowerCase().trim();
+    const q = (intent.personQuery || "").trim();
     if (!q) return -1;
-    const name = norm(profile.name);
-    const nickname = norm(profile.nickname);
-    let score = 0;
-    if (name === q) score = 100;
-    else if (name.startsWith(q)) score = 85;
-    else if (name.includes(q)) score = 65;
-    else if (nickname && nickname.includes(q)) score = 55;
-    else if (norm(profile.profession).includes(q)) score = 35;
-    else if (norm(profile.industry).includes(q)) score = 25;
-    else if (norm(profile.category).includes(q)) score = 20;
-    else if (norm(profile.country).includes(q)) score = 15;
-    else if (norm(profile.bio).includes(q)) score = 5;
-    else return -1;
-    // Multi-word person query: reward matching every token in the name.
-    const tokens = q.split(/\s+/).filter(Boolean);
-    if (tokens.length > 1) {
-      const matchedTokens = tokens.filter((t) => name.includes(t)).length;
-      score += matchedTokens * 5;
+    // Name matching (2026-11-26 audit): exact, space-insensitive
+    // ("Shahrukh Khan" ~ "Shah Rukh Khan"), token-based ("Shah Khan"
+    // finds "Shah Rukh Khan"), prefix, and typo-tolerant ("Cristiano
+    // Ronlado", "Elon Msk") — with a confidence guard so unrelated
+    // names never match. Nicknames/stage names score slightly lower
+    // than the real name ("King Khan", "ScarJo").
+    const nameScore = scoreNameMatch(q, profile.name);
+    const nicknameScore = profile.nickname
+      ? Math.max(0, scoreNameMatch(q, profile.nickname) - 15)
+      : 0;
+    let score = Math.max(nameScore, nicknameScore);
+    if (score === 0) {
+      const ql = q.toLowerCase();
+      if (norm(profile.profession).includes(ql)) score = 35;
+      else if (norm(profile.industry).includes(ql)) score = 25;
+      else if (norm(profile.category).includes(ql)) score = 20;
+      else if (norm(profile.country).includes(ql)) score = 15;
+      else if (norm(profile.bio).includes(ql)) score = 5;
+      else return -1;
     }
     // Country/profession context (e.g. "Mexican Einstein") boosts same-country hits.
     if (intent.country && norm(profile.country) === intent.country.toLowerCase()) score += 10;

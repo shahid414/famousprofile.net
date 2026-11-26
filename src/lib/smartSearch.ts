@@ -42,6 +42,9 @@ import {
   wikiEraBucket,
   wikiEraCompatible,
   normalizeName,
+  scoreNameMatch,
+  nameTokens,
+  normalizeForMatch,
   wikiKeyToSlug,
   ERA_GROUP_TITLES,
   ERA_GROUP_NOTES,
@@ -248,6 +251,23 @@ function toLocalItem(p: Profile): LocalSearchItem {
   };
 }
 
+/**
+ * Wikipedia's REST search returns 60px-wide thumbnails — too small for
+ * the 96px result cards (and worse on retina displays), so they render
+ * blurry. Wikimedia's thumbnail service only serves a fixed set of
+ * widths (60, 120, 330, 500, ...); any other width returns HTTP 400
+ * (verified live 2026-11-26: 320px -> 400, 330px -> 200). Rewriting the
+ * "/NNNpx-" segment of a thumb.wikimedia.org URL to 330px therefore
+ * serves a crisp image at card size (Next's optimizer downscales from
+ * there for the 44px dropdown avatars). Non-thumb URLs pass through
+ * unchanged, and a missing thumbnail stays null (cards show initials).
+ */
+const HD_THUMB_WIDTH = 330;
+function hdThumbnail(url: string | null): string | null {
+  if (!url || !url.includes("thumb.wikimedia.org")) return url;
+  return url.replace(/\/\d+px-/, `/${HD_THUMB_WIDTH}px-`);
+}
+
 function toWikiItem(page: RawWikiPage): WikiSearchItem {
   let thumbnailUrl: string | null = null;
   if (page.thumbnail && page.thumbnail.url) {
@@ -262,7 +282,7 @@ function toWikiItem(page: RawWikiPage): WikiSearchItem {
     name: page.title,
     description: page.description || "Public Figure (Wikipedia)",
     excerpt: page.excerpt ? stripHtml(page.excerpt) : "",
-    thumbnail: thumbnailUrl,
+    thumbnail: hdThumbnail(thumbnailUrl),
     // /people/[slug] renders Wikipedia personalities dynamically
     // (Scenario 2), so a wiki result links to its own profile page.
     url: `/people/${encodeURIComponent(wikiKeyToSlug(page.key))}`,
@@ -342,30 +362,38 @@ export async function smartSearch(
   const wikiQueries = deep
     ? buildDiscoveryQueries(intent, "deep")
     : (() => {
-        // New-generation country searches get ONE extra Wikipedia query in
-        // the dropdown: a single "<Demonym> actor" query has no post-2000
-        // actors in Wikipedia's top 40 for many countries, while
-        // "<Demonym> singer" finds them (singers skew younger). The full
-        // results page already runs all three queries, so this only raises
-        // the dropdown's effective cap from 1 to 2 for this one intent
-        // (era "new" + pure country, no profession, no person name) —
-        // every other intent keeps its existing query count, and the era
-        // hard filter is untouched.
-        const needsNewGenSecondQuery =
-          intent.era === "new" && intent.kind === "country";
-        const effectiveMaxWikiQueries = needsNewGenSecondQuery
-          ? Math.max(maxWikiQueries, 2)
-          : maxWikiQueries;
-        return intent.wikiQueries.slice(
-          0,
-          Math.max(0, effectiveMaxWikiQueries)
-        );
+        // New-generation country searches (dropdown): plain
+        // "<Demonym> actor" queries return Wikipedia's most relevant
+        // actors — almost none born after 2000 (measured 1-3 per 100,
+        // 2026-11-26) — so the dropdown found almost no new-generation
+        // people. Birth-year queries surface them directly ("<Demonym>
+        // actor born 2000" yields 30+ verified post-2000 births per
+        // 100). Three queries, still fast (parallel, limit 40); every
+        // other intent keeps its existing query set and counts, and the
+        // era hard filter is untouched.
+        if (intent.era === "new" && intent.kind === "country" && intent.demonym) {
+          return [
+            `${intent.demonym} actor born 2000`,
+            `${intent.demonym} singer born 2000`,
+            `${intent.demonym} footballer born 2000`,
+          ];
+        }
+        return intent.wikiQueries.slice(0, Math.max(0, maxWikiQueries));
       })();
   if (wikiQueries.length > 0) {
     const discoveryStart = Date.now();
-    const pagesPerQuery = await Promise.all(
-      wikiQueries.map((q) => fetchWikiPages(q, fetchLimit))
-    );
+    // Fetch in batches of 8: deep new-generation searches run up to 36
+    // queries, and firing them all at once intermittently trips
+    // Wikipedia/proxy throttling (whole queries come back empty —
+    // measured 2026-11-26: back-to-back deep searches fetched 1400 of
+    // 3600 pages). Batched fetches keep the same coverage reliably.
+    const pagesPerQuery: RawWikiPage[][] = [];
+    for (let i = 0; i < wikiQueries.length; i += 8) {
+      const batch = wikiQueries.slice(i, i + 8);
+      pagesPerQuery.push(
+        ...(await Promise.all(batch.map((q) => fetchWikiPages(q, fetchLimit))))
+      );
+    }
     const discoveryMs = Date.now() - discoveryStart;
 
     const localNames = new Set(local.map((l) => normalizeName(l.name)));
@@ -393,7 +421,13 @@ export async function smartSearch(
     let afterCountry = 0;
     let afterProfession = 0;
     let afterEra = 0;
-    pagesPerQuery.forEach((pages, qi) => {
+    // Person intents: the requested name, tokenized once for the
+    // Wikipedia name-relevance gate below.
+    const personTokens =
+      intent.kind === "person" && intent.personQuery
+        ? nameTokens(intent.personQuery)
+        : [];
+    const processPages = (pages: RawWikiPage[], qi: number) => {
       fetched += pages.length;
       pages.forEach((page, pi) => {
         const normName = normalizeName(page.title);
@@ -411,6 +445,33 @@ export async function smartSearch(
           return;
         }
         afterPerson++;
+        // Person intents (2026-11-26 audit): a Wikipedia candidate must
+        // actually BE the requested person. Wikipedia's text search
+        // returns relatives, coaches, event articles, and — for typo'd
+        // queries — complete strangers ("Jackie Chn" returned a racing
+        // driver and a basketball player). Gate: the article title
+        // (minus its parenthetical disambiguator) must match the
+        // requested name exactly, by tokens, or within the typo budget
+        // (scoreNameMatch >= 60), OR the excerpt lead must contain every
+        // name token (stage names / real names: "Abel Tesfaye" -> "The
+        // Weeknd", "SRK" -> "Shah Rukh Khan"). The title score is added
+        // to the ranking below, so an exact-title article always leads
+        // the Wikipedia section.
+        let personTitleScore = 0;
+        if (intent.kind === "person" && intent.personQuery) {
+          const titleBase = page.title.replace(/\([^)]*\)\s*$/, "").trim();
+          personTitleScore = scoreNameMatch(intent.personQuery, titleBase);
+          if (personTitleScore < 60) {
+            const excerptLeadTokens = nameTokens(
+              (page.excerpt ? stripHtml(page.excerpt) : "").slice(0, 200)
+            );
+            const excerptHasName =
+              personTokens.length > 0 &&
+              personTokens.every((t) => excerptLeadTokens.includes(t));
+            if (!excerptHasName) return;
+            personTitleScore = 15; // excerpt-only match: related, ranks low
+          }
+        }
         // Country intents: the result's PRIMARY association must be that
         // country. Wikipedia's search matches article TEXT, so a query
         // like "Mexican actor" can return a British actor whose article
@@ -501,6 +562,9 @@ export async function smartSearch(
         seenWikiNames.add(normName);
         // Base score: Wikipedia relevance order (first query wins ties).
         let score = 100 - qi * 5 - pi * 2;
+        // Person intents: the name-match quality dominates Wikipedia's
+        // order, so the exact-title article leads the Wikipedia section.
+        if (personTitleScore > 0) score += personTitleScore;
         const { birthYear, deathYear } = years;
         score += Math.max(-25, Math.min(25, eraBonus(birthYear, deathYear !== null, intent.era)));
         // Profession-word bonus (e.g. description "Mexican actor" for an actors search).
@@ -511,7 +575,21 @@ export async function smartSearch(
         }
         candidates.push({ page, score, birthYear, deathYear, queryIndex: qi });
       });
-    });
+    };
+    pagesPerQuery.forEach((pages, qi) => processPages(pages, qi));
+
+    // Typo fallback (person intents only): if the raw query produced no
+    // usable Wikipedia candidate — Wikipedia returns nothing for
+    // "Cristiano Ronlado" and junk for "Elon Msk" — retry once with the
+    // longest name token ("Cristiano", "Elon"), which Wikipedia resolves
+    // to the right person; the name-relevance gate above (fuzzy token
+    // matching) then keeps only the genuinely matching articles. One
+    // extra fetch, only on the zero-result path.
+    if (intent.kind === "person" && candidates.length === 0 && personTokens.length >= 2) {
+      const longest = [...personTokens].sort((a, b) => b.length - a.length)[0];
+      const fallbackPages = await fetchWikiPages(longest, fetchLimit);
+      processPages(fallbackPages, wikiQueries.length);
+    }
 
     let picked: ScoredWiki[];
     if (deep) {
