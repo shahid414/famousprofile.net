@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { Loader2 } from "lucide-react";
 import WikiResultCard, { type WikiCardItem } from "./WikiResultCard";
+import { notifyWikiShown } from "./ShownCounter";
 
 /**
  * Load More for the search results page.
@@ -59,6 +60,11 @@ export default function SearchLoadMore({
       const nextOffset = offset + (data.wikipedia || []).length;
       setOffset(nextOffset);
       setHasMore(Boolean(data.hasMore) && nextOffset < wikiTotal);
+      // Tell the server-rendered header / badges / section notes how many
+      // Wikipedia cards are on screen now, so their counts stay in sync
+      // with the appended cards. Count = initial batch + cards appended
+      // so far (fresh only — deduped), not the raw API offset.
+      notifyWikiShown(initialOffset + items.length + fresh.length);
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : "Could not load more results.");
     } finally {

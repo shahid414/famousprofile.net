@@ -8,6 +8,7 @@ import SearchBar from "@/components/SearchBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import WikiResultCard from "@/components/WikiResultCard";
 import SearchLoadMore from "@/components/SearchLoadMore";
+import ShownCounter from "@/components/ShownCounter";
 import {
   Search,
   Globe,
@@ -94,7 +95,7 @@ async function DualSearchResults({ query }: { query: string }) {
             Results for &ldquo;<span className="text-indigo-600 dark:text-indigo-400">{query}</span>&rdquo;
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
-            Discovered {discoveredTotal} figures ({localTotal} in website directory • {wikiTotal} via live Wikipedia feed) — showing {shownTotal}
+            Discovered {discoveredTotal} figures ({localTotal} in website directory • {wikiTotal} via live Wikipedia feed) — showing <ShownCounter initial={wikiResults.length} base={localResults.length} />
           </p>
           {intent && intent.kind !== "person" && (
             <p className="flex items-center gap-1.5 flex-wrap mt-2">
@@ -130,7 +131,7 @@ async function DualSearchResults({ query }: { query: string }) {
           {wikiResults.length > 0 && (
             <span className="px-3 py-1 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 font-bold border border-indigo-200 dark:border-indigo-800 flex items-center gap-1.5">
               <Globe className="w-3.5 h-3.5" />
-              <span>{wikiResults.length} Wikipedia</span>
+              <span><ShownCounter initial={wikiResults.length} /> Wikipedia</span>
             </span>
           )}
         </div>
@@ -221,8 +222,12 @@ async function DualSearchResults({ query }: { query: string }) {
 
             <span className="text-xs text-slate-400 dark:text-slate-500">
               ProfileBook Global Archive • Live On-Demand
-              {wikiTotal > wikiResults.length &&
-                ` — showing ${wikiResults.length} of ${wikiTotal}`}
+              {wikiTotal > wikiResults.length && (
+                <>
+                  {" — showing "}
+                  <ShownCounter initial={wikiResults.length} /> of {wikiTotal}
+                </>
+              )}
             </span>
           </div>
 

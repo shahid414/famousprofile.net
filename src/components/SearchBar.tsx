@@ -68,6 +68,11 @@ export default function SearchBar({
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
+  // True once the user has typed in this input. The dropdown must open
+  // only on user interaction — on the /search page the query is pre-filled
+  // from the URL, so the mount-time fetch must NOT auto-open the dropdown
+  // over the results (see the effect below).
+  const userTypedRef = useRef(false);
   const cacheRef = useRef<Map<string, { local: LocalProfileResult[]; wikipedia: WikiProfileResult[]; intent: SearchIntentState | null }>>(new Map());
   const router = useRouter();
 
@@ -110,7 +115,9 @@ export default function SearchBar({
       setWikiResults(cached.wikipedia);
       setIntent(cached.intent);
       setIsLoading(false);
-      setIsOpen(true);
+      // Open only if the user typed this query — never on the initial
+      // mount fetch (pre-filled query on /search would cover the results).
+      if (userTypedRef.current) setIsOpen(true);
       return;
     }
 
@@ -135,7 +142,9 @@ export default function SearchBar({
           setLocalResults(local);
           setWikiResults(wikipedia);
           setIntent(resolvedIntent);
-          setIsOpen(true);
+          // Open only if the user typed this query — never on the initial
+          // mount fetch (pre-filled query on /search would cover the results).
+          if (userTypedRef.current) setIsOpen(true);
         }
       } catch (err: any) {
         if (err.name !== "AbortError") {
@@ -193,7 +202,10 @@ export default function SearchBar({
           <input
             type="text"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              userTypedRef.current = true;
+              setQuery(e.target.value);
+            }}
             onFocus={() => {
               if (totalResults > 0) setIsOpen(true);
             }}
